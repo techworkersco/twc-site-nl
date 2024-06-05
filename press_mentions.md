@@ -7,7 +7,7 @@ permalink_de: /pressespiegel
 ---
 # {% t press.mentions %}
 
-{% t press.inquiry %}: press@techwerks.nl
+{% t press.inquiry %}: press@techwerkers.nl
 
 <ul
   class="list -no-list-style l-stack -vertical"

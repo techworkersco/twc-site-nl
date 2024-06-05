@@ -1,6 +1,6 @@
 # TWC Netherlands
 
-This repository is responsible for most content visible on the website [techwerks.nl](https://techwerks.nl). The site is made with a static site generator called [Jekyll](https://jekyllrb.com/) in a language called Ruby.
+This repository is responsible for most content visible on the website [techwerkers.nl](https://techwerkers.nl). The site is made with a static site generator called [Jekyll](https://jekyllrb.com/) in a language called Ruby.
 
 ## Getting Started
 
@@ -56,7 +56,7 @@ Note, only the default [en.yml](_i18n/en.yml) must contain the names of each lan
 
 ### API feeds
 
-Currently [techworkerscoalition.org](https://techworkerscoalition.org) uses Berlin press and events either from GitHub or directly from our exposed APIs e.g [/events.json](https://techwerks.nl/events.json). You can find other uses cases [here](https://github.com/techworkersco/twc-site/blob/master/_config.yml#L32)
+Currently [techworkerscoalition.org](https://techworkerscoalition.org) uses Berlin press and events either from GitHub or directly from our exposed APIs e.g [/events.json](https://techwerkers.nl/events.json). You can find other uses cases [here](https://github.com/techworkersco/twc-site/blob/master/_config.yml#L32)
 
 
 ### Supported Pages
