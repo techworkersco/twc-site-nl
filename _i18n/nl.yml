@@ -1,5 +1,6 @@
 langs:
-  de: Deutsch
+    en: English
+    nl: Nederlands
 
 home:
   summary: Technologiefirmen sind innovativ und disruptiv — und verursachen dabei u.a. Gentrifizierung, Lohngefälle, Umweltzerstörung und Militarisierung. Aber das muss nicht so sein. Die Berlin Tech Workers Coalition ist eine Basisbewegung von Arbeiter*innen im Technologiesektor. Wir bauen kollektive Organisationsformen auf und kämpfen für Technologie, die beim Aufbau einer progressiven Gesellschaft hilft.
@@ -46,7 +47,7 @@ global:
     summary: Wir streben Barrierefreiheit in einem umfassenden Sinn an und sind uns dabei bewusst, dass Vieles nach wie vor verbesserungswürdig sind. Wir versuchen stets, unsere Treffen so abzuhalten, dass ein barrierefreier Zugang gewährleistet ist, diese in Nichtraucherräumen stattfinden, das zeitliche Ausmaß begrenzt und eine Kinderbetreuung möglich ist. Wir informieren über die Gegebenheiten vor Ort für jedes Treffen, so dass Interessierte ihre Teilnahme bestmöglich planen können. Für Feedback und Fragen zur Barrierefreiheit, schreibt uns unter <a rel="noopener noreferrer" target="_blank" href="mailto:accessibility@techwerks.nl">accessibility@techwerks.nl</a>.
 
 # Keys used by localize filter as defined in _plugins/i18n_filter.rb
-de:
+nl:
   time:
     formats:
       default: "%A, %d %b %Y %H:%M"

@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Berlin Tech Workers Coalition
-email: contact@techworkerberlin.com
-description: Berlin Tech Workers Coalition is a landing page for tech workers looking to organise their workplace. Whether it is through Works Councils (Betriebsräte), union campaigns for higher wages, or broader struggles against racism and gentrification, we are here to support you! Tech Won’t Save Us...Organise! ✊ We are the largest English speaking network of Works Councils, tech workers and trade union members supporting each other in different tech companies like Soundcloud, Contentful, ShareNow, Amazon, SumUp, N26, TikTok and maybe your company!
-url: "https://techworkersberlin.com" 
+title: Tech Werkers NL
+email: contact@techwerkers.nl
+description: Tech Workers Coalition Netherlands is where tech workers come together to build collective power in our workplaces.
+url: "https://techwerkers.nl"
 baseurl: "" 
-timezone: "Europe/Berlin"
+timezone: "Europe/Amsterdam"
 
 sass:
   style: compressed
@@ -43,7 +43,7 @@ facebook:
   publisher: 105285494190738
 
 social:
-  name: Berlin Tech Workers Coalition
+  name: Tech Workers Coalition Netherlands
   links:
     - https://twitter.com/TechWorkersBER
     - https://facebook.com/TechWorkersBER
@@ -59,14 +59,6 @@ exclude_from_localizations: ["assets", "admin", "vendor"]
 header_themes:
   - url: /about
     text: about
-  - url: /blog
-    text: blog
-  - url: /press
-    text: Press
-  - url: /events
-    text: events
-  - url: /works-councils
-    text: Works Councils
 
 permalink: pretty
 future: true

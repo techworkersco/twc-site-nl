@@ -1,23 +1,9 @@
 langs:
   en: English
   de: Deutsch
-  pl: Polski
-  ru: Русский
 
 home:
-  summary: Berlin Tech Workers Coalition are a grassroots collective that builds collective power in our workplaces. We support all workers in the tech industry broadly speaking, including engineers, delivery riders, content moderators, customer service, warehouse pickers, video game artists and more!<br><br>We support each other in forming <a href="/works-councils">Works Councils</a> (Betriebsräte), unionising for higher wages, struggling against discrimination, gentrification to name a few.<br><br>We often brainstorm together, provide trainings and networking events. Join our <a href="/events">meetings</a> to share your knowledge and requests for support!<br><b>Tech Won't Save Us&colon; <span style="color:red">Organise!</span></b> 🤗
-
-  black_lives_matter:
-    title: Black Lives Matter
-    summary: We encourage all Tech Workers to stand in solidarity with the Black Lives Matter movement in the fight for racial justice. For ways to support and more information on local Black initiatives in Berlin and Germany, we refer to&#58; <a href="https://www.blacklivesmatterberlin.de" >Black Lives Matter Berlin</a>, <a href="http://isdonline.de" >Initiative Schwarze Menschen in Deutschland (ISD)</a>, <a href="https://www.eoto-archiv.de" >Each One Teach One</a>
-
-  zero_covid:
-    title: ZERO COVID
-    summary:  We as TWC Berlin support the <a href="https://zero-covid.org/language/en/">ZeroCovid</a> campaign. Employers must take responsibility for the health and safety of workers and support working from home wherever possible. In all branches of industry where this is not possible and that are non-essential, a solidarity shutdown is urgently needed to fight the pandemic. If your employer fails to protect your health by adequate measures, or denies home office and you would like to discuss how we can support you, please contact us (also anonymously) on zero-covid@TechWorkersBerlin.com
-
-  dw_enteignen:
-    summary: We as Berlin TWC support the <a href="https://www.dwenteignen.de/wp-content/uploads/2021/03/a5_DWE_INFOFLYER_ENGLISCH.pdf">Deutsche Wohnen & Co enteignen</a> campaign. If you live in Berlin and are eligible to vote, find out how to sign <a href="https://www.dwenteignen.de/unterschreiben/">here</a>.
-
+  summary: "Tech Workers Coalition Netherlands is where tech workers come together to build collective power in our workplaces.<br><br>Are you a tech worker? If you work at a tech company, or in a tech-related role in any other type of organization, then yes: you’re a tech worker! Tech workers could include, for example, people working as customer service agents, software developers, delivery riders, warehouse workers, content moderators, copywriters, engineers, video game artists, service and kitchen staff, system administrators, UI/UX designers, and more.What can tech workers achieve together? Quite a bit, if we organize and act strategically. Without tech workers, no tech.<br><br>Together, we are more powerful when we stick up for ourselves and support one another, for example to achieve higher wages, reduced work hours, protection of labour rights, healthier working conditions, dignity at work, and to fight against racism and discrimination.<br><br>Currently Tech Workers Coalition Netherlands is in the process of starting up and gathering issues. What would you like to change about your work? Do you have ideas and would you like to join forces? We’d love to hear from you.<br><br>Tech won't save us: organize! 🤗"
   events:
     title: Recent events
     more: Find more events
@@ -27,19 +13,15 @@ home:
     more: Find more blog posts
 
 connect:
-  info: Get involved! @TechWorkersBER
+  info: Get involved!
   description: The easiest way to get involved is to attend one of our upcoming <a href="/events" >events</a>.
   email: Your Email
   name: Your Full Name
   public_link: Social media link
   public_link_placeholder: Linkedin, Xing, Twitter etc...
   company: Your employer
-  telegram: Your Telegram handle if you want<br>to join our <a rel="noopener noreferrer" target="_blank" href=" https://t.me/+-7rD_lN0tP1kNjNi">group chat</a>
-  telegram_placeholder: "@telegram_username"
   number: Phone number
   how_did_hear: How can we support your personal goals?
-  subscribe_to_slack: Subscribe to Slack
-  subscribe_to_newsletter: Subscribe to Newsletter 
   subscribe: Join
 
 global:
@@ -49,7 +31,7 @@ global:
     summary: All meetings and communications are covered under the <a rel="noopener noreferrer" target="_blank" href="https://berlincodeofconduct.org">Berlin Code of Conduct</a>. The privacy and safety of our members is important to us. Sharing the identity of members and or taking/sharing photos are strictly forbidden unless express consent is given.
   accessibility:
     title: Accessibility
-    summary: We understand accessibility in a broad sense and strive to do better. We try to host meetings that are wheelchair accessible, smoke free, short(er) and provide child care. We provide information on the meeting location, including a description of the entrance, lighting and sounds, and policy around companion and service dogs beforehand so that participants can best plan for their visit. If you have feedback or questions regarding the accessibility of our meetings or initiatives, please get in touch at <a rel="noopener noreferrer" target="_blank" href="mailto:accessibility@TechWorkersBerlin.com">accessibility@TechWorkersBerlin.com</a>.
+    summary: We understand accessibility in a broad sense and strive to do better. We try to host meetings that are wheelchair accessible, smoke free, short(er) and provide child care. We provide information on the meeting location, including a description of the entrance, lighting and sounds, and policy around companion and service dogs beforehand so that participants can best plan for their visit. If you have feedback or questions regarding the accessibility of our meetings or initiatives, please get in touch at <a rel="noopener noreferrer" target="_blank" href="mailto:accessibility@techwerks.nl">accessibility@techwerks.nl</a>.
 
 press:
   mentions: Press mentions

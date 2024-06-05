@@ -9,16 +9,19 @@ permalink: /
   {% t home.summary %}
 </section>
 
+{% if site.event.count > 1%}
 <section class="titled-block" aria-labelledby="hl-events">
   <h2 id="hl-events">{% t home.events.title %}</h2>
   {% include events.html limit=5 %}
 </section>
+{% endif %}
 
+{% if site.blog.count > 1%}
 <section class="titled-block" aria-labelledby="hl-news">
   <h2 id="hl-news">{% t home.blog.title %}</h2>
   {% include blog.html limit=3 %}
 </section>
-
+{% endif %}
 
 <section class="titled-block" aria-labelledby="hl-links">
   <h2 id="hl-links">{% t connect.info %}</h2>

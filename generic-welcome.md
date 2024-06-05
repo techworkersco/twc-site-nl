@@ -8,7 +8,7 @@ hide_form: true
 
 Our volunteer team has received your information and will send you further information very soon.
 
-If you have any further questions, you can contact us at join@techworkersberlin.com 
+If you have any further questions, you can contact us at join@techwerks.nl 
 
 ## Social media links
 {%include links.html %} 

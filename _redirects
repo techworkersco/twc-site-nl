@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-https://techworkersberlin.netlify.com/* https://techworkersberlin.com/:splat 301!
+https://techworkersberlin.netlify.com/* https://techwerks.nl/:splat 301!

@@ -14,7 +14,7 @@ Our volunteer team has received your information and will send you further infor
 2. Our internal communication happens via the [Telegram group chat](https://t.me/+-7rD_lN0tP1kNjNi). A volunteer will send you an invite, if you provided a phone number or Telegram handle
 3. You will also receive an invite to our Slack, where you can meet tech workers from other TWC chapters 🌍 
 
-In the meantime, join one of our [upcoming events](/events)! If you have any further questions, you can contact us at join@techworkersberlin.com 
+In the meantime, join one of our [upcoming events](/events)! If you have any further questions, you can contact us at join@techwerks.nl 
 
 ## Social media links
 {%include links.html %} 

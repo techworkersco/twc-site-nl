@@ -3,11 +3,11 @@ layout: null
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:https://techworkersberlin.com/
+PRODID:https://techwerkers.nl/
 METHOD:PUBLISH
 BEGIN:VTIMEZONE
-TZID:Europe/Berlin
-X-LIC-LOCATION:Europe/Berlin
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
 BEGIN:DAYLIGHT
 TZOFFSETFROM:+0100
 TZOFFSETTO:+0200
@@ -24,11 +24,11 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE{% for post in site.events %}
 BEGIN:VEVENT
-UID:{{ post.date | date: "%Y%m%d" }}@techworkersberlin.com
-ORGANIZER;CN="Berlin TWC":MAILTO:contact@techworkersberlin.com
-LOCATION:Berlin
+UID:{{ post.date | date: "%Y%m%d" }}@techwerkers.nl
+ORGANIZER;CN="Netherlands TWC":MAILTO:contact@techwerkers.nl
+LOCATION:Amsterdam
 SUMMARY:{{ post.title | remove: ',' | remove: ';' }}
-DESCRIPTION:Event starts at {{ post.date | date: "%H:%M" }} Berlin time. More info at {{ site.url }}{{ post.url }}
+DESCRIPTION:Event starts at {{ post.date | date: "%H:%M" }} Amsterdam time. More info at {{ site.url }}{{ post.url }}
 CLASS:PUBLIC
 DTSTART:{{ post.date | date: "%Y%m%dT%H%M00" }}
 DTEND:{{ post.end_date | default: post.date | date:'%s' | plus:7200 | date: "%Y%m%dT%H%M00"  }}
