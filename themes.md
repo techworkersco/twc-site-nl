@@ -1,5 +1,5 @@
 ---
-languages: ["en", "de"]
+languages: ["en", "nl"]
 layout: translated
 namespace: directory
 permalink: /directory
