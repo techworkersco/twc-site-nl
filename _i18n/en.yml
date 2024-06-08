@@ -24,7 +24,7 @@ connect:
   email: Your Email
   name: Your Full Name
   public_link: Social media link
-  public_link_placeholder: LinkedIn, Xitter, Mastadon, etc...
+  public_link_placeholder: LinkedIn, Xitter, Mastodon, etc...
   company: Your employer
   number: Phone number
   how_did_hear: How did you hear about us?
