@@ -5,7 +5,7 @@ permalink_nl: /over_ons
 namespace: about
 languages: ["en", "nl"]
 ---
-# About
+# {% t home.about_us %}
 
 {% translate home.summary %}
 
