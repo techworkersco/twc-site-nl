@@ -3,7 +3,14 @@ langs:
   nl: Nederlands
 
 home:
-  summary: Technologiefirmen sind innovativ und disruptiv — und verursachen dabei u.a. Gentrifizierung, Lohngefälle, Umweltzerstörung und Militarisierung. Aber das muss nicht so sein. Die Berlin Tech Workers Coalition ist eine Basisbewegung von Arbeiter*innen im Technologiesektor. Wir bauen kollektive Organisationsformen auf und kämpfen für Technologie, die beim Aufbau einer progressiven Gesellschaft hilft.
+  about_us: Over Ons
+  summary: |
+    <p>Techwerkerscoalitie Nederland is waar techwerkers samenkomen om op het werk onze krachten te bundelen.</p>
+    <p>Ben jij een techwerker? Als je bij een techbedrijf werkt, of in een tech-gerelateerde rol bij een ander soort organisatie, ja, dan ben je een techwerker! Techwerkers zijn bijvoorbeeld mensen die werken als medewerkers klantenservice, software-ontwikkelaars, bezorgers, magazijnmedewerkers, inhoudmoderatoren, tekstschrijvers, ingenieurs, videospelontwikkelaars, personeel in de keuken en bediening, systeemadministatoren, gebruikerservaringontwerpers, en nog veel meer.</p>
+    <p>Wat kunnen techwerkers samen bereiken? Heel wat, als we ons organiseren en strategisch handelen. Zonder techwerkers geen tech.</p>
+    <p>Samen kunnen we voor onszelf opkomen en elkaar ondersteunen, bijvoorbeeld in het verkrijgen van een hoger loon, kortere werktijden, bescherming van onze arbeidsrechten, gezondere werkomgeving, respect op de werkvloer, en om racisme en discriminatie te bestrijden. Als techwerkers weten we als geen ander hoe we technologie moeten maken die in dienst staat van mensen, niet alleen maar winst. Onze stem telt.</p>
+    <p>Op dit moment is de Techwerkerscoalitie Nederland bezig met opstarten en actiepunten verzamelen. Wat zou jij graag anders hebben op je werk? Laten we de krachten bundelen! <a href="https://techwerkers.nl/join">Schrijf je in om op de hoogte te worden gehouden van ontwikkelingen en om mee te doen.</a></p>
+    <p>Tech gaat ons niet redden: organiseer! 🤗</p>
   events:
     title: Events
     more: Alle vergangenen events
