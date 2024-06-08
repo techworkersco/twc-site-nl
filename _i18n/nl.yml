@@ -12,42 +12,42 @@ home:
     <p>Op dit moment is de Techwerkerscoalitie Nederland bezig met opstarten en actiepunten verzamelen. Wat zou jij graag anders hebben op je werk? Laten we de krachten bundelen! <a href="https://techwerkers.nl/join">Schrijf je in om op de hoogte te worden gehouden van ontwikkelingen en om mee te doen.</a></p>
     <p>Tech gaat ons niet redden: organiseer! 🤗</p>
   events:
-    title: Events
-    more: Alle vergangenen events
+    title: Evenementen
+    more: Alle evenementen
   blog:
     title: Blog
-    more: Alle vergangenen blog
+    more: Alle blogs
 
 connect:
-  info: Mitmachen
-  description: Um bei uns mitzumachen, kommt am besten einfach an einem der kommenden <a href="/events">events</a> vorbei. Diese werden individuell bearbeitet, so dass es etwas dauern kann.
+  info: Sluit je aan!
+  description: De makkelijkste manier om mee te doen is door deel te nemen aan een van onze komende <a href="/events">evenementen</a>.
   email: Email
-  name: Name
-  public_link: Öffentliches Profil
-  public_link_placeholder: LinkedIn, Twitter, etc...
-  company: Firma/Organisation
-  how_did_hear: Wie hast Du von uns erfahren?
-  subscribe: Registrieren
+  name: Naam
+  public_link: Sociale media link
+  public_link_placeholder: LinkedIn, Xitter, Mastadon, etc...
+  company: Werkgever
+  how_did_hear: Hoe heb je over ons gehoord? 
+  subscribe: Registeren
 
 global:
-  edit_this_page: Diese Seite bearbeiten
+  edit_this_page: Verander deze pagina
   code_of_conduct:
     title: Code of Conduct
-    summary: Sämtliche Kommunikation, persönliche und virtuelle Treffen erfolgen unter dem <a rel="noopener noreferrer" target="_blank" href="https://berlincodeofconduct.org/de">Berlin Code of Conduct</a>. Die Privatsphäre und Sicherheit unserer Teilnehmer*innen sind uns wichtig. Es ist strengstens untersagt, die Identiät von Personen zu teilen sowie Fotos, Videos oder sonstige Aufzeichungen anzufertigen, sofern dem nicht explizit zugestimmt wurde.
+    summary: All meetings and communications are covered under the <a rel="noopener noreferrer" target="_blank" href="https://berlincodeofconduct.org">Berlin Code of Conduct</a>. The privacy and safety of our members is important to us. Sharing the identity of members and or taking/sharing photos are strictly forbidden unless express consent is given.
   accessibility:
-    title: Barrierefreiheit
-    summary: Wir streben Barrierefreiheit in einem umfassenden Sinn an und sind uns dabei bewusst, dass Vieles nach wie vor verbesserungswürdig sind. Wir versuchen stets, unsere Treffen so abzuhalten, dass ein barrierefreier Zugang gewährleistet ist, diese in Nichtraucherräumen stattfinden, das zeitliche Ausmaß begrenzt und eine Kinderbetreuung möglich ist. Wir informieren über die Gegebenheiten vor Ort für jedes Treffen, so dass Interessierte ihre Teilnahme bestmöglich planen können. Für Feedback und Fragen zur Barrierefreiheit, schreibt uns unter <a rel="noopener noreferrer" target="_blank" href="mailto:accessibility@techwerkers.nl">accessibility@techwerkers.nl</a>.
+    title: Toegangelijkheid
+    summary: We understand accessibility in a broad sense and strive to do better. We try to host meetings that are wheelchair accessible, smoke free, short(er) and provide child care. We provide information on the meeting location, including a description of the entrance, lighting and sounds, and policy around companion and service dogs beforehand so that participants can best plan for their visit. If you have feedback or questions regarding the accessibility of our meetings or initiatives, please get in touch at <a rel="noopener noreferrer" target="_blank" href="mailto:accessibility@techwerkers.nl">accessibility@techwerkers.nl</a>.
 
 press:
-  mentions: Pressespiegel
-  inquiry: Bitte kontaktieren Sie uns für Presseanfragen hier
+  mentions: Presse
+  inquiry: Voor persvragen kunt u contact met ons opnemen via
 
 # Keys used by localize filter as defined in _plugins/i18n_filter.rb
 nl:
   time:
     formats:
-      default: "%A, %d %b %Y %H:%M"
-      long: "%B %d, %Y %H:%M"
+      default: "%A, %-d %B %Y %H:%M"
+      long: "%-d %B %Y %H:%M"
       short: "%d %b %H:%M"
   date:
     formats:

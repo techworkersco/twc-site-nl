@@ -24,10 +24,10 @@ connect:
   email: Your Email
   name: Your Full Name
   public_link: Social media link
-  public_link_placeholder: Linkedin, Xing, Twitter etc...
+  public_link_placeholder: LinkedIn, Xitter, Mastadon, etc...
   company: Your employer
   number: Phone number
-  how_did_hear: How can we support your personal goals?
+  how_did_hear: How did you hear about us?
   subscribe: Join
 
 global:
