@@ -6,7 +6,7 @@ hide_form: true
 
 # 🎉 Congratulations
 
-Congratulations on joining Berlin Tech Workers Coalition! Over one thousand tech workers have signed up because they believe in collective action and the ability to change the tech industry! 
+Congratulations on joining The Netherlands Tech Workers Coalition! Over one thousand tech workers have signed up because they believe in collective action and the ability to change the tech industry! 
 
 Our volunteer team has received your information and will send you further information if you completed the form. 
 

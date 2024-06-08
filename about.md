@@ -1,8 +1,9 @@
 ---
 layout: translated
 permalink: /about
+permalink_nl: /over_ons
 namespace: about
-languages: ["en"]
+languages: ["en", "nl"]
 image: /assets/img/malweene_sketchnote.jpg
 ---
 # About

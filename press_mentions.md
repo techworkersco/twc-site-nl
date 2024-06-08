@@ -3,7 +3,6 @@ languages: ["en", "nl"]
 layout: translated
 namespace: press_mentions
 permalink: /press
-permalink_de: /pressespiegel
 ---
 # {% t press.mentions %}
 
