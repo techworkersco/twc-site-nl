@@ -59,6 +59,8 @@ exclude_from_localizations: ["assets", "admin", "vendor"]
 header_themes:
   - url: /about
     text: about
+  - url: /events
+    text: events
 
 permalink: pretty
 future: true
