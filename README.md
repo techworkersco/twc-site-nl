@@ -1,4 +1,4 @@
-# TWC Netherlands
+# TWC The Netherlands
 
 This repository is responsible for most content visible on the website [techwerkers.nl](https://techwerkers.nl). The site is made with a static site generator called [Jekyll](https://jekyllrb.com/) in a language called Ruby.
 
@@ -24,7 +24,7 @@ Open a browser to localhost:4000
 
 ## Add an event
 
-Add a file inside the [`_events`](_events) directory. Copy a previous file as a template, and make sure to include the right time zone for Berlin!
+Add a file inside the [`_events`](_events) directory. Copy a previous file as a template, and make sure to include the right time zone for The Netherlands!
 
 ## Add a blog post (inside /blog)
 

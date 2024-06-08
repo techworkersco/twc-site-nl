@@ -25,10 +25,10 @@ END:STANDARD
 END:VTIMEZONE{% for post in site.events %}
 BEGIN:VEVENT
 UID:{{ post.date | date: "%Y%m%d" }}@techwerkers.nl
-ORGANIZER;CN="Netherlands TWC":MAILTO:contact@techwerkers.nl
+ORGANIZER;CN="The Netherlands TWC":MAILTO:contact@techwerkers.nl
 LOCATION:Amsterdam
 SUMMARY:{{ post.title | remove: ',' | remove: ';' }}
-DESCRIPTION:Event starts at {{ post.date | date: "%H:%M" }} Amsterdam time. More info at {{ site.url }}{{ post.url }}
+DESCRIPTION:Event starts at {{ post.date | date: "%H:%M" }} Europe/Amsterdam time. More info at {{ site.url }}{{ post.url }}
 CLASS:PUBLIC
 DTSTART:{{ post.date | date: "%Y%m%dT%H%M00" }}
 DTEND:{{ post.end_date | default: post.date | date:'%s' | plus:7200 | date: "%Y%m%dT%H%M00"  }}

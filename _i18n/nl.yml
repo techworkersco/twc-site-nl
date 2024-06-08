@@ -4,11 +4,9 @@ langs:
 
 home:
   summary: Technologiefirmen sind innovativ und disruptiv — und verursachen dabei u.a. Gentrifizierung, Lohngefälle, Umweltzerstörung und Militarisierung. Aber das muss nicht so sein. Die Berlin Tech Workers Coalition ist eine Basisbewegung von Arbeiter*innen im Technologiesektor. Wir bauen kollektive Organisationsformen auf und kämpfen für Technologie, die beim Aufbau einer progressiven Gesellschaft hilft.
-
   events:
     title: Events
     more: Alle vergangenen events
-
   blog:
     title: Blog
     more: Alle vergangenen blog
@@ -74,24 +72,24 @@ nl:
       - nov
       - dec
     day_names:
-      - Zondag
-      - Maandag
-      - Dinsdag
-      - Woensdag
-      - Donderdag
-      - Vrijdag
-      - Zaterdag
+      - zondag
+      - maandag
+      - dinsdag
+      - woensdag
+      - donderdag
+      - vrijdag
+      - zaterdag
     month_names:
       -
-      - Januari
-      - Februari
-      - Maart
-      - April
-      - Mei
-      - Juni
-      - Juli
-      - Augustus
-      - Septermber
-      - Oktober
-      - November
-      - December
+      - januari
+      - februari
+      - maart
+      - april
+      - mei
+      - juni
+      - juli
+      - augustus
+      - septermber
+      - oktober
+      - november
+      - december
