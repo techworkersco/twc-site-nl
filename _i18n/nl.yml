@@ -24,7 +24,7 @@ connect:
   email: Email
   name: Naam
   public_link: Sociale media link
-  public_link_placeholder: LinkedIn, Xitter, Mastadon, etc...
+  public_link_placeholder: LinkedIn, Xitter, Mastodon, etc...
   company: Werkgever
   how_did_hear: Hoe heb je over ons gehoord? 
   subscribe: Registreren
