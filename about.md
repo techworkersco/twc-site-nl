@@ -9,6 +9,6 @@ languages: ["en", "nl"]
 
 {% translate home.summary %}
 
-## Other chapters
+## {% translate home.other_chapters.title %}
 
-Find other chapters of Tech Workers Coalition [here](https://techworkerscoalition.org/chapters/)
+{% translate home.other_chapters.more %}

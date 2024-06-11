@@ -5,29 +5,34 @@ langs:
 home:
   about_us: About
   summary: |
-    <p>Tech Workers Coalition Netherlands is where tech workers come together to build collective power in our workplaces.</p>
-    <p>Are you a tech worker? If you work at a tech company, or in a tech-related role in any other type of organization, then yes: you’re a tech worker! Tech workers could include, for example, people working as customer service agents, software developers, delivery riders, warehouse workers, content moderators, copywriters, engineers, video game artists, service and kitchen staff, system administrators, UI/UX designers, and more.</p>
-    <p>What can tech workers achieve together? Quite a bit, if we organize and act strategically. Without tech workers, no tech.</p>
-    <p>Together, we can stick up for ourselves and support one another, for example to achieve higher wages, reduced work hours, protection of labour rights, healthier working conditions, dignity at work, and to fight against racism and discrimination. And as tech workers, we know best how to make technology work in the interest of everyone, not just in the interest of profit. Our voice matters.</p>
+    <p>Tech Workers Coalition Netherlands is where tech workers come together to build collective power at work—whether you work as a customer service agent, software developer, delivery rider, warehouse worker, content moderator, copywriter, engineer, video game artist, service and kitchen staff, system administrator, UI/UX designer, or in an other tech-related role.</p>
+    <p>What can tech workers achieve together? By organizing strategically, we can stick up for ourselves and support one another, for example to get higher wages, reduced work hours, protection of labour rights, healthier working conditions, dignity at work, and to fight against racism and discrimination. As tech workers, we can make technology that actually serves people, not just profit.</p> 
+    <p>Your voice matters.</p>
     <p>Currently Tech Workers Coalition Netherlands is in the process of starting up and gathering issues. What would you like to change about your work? Let’s join forces! <a href="https://techwerkers.nl/join">Sign up to receive updates and get involved.</a></p>
     <p>Tech won't save us: organize! 🤗</p>
   events:
-    title: Recent events
+    title: Recent and upcoming events
     more: Find more events
+    summary: Explore all public events.
   blog:
     title: Latest blog posts
     more: Find more blog posts
+  other_chapters:
+    title: Other chapters
+    more: | 
+      <p>Find other chapters of Tech Workers Coalition <a href="https://techworkerscoalition.org/chapters/">this overview</a>.</p>
+  
 
 connect:
   info: Get involved!
-  description: The easiest way to get involved is to attend one of our upcoming <a href="/events" >events</a>.
-  email: Your Email
-  name: Your Full Name
+  description: The easiest way to get involved is to attend an upcoming <a href="/events" >events</a>.
+  email: Your email
+  name: Your name
   public_link: Social media link
-  public_link_placeholder: LinkedIn, Xitter, Mastodon, etc...
+  public_link_placeholder: LinkedIn, Xitter, Mastodon, etc.
   company: Your employer
   number: Phone number
-  how_did_hear: How did you hear about us?
+  how_did_hear: How can we support your personal goals?
   subscribe: Join
 
 global:

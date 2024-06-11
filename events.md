@@ -1,8 +1,12 @@
 ---
 layout: page
 permalink: /events
-languages: ["en"]
+permalink_nl: /activiteiten
+languages: ["en", "nl"]
 ---
-<h1>The Netherlands Tech Worker Events</h1>
-Explore all <b>{{site.events.size}}</b> public events we organized.
+
+# {% t home.events.title %}
+
+{% translate home.events.summary %}
+
 {% include events.html %}
