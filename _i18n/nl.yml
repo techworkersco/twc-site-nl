@@ -8,7 +8,10 @@ home:
     <p>Techwerkerscoalitie Nederland is waar techwerkers samenkomen om onze krachten te bundelen—of je nu werkt als klantenservicemedewerker, software-ontwikkelaar, bezorger, magazijnmedewerker, inhoudsmoderator, tekstschrijver, ingenieur, video game-ontwikkelaar, systeembeheerder, UI/UX designer, in de keuken en bediening, of in wat voor tech-gerelateerde rol dan ook.</p>
     <p>Wat kunnen techwerkers samen bereiken? Door strategisch te organiseren, kunnen we voor onszelf opkomen en elkaar ondersteunen, bijvoorbeeld in het verkrijgen van een hoger loon, kortere werktijden, bescherming van onze arbeidsrechten, een gezondere werkomgeving, respect op de werkvloer, en om racisme en discriminatie te bestrijden. Als techwerkers kunnen we technologie maken die in dienst staat van mensen, en niet alleen van winst.</p>
     <p>Jouw stem telt.</p>
-    <p>Op dit moment is de Techwerkerscoalitie Nederland bezig met opstarten en actiepunten verzamelen. Wat zou jij graag anders hebben op je werk? Laten we de krachten bundelen! <a href="https://techwerkers.nl/join">Schrijf je in om op de hoogte te worden gehouden van ontwikkelingen en om mee te doen.</a></p>
+    <p>Op dit moment is de Techwerkerscoalitie Nederland bezig met opstarten en actiepunten verzamelen. Laten we de krachten bundelen! <a href="#hl-links">Schrijf je in om op de hoogte te worden gehouden van ontwikkelingen en om mee te doen.</a></p>
+    <form action="https://techwerkers.nl/change">
+      <input type="submit" value="Wat zou jij graag veranderen aan je werk?"/>
+    </form>
     <p>Tech gaat ons niet redden: organiseer! 🤗</p>
   events:
     title: Agenda
