@@ -67,6 +67,4 @@ Currently [techworkerscoalition.org](https://techworkerscoalition.org) uses Berl
 
 ### Supported Languages
 * English
-* German
-* Russian
-* Polish
+* Nederlands
