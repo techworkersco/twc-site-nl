@@ -91,6 +91,18 @@ input[type="submit"] {
   &:hover {
     background-color: #e6141b;
   }
+
+  /**
+    * This is a fix when a single submit input element
+    * is placed inside a form element.
+    * We need to remove the margin-top and rely on other 
+    * elements to provide the spacing.
+    */
+  form > & {
+    &:first-child {
+      margin-top: 0;
+    }
+  }
 }
 
 blockquote,
