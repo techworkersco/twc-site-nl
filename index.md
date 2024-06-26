@@ -15,6 +15,7 @@ permalink: /
 </section>
 
 {% if site.blog.count > 0%}
+
 <section class="titled-block" aria-labelledby="hl-news">
   <h2 id="hl-news">{% t home.blog.title %}</h2>
   {% include blog.html limit=3 %}
