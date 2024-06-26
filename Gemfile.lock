@@ -35,10 +35,6 @@ GEM
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
-    google-protobuf (3.25.3-arm64-darwin)
-    google-protobuf (3.25.3-x64-mingw-ucrt)
-    google-protobuf (3.25.3-x86_64-darwin)
-    google-protobuf (3.25.3-x86_64-linux)
     hashery (2.1.2)
     html-proofer (5.0.8)
       addressable (~> 2.3)
@@ -71,8 +67,8 @@ GEM
       webrick (~> 1.7)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-sass-converter (3.0.0)
-      sass-embedded (~> 1.54)
+    jekyll-sass-converter (2.1.0)
+      sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
@@ -120,14 +116,8 @@ GEM
     rouge (4.2.0)
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.69.7-arm64-darwin)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.69.7-x64-mingw-ucrt)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.69.7-x86_64-darwin)
-      google-protobuf (~> 3.25)
-    sass-embedded (1.69.7-x86_64-linux-gnu)
-      google-protobuf (~> 3.25)
+    sassc (2.4.0)
+      ffi (~> 1.9)
     strscan (3.1.0)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
@@ -153,9 +143,10 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   i18n
-  jekyll (~> 4.3)
+  jekyll (~> 4.3.3)
   jekyll-feed (~> 0.11)
   jekyll-multiple-languages-plugin!
+  jekyll-sass-converter (~> 2.1.0)
   jekyll-seo-tag
   jekyll-sitemap
   pry
@@ -164,7 +155,7 @@ DEPENDENCIES
   webrick (~> 1.7)
 
 RUBY VERSION
-   ruby 3.3.0p0
+   ruby 3.1.1p18
 
 BUNDLED WITH
    2.5.4
