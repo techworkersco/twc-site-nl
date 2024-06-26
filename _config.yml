@@ -50,6 +50,8 @@ social:
 sass:
   style: compressed
 
+include:
+  - _pages
 exclude:
   - .jekyll-cache/
 languages: ['en', 'nl']
