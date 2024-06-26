@@ -16,12 +16,9 @@
 title: Tech Werkers NL
 email: contact@techwerkers.nl
 description: Tech Workers Coalition Netherlands is where tech workers come together to build collective power in our workplaces.
-url: "https://techwerkers.nl"
-baseurl: "" 
-timezone: "Europe/Amsterdam"
-
-sass:
-  style: compressed
+url: 'https://techwerkers.nl'
+baseurl: ''
+timezone: 'Europe/Amsterdam'
 
 # Build settings
 feed:
@@ -52,10 +49,11 @@ social:
 
 sass:
   style: compressed
+
 exclude:
   - .jekyll-cache/
-languages: ["en", "nl"]
-exclude_from_localizations: ["assets", "admin", "vendor"]
+languages: ['en', 'nl']
+exclude_from_localizations: ['assets', 'admin', 'vendor']
 header_themes:
   - url: /about
     text: about
@@ -70,19 +68,22 @@ collections:
   events:
     output: true
     permalink: events/:title
+  pages:
+    output: true
+    permalink: /:path
 
 defaults:
   - scope:
-      path: ""
+      path: ''
     values:
       image: /assets/img/beat_the_boss.jpg
   - scope:
-      type: "events"
-      path: ""
+      type: 'events'
+      path: ''
     values:
-      layout: "event"
+      layout: 'event'
   - scope:
-      type: "blog"
-      path: ""
+      type: 'blog'
+      path: ''
     values:
-      layout: "blog"
+      layout: 'blog'

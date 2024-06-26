@@ -1,9 +1,12 @@
 @media print {
   main {
-      max-width: 100%
+    max-width: 100%;
   }
 
-  .header, p, .social-links, #candidate_table > caption {
-      display: none;
+  .header,
+  p,
+  .social-links,
+  #candidate_table > caption {
+    display: none;
   }
 }

@@ -1,10 +1,12 @@
 ---
-languages: ["en", "nl"]
+languages: ['en', 'nl']
 layout: translated
 namespace: directory
 permalink: /directory
 ---
+
 # Directory
+
 <ul
   class="list -no-list-style l-stack -vertical"
   style="--stack-spacing: 1.5rem"
@@ -111,6 +113,9 @@ permalink: /directory
 </ul>
 
 ## {% translate connect.info %}
+
 {% include links.html %}
+
 ## {% translate global.code_of_conduct.title %}
+
 {% translate global.code_of_conduct.summary %}

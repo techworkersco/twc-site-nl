@@ -20,7 +20,7 @@ header {
 
   .logo {
     background-color: none;
-    background-image: url("/assets/css/images/logo.svg");
+    background-image: url('/assets/css/images/logo.svg');
     background-size: contain;
     float: left;
     font-size: 1.75em;
@@ -59,12 +59,11 @@ header {
     display: inline-flex;
     margin-right: 1em;
 
-
     @include mobile {
       font-size: 1em;
 
       li {
-        &:not(:last-child(-n+2)) {
+        &:not(:last-child(-n + 2)) {
           display: none;
         }
       }
@@ -73,11 +72,14 @@ header {
     a {
       text-decoration: none;
 
-      &:link, &:visited, &:active  {
+      &:link,
+      &:visited,
+      &:active {
         color: $black;
       }
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         color: $red;
       }
     }
@@ -108,7 +110,7 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 24px;
-    color: #E6141B;
+    color: #e6141b;
 
     @media screen and (max-width: 915px) {
       display: none;

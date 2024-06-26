@@ -2,7 +2,7 @@
 layout: page
 permalink: /events
 permalink_nl: /activiteiten
-languages: ["en", "nl"]
+languages: ['en', 'nl']
 ---
 
 # {% t home.events.title %}

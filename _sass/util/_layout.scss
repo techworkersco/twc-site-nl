@@ -2,7 +2,7 @@
   display: flex;
 
   &.-space-large {
-    --stack-spacing: 2rem
+    --stack-spacing: 2rem;
   }
 
   &.-horizontal {
@@ -22,11 +22,11 @@
   }
 }
 
-[id]::before { 
-  display: block; 
-  content: " "; 
+[id]::before {
+  display: block;
+  content: ' ';
   margin-top: -73px; // height of nav bar
-  height: 73px; 
-  visibility: hidden; 
+  height: 73px;
+  visibility: hidden;
   pointer-events: none;
 }
