@@ -2,6 +2,10 @@ langs:
   en: English
   nl: Nederlands
 
+pages:
+  about: About
+  events: Events
+
 home:
   about_us: About
   summary: |
