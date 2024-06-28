@@ -10,7 +10,7 @@ git_source(:github) { |name| "https://github.com/#{name}.git" }
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3"
+gem "jekyll", "~> 4.3.3"
 gem "i18n"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -34,3 +34,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "webrick", "~> 1.7"
+gem 'jekyll-sass-converter', '~> 2.1.0'
