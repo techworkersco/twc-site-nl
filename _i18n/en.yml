@@ -11,11 +11,6 @@ home:
   summary: |
     <p>Tech Workers Coalition Netherlands is where tech workers come together to build collective power at work—whether you work as a customer service agent, software developer, delivery rider, warehouse worker, content moderator, copywriter, engineer, video game artist, service and kitchen staff, system administrator, UI/UX designer, or in an other tech-related role.</p>
     <p>What can tech workers achieve together? By organizing strategically, we can stick up for ourselves and support one another, for example to get higher wages, reduced work hours, protection of labour rights, healthier working conditions, dignity at work, and to fight against racism and discrimination. As tech workers, we can make technology that actually serves people, not just profit.</p> 
-    <h3>Your voice matters.</h3>
-    <p>Tech Workers Coalition Netherlands is currently starting up and gathering issues. Let’s join forces! What changes do you want to see in your work?</p>
-    <form action="https://techwerkers.nl/change">
-      <input type="submit" value="Share your thoughts with us" />
-    </form>
     <p>Tech won't save us: organize! 🤗</p>
     <a href="#hl-links">Sign up to receive updates and get involved.</a>
   events:
