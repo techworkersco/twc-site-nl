@@ -111,6 +111,6 @@ permalink: /directory
 </ul>
 
 ## {% translate connect.info %}
-{% include links.html %}
+{% include form-join.html %}
 ## {% translate global.code_of_conduct.title %}
 {% translate global.code_of_conduct.summary %}

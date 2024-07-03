@@ -16,5 +16,5 @@ Our volunteer team has received your information and will send you further infor
 In the meantime, join one of our [upcoming events](/events)! If you have any further questions, you can contact us at join@techwerkers.nl 
 
 ## Social media links
-{%include links.html %} 
+{%include form-join.html %} 
 
