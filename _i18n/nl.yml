@@ -33,6 +33,7 @@ connect:
   public_link_placeholder: LinkedIn, Xitter, Mastodon, etc.
   company: Werkgever
   how_did_hear: Wat zou jou helpen je doelen te bereiken? 
+  receive_updates: Wilt u af en toe e-mailupdates ontvangen?
   subscribe: Doe mee
 
 global:
