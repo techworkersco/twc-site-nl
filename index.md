@@ -23,7 +23,7 @@ permalink: /
 
 <section class="titled-block" aria-labelledby="hl-links">
   <h2 id="hl-links">{% t connect.info %}</h2>
-  {% include links.html %}
+  {% include form-join.html %}
 </section>
 
 <section class="titled-block" aria-labelledby="hl-a11y">
