@@ -147,6 +147,19 @@ ul {
   }
 }
 
+.control-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+
+  input {
+    margin-left: .5em;
+  }
+}
+
 img {
   object-fit: cover;
   max-width: 100%;

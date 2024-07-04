@@ -35,7 +35,7 @@ connect:
   company: Your employer
   number: Phone number
   how_did_hear: How can we support your personal goals?
-  receive_updates: Do you want to receive occasional email updates?
+  receive_updates: Sign up to receive occasional updates
   subscribe: Join
 
 global:
