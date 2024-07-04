@@ -10,6 +10,7 @@
 @import "structures/event";
 
 @import "header";
+@import "footer";
 
 @import "layouts/home";
 
@@ -103,6 +104,13 @@ input[type="submit"] {
       margin-top: 0;
     }
   }
+}
+
+html, body { min-height: 100vh; }
+
+body > footer {
+  position: sticky;
+  top: 100vh;
 }
 
 blockquote,
