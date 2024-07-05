@@ -10,44 +10,41 @@ header {
 
 .header {
   position: fixed;
-  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 0 10px var(--token-shadow);
   width: 100%;
-  background-color: $white;
+  background-color: var(--token-background);
   z-index: 9;
+  padding: 1vmin 4vmin;
+
+  @include mobile {
+    padding-left: 1vmin;
+  }
 
   display: flex;
   justify-content: space-between;
 
   .logo {
-    background-color: none;
-    background-image: url("/assets/css/images/logo.svg");
-    background-size: contain;
-    float: left;
-    font-size: 1.75em;
-    line-height: 1em;
-    height: 58px;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    text-indent: -99999px;
-    width: 58px;
-    margin-top: 0.25em;
-    margin-left: 1em;
+    margin-bottom: 0;
+    
+    .logo-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-    @include mobile {
-      background-size: cover;
-      margin-left: 0.25em;
+    figure {
+      margin: 0;
+      line-height: 0;
     }
 
     a {
       text-decoration: none;
-      padding-top: 1.25em;
-      padding-left: 0.1em;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
+    }
+
+    svg {
+      width: 58px;
+      height: 58px;
+      fill: var(--token-text);
     }
   }
 
@@ -63,10 +60,8 @@ header {
     @include mobile {
       font-size: 1em;
 
-      li {
-        &:not(:last-child(-n+2)) {
-          display: none;
-        }
+      .btn {
+        display: none;
       }
     }
 
@@ -88,16 +83,6 @@ header {
       margin: auto;
       padding-left: 1em;
       padding-right: 1em;
-
-      &:last-child a {
-        background-color: $black;
-        color: $white;
-        padding: 8px 25px;
-        border-radius: 100px;
-        &:hover {
-          background-color: $red;
-        }
-      }
     }
   }
 
@@ -108,15 +93,15 @@ header {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 24px;
-    color: #E6141B;
+    color: $red;
 
     @media screen and (max-width: 915px) {
       display: none;
     }
 
-    span {
+    .em {
       font-weight: 600;
-      color: $black;
+      color: var(--token-text);
     }
   }
 }
@@ -127,7 +112,7 @@ header {
   font-size: 1.6rem;
 }
 
-.dropdown__categories:hover {
+.dropdown__categories li:hover {
   color: $red;
 }
 
@@ -144,9 +129,9 @@ header {
 }
 
 .dropdown__menu li {
-  background: $black;
-  color: $white;
-  border: 1px solid $white;
+  background: var(--token-text);
+  color: var(--token-background);
+  border: 1px solid var(--token-background);
 
   &:hover {
     background: $red;
@@ -171,7 +156,28 @@ header {
 
   & a {
     display: block;
-    color: $white;
+    color: var(--token-background);
     padding: 10px;
+  }
+}
+
+.display-mode {
+  button {
+    background: none;
+    border: 1px solid transparent;
+    color: var(--token-text-subtle);
+    line-height: 0;
+    opacity: .5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+    &.active-display-mode,
+    &:hover {
+      color: var(--token-text);
+      opacity: 1;
+      border: 1px solid var(--token-text-subtle);
+      box-shadow: 0 0 2px 1px var(--token-shadow);
+    }
   }
 }

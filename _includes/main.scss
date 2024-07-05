@@ -18,12 +18,42 @@
 @import "util/helper";
 @import "util/layout";
 
+/**
+ * https://www.aleksandrhovhannisyan.com/blog/the-perfect-theme-switch/
+ */
+html,
+html[data-theme="light"] {
+  color-scheme: light;
+  --token-background: #{$white};
+  --token-text: #{$black};
+  --token-text-subtle: #3817C2;
+  --token-shadow: rgba(0, 0, 0, 0.2);
+}
+
+@mixin darkTheme {
+  color-scheme: dark;
+  --token-background: #{$black};
+  --token-text: #{$white};
+  --token-text-subtle: rgba(250, 250, 250, .8);
+  --token-shadow: rgba(255, 255, 255, 0.1);
+}
+
+html[data-theme="dark"] {
+  @include darkTheme()
+}
+
+/* Dark theme (system preference) */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) {
+    @include darkTheme()
+  }
+}
+
 /* layout */
 body {
-  background-color: $white;
-  color: $black;
-  font-family: "Avenir", sans-serif;
-  font-size: 102.5%;
+  background-color: var(--token-background);
+  color: var(--token-text);
+  font-family: $fontstack-body;
   letter-spacing: normal;
   margin: 0;
   padding: 0;
@@ -81,10 +111,10 @@ input.input-text {
 input[type="submit"] {
   margin-top: 20px;
   font-weight: 500;
-  background-color: #212121;
+  background-color: $btn-primary-background;
   color: white;
   padding: 10px 20px;
-  border-radius: 100px;
+  border-radius: $btn-radius;
   border: none;
   text-transform: uppercase;
 
@@ -184,12 +214,26 @@ img {
 }
 
 
-.subscribe-button {
+.btn,
+a.btn {
+    background-color: var(--token-text);
+    color: var(--token-background) !important;
+    padding: 8px 25px;
+    font-size: 1rem;
+    border-radius: $btn-radius;
+    text-transform: uppercase;
+    &:hover {
+      background-color: $red;
+    }
+}
+
+.join-form .btn {
   border-color: transparent;
-  background-color: #212121;
-  color: white;
+  text-transform: uppercase;
+  background-color: var(--token-text);
+  color: var(--token-background);
   padding: 8px 25px;
-  border-radius: 8px;
+  border-radius: $btn-radius;
   border-width: 1px;
   display: block;
   margin-left: auto;

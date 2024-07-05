@@ -3,6 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="color-scheme" content="light dark">
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <style>
     {% capture styles %}
@@ -15,4 +16,12 @@
   <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
   <link rel="icon" href="/assets/favicon.png" type="image/x-icon">
   {% seo %}
+  <script>
+    (() => {
+      const localStorageTheme = localStorage.getItem("theme");
+    if (localStorageTheme === "light") {
+      document.querySelector("html").setAttribute("data-theme", localStorageTheme)
+    }
+    })();
+  </script>
 </head>

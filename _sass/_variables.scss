@@ -1,10 +1,21 @@
-$red: rgb(232, 68, 46);
-$black: rgb(33, 33, 33);
-$white: rgb(255, 255, 255);
-$grey: rgb(115, 115, 115);
-$black: rgb(2, 14, 15);
+$red: rgb(246, 9, 51); // #F60933
+/**
+ * In the styleguide the white is defined as
+ * #BABABA, but when using the MacOS Digital Colour Picker app
+ * the background tile returns #FAFAFA which looks
+ * better as the background colour
+ */
+$white: rgb(250, 250, 250); // #FAFAFA
+$grey: rgb(34,13,130); // 10% lighter tint of $black
+$black: rgb(22, 8, 82); // #14084F
+
 $tablet-width: 760px;
 $mobile-width: 420px;
+
+$btn-primary-background: $black;
+$btn-radius: 100px;
+
+$fontstack-body: sans-serif;
 
 @mixin tablet {
   @media screen and (max-width: #{$tablet-width}) {

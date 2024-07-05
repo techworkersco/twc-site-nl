@@ -45,6 +45,6 @@ h4 {
 }
 
 .aside {
-  color: $grey;
+  color: var(--token-text-subtle);
   font-size: 95%;
 }
