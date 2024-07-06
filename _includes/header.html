@@ -1,9 +1,26 @@
 <header class="header dropdown__header" role="banner">
   <div>
-    <a href="/">
-      <h1 class="logo">{{ site.title }}</h1>
-      <p class="work">Tech <span class="link">Werkers</span> NL</p>
-    </a>
+    <h1 class="logo">
+    <a href="/" class="logo-link">
+        <figure>
+          {% include logo.svg %}
+        </figure>
+
+        <span class="work">
+          {% assign chunks = site.title | split: " " %}
+          {% for chunk in chunks %}
+            {% assign remainder = forloop.index | modulo: 2 %}
+            {% if remainder == 1 %}
+              {{chunk}}
+            {% else %}
+            <span class="em">
+              {{chunk}}
+            </span>
+            {% endif %}
+          {% endfor %}
+        </span>
+      </a>
+    </h1>
   </div>
   <ul class="supporting-links dropdown__categories">
     <li class="dropdown__category">
@@ -14,6 +31,26 @@
         {% endfor %}
       </ul>
     </li>
-    <li><a href="{% translate_link join %}">{% t connect.subscribe %}</a></li>
+    <li><a href="{% translate_link join %}" class="btn">{% t connect.subscribe %}</a></li>
+    <li class="display-mode">
+      <button data-theme-toggle="light" aria-label="Toggle Light Mode">
+        <svg fill="currentColor" viewBox="0 0 20 20"  width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <button data-theme-toggle="dark" aria-label="Toggle Dark Mode">
+        <svg fill="currentColor" viewBox="0 0 20 20" width="20" height="20">
+          <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+        </svg>
+      </button>
+      <button data-theme-toggle="system" aria-label="Toggle Light/Dark Mode - System Setting">
+        <svg fill="currentColor" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+          <g>
+            <path d="M24.38,10.175l-2.231-0.268c-0.228-0.851-0.562-1.655-0.992-2.401l1.387-1.763c0.212-0.271,0.188-0.69-0.057-0.934l-2.299-2.3c-0.242-0.243-0.662-0.269-0.934-0.057l-1.766,1.389c-0.743-0.43-1.547-0.764-2.396-0.99L14.825,0.62C14.784,0.279,14.469,0,14.125,0h-3.252c-0.344,0-0.659,0.279-0.699,0.62L9.906,2.851c-0.85,0.227-1.655,0.562-2.398,0.991L5.743,2.455c-0.27-0.212-0.69-0.187-0.933,0.056L2.51,4.812C2.268,5.054,2.243,5.474,2.456,5.746L3.842,7.51c-0.43,0.744-0.764,1.549-0.991,2.4l-2.23,0.267C0.28,10.217,0,10.532,0,10.877v3.252c0,0.344,0.279,0.657,0.621,0.699l2.231,0.268c0.228,0.848,0.561,1.652,0.991,2.396l-1.386,1.766c-0.211,0.271-0.187,0.69,0.057,0.934l2.296,2.301c0.243,0.242,0.663,0.269,0.933,0.057l1.766-1.39c0.744,0.43,1.548,0.765,2.398,0.991l0.268,2.23c0.041,0.342,0.355,0.62,0.699,0.62h3.252c0.345,0,0.659-0.278,0.699-0.62l0.268-2.23c0.851-0.228,1.655-0.562,2.398-0.991l1.766,1.387c0.271,0.212,0.69,0.187,0.933-0.056l2.299-2.301c0.244-0.242,0.269-0.662,0.056-0.935l-1.388-1.764c0.431-0.744,0.764-1.548,0.992-2.397l2.23-0.268C24.721,14.785,25,14.473,25,14.127v-3.252C25.001,10.529,24.723,10.216,24.38,10.175z M12.501,18.75c-3.452,0-6.25-2.798-6.25-6.25s2.798-6.25,6.25-6.25s6.25,2.798,6.25,6.25S15.954,18.75,12.501,18.75z"></path>
+          </g>
+        </svg>
+      </button>
+    </li>
   </ul>
+ 
 </header>

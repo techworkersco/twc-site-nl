@@ -14,7 +14,7 @@
 }
 
 .event-card__icon {
-  fill: $grey;
+  fill: var(--token-text-subtle);
   font-size: 0.55em;
   font-weight: bold;
   grid-column: 1;

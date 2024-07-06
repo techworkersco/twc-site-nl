@@ -28,10 +28,10 @@ permalink: /
 
 <section class="titled-block" aria-labelledby="hl-a11y">
   <h2 id="hl-a11y">{% t global.accessibility.title %}</h2>
-  {% t global.accessibility.summary %}
+  <p>{% t global.accessibility.summary %}</p>
 </section>
 
 <section class="titled-block" aria-labelledby="hl-coc">
   <h2 id="hl-coc">{% t global.code_of_conduct.title %}</h2>
-  {% t global.code_of_conduct.summary %}
+  <p>{% t global.code_of_conduct.summary %}</p>
 </section>

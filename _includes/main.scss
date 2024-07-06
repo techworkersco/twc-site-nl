@@ -18,15 +18,78 @@
 @import "util/helper";
 @import "util/layout";
 
+/**
+ * 
+ */
+@font-face {
+  font-family: 'League Spartan Bold';
+  src: url('/assets/fonts/league/LeagueSpartan-Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'League Spartan Bold';
+  src: url('/assets/fonts/league/LeagueSpartan-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/assets/fonts/open-sans/open-sans-latin-400-normal.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/assets/fonts/open-sans/open-sans-latin-700-normal.woff2') format('woff2');
+  font-weight: 700;
+}
+
+
+/**
+ * https://www.aleksandrhovhannisyan.com/blog/the-perfect-theme-switch/
+ */
+html,
+html[data-theme="light"] {
+  color-scheme: light;
+  --token-background: #{$white};
+  --token-text: #{$black};
+  --token-text-subtle: #3817C2;
+  --token-shadow: rgba(0, 0, 0, 0.2);
+}
+
+@mixin darkTheme {
+  color-scheme: dark;
+  --token-background: #{$black};
+  --token-text: #{$white};
+  --token-text-subtle: rgba(250, 250, 250, .8);
+  --token-shadow: rgba(255, 255, 255, 0.1);
+}
+
+html[data-theme="dark"] {
+  @include darkTheme()
+}
+
+/* Dark theme (system preference) */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) {
+    @include darkTheme()
+  }
+}
+
 /* layout */
 body {
-  background-color: $white;
-  color: $black;
-  font-family: "Avenir", sans-serif;
-  font-size: 102.5%;
+  background-color: var(--token-background);
+  color: var(--token-text);
+  font-family: $fontstack-body;
   letter-spacing: normal;
   margin: 0;
   padding: 0;
+}
+
+*:focus {
+  outline: 3px dashed $red;
 }
 
 .columns {
@@ -56,7 +119,7 @@ input {
   text-align: center;
 
   &:invalid {
-    border: 2px solid red;
+    border: 2px solid #FFCCCB;
   }
 
   &:invalid:required {
@@ -64,7 +127,8 @@ input {
   }
 
   &:focus {
-    outline: none;
+    outline: .25em dashed $red;
+    outline-offset: .1rem;
   }
 
 }
@@ -81,10 +145,10 @@ input.input-text {
 input[type="submit"] {
   margin-top: 20px;
   font-weight: 500;
-  background-color: #212121;
+  background-color: $btn-primary-background;
   color: white;
   padding: 10px 20px;
-  border-radius: 100px;
+  border-radius: $btn-radius;
   border: none;
   text-transform: uppercase;
 
@@ -184,22 +248,30 @@ img {
 }
 
 
-.subscribe-button {
-  border-color: transparent;
-  background-color: #212121;
-  color: white;
-  padding: 8px 25px;
-  border-radius: 8px;
-  border-width: 1px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 12px;
-  width: 90%;
+.btn,
+a.btn {
+    display: block;
+    background-color: var(--token-text);
+    color: var(--token-background) !important;
+    padding: 8px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: $btn-radius;
+    text-transform: uppercase;
+    
+    &:hover {
+      background-color: $red;
+    }
 
-  &:hover {
-    background-color: #e6141b;
-  }
+    &:focus {
+      background-color: $red;
+      outline-offset: .25em;
+    }
+}
+
+.join-form .btn {
+  margin: 20px auto;
+  width: 90%;
 }
 
 .post-header {
