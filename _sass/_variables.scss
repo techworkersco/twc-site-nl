@@ -15,7 +15,8 @@ $mobile-width: 420px;
 $btn-primary-background: $black;
 $btn-radius: 100px;
 
-$fontstack-body: sans-serif;
+$fontstack-title: 'League Spartan Bold', sans-serif;
+$fontstack-body: 'Open Sans', sans-serif;
 
 @mixin tablet {
   @media screen and (max-width: #{$tablet-width}) {

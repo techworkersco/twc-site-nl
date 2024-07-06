@@ -1,7 +1,9 @@
 h1 {
   /* 16x2.25=36 */
   font-size: 3em;
-
+  font-family: $fontstack-title;
+  color: $red;
+  
   @include mobile {
     /* 2.25 * .875 */
     font-size: 1.96875em;
@@ -10,6 +12,7 @@ h1 {
 
 h2 {
   font-size: 1.5em;
+  font-family: $fontstack-title;
   /* 16x1.5=24 */
   @include mobile {
     font-size: 1em;
@@ -19,6 +22,7 @@ h2 {
 
 h3 {
   font-size: 1.125em;
+  font-family: $fontstack-title;
   /* 16x1.125=18 */
   @include mobile {
     font-size: 1.09375em;
@@ -28,6 +32,7 @@ h3 {
 
 h4 {
   font-size: 0.875em;
+  font-family: $fontstack-title;
   font-style: italic;
   /* 16x0.875=14 */
   @include mobile {
@@ -42,6 +47,10 @@ h2,
 h3,
 h4 {
   margin-bottom: 0.5em;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .aside {

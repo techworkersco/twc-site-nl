@@ -7,8 +7,8 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <style>
     {% capture styles %}
-      {% include main.scss %}
-      {% include normalize.css %}
+    {% include normalize.css %}
+    {% include main.scss %}
     {% endcapture %}
     {{ styles | scssify }}
   </style>
