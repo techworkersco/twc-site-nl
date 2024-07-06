@@ -162,6 +162,13 @@ header {
 }
 
 .display-mode {
+  padding: 0 !important;
+  
+  @include mobile {
+    visibility: hidden;
+    display: none;
+  }
+
   button {
     background: none;
     border: 1px solid transparent;
@@ -171,6 +178,14 @@ header {
     border-radius: 50%;
     width: 40px;
     height: 40px;
+
+    &:focus {
+      opacity: 1;
+    }
+
+    &.active-display-mode:focus {
+      border-color: transparent;
+    }
 
     &.active-display-mode,
     &:hover {

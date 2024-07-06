@@ -59,6 +59,10 @@ body {
   padding: 0;
 }
 
+*:focus {
+  outline: 3px dashed $red;
+}
+
 .columns {
   display: flex;
   flex-wrap: wrap;
@@ -86,7 +90,7 @@ input {
   text-align: center;
 
   &:invalid {
-    border: 2px solid red;
+    border: 2px solid #FFCCCB;
   }
 
   &:invalid:required {
@@ -94,7 +98,8 @@ input {
   }
 
   &:focus {
-    outline: none;
+    outline: .25em dashed $red;
+    outline-offset: .1rem;
   }
 
 }
@@ -216,34 +221,28 @@ img {
 
 .btn,
 a.btn {
+    display: block;
     background-color: var(--token-text);
     color: var(--token-background) !important;
     padding: 8px 25px;
     font-size: 1rem;
+    border: none;
     border-radius: $btn-radius;
     text-transform: uppercase;
+    
     &:hover {
       background-color: $red;
+    }
+
+    &:focus {
+      background-color: $red;
+      outline-offset: .25em;
     }
 }
 
 .join-form .btn {
-  border-color: transparent;
-  text-transform: uppercase;
-  background-color: var(--token-text);
-  color: var(--token-background);
-  padding: 8px 25px;
-  border-radius: $btn-radius;
-  border-width: 1px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 12px;
+  margin: 20px auto;
   width: 90%;
-
-  &:hover {
-    background-color: #e6141b;
-  }
 }
 
 .post-header {
