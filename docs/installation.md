@@ -1,14 +1,15 @@
-# Installation
+# 🛠️ Installation
 
 ## Formatting
 
 Install prettier and precommit hooks: `npm install`
+
 You can manually run prettier using: `npx prettier . --write`
 
 ### Skip pre-commit hooks
 
 1. To skip pre-commit hooks, use `git commit --no-verify` or `git commit -n`
-1. Alternatively, you could not run `npm install`; opting to install prettier and the plugin globally `npm install -g prettier @shopify/prettier-plugin-liquid``
+1. Alternatively, you could not run `npm install`; opting to install prettier and the plugin globally via `npm install -g prettier @shopify/prettier-plugin-liquid`
 
 ## With Docker (recommended)
 
