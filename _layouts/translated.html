@@ -9,7 +9,7 @@ layout: default
       {% elsif site.lang == lang %}
         <b>{% t langs.{{ lang }} %}</b>
       {% else %}
-        <a href="{% tl {{ page.namespace }} {{ lang }} %}" >{% t langs.{{ lang }} %}</a>
+        <a href="{% tl {{ page.namespace }} {{ lang }} %}">{% t langs.{{ lang }} %}</a>
       {% endif %}
     {% endfor %}
   </div>

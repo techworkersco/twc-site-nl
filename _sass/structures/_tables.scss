@@ -3,7 +3,9 @@ table {
   width: 100%;
 }
 
-table td, table th, caption {
+table td,
+table th,
+caption {
   border: 1px solid #ddd;
   padding: 8px;
 }
@@ -11,17 +13,24 @@ table td, table th, caption {
 table tr {
   height: 32px;
 
-  &:hover {background-color: #ddd;}
-  &:nth-child(even){background-color: #f2f2f2;}
+  &:hover {
+    background-color: #ddd;
+  }
+  &:nth-child(even) {
+    background-color: #f2f2f2;
+  }
 }
 
 .page-break {
   break-after: page;
 }
 // show table header on every page in printer mode across browsers
-thead { display: table-header-group; }
+thead {
+  display: table-header-group;
+}
 
-table th, caption {
+table th,
+caption {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -29,7 +38,7 @@ table th, caption {
 }
 
 table th {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
 }
 
 caption {

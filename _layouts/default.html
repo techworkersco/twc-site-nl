@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {% include head.html %}
 
   <body>
     {% include header.html %}
-    <main class="{{ page.templateClass }}">
-      {{ content }}
-    </main>
-    <script type="text/javascript">{% include main.js %}</script>
+    <main class="{{ page.templateClass }}">{{ content }}</main>
+    <script type="text/javascript">
+      {% include main.js %}
+    </script>
   </body>
 </html>

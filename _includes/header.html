@@ -10,10 +10,14 @@
       <div id="navBtn">menu</div>
       <ul id="nav" class="dropdown__menu hide">
         {% for link in site.header_themes %}
-          <li><a href="{{link.url}}">{{ site.translations[site.lang].pages[link.text] }}</a></li>
+          <li>
+            <a href="{{link.url}}">{{ site.translations[site.lang].pages[link.text] }}</a>
+          </li>
         {% endfor %}
       </ul>
     </li>
-    <li><a href="{% translate_link join %}">{% t connect.subscribe %}</a></li>
+    <li>
+      <a href="{% translate_link join %}">{% t connect.subscribe %}</a>
+    </li>
   </ul>
 </header>

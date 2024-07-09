@@ -22,9 +22,8 @@ home:
     more: Find more blog posts
   other_chapters:
     title: Other chapters
-    more: | 
+    more: |
       <p>Find other chapters of Tech Workers Coalition <a href="https://techworkerscoalition.org/chapters/">this overview</a>.</p>
-  
 
 connect:
   info: Get involved!
@@ -55,10 +54,10 @@ press:
 en:
   time:
     formats:
-      default: "%A, %d %b %Y %H:%M"
+      default: '%A, %d %b %Y %H:%M'
   date:
     formats:
-      default: "%-d %B %Y"
+      default: '%-d %B %Y'
     order:
       - :day
       - :month
@@ -84,7 +83,7 @@ en:
       - Sept
       - Oct
       - Nov
-      - Dec  
+      - Dec
     day_names:
       - Sunday
       - Monday
@@ -106,4 +105,4 @@ en:
       - September
       - October
       - November
-      - December 
+      - December

@@ -1,0 +1,24 @@
+{
+  "name": "twc-site-nl",
+  "description": "This repository is responsible for most content visible on the website [techwerkers.nl](https://techwerkers.nl). The site is made with a static site generator called [Jekyll](https://jekyllrb.com/) in a language called Ruby.",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techworkersco/twc-site-nl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/techworkersco/twc-site-nl/issues"
+  },
+  "homepage": "https://github.com/techworkersco/twc-site-nl#readme",
+  "devDependencies": {
+    "@shopify/prettier-plugin-liquid": "^1.5.0",
+    "husky": "^9.0.11",
+    "prettier": "^3.3.2"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier . --write"
+  },
+  "dependencies": {}
+}

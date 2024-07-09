@@ -22,7 +22,7 @@ home:
     more: Alle blogs
   other_chapters:
     title: Andere groepen
-    more: | 
+    more: |
       <p>Ontdek andere groepen binnen de Techwerkerscoalitie in <a href="https://techworkerscoalition.org/chapters/">dit overzicht</a>.</p>
 
 connect:
@@ -33,7 +33,7 @@ connect:
   public_link: Sociale media link
   public_link_placeholder: LinkedIn, Xitter, Mastodon, etc.
   company: Werkgever
-  how_did_hear: Wat zou jou helpen je doelen te bereiken? 
+  how_did_hear: Wat zou jou helpen je doelen te bereiken?
   subscribe: Doe mee
 
 global:
@@ -53,12 +53,12 @@ press:
 nl:
   time:
     formats:
-      default: "%A, %-d %B %Y %H:%M"
-      long: "%-d %B %Y %H:%M"
-      short: "%d %b %H:%M"
+      default: '%A, %-d %B %Y %H:%M'
+      long: '%-d %B %Y %H:%M'
+      short: '%d %b %H:%M'
   date:
     formats:
-      default: "%-d %B %Y"
+      default: '%-d %B %Y'
     order:
       - :day
       - :month
