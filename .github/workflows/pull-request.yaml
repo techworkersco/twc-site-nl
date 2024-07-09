@@ -30,9 +30,4 @@ jobs:
         run: npm install
 
       - name: Prettify code
-        run: npx prettier . --write
-
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          message: 'gha(prettier): format files'
+        run: npx prettier . --check
