@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   prettier:
+    name: lint-prettier
     runs-on: ubuntu-latest
 
     steps:
