@@ -32,7 +32,7 @@ image: '/assets/img/TWC_2024-08-27-EN.png'
 
 Questions or comments? Contact: techwerkers@proton.me 
 
-_____
+---
 
 ## Leer zelf organiseren ✊
 
