@@ -21,7 +21,7 @@ image: '/assets/img/TWC_2024-08-27-EN.png'
 
 **Who:** Anyone who would like to learn more about organizing to achieve results is most welcome to join. The focus of this session is on organizing at work, but many of the insights will be applicable more broadly. You don't have to be in any form of official 'work' to take part!
 
-**Preparation:** Read [*Unite & Win: The Workplace Organizer’s Handbook*](https://qu.ax/OYpY.pdf) (PDF) (but don't worry if you didn't manage to finish it, you're welcome to join anyway)
+**Preparation:** Read [_Unite & Win: The Workplace Organizer’s Handbook_](https://qu.ax/OYpY.pdf) (PDF) (but don't worry if you didn't manage to finish it, you're welcome to join anyway)
 
 **Description:** During this first, exploratory session we can discuss things such as:
 - What is organizing?
