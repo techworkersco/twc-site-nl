@@ -30,7 +30,7 @@ image: '/assets/img/TWC_2024-08-27-EN.png'
 - How to go public with your action?
 - How to you deal with authorities and those in power?
 
-Questions or comments? Contact: techwerkers@proton.me 
+Questions or comments? Contact: techwerkers@proton.me
 
 ---
 
