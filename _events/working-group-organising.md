@@ -56,4 +56,4 @@ Questions or comments? Contact: techwerkers@proton.me
 - Hoe treed je naar buiten met je actie?
 - Hoe ga je om met autoriteiten en machtshebbers?
 
-Vragen of opmerkingen? Neem contact op met: techwerkers@proton.me 
+Vragen of opmerkingen? Neem contact op met: techwerkers@proton.me
