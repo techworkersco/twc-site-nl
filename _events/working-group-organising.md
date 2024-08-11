@@ -46,7 +46,7 @@ _____
 
 **Voor wie:** Iedereen die graag meer wil leren over succesvol organiseren om resultaten te boeken. De aandacht ligt in deze sessie op organiseren op het werk, maar veel van de inzichten zullen breder toepasbaar zijn. Je hoeft geenzins in officieel betaald werk te zitten om mee te doen!
 
-**Voorbereiding:** Lees [*Unite & Win: The Workplace Organizer’s Handbook*](https://qu.ax/OYpY.pdf) (PDF) (maar geen nood als je ’t niet helemaal uitkrijgt, je bent sowieso welkom)
+**Voorbereiding:** Lees [_Unite & Win: The Workplace Organizer’s Handbook_](https://qu.ax/OYpY.pdf) (PDF) (maar geen nood als je ’t niet helemaal uitkrijgt, je bent sowieso welkom)
 
 **Omschrijving:** Tijdens deze eerste, verkennende sessie kunnen we zaken bespreken zoals:
 
