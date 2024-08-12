@@ -24,6 +24,7 @@ image: '/assets/img/TWC_2024-08-27-EN.png'
 **Preparation:** Read [_Unite & Win: The Workplace Organizer’s Handbook_](https://qu.ax/OYpY.pdf) (PDF) (but don't worry if you didn't manage to finish it, you're welcome to join anyway)
 
 **Description:** During this first, exploratory session we can discuss things such as:
+
 - What is organizing?
 - How do you build up a team?
 - How to motivate people to join?
@@ -31,6 +32,8 @@ image: '/assets/img/TWC_2024-08-27-EN.png'
 - How to you deal with authorities and those in power?
 
 Questions or comments? Contact: techwerkers@proton.me
+
+If you feel able, consider donating to the [Emergency Workplace Organizing Committee](https://workerorganizing.org/donate/), who wrote the _Unite & Win_ handbook
 
 ---
 
@@ -57,3 +60,5 @@ Questions or comments? Contact: techwerkers@proton.me
 - Hoe ga je om met autoriteiten en machtshebbers?
 
 Vragen of opmerkingen? Neem contact op met: techwerkers@proton.me
+
+Als je daartoe in staat bent, overweeg dan om iets aan het [Noodwerkplekorganisatiecomité (EWOC)](https://workerorganizing.org/donate/) te doneren, die hebben namelijk het boek _Unite & Win_ geschreven
