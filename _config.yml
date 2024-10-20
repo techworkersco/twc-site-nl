@@ -34,7 +34,7 @@ plugins:
 
 ## SEO, Open Graph etc..
 twitter:
-  username: techworkersber
+  username: techworkers
   card: summary
 facebook:
   publisher: 105285494190738
@@ -42,10 +42,7 @@ facebook:
 social:
   name: Tech Workers Coalition Netherlands
   links:
-    - https://twitter.com/TechWorkersBER
-    - https://facebook.com/TechWorkersBER
-    - https://instagram.com/TechWorkersBER
-    - https://t.me/techworkersber
+    - https://techwerkers.nl/
 
 sass:
   style: compressed
