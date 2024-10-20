@@ -25,7 +25,7 @@ feed:
   disable_in_development: true
   collections:
     - events
-    - blog
+    - resources
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
@@ -61,15 +61,19 @@ header_themes:
     text: about
   - url: /events
     text: events
+# TODO: Uncomment when we want to go live with resources
+#  - url: /resources
+#    text: resources
 
 permalink: pretty
 future: true
 collections:
-  blog:
-    output: true
   events:
     output: true
     permalink: events/:title
+  resources:
+    output: true
+    permanlink: resources/:title
   pages:
     output: true
     permalink: /:path
@@ -85,7 +89,7 @@ defaults:
     values:
       layout: 'event'
   - scope:
-      type: 'blog'
+      type: 'resources'
       path: ''
     values:
-      layout: 'blog'
+      layout: 'resource'

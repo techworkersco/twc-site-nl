@@ -1,3 +1,6 @@
-techworkersnl:
+techwerkers:
   name: Tech Workers Coalition Netherlands
   picture: /assets/css/images/logo.png
+ben:
+  name: Ben
+  picture: /assets/css/images/ben.jpg
