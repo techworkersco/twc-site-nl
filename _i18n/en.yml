@@ -5,6 +5,7 @@ langs:
 pages:
   about: About
   events: Events
+  resources: Resources
 
 home:
   about_us: About
@@ -24,6 +25,10 @@ home:
     title: Other chapters
     more: |
       <p>Find other chapters of Tech Workers Coalition <a href="https://techworkerscoalition.org/chapters/">this overview</a>.</p>
+  resources:
+    title: Resources for Tech Workers
+    more: More Resources
+    summary: Resource made by the community for the community.
 
 connect:
   info: Get involved!
