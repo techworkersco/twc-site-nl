@@ -59,11 +59,14 @@ exclude_from_localizations: ['assets', 'admin', 'vendor']
 # We don't want english to be any more or less special than other languages
 default_locale_in_subfolder: true
 
+# header menu items
+# text: the i18n key for link
+# namespace: the namespace that matches the page's frontmatter namespac
 header_themes:
-  - url: /about
-    text: about
-  - url: /events
-    text: events
+  - text: about
+    namespace: about
+  - text: events
+    namespace: events
 
 permalink: pretty
 future: true
