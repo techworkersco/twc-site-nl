@@ -1,6 +1,8 @@
 ---
 layout: page
 permalink: /welcome
+permalink_nl: /welkom
+namespace: welcome
 hide_form: true
 ---
 

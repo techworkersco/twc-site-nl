@@ -1,6 +1,6 @@
 <header class="header dropdown__header" role="banner">
   <div>
-    <a href="/">
+    <a href="{% tl index %}">
       <h1 class="logo">{{ site.title }}</h1>
       <p class="work">Tech <span class="link">Werkers</span> NL</p>
     </a>
@@ -11,13 +11,13 @@
       <ul id="nav" class="dropdown__menu hide">
         {% for link in site.header_themes %}
           <li>
-            <a href="{{link.url}}">{{ site.translations[site.lang].pages[link.text] }}</a>
+            <a href="{% tl link.namespace %}">{{ site.translations[site.lang].pages[link.text] }}</a>
           </li>
         {% endfor %}
       </ul>
     </li>
     <li>
-      <a href="{% translate_link join %}">{% t connect.subscribe %}</a>
+      <a href="{% tl join %}">{% t connect.subscribe %}</a>
     </li>
   </ul>
 </header>

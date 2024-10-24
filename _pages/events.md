@@ -2,6 +2,7 @@
 layout: page
 permalink: /events
 permalink_nl: /activiteiten
+namespace: events
 languages: ['en', 'nl']
 ---
 
