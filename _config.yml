@@ -52,10 +52,11 @@ sass:
 
 include:
   - _pages
+  - _redirects
 exclude:
   - .jekyll-cache/
 languages: ['en', 'nl']
-exclude_from_localizations: ['assets', 'admin', 'vendor']
+exclude_from_localizations: ['assets', 'admin', 'vendor', '_redirects']
 # We don't want english to be any more or less special than other languages
 default_locale_in_subfolder: true
 
