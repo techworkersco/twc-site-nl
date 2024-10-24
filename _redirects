@@ -1,2 +1,17 @@
+# All redirects in this file are parsed down from top to bottom
+
 # Redirect default Netlify subdomain to primary domain
 https://techwerkers.netlify.com/* https://techwerkers.nl/:splat 301!
+
+# Root domain redirects
+/ /nl/ 301! Language=nl
+/ /en/ 301! Language=en
+/ /en/ 301!
+
+# Dutch specific root pages should only goto /nl versions
+/over_ons /nl/over_ons 301!
+/activiteiten /nl/activitieten 301!
+ 
+# Then we handle the rest. We don't do perma redirects here just incase
+/* /nl/:splat 302! Language=nl
+/* /en/:splat 302!

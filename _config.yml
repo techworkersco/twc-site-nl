@@ -56,6 +56,9 @@ exclude:
   - .jekyll-cache/
 languages: ['en', 'nl']
 exclude_from_localizations: ['assets', 'admin', 'vendor']
+# We don't want english to be any more or less special than other languages
+default_locale_in_subfolder: true
+
 header_themes:
   - url: /about
     text: about
