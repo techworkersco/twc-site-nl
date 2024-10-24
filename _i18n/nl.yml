@@ -5,7 +5,7 @@ langs:
 pages:
   about: Over
   events: Agenda
-  resources: Middelen
+  resources: Bronnen
 
 home:
   about_us: Over ons
@@ -26,9 +26,9 @@ home:
     more: |
       <p>Ontdek andere groepen binnen de Techwerkerscoalitie in <a href="https://techworkerscoalition.org/chapters/">dit overzicht</a>.</p>
   resources:
-    title: Middelen voor Tech Werkers
-    more: Meer middelen
-    summary: Middelen voor de gemeenschap door de gemeenschap.
+    title: Bronnen voor Tech Werkers
+    more: Meer bronnen
+    summary: Bronnen voor de gemeenschap door de gemeenschap.
 
 connect:
   info: Sluit je aan!
