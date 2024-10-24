@@ -9,6 +9,7 @@ backend:
   accept_roles: #optional - accepts all users if left out
     - admin
     - editor
+  squash_merges: true # We are not super interested in the draft history
 
 media_folder: 'assets/img'
 
