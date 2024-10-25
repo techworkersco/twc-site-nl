@@ -27,7 +27,7 @@ home:
 
 connect:
   info: Get involved!
-  description: The easiest way to get involved is to attend an upcoming <a href="/events" >events</a>.
+  description: The easiest way to get involved is to attend an upcoming <a href="/en/events" >events</a>.
   email: Your email
   name: Your name
   public_link: Social media link

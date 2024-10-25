@@ -27,7 +27,7 @@ home:
 
 connect:
   info: Sluit je aan!
-  description: De makkelijkste manier om mee te doen is door deel te nemen aan een van onze komende <a href="/events">evenementen</a>.
+  description: De makkelijkste manier om mee te doen is door deel te nemen aan een van onze komende <a href="/nl/activiteiten">evenementen</a>.
   email: Email
   name: Naam
   public_link: Sociale media link
