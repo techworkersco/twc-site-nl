@@ -1,11 +1,28 @@
 ---
 layout: default
 ---
-<!-- {% assign author = site.data.authors[page.author] | default: site.data.authors.techwerkers %} -->
+{% comment %}
+  We need a custom language selector since the page slug is not localised and doesn't use namespace
+{% endcomment %}
+<div align="right">
+  {% for lang in site.languages %}
+    {% if site.lang == lang %}
+      <b>{% t langs.{{ lang }} %}</b>
+    {% else %}
+      {% assign page_url = '/' | append: lang | append: page.url %}
+      <a href="{{ page_url }}">{% t langs.{{ lang }} %}</a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% assign localised_title_key = 'title_' | append: site.lang %}
+{% assign author = site.data.authors[page.author] | default: site.data.authors.techwerkers %}
+{% assign page_title = page[localised_title_key] | default: page.title %}
+
 <article class="post">
-  <header class="post-header">
-    <a href="/resources">{% t 'home.resources.more' %}</a>
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+  <header class="post">
+    <a href="{% tl resources %}">{% t 'home.resources.more' %}</a>
+    <h1 class="post-title">{{ page_title }}</h1>
     <section class="l-stack -horizontal -space-large">
       {% if author.picture %}
         <img
