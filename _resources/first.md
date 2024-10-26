@@ -3,7 +3,7 @@ title: First
 title_nl: Eerste
 author: Ben
 date: 2024-10-01
-published: false
+published: true
 ---
 
 {% if site.lang == "nl" %}
