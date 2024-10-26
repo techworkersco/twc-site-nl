@@ -5,6 +5,6 @@ locations:
   - The Netherlands
 hide_form: false
 ---
-Out biweekly action planning meeting, hosted from the TWC Slack.
+Our biweekly action planning meeting, hosted from the TWC Slack.
 
 We hope to open this beyond slack one day!
