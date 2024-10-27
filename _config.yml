@@ -77,7 +77,7 @@ collections:
     permalink: events/:title
   resources:
     output: true
-    permanlink: resources/:title
+    permalink: resources/:title
   pages:
     output: true
     permalink: /:path
