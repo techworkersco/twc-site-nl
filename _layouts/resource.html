@@ -9,8 +9,7 @@ layout: default
     {% if site.lang == lang %}
       <b>{% t langs.{{ lang }} %}</b>
     {% else %}
-      {% assign page_url = '/' | append: lang | append: page.url %}
-      <a href="{{ page_url }}">{% t langs.{{ lang }} %}</a>
+      <a href="{% i18n_permalink lang %}">{% t langs.{{ lang }} %}</a>
     {% endif %}
   {% endfor %}
 </div>
