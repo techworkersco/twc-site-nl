@@ -9,9 +9,9 @@ author: techwerkers
 date: 2024-10-01
 # Set to true when you want this resource to be published
 published: false
-# Uncomment to specify a URL for the resource
-#permalink: /resources/title/
-#permalink_nl: /bronnen/titel/
+# Ensure permalink is specified for all languages - otherwise generation will fail
+permalink: /resources/title/
+permalink_nl: /bronnen/titel/
 ---
 
 {% if site.lang == "nl" %}

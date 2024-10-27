@@ -77,7 +77,9 @@ collections:
     permalink: events/:title
   resources:
     output: true
-    permalink: resources/:title
+    permalink: /resources/:title
+    # Note: this does nothing but is here for documenting the default
+    permalink_nl: /bronnen/:title
   pages:
     output: true
     permalink: /:path
