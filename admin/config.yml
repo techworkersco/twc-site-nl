@@ -68,4 +68,18 @@ collections:
           format: 'YYYY-MM-DD',
         }
       - { label: 'Author', name: 'author', widget: 'string' }
+      - {
+          label: "Permalink (EN)",
+          name: "permalink",
+          widget: "string",
+          default: "/resources/<title>",
+          required: true
+        }
+      - {
+          label: "Permalink (NL)",
+          name: "permalink_nl",
+          widget: "string",
+          default: "/bronnen/<title>",
+          required: true
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
