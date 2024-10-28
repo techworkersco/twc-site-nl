@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{% comment %}
+  We need a custom language selector since the page slug is not localised and doesn't use namespace
+{% endcomment %}
+<div align="right">
+  {% for lang in site.languages %}
+    {% if site.lang == lang %}
+      <b>{% t langs.{{ lang }} %}</b>
+    {% else %}
+      <a href="{% i18n_permalink lang %}">{% t langs.{{ lang }} %}</a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% assign localised_title_key = 'title_' | append: site.lang %}
+{% assign author = site.data.authors[page.author] | default: site.data.authors.techwerkers %}
+{% assign page_title = page[localised_title_key] | default: page.title %}
+
+<article class="post">
+  <header class="post">
+    <a href="{% tl resources %}">{% t 'home.resources.more' %}</a>
+    <h1 class="post-title">{{ page_title }}</h1>
+    <section class="l-stack -horizontal -space-large">
+      {% if author.picture %}
+        <img
+          class="h-rounded"
+          style="--circle-size: 4.5rem"
+          src="{{author.picture}}"
+          alt="{{author.name}}"
+        >
+      {% endif %}
+      <div class="l-stack -vertical" style="--stack-spacing: 1rem">
+        <div>
+          <b>{{ author.name }}</b>
+        </div>
+        <time class="aside" datetime="{{ page.date | date: '%Y-%m-%d' }}">
+          {{ page.date | localize: site.lang, '%-d %B %Y' }}
+        </time>
+      </div>
+    </section>
+  </header>
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <div>
+    <hr>
+    <h2>{% translate connect.info %}</h2>
+    {% include links.html %}
+  </div>
+</article>

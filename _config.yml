@@ -25,7 +25,7 @@ feed:
   disable_in_development: true
   collections:
     - events
-    - blog
+    - resources
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
@@ -34,7 +34,7 @@ plugins:
 
 ## SEO, Open Graph etc..
 twitter:
-  username: techworkersber
+  username: techworkers
   card: summary
 facebook:
   publisher: 105285494190738
@@ -42,10 +42,7 @@ facebook:
 social:
   name: Tech Workers Coalition Netherlands
   links:
-    - https://twitter.com/TechWorkersBER
-    - https://facebook.com/TechWorkersBER
-    - https://instagram.com/TechWorkersBER
-    - https://t.me/techworkersber
+    - https://techwerkers.nl/
 
 sass:
   style: compressed
@@ -68,15 +65,21 @@ header_themes:
     namespace: about
   - text: events
     namespace: events
+# TODO: Uncomment when we want to go live with resources
+#  - text: resources
+#    namespace: resources
 
 permalink: pretty
 future: true
 collections:
-  blog:
-    output: true
   events:
     output: true
     permalink: events/:title
+  resources:
+    output: true
+    permalink: /resources/:title
+    # Note: this does nothing but is here for documenting the default
+    permalink_nl: /bronnen/:title
   pages:
     output: true
     permalink: /:path
@@ -92,7 +95,7 @@ defaults:
     values:
       layout: 'event'
   - scope:
-      type: 'blog'
+      type: 'resources'
       path: ''
     values:
-      layout: 'blog'
+      layout: 'resource'
