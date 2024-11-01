@@ -34,4 +34,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "webrick", "~> 1.9"
-gem 'jekyll-sass-converter', '~> 2.1.0'
+gem 'jekyll-sass-converter', '~> 3.0.0'
