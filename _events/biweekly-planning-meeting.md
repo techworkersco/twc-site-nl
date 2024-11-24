@@ -1,5 +1,5 @@
 ---
-title: Biweekly Planning Meeting
+title: Biweekly Organizing Meeting
 date: 2024-10-21 18:00
 locations:
   - The Netherlands
