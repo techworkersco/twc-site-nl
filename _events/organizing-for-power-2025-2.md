@@ -1,6 +1,6 @@
 ---
-title: 'Organizing for Power: Core Fundamentals Training'
-date: 2025-02-13 18:00
+title: 'Organizing for Power: Core Fundamentals Training - Session 2'
+date: 2025-02-20 18:00
 locations:
   - Online
 hide_form: true
@@ -16,20 +16,9 @@ Training is free and open to all. You'll do six weekly two-hour sessions that co
 
 Sessions are held online on Thursdays from 18.00 to 20.00 CET, from 13 February to 20 March 2025.
 
-### Schedule
-
-- 13 February 2025, 18.00-20.00 CET
-- 20 February 2025, 18.00-20.00 CET
-- 27 February 2025, 18.00-20.00 CET
-- 6 March 2025, 18.00-20.00 CET
-- 13 March 2025, 18.00-20.00 CET
-- 20 March 2025, 18.00-20.00 CET
-
-Would you like to take part? Awesome! Fill out the registration form by 26 January 2025.
-
 [**Register for the training**](https://tally.so/r/nPBqdP)
 
-*Note: This training can only go through if there are sufficient expressions of interest. So bring along friends, coworkers, comrades & acquaintances!*
+*Note: This session is part of a series. Registration for the full training closes 26 January 2025.*
 
 ## Organiseren voor échte verandering: Basistraining
 
@@ -39,17 +28,6 @@ De training is gratis en iedereen is welkom. De training bestaat uit zes wekelij
 
 Sessies worden online gehouden op donderdagen van 18.00 tot 20.00 uur, van 13 februari tot en met 20 maart 2025.
 
-### Schema
-
-- 13 februari 2025, 18.00-20.00 uur
-- 20 februari 2025, 18.00-20.00 uur
-- 27 februari 2025, 18.00-20.00 uur
-- 6 maart 2025, 18.00-20.00 uur
-- 13 maart 2025, 18.00-20.00 uur
-- 20 maart 2025, 18.00-20.00 uur
-
-Doe je ook mee? Heel mooi! Vul vóór 26 januari 2025 het inschrijfformulier in.
-
 [**Schrijf je in voor de training**](https://tally.so/r/wLM27y)
 
-*Let op: Deze training kan alleen doorgaan als er voldoende aanmeldingen zijn. Dus neem vrienden, collega's, kameraden en kennissen mee!*
+*Let op: Deze sessie is deel van een serie. Inschrijving voor de volledige training sluit op 26 januari 2025.*
