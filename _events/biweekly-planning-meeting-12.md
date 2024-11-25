@@ -1,14 +1,14 @@
 ---
-title: 'Organising meeting | Organisatiebijeenkomst'
+title: 'Organizing meeting | Organisatiebijeenkomst'
 date: 2024-12-16 18:00
 locations:
   - Online
 hide_form: false
 ---
 
-[English](#organising-meeting) | [Nederlands](#organisatiebijeenkomst)
+[English](#organizing-meeting) | [Nederlands](#organisatiebijeenkomst)
 
-## Organising meeting
+## Organizing meeting
 
 The Tech Workers Coalition NL biweekly action planning meeting. Anyone working in tech in The Netherlands is warmly invited to take part.
 
