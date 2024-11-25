@@ -1,6 +1,6 @@
 ---
-title: Biweekly Planning Meeting
-date: 2024-11-18 18:00
+title: "Biweekly Organizing Meeting #11"
+date: 2024-12-02 18:00
 locations:
   - The Netherlands
 hide_form: false
