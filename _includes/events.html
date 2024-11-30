@@ -7,9 +7,9 @@
   role="list"
 >
   {% assign events = site.events | filter_tags: include.tags | reverse %}
-  {% assign future_events = events | where_exp: 'event', 'event.date >= site.time' %}
-  {% if include.limit and future_events.size > 0 %}
-    {% for event in future_events reversed limit: include.limit %}
+  {% assign future_events = site.events | where_exp: 'event', 'event.date >= site.time' %}
+  {% if future_events.size > 0 %}
+    {% for event in future_events limit: include.limit %}
       {% include event-card.html %}
     {% endfor %}
   {% else %}
