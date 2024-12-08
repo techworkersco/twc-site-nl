@@ -12,7 +12,11 @@ const nextConfig = {
   },
   publicRuntimeConfig: {
     baseUrl: process.env.BASE_URL || 'http://localhost:3000',
-  }
+  },
+  i18n: {
+    locales: ['en', 'nl'],
+    defaultLocale: 'en'
+  },
 }
 
 module.exports = nextConfig
