@@ -1,63 +1,50 @@
-# A statically generated blog example using Next.js, Markdown, and TypeScript
+# TWC The Netherlands (Techwerkers)
 
-This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
+[![Netlify Status][netlify_bagde]][netlify_url]
+[![Code style][code_style_badge]][code_style_url]
+[![Twitter: nederlandtwc][twitter_badge]][twitter_url]
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/app/building-your-application/routing/layouts-and-templates) feature using Markdown files as the data source.
+[![website][website_badge]][website_url]
+[![production][production_badge]][production_url]
+[![i18n-en][i18n_en_badge]][i18n_en_url]
+[![i18n-nl][i18n_nl_badge]][i18n_nl_url]
 
-The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+> This repository is responsible for most content visible on the website [techwerkers.nl](https://techwerkers.nl). The site is made with NextJS static site generation.
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+## 🛠️ Installation
 
-## Demo
+Read the [installation guide](./docs/contributing.md) to get set up.
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
+## 🤝 Contributing
 
-## Deploy your own
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/techworkersco/twc-site-nl/issues). You can also take a look at the [contributing guide](./docs/contributing.md).
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog-starter)
+## Tech stuff
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=blog-starter)
+### Limitations of static site generation
 
-### Related examples
+This site is designed to render static context only. As such, we do not have a server. This comes with limitations mentioned here: [static exports][static-exports]
 
-- [WordPress](/examples/cms-wordpress)
-- [DatoCMS](/examples/cms-datocms)
-- [Sanity](/examples/cms-sanity)
-- [TakeShape](/examples/cms-takeshape)
-- [Prismic](/examples/cms-prismic)
-- [Contentful](/examples/cms-contentful)
-- [Strapi](/examples/cms-strapi)
-- [Agility CMS](/examples/cms-agilitycms)
-- [Cosmic](/examples/cms-cosmic)
-- [ButterCMS](/examples/cms-buttercms)
-- [Storyblok](/examples/cms-storyblok)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent](/examples/cms-kontent)
-- [Umbraco Heartcore](/examples/cms-umbraco-heartcore)
-- [Builder.io](/examples/cms-builder-io)
-- [TinaCMS](/examples/cms-tina/)
-- [Enterspeed](/examples/cms-enterspeed)
+<!-- Links -->
 
-## How to use
+[code_style_badge]: https://img.shields.io/badge/code%20style-prettier-F7B93E?logo=Prettier
+[code_style_url]: /.prettierrc
+[netlify_bagde]: https://api.netlify.com/api/v1/badges/05f9fda5-6fd8-418d-9cee-67882c0f5dba/deploy-status
+[netlify_url]: https://app.netlify.com/sites/twc-site-nl/deploys
+[website_badge]: https://img.shields.io/badge/website-url-blue.svg
+[website_url]: https://techwerkers.nl/
+[production_badge]: https://img.shields.io/badge/production-url-blue.svg
+[production_url]: https://app.netlify.com/sites/twc-site-nl/deploys
+[twitter_badge]: https://img.shields.io/twitter/follow/nederlandtwc.svg?style=social
+[twitter_url]: https://twitter.com/nederlandtwc
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+<!-- i18n Links -->
 
-```bash
-npx create-next-app --example blog-starter blog-starter-app
-```
+[i18n_en_badge]: https://img.shields.io/badge/i18n-en-orange.svg
+[i18n_en_url]: ./_i18n/en.yml
+[i18n_nl_badge]: https://img.shields.io/badge/i18n-nl-orange.svg
+[i18n_nl_url]: ./_i18n/nl.yml
 
-```bash
-yarn create next-app --example blog-starter blog-starter-app
-```
+<!-- Reference links -->
 
-```bash
-pnpm create next-app --example blog-starter blog-starter-app
-```
-
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-# Notes
-
-`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
+[status-exports]: https://nextjs.org/docs/app/building-your-application/deploying/static-exports
