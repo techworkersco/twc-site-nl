@@ -9,6 +9,9 @@ const nextConfig = {
   // We don't optimize images since we're using SSG without server hosting
   images: {
     unoptimized: true  
+  },
+  publicRuntimeConfig: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000',
   }
 }
 
