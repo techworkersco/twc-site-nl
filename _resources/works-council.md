@@ -53,6 +53,12 @@ Surprisingly, not all companies with more than 50 employees have an OR. This is 
 
 As an example, E Corp claims they are financially struggling, and as a result they want to lay off a significant portion of the workforce. In The Netherlands, the people that are fired can have a right to unemployment benefits - however this right is controlled through the UWV. During any layoff process, the UWV will check for explicit OR consent to the changes that the business is willing to make.
 
+### Less than 50 employes?
+
+TODO: Some basic info on the lesser OR (BRP?).
+
+Less than 50 employees? There are still rights to a very similar structure of an OR, but it needs to be employee initiated.
+
 ## What is the purpose of an OR?
 
 [CITE] text from the lawbooks
