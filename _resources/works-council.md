@@ -53,6 +53,12 @@ Surprisingly, not all companies with more than 50 employees have an OR. This is 
 
 As an example, E Corp claims they are financially struggling, and as a result they want to lay off a significant portion of the workforce. In The Netherlands, the people that are fired can have a right to unemployment benefits - however this right is controlled through the UWV. During any layoff process, the UWV will check for explicit OR consent to the changes that the business is willing to make.
 
+### Less than 50 employes?
+
+TODO: Some basic info on the lesser OR (BRP?).
+
+Less than 50 employees? There are still rights to a very similar structure of an OR, but it needs to be employee initiated.
+
 ## What is the purpose of an OR?
 
 [CITE] text from the lawbooks
@@ -69,14 +75,46 @@ In general, an OR is involved at more of a policy and/or high level decision mak
 
 ## What does an OR NOT do?
 
-TODO: More info here
+Per the above, an OR is generally involved with structural changes to a business. As such, this generally means that they are kept separate from individual employee issues.
+
+As an example, a person may not be happy with their end of year performance appraisal. This can happen to any specific individual, so generally wouldn't be seen as something the OR should address. In the reality of "modern companies", there generally is always a certain percentage of under performers.
+
+Generally speaking, this would become an OR issue when there appears to be a systemic issue. Systemic issues can be from descrimination based on someones personal attributes (gender, race, etc), all the way to how an appraisal system is operated. e.g. if a manager has many underperformers company to another team doing similar work, then are there enough checks and balances to ensure people are not being unfairly targeted.
+
+In summary, OR members generally don't get involved with specific individual issues, however they should always be aware of them to help discover systemic issues.
 
 ## OR members are protected
 
+An OR member should be able to do their OR work without any fear of repercussion. In The Netherlands, this means that OR members have a higher level of scrutiny when it comes to trying to fire them.
 
+Protections may stop an OR member from being fired, however there can be an element of career suicide, depending on how members interact with the Entrepreneur. As much as there is an element of standing up to "management" there is also an element of working with them. Ensuring people that you are working in you and your colleagues best intentions can help.
 
+There are specific sections of the law [CITE] for which protects OR members, in order to keep them operating impartially as mentioned above.
+
+Each situation and company will be different, however it is understood that it is very hard to fire an OR member from the company. There needs to be specific evidence of underperformance and/or wrong doing, and in no way should the reasoning be related to "needing to do OR realted work".
+
+How this may look like in reality is for OR members that have specific monthly/weekly targets. Take a call center agent as an example, they generally have a target related to their hours of work. OR work is done and considered as part of members responsibilties. As such, a call center worker cannot be penalised/performance managed if they are spending time doing OR work that could otherwise be spent on the phones. In short, OR time is work time.
+
+## Who is allowed to be in an OR?
+
+TODO: insert link to wetboek with details on legal minimums. Something like 3+ months in service, no difference for temporal/permanant contracts. Does not count contractors.
+
+Consult the WOR, however for brevity:
+
+- Worked at least 3 months for the company
+- Permanent on temporal contract
+- Doesn't include contractors
+- Can't include the entrepreneur
+- Direct reports to the entrepreneur are allowed, but generally they waive their rights due to a perceived conflict of interest.
+
+## What can an OR actually do though?
 
 ## How disputes are resolved
+
+## What this all looks like in reality
+
+
+
 
 <!-- Links -->
 [techwerkers-github]: https://www.github.com/techworkersco/twc-site-nl
