@@ -26,7 +26,7 @@ TODO: Below is heavy WIP. Needs proof reading, needs content.
 
 # Works Councils
 
-Like some other european countries, The Netherlands has a legally enforced structure called an "Ondernemingsraad". This is often translated into "Works Council", or abbreviated to just "OR". "OR" will be used through the rest of this resource.
+As in some other european countries, The Netherlands has a legally enforced structure for employee representation. In the Netherlands, this is called an "Ondernemingsraad". This is often translated into "Works Council", or abbreviated to just OR. OR will be used through the rest of this resource.
 
 There are legal rights to the formation of an OR, and in many cases, companies are required to have an OR. This resource will hopefully enlighten some common questions around an OR's, how they function, and what they can do for you.
 
@@ -34,7 +34,9 @@ There are legal rights to the formation of an OR, and in many cases, companies a
 
 It should be a given that IANAL and that laws and are fluid and change over time. We will make our best attempts to keep these documents current, however if you note something incorrect, please consider contributing on our [github][techwerkers-github].
 
-In much of this document, measurements may be mentioned. e.g. "Large" change, or "Structural" change. In practise, the scope and/or requirement for some of these are not explicitly written into the law books. This means a lot of this is up to interpretation.
+In much of this document, comparisons and their scale will be mentioned. e.g. "Large" change, or "Structural" change. In practise, "how much is large", "what is structural" is not explicitly defined into the law books. This means a lot of this is up to interpretation - interpretation that eventually falls on judges to make the decision.
+
+In The Netherlands, workers rights are generally well protected, and this has been shown on the public records for court cases that are published each year [CITE: There is a publication of OR court cases].
 
 ## Some terminology
 
@@ -44,6 +46,8 @@ In much of this document, measurements may be mentioned. e.g. "Large" change, or
 ## When is an OR required?
 
 In The Netherlands, any company that has 50 or more employees must have an OR. CITE.
+
+The employees that count to this number are based on the number of people with contracts with the Dutch company. (e.g. multinationals generally have a local representation).
 
 Surprisingly, not all companies with more than 50 employees have an OR. This is largely due to lack of audits and/or assumed good will. In some cases, an OR is required in order to undertake an large and/or structural change to the business. Some of these actions require communication with particular government departments, at which point an explicit content can be required from an OR.
 
@@ -59,7 +63,9 @@ A general understanding is that an OR:
 - Is a sparing partner to The Entrepreneur to ensure changes in the business are understood by the employees
 - Provide structural changes that the employees would like to see in the business.
 
-An OR is considered to be at an equivilient level as the entrepreneur. e.g. one does not have power over the other.
+An OR is considered to be at an equivilient level as the entrepreneur. This means one does not have power over the other.
+
+In general, an OR is involved at more of a policy and/or high level decision making part of a business.
 
 ## What does an OR NOT do?
 
