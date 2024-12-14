@@ -89,6 +89,11 @@ Each situation and company will be different, however it is understood that it i
 
 How this may look like in reality is for OR members that have specific monthly/weekly targets. Take a call center agent as an example, they generally have a target related to their hours of work. OR work is done and considered as part of members responsibilties. As such, a call center worker cannot be penalised/performance managed if they are spending time doing OR work that could otherwise be spent on the phones. In short, OR time is work time.
 
+## Who is allowed to be in an OR?
+
+TODO: insert link to wetboek with details on legal minimums. Something like 3+ months in service, no difference for temporal/permanant contracts. Does not count contractors.
+
+Consult the WOR, however for brevity:
 
 - Worked at least 3 months for the company
 - Permanent on temporal contract
@@ -96,7 +101,14 @@ How this may look like in reality is for OR members that have specific monthly/w
 - Can't include the entrepreneur
 - Direct reports to the entrepreneur are allowed, but generally they waive their rights due to a perceived conflict of interest.
 
+## What can an OR actually do though?
+
 ## How disputes are resolved
+
+## What this all looks like in reality
+
+
+
 
 <!-- Links -->
 [techwerkers-github]: https://www.github.com/techworkersco/twc-site-nl
