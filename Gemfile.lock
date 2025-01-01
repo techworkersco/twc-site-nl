@@ -104,7 +104,7 @@ GEM
       hashery (~> 2.0)
       ruby-rc4
       ttfunk
-    pry (0.15.0)
+    pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (6.0.1)
@@ -131,7 +131,7 @@ GEM
     tzinfo-data (1.2024.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.6.0)
-    webrick (1.9.0)
+    webrick (1.9.1)
     yell (2.2.2)
     zeitwerk (2.6.18)
 
