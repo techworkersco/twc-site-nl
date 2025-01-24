@@ -1,5 +1,8 @@
 # 🤝 Contributing
 
+> [!WARNING]
+> This is out of date at present and will be updated soon
+
 ## Add an event
 
 Add a file inside the [`_events`](_events) directory. Copy a previous file as a template, and make sure to include the right time zone for The Netherlands!
