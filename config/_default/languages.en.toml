@@ -1,0 +1,27 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 2
+
+title = "Tech Workers Coalition"
+copyright = "2025 Tech Workers Coalition"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  mainSections = ["posts"]
+  description = "Would you like more autonomy at work? Better pay? More time off? Work remotely? Less burnout? Make it happen! Join forces with fellow tech workers in and beyond The Netherlands to get the workplace changes you want."
+
+[params.author]
+  name = "Tech Workers Coalition"
+  image = "img/logo-en.png"
+  headline = ""
+  bio = ""
+  links = [
+    { instagram = "https://instagram.com/techwerkers" },
+    # { linkedin = "" },
+    # { bluesky = "https://bsky.app/profile/techwerkers.bsky.social" },
+    # { x-twitter = "" },
+    # { mastodon = "" },
+    { email = "mailto:hey@techwerkers.nl" },
+  ]

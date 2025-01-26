@@ -1,0 +1,30 @@
+languageCode = "nl"
+languageName = "Nederlands"
+languageDirection = "ltr"
+weight = 1
+
+title = "Tech&shy;werkers&shy;coalitie"
+#title = "Techwerkerscoalitie"
+
+copyright = "2025 Techwerkers"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  mainSections = ["posts"]
+  description = "Wil je meer autonomie op je werk? Beter betaald krijgen? Meer vrije tijd? Thuiswerken? Minder burnout? Maak het werkelijkheid! Sla de handen ineen met andere techwerkers om de verbeteringen op je werk te krijgen die jij wilt."
+
+[params.author]
+  name = "Techwerkerscoalitie"
+  image = "img/logo-nl.png"
+  headline = ""
+  bio = ""
+  links = [
+    { instagram = "https://instagram.com/techwerkers" },
+    # { linkedin = "" },
+    # { bluesky = "https://bsky.app/profile/techwerkers.bsky.social" },
+    # { x-twitter = "" },
+    # { mastodon = "" },
+    { email = "mailto:hey@techwerkers.nl" },
+  ]
+
