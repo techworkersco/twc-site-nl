@@ -1,7 +1,5 @@
 module github.com/techworkersco/twc-site-nl
 
-go 1.23.1
+go 1.23
 
-require (
-	github.com/jpanther/congo/v2 v2.10.0 // indirect
-)
+require github.com/jpanther/congo/v2 v2.10.0 // indirect
