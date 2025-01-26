@@ -9,5 +9,8 @@
     },
     "dependencies": {
         "@fontsource-variable/martian-mono": "^5.1.1"
+    },
+    "devDependencies": {
+        "@shopify/prettier-plugin-liquid": "^1.7.0"
     }
 }
