@@ -1,0 +1,54 @@
+- id: events
+  translation: "events"
+- id: events-description
+  translation: "Take part in one of the upcoming events."
+- id: events-upcoming
+  translation: "Upcoming"
+- id: events-previous
+  translation: "Previous"
+- id: more-info
+  translation: "More info"
+- id: join
+  translation: "Join the Tech Workers Coalition"
+- id: join-description
+  translation: "Fill out the following information so we can get to know you better!"
+- id: join-form
+  translation: "Your details"
+- id: name
+  translation: "Name"
+- id: email
+  translation: "Email"
+- id: social-link
+  translation: "Website or social media"
+- id: social-examples
+  translation: "For example LinkedIn, Instagram, Mastodon, etc"
+- id: employer
+  translation: "Employer (if any)"
+- id: workplace
+  translation: "Workplace"
+- id: how-did-hear
+  translation: "How did you hear about the Tech Workers Coalition?"
+- id: your-goals
+  translation: "Your goals"
+- id: like-to-achieve
+  translation: "What would you like to achieve with the Tech Workers Coalition? This will help us connect you with the right people and resources."
+- id: submit
+  translation: "Submit"
+- id: show-all
+  translation: "Show all"
+- id: show-resources
+  translation: "Show all resources"
+- id: read-more
+  translation: "Read more"
+- id: date
+  translation: "Date"
+- id: time
+  translation: "Time"
+- id: locatie
+  translation: "Location"
+- id: organizer
+  translation: "Organizer"
+- id: featured
+  translation: "Featured"
+- id: resources-description
+  translation: "Guides and resources for tech workers."

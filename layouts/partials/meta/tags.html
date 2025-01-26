@@ -1,0 +1,11 @@
+          <!-- Tag Link -->
+          {{ $tags := .Params.tags }}
+          {{ if $tags }}
+              <div class="mb-2">
+                  {{ range $tags }}
+                      <a href="{{ .Site.Language.Lang | printf "/%s/tags/%s" . | urlize }}" class="bg-blue-100 text-blue-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md mb-2">
+                          {{ . }}
+                      </a>
+                  {{ end }}
+              </div>
+          {{ end }}
