@@ -4,9 +4,9 @@
 https://techwerkers.netlify.com/* https://techwerkers.nl/:splat 301!
 
 # Root domain redirects
-# / /nl/ 301! Language=nl
-# / /en/ 301! Language=en
-# / /en/ 301!
+/ /nl/ 301! Language=nl
+/ /en/ 301! Language=en
+/ /en/ 301!
 
 # Note: do not include /* redirects, because you are likely to end up in a loop
 # unless they're in the localised list above
