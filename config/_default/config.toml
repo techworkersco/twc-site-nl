@@ -3,6 +3,7 @@
 # https://jpanther.github.io/congo/docs/getting-started/
 
 defaultContentLanguage = "nl"
+defaultContentLanguageInSubdir = true
 
 disableKinds = ["taxonomy", "term"]
 
