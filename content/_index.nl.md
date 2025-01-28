@@ -4,7 +4,7 @@ description: "Wil je meer autonomie op je werk? Maak het werkelijkheid. Sluit je
 ---
 
 <span class="flex justify-center uppercase font-mono">
-  {{< button href="join" >}}
+  {{< button href="nl/join" >}}
     Doe mee
   {{< /button >}}
 </span>
