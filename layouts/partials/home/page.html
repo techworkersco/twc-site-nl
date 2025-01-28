@@ -8,16 +8,17 @@
   <!-- <img src="/img/author.jpg" class="m-auto max-w-full"></img> -->
 
   <section class="prose max-w-full">
-  <div class="lead text-center text-xl lg:text-2xl flex justify-center">
-    <div class="max-w-3xl">
-    {{ .Site.Params.Description | emojify }}
-  </div>
-  </div>
-  <div class="mb-8 flex justify-center">{{ .Content | emojify }}</div>
+    <div class="lead text-center text-xl lg:text-2xl flex justify-center">
+      <div class="max-w-3xl">
+        {{ .Site.Params.Description | emojify }}
+      </div>
+    </div>
+    <div class="mb-8 flex justify-center">{{ .Content | emojify }}</div>
+  </section>
 </section>
-</article>
+
 <section>
-{{ partial "gallery.html" . }}
+  {{ partial "gallery.html" . }}
 </section>
 
 <section class="not-prose">
