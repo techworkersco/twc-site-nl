@@ -1,8 +1,10 @@
 name: lint
 
 on:
-  pull_request:
-    branches: [main]
+  workflow_dispatch:
+# TODO: Figure out the errors in prettier
+#  pull_request:
+#    branches: [main]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref }}

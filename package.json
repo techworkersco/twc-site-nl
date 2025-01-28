@@ -11,6 +11,7 @@
         "@fontsource-variable/martian-mono": "^5.1.1"
     },
     "devDependencies": {
-        "@shopify/prettier-plugin-liquid": "^1.7.0"
+        "prettier-plugin-go-template": "^0.0.15",
+        "prettier-plugin-tailwindcss": "^0.6.11"
     }
 }
