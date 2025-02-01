@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/techworkersco/twc-site-nl#readme",
   "devDependencies": {
-    "@shopify/prettier-plugin-liquid": "^1.6.3",
+    "@shopify/prettier-plugin-liquid": "^1.7.2",
     "husky": "^9.1.7",
     "prettier": "^3.4.2"
   },
