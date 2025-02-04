@@ -1,0 +1,10 @@
+{{ $base_url := .Site.BaseURL }}
+<a
+  class="rounded-md bg-primary-600 px-4 py-2 text-neutral no-underline hover:bg-primary-500 hover:rounded-md"
+  {{ with .Get "href" }}href="{{ . | relLangURL }}"{{ end }}
+  {{ with .Get "target" }}target="{{ . }}"{{ end }}
+  {{ with .Get "download" }}download="{{ . }}"{{ end }}
+  role="button"
+>
+  {{ .Inner }}
+</a>

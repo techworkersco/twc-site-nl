@@ -1,24 +1,17 @@
 {
-  "name": "twc-site-nl",
-  "description": "This repository is responsible for most content visible on the website [techwerkers.nl](https://techwerkers.nl). The site is made with a static site generator called [Jekyll](https://jekyllrb.com/) in a language called Ruby.",
-  "scripts": {
-    "prepare": "husky"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/techworkersco/twc-site-nl.git"
-  },
-  "bugs": {
-    "url": "https://github.com/techworkersco/twc-site-nl/issues"
-  },
-  "homepage": "https://github.com/techworkersco/twc-site-nl#readme",
-  "devDependencies": {
-    "@shopify/prettier-plugin-liquid": "^1.7.2",
-    "husky": "^9.1.7",
-    "prettier": "^3.4.2"
-  },
-  "lint-staged": {
-    "*.{js,css,md}": "prettier . --write"
-  },
-  "dependencies": {}
+    "name": "techwerkers",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "server": "hugo server -b http://localhost -p 8000",
+        "dev": "NODE_ENV=development ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
+        "build": "NODE_ENV=production ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
+    },
+    "dependencies": {
+        "@fontsource-variable/martian-mono": "^5.1.1"
+    },
+    "devDependencies": {
+        "prettier-plugin-go-template": "^0.0.15",
+        "prettier-plugin-tailwindcss": "^0.6.11"
+    }
 }

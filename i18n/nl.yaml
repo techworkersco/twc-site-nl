@@ -1,0 +1,54 @@
+- id: events
+  translation: "activiteiten"
+- id: events-description
+  translation: "Doe mee met één van de aankomende activiteiten."
+- id: events-upcoming
+  translation: "Agenda"
+- id: events-previous
+  translation: "Eerder"
+- id: more-info
+  translation: "Meer info"
+- id: join
+  translation: "Doe mee met de Techwerkerscoalitie"
+- id: join-description
+  translation: "Vul de volgende gegevens in, zodat we je alvast iets beter kunnen leren kennen!"
+- id: join-form
+  translation: "Je gegevens"
+- id: name
+  translation: "Naam"
+- id: email
+  translation: "Email"
+- id: social-link
+  translation: "Website of sociale media"
+- id: social-examples
+  translation: "Bijvoorbeeld LinkedIn, Instagram, Mastodon, enz"
+- id: employer
+  translation: "Werkgever (waar van toepassing)"
+- id: workplace
+  translation: "Werkgever"
+- id: how-did-hear
+  translation: "Hoe hoorde je over Techwerkers?"
+- id: your-goals
+  translation: "Jouw doelen"
+- id: like-to-achieve
+  translation: "Wat zou je met de Techwerkerscoalitie willen bereiken? Dit helpt ons om je met de juiste mensen en middelen in contact te brengen."
+- id: submit
+  translation: "Verstuur"
+- id: show-all
+  translation: "Toon alle"
+- id: show-resources
+  translation: "Naar de kennisbank"
+- id: read-more
+  translation: "Lees meer"
+- id: date
+  translation: "Datum"
+- id: time
+  translation: "Tijd"
+- id: locatie
+  translation: "Locatie"
+- id: organizer
+  translation: "Organisatie"
+- id: featured
+  translation: "Uitgelicht"
+- id: resources-description
+  translation: "Handige info voor techwerkers."

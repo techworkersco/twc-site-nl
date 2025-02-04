@@ -1,0 +1,56 @@
+[build]
+  command = "hugo --gc --minify"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.142.0"
+
+# Set base URL for deploying previews
+[context.deploy-preview]
+  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+
+# Set base URL for deploying branches
+[context.branch-deploy]
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "https://techwerkers.netlify.com/*"
+  to = "https://techwerkers.nl/:splat"
+  status = 301
+  force = true
+
+# Root domain redirect based on Accept header
+[[redirects]]
+  from = "/"
+  to = "/nl/"
+  status = 301
+  force = true
+  conditions = {Language = "nl"}
+
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+# Default root domain redirect
+[[redirects]]
+  from = "/"
+  to = "/nl/"
+  status = 301
+  force = true
+
+# Localised 404 redirects
+# Netlify shadowing means that pages that do exist behind the * will render if they exist
+#   otherwise they will return the referenced 404.
+[[redirects]]
+  from = "/en/*"
+  to = "/en/404.html"
+  status = 404
+
+[[redirects]]
+  from = "/nl/*"
+  to = "/nl/404.html"
+  status = 404

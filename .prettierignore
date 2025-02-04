@@ -1,2 +1,11 @@
-events.yml
-_events/
+#/assets/css/compiled/
+#/assets/lib/
+
+# From upstream congo
+/layouts/_default/*.json
+/layouts/partials/picture.html
+/layouts/shortcodes/figure.html
+/layouts/shortcodes/screenshot.html
+
+# TODO: See if we can remove these ignores
+/layouts/partials/resource-link.html

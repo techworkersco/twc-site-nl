@@ -1,5 +1,8 @@
 # 🛠️ Installation
 
+> [!WARNING]
+> This is out of date at present and will be updated soon
+
 ## Formatting
 
 Install prettier and precommit hooks: `npm install`
