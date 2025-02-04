@@ -15,7 +15,7 @@
 
 # Redirect default Netlify subdomain to primary domain
 [[redirects]]
-  from = https://techwerkers.netlify.com/*
+  from = "https://techwerkers.netlify.com/*"
   to = "https://techwerkers.nl/:splat"
   status = 301
   force = true
