@@ -35,6 +35,49 @@
   status = 301
   force = true
 
+# Root Redirects for localised content types.
+# Netlify splat operator cannot be used on root due to it redirecting FE assets
+# Adding new content types:
+#  - There should be a pair of "en" and "default" (nl) for each content type
+[[redirects]]
+  from = "/events"
+  to = "/en/events"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/events"
+  to = "/nl/events"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/join"
+  to = "/en/join"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/join"
+  to = "/nl/join"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources"
+  to = "/en/resources"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/resources"
+  to = "/nl/resources"
+  status = 301
+  force = true
+
 # Localised 404 redirects
 # Netlify shadowing means that pages that do exist behind the * will render if they exist
 #   otherwise they will return the referenced 404.
