@@ -23,13 +23,6 @@
 # Root domain redirect based on Accept header
 [[redirects]]
   from = "/"
-  to = "/nl/"
-  status = 301
-  force = true
-  conditions = {Language = "nl"}
-
-[[redirects]]
-  from = "/"
   to = "/en/"
   status = 301
   force = true
