@@ -21,6 +21,7 @@
   force = true
 
 # Root domain redirect based on Accept header
+# Netlify only redirects on first lang. NL is the default otherwise.
 [[redirects]]
   from = "/"
   to = "/en/"
@@ -28,7 +29,6 @@
   force = true
   conditions = {Language = "en"}
 
-# Default root domain redirect
 [[redirects]]
   from = "/"
   to = "/nl/"
@@ -44,6 +44,6 @@
   status = 404
 
 [[redirects]]
-  from = "/nl/*"
+  from = "/*"
   to = "/nl/404.html"
   status = 404
