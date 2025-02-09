@@ -21,13 +21,7 @@
   force = true
 
 # Root domain redirect based on Accept header
-[[redirects]]
-  from = "/"
-  to = "/nl/"
-  status = 301
-  force = true
-  conditions = {Language = "nl"}
-
+# Netlify only redirects on first lang. NL is the default otherwise.
 [[redirects]]
   from = "/"
   to = "/en/"
@@ -35,10 +29,52 @@
   force = true
   conditions = {Language = "en"}
 
-# Default root domain redirect
 [[redirects]]
   from = "/"
   to = "/nl/"
+  status = 301
+  force = true
+
+# Root Redirects for localised content types.
+# Netlify splat operator cannot be used on root due to it redirecting FE assets
+# Adding new content types:
+#  - There should be a pair of "en" and "default" (nl) for each content type
+[[redirects]]
+  from = "/events"
+  to = "/en/events"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/events"
+  to = "/nl/events"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/join"
+  to = "/en/join"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/join"
+  to = "/nl/join"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources"
+  to = "/en/resources"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/resources"
+  to = "/nl/resources"
   status = 301
   force = true
 
@@ -51,6 +87,6 @@
   status = 404
 
 [[redirects]]
-  from = "/nl/*"
+  from = "/*"
   to = "/nl/404.html"
   status = 404
