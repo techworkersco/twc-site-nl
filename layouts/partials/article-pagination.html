@@ -24,7 +24,7 @@
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500">
                   {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
-                    {{ partial "meta/date.html" $prev.Params.event_date }}
+                    {{ partial "meta/date.html" $prev.Date }}
                   {{ end }}
                 </span>
               </span>
@@ -41,7 +41,7 @@
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500">
                   {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
-                    {{ partial "meta/date.html" $next.Params.event_date }}
+                    {{ partial "meta/date.html" $next.Date }}
                   {{ end }}
                 </span>
               </span>

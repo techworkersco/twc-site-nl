@@ -1,0 +1,128 @@
+local_backend: true
+
+publish_mode: editorial_workflow
+
+backend:
+  name: git-gateway
+  branch: main
+  accept_roles:
+    - admin
+    - editor
+  # we don't need draft history
+  squash_merges: true
+
+media_folder: static/img
+public_folder: /img
+
+i18n:
+  structure: multiple_files
+  locales: [nl, en]
+  default_locale: nl
+
+# We are using hugo standard for the content. This means:
+# - content is in yaml frontmatter based markdown files
+# - slug is just `index`, which turns into `index.<locale>.md`
+# - the path is the `<real slug>/index.<locale>.md` (`{{slug}} is index.<locale>.md`
+# - `media_folder` and `public_folder` are empty, which stores assets next to the markdown
+
+collections:
+  - name: resources
+    label: Resources
+    format: yaml-frontmatter
+    extension: md
+    folder: content/resources
+    create: true
+    slug: "index"
+    path: "{{title}}/{{slug}}"
+    media_folder: ''
+    public_folder: ''
+    i18n: true
+    # Hack to hide the resources index
+    filter: 
+      field: layout
+      value: single-resource
+    fields:
+      - label: Layout
+        name: layout
+        widget: hidden
+        default: single-resource
+        i18n: duplicate
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Description
+        name: description
+        widget: text
+        i18n: true
+      - label: Created Date
+        name: date
+        widget: datetime
+        i18n: duplicate
+      - label: Last Modified Date
+        name: lastmod
+        widget: datetime
+        i18n: duplicate
+      - label: Tags
+        name: tags
+        widget: list
+        i18n: true
+        default: []
+        allow_add: true
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - name: events
+    label: Events
+    format: yaml-frontmatter
+    extension: md
+    folder: content/events
+    create: true
+    slug: "index"
+    # NOTE: The date here is the date of creation. There's sadly no way to use the event date.
+    # This can be overriden later in the repo. It's just used by decap on creation.
+    path: "{{year}}-{{month}}-{{day}}-{{title}}/{{slug}}"
+    # This is just the view in decap CMS
+    summary: "{{fields.date | date('YYYY-MM-DD')}} - {{fields.title}}"
+    media_folder: ''
+    public_folder: ''
+    i18n: true
+    # Hack to hide the resources 
+    filter: 
+      field: layout
+      value: single-event
+    fields:
+      - label: Layout
+        name: layout
+        widget: hidden
+        default: single-event
+        i18n: duplicate
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Event Date
+        name: date
+        widget: datetime
+        i18n: duplicate
+        format: "YYYY-MM-DDTHH:mm:ssZ"
+      - label: Location
+        name: location
+        widget: string
+        i18n: duplicate
+      - label: Organisation
+        name: organisation
+        widget: string
+        i18n: duplicate
+        hint: The organisation running the event (if not Techwerkers)
+      - label: Tags
+        name: tags
+        widget: list
+        i18n: true
+        default: []
+        allow_add: true
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true

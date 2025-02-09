@@ -7,7 +7,7 @@
 
 # Set base URL for deploying previews
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 # Set base URL for deploying branches
 [context.branch-deploy]

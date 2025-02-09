@@ -26,12 +26,8 @@
 
 
       <dt class="text-xl font-mono text-gray-900 mb-4">
-        {{ if ne .Params.event_date nil }}
-            <div>{{ dateFormat "Mon 2 Jan 2006" .Params.event_date }}</div>
-        {{ end }}
-        {{ if ne .Params.event_time nil }}
-            <div>{{ .Params.event_time }}</div>
-         {{ end }}
+          <div>{{ dateFormat "Mon 2 Jan 2006" .Date }}</div>
+          <div>{{ dateFormat "15:04" .Date }}</div>
          {{ if ne .Params.location nil }}
             <div> {{ i18n "location" }} {{ .Params.location }}</div>
         {{ end }}
