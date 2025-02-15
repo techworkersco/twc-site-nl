@@ -1,5 +1,5 @@
 ---
-title: 'Organizing for Power: Core Fundamentals Training | Session #1'
+title: "Organizing for Power: Core Fundamentals Training | Session #1"
 date: 2025-02-13T18:00:00+01:00
 location: "Online"
 organisation: ""
@@ -7,9 +7,9 @@ tags: ["training"]
 layout: "single-event"
 ---
 
-*Organizing for Power: Core Fundamentals Training* is an intensive training programme where you'll learn how to win more of the campaigns that matter to you!
+_Organizing for Power: Core Fundamentals Training_ is an intensive training programme where you'll learn how to win more of the campaigns that matter to you!
 
-Training is free and open to all. You'll do six weekly two-hour sessions that consist of a mixture of lectures and some hands-on practice time. There'll also be some prep tasks to complete on your own time. 
+Training is free and open to all. You'll do six weekly two-hour sessions that consist of a mixture of lectures and some hands-on practice time. There'll also be some prep tasks to complete on your own time.
 
 Sessions are held online on Thursdays from 18.00 to 20.00 CET, from 13 February to 20 March 2025.
 
@@ -26,4 +26,4 @@ Would you like to take part? Awesome! Fill out the registration form by 26 Janua
 
 [**Register for the training**](https://tally.so/r/nPBqdP)
 
-*Note: This training can only go through if there are sufficient expressions of interest. So bring along friends, coworkers, comrades & acquaintances!*
+_Note: This training can only go through if there are sufficient expressions of interest. So bring along friends, coworkers, comrades & acquaintances!_

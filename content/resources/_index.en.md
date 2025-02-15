@@ -8,4 +8,3 @@ cascade:
   invertPagination: true
 layout: "resources"
 ---
-

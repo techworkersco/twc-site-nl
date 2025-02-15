@@ -13,13 +13,13 @@
           {{ if $prev }}
             <a class="group flex" href="{{ $prev.RelPermalink }}">
               <span
-                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600"
+                class="group-hover:text-primary-600 me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px]"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
                 ><span class="ltr:hidden rtl:inline">&rarr;</span></span
               >
               <span class="flex flex-col">
                 <span
-                  class="mt-[0.1rem] text-medium leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  class="text-medium group-hover:decoration-primary-500 mt-[0.1rem] leading-6 group-hover:underline"
                   >{{ $prev.Title | emojify }}</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500">
@@ -36,7 +36,7 @@
             <a class="group flex text-right" href="{{ $next.RelPermalink }}">
               <span class="flex flex-col">
                 <span
-                  class="mt-[0.1rem] leading-6 text-medium  group-hover:underline group-hover:decoration-primary-500"
+                  class="text-medium group-hover:decoration-primary-500 mt-[0.1rem] leading-6 group-hover:underline"
                   >{{ $next.Title | emojify }}</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500">
@@ -46,7 +46,7 @@
                 </span>
               </span>
               <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px] group-hover:text-primary-600"
+                class="group-hover:text-primary-600 ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[-2px]"
                 ><span class="ltr:inline rtl:hidden">&rarr;</span
                 ><span class="ltr:hidden rtl:inline">&larr;</span></span
               >

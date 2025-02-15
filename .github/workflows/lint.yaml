@@ -2,9 +2,8 @@ name: lint
 
 on:
   workflow_dispatch:
-# TODO: Figure out the errors in prettier
-#  pull_request:
-#    branches: [main]
+  pull_request:
+    branches: [main]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref }}
@@ -27,7 +26,7 @@ jobs:
       - name: Set up node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install dependencies
         run: npm install

@@ -4,7 +4,7 @@
     {{ range . }}
       {{ with index $links . }}
         <a
-          class="px-1 transition-transform text-xl text-neutral-400 hover:scale-125 hover:text-primary-600"
+          class="hover:text-primary-600 px-1 text-xl text-neutral-400 transition-transform hover:scale-125"
           href="{{ printf .url $.Permalink $.Title }}"
           title="{{ i18n .title }}"
           aria-label="{{ i18n .title }}"

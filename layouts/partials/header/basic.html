@@ -21,9 +21,7 @@
                     title="{{ .Title | default (i18n "search.open_button_title") }}"
                   >
                     {{ with .Params.icon | default "search" }}
-                      <span
-                        class="transition-colors group-hover:text-primary-600"
-                      >
+                      <span class="group-hover:text-primary-600 transition-colors">
                         {{- partial "icon.html" . -}}
                       </span>
                     {{- end -}}{{- if .Params.showName | default true -}}
@@ -42,7 +40,7 @@
                   aria-label="appearance switcher"
                 >
                   <span
-                    class="inline transition-colors group-hover:text-primary-600"
+                    class="group-hover:text-primary-600 inline transition-colors"
                     title="{{ i18n "footer.dark_appearance" }}"
                   >
                     {{ with .Params.icon | default "moon" }}
@@ -56,7 +54,7 @@
                     {{ end }}
                   </span>
                   <span
-                    class="hidden transition-colors group-hover:text-primary-600"
+                    class="group-hover:text-primary-600 hidden transition-colors"
                     title="{{ i18n "footer.light_appearance" }}"
                   >
                     {{ with .Params.icon | default "sun" }}
@@ -79,9 +77,7 @@
                   title="{{ .Title }}"
                   {{ with .Params.target }}target="{{ . }}"{{ end }}
                   >{{ with .Params.icon }}
-                    <span
-                      class="transition-colors group-hover:text-primary-600"
-                    >
+                    <span class="group-hover:text-primary-600 transition-colors">
                       {{- partial "icon.html" . -}}
                     </span>
                   {{- end -}}{{- if .Params.showName | default true -}}
@@ -97,9 +93,7 @@
           {{ if and ($.Site.Params.enableSearch | default false) (eq ($.Scratch.Get "searchCount") 0) }}
             <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0">
               <button id="search-button-m0" title="{{ i18n "search.open_button_title" }}">
-                <span
-                  class="transition-colors group-hover:text-primary-600"
-                >
+                <span class="group-hover:text-primary-600 transition-colors">
                   {{ partial "icon.html" "search" }}
                 </span>
               </button>

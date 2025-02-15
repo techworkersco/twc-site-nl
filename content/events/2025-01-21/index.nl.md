@@ -1,5 +1,5 @@
 ---
-title: 'Rubber Ducky Collective: Programmeren voor Beginners'
+title: "Rubber Ducky Collective: Programmeren voor Beginners"
 date: 2025-01-21T18:00:00+01:00
 location: "Catu, Catullusweg 11, Rotterdam"
 organisation: "Rubber Ducky Collective"
@@ -20,4 +20,4 @@ Techwerkerscoalitie-flyers zullen beschikbaar zijn bij de skillshare.
 26 januari 2025, 15:00 uur  
 Catu  
 Catullusweg 11  
-Rotterdam  
+Rotterdam

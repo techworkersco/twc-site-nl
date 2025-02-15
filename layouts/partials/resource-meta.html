@@ -39,7 +39,7 @@
           {{ range $context.GetTerms $taxonomy }}
             <a
               href="{{ .RelPermalink }}"
-              class="mr-2 my-1 rounded-md lowercase border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700"
+              class="hover:border-primary-300 hover:text-primary-700 my-1 mr-2 rounded-md border border-neutral-200 px-1 py-[1px] lowercase"
               >{{ .LinkTitle }}</a
             >
           {{ end }}
@@ -47,6 +47,7 @@
       {{ end }}
     </div>
   {{ end }}
+
 
   <div class="ml-4">
     {{/* Output partials */}}

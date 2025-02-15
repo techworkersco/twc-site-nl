@@ -1,7 +1,7 @@
 {{- if .Site.Params.header.logo_en }}
   {{- $logoPath := "" }}
   {{- $logoDarkPath := "" }}
-  
+
   {{- if eq .Site.Language.Lang "en" }}
     {{- $logoPath = .Site.Params.header.logo_en }}
     {{- $logoDarkPath = .Site.Params.header.logoDark_en }}
@@ -21,7 +21,7 @@
         width="{{ div $logo.Width 2 }}"
         height="{{ div $logo.Height 2 }}"
         class="max-h-[10rem] max-w-[10rem] object-scale-down object-left
-        {{ if $logo_dark }}hidden {{ end }}"
+        {{ if $logo_dark }}hidden{{ end }}"
         alt="{{ .Site.Title }}"
       />
       {{- if $logo_dark }}

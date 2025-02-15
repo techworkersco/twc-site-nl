@@ -2,13 +2,17 @@
 <section class="max-w-full">
   {{ with .Site.Title }}
     <header class="flex justify-center">
-      <h1 class="text-center text-5xl font-bold mb-6 lg:mb-16 md:text-6xl lg:text-8xl hyphens-auto font-mono tracking-tight">{{ . | emojify }}</h1>
+      <h1
+        class="mb-6 hyphens-auto text-center font-mono text-5xl font-bold tracking-tight md:text-6xl lg:mb-16 lg:text-8xl"
+      >
+        {{ . | emojify }}
+      </h1>
     </header>
   {{ end }}
   <!-- <img src="/img/author.jpg" class="m-auto max-w-full"></img> -->
 
   <section class="prose max-w-full">
-    <div class="lead text-center text-xl lg:text-2xl flex justify-center">
+    <div class="lead flex justify-center text-center text-xl lg:text-2xl">
       <div class="max-w-3xl">
         {{ .Site.Params.Description | emojify }}
       </div>
