@@ -34,7 +34,6 @@
     (and (eq $scope "single") (.Params.showTaxonomies | default (.Site.Params.article.showTaxonomies | default false)))
   }}
     <div class="my-6 flex flex-wrap text-xs leading-relaxed text-neutral-500">
-        <div>
       {{ range $taxonomy, $terms := .Site.Taxonomies }}
         {{ if (gt (len ($context.GetTerms $taxonomy)) 0) }}
           {{ range $context.GetTerms $taxonomy }}
@@ -60,6 +59,4 @@
       <span class="ps-2">{{ partial "badge.html" (i18n "article.draft" | emojify) }}</span>
     {{ end }}
   </div>
-</div>
-
 {{ end }}
