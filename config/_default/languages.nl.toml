@@ -4,8 +4,6 @@ languageDirection = "ltr"
 weight = 1
 
 title = "Tech&shy;werkers&shy;coalitie"
-#title = "Techwerkerscoalitie"
-
 copyright = "2025 Techwerkers"
 
 [params]
