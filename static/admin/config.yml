@@ -55,6 +55,17 @@ collections:
         name: description
         widget: text
         i18n: true
+      - label: Feature Image
+        name: feature
+        widget: image
+        allow_multiple: false
+        i18n: true
+        choose_url: true
+      - label: Feature Image Alt Text
+        name: featureAlt
+        widget: string
+        i18n: true
+        required: false
       - label: Created Date
         name: date
         widget: datetime
@@ -63,6 +74,7 @@ collections:
         name: lastmod
         widget: datetime
         i18n: duplicate
+        required: false
       - label: Tags
         name: tags
         widget: list

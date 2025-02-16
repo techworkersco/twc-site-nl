@@ -5,6 +5,7 @@ lastmod: "2025-01-22"
 description: "As a tech worker in the Netherlands, you may run into collective labour agreements (CAOs). But what is a collective labour agreement? How does it work? What's in it? Here's the basics on collective labour agreements in the Netherlands."
 tags: ["rights"]
 layout: "single-resource"
+feature: "feature-office-celebration.jpg"
 ---
 
 ## Terminology
