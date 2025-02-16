@@ -2,6 +2,8 @@
 layout: single-resource
 title: What is Tech Workers Coalition?
 description: You're at our website, find out more about us!
+feature: twc-techwerkersnl-netherlands.png
+featureAlt: The logo of TWC NL
 date: 2025-02-15T14:17:00.000Z
 lastmod: 2025-02-15T14:29:00.000Z
 tags:
@@ -32,7 +34,7 @@ TWC serves as a hub for those who believe the tech industry must be changed by i
 
 We provide logistical and infrastructural support to create connections, with both in person events like conferences, and digital spaces like communities. We build intentional relationships between workers, unions, and other labor organizations.
 
-## **Solidarity & class consciousness**
+## Solidarity & class consciousness
 
 TWC is a worker-led organization. We know that the tech industry causes harm and exploitation. As a result, building bridges between the affected people, and understanding ourselves as workers who are also exploited, is important for TWC, because we know all workers are linked in our struggles. 
 
