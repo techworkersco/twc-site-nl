@@ -1,10 +1,15 @@
 ---
-title: "What's a collective labour agreement (CAO)?"
-date: "2025-01-22"
-lastmod: "2025-01-22"
-description: "As a tech worker in the Netherlands, you may run into collective labour agreements (CAOs). But what is a collective labour agreement? How does it work? What's in it? Here's the basics on collective labour agreements in the Netherlands."
-tags: ["rights"]
-layout: "single-resource"
+layout: single-resource
+title: What's a collective labour agreement (CAO)?
+description: As a tech worker in the Netherlands, you may run into collective
+  labour agreements (CAOs). But what is a collective labour agreement? How does
+  it work? What's in it? Here's the basics on collective labour agreements in
+  the Netherlands.
+feature: feature-office-celebration.jpg
+date: 2025-01-22
+lastmod: 2025-01-22
+tags:
+  - rights
 ---
 
 ## Terminology
