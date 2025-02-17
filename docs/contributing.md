@@ -34,7 +34,7 @@ hugo server
 npx decap-server
 ```
 
-Then open https://localhost:1313/admin in your browser to see the Decap CMS. Any new content/changes will be saved to
+Then open https://localhost:1313/admin in your browser to see the Decap CMS. Any new content or changes will be saved to
 disk, so you can commit and make a PR as per normal.
 
 ## Developing the site
