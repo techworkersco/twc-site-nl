@@ -46,7 +46,7 @@ You will need to have [Hugo](https://gohugo.io/getting-started/installing/) inst
 Also, we use prettier for formatting.
 
 ```sh
-npm i  # if you haven't already
+npm i  # Install, if you haven't already
 npx prettier --write .
 ```
 
