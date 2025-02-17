@@ -23,7 +23,7 @@ General writing guidelines:
 - Use inclusive language
 
 **Internationalization** - We want to have our site in at least Dutch and English. If you are unable to provide one or the
-other, please write in the language you can, and ask for translation help in the slack channel.
+other, please write in the language you can, and ask for translation help in the `#local-netherlands` Tech Workers Coalition Slack channel.
 
 ### Running `decap-server`
 
