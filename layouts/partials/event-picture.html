@@ -5,8 +5,17 @@
 
 {{ if $img }}
   <picture class="{{ $class }}">
-    <source srcset="{{ $img.RelPermalink }}" type="{{ $img.MediaType }}">
-    <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" class="{{ $class }}" loading="{{ if $lazy }}lazy{{ else }}eager{{ end }}" />
+    <source srcset="{{ $img.RelPermalink }}" type="{{ $img.MediaType }}" />
+    <img
+      src="{{ $img.RelPermalink }}"
+      alt="{{ $alt }}"
+      class="{{ $class }}"
+      loading="{{ if $lazy }}
+        lazy
+      {{ else }}
+        eager
+      {{ end }}"
+    />
   </picture>
 {{ else }}
   <p>No image found.</p>

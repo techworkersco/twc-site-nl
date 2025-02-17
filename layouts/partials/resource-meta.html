@@ -34,13 +34,12 @@
     (and (eq $scope "single") (.Params.showTaxonomies | default (.Site.Params.article.showTaxonomies | default false)))
   }}
     <div class="my-6 flex flex-wrap text-xs leading-relaxed text-neutral-500">
-        <div>
       {{ range $taxonomy, $terms := .Site.Taxonomies }}
         {{ if (gt (len ($context.GetTerms $taxonomy)) 0) }}
           {{ range $context.GetTerms $taxonomy }}
             <a
               href="{{ .RelPermalink }}"
-              class="mr-2 my-1 rounded-md lowercase border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700"
+              class="hover:border-primary-300 hover:text-primary-700 my-1 mr-2 rounded-md border border-neutral-200 px-1 py-[1px] lowercase"
               >{{ .LinkTitle }}</a
             >
           {{ end }}
@@ -48,6 +47,7 @@
       {{ end }}
     </div>
   {{ end }}
+
 
   <div class="ml-4">
     {{/* Output partials */}}
@@ -60,6 +60,4 @@
       <span class="ps-2">{{ partial "badge.html" (i18n "article.draft" | emojify) }}</span>
     {{ end }}
   </div>
-</div>
-
 {{ end }}

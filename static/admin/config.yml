@@ -34,11 +34,11 @@ collections:
     create: true
     slug: "index"
     path: "{{title}}/{{slug}}"
-    media_folder: ''
-    public_folder: ''
+    media_folder: ""
+    public_folder: ""
     i18n: true
     # Hack to hide the resources index
-    filter: 
+    filter:
       field: layout
       value: single-resource
     fields:
@@ -85,11 +85,11 @@ collections:
     path: "{{year}}-{{month}}-{{day}}-{{title}}/{{slug}}"
     # This is just the view in decap CMS
     summary: "{{fields.date | date('YYYY-MM-DD')}} - {{fields.title}}"
-    media_folder: ''
-    public_folder: ''
+    media_folder: ""
+    public_folder: ""
     i18n: true
-    # Hack to hide the resources 
-    filter: 
+    # Hack to hide the resources
+    filter:
       field: layout
       value: single-event
     fields:

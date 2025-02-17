@@ -28,10 +28,10 @@ document.addEventListener("keydown", function (event) {
   // We don't need search on `/`, and it interrupts form entry
   // Forward slash to open search wrapper
   //if (event.key == "/") {
-    //if (!searchVisible) {
-      //event.preventDefault();
-      //displaySearch();
-    //}
+  //if (!searchVisible) {
+  //event.preventDefault();
+  //displaySearch();
+  //}
   //}
 
   // Esc to close search wrapper

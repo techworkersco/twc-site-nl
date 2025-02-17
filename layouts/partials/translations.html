@@ -12,7 +12,7 @@
     {{ if hugo.IsMultilingual }}
       <div class="group relative">
         <button
-          class="flex w-full items-center justify-end transition-colors group-hover:text-primary-600"
+          class="group-hover:text-primary-600 flex w-full items-center justify-end transition-colors"
         >
           {{ partial "icon.html" "translate" }}<span class="text-sm">{{ .Lang | upper }}</span
           ><span class="text-[0.6rem]"
@@ -23,7 +23,9 @@
           <div class="invisible w-full bg-transparent group-hover:visible"></div>
         {{ end }}
         <div
-          class="{{ if not (eq $dir "down") }} bottom-7 {{ end }} invisible absolute z-50 flex flex-col whitespace-nowrap rounded border border-neutral-300 bg-neutral text-start text-base shadow group-hover:visible ltr:right-0 rtl:left-0"
+          class="{{ if not (eq $dir "down") }}
+            bottom-7
+          {{ end }} bg-neutral invisible absolute z-50 flex flex-col whitespace-nowrap rounded border border-neutral-300 text-start text-base shadow group-hover:visible ltr:right-0 rtl:left-0"
         >
           {{ $siteLanguages := site.Languages }}
           {{ $pageLang := .Page.Lang }}
@@ -36,16 +38,15 @@
                   {{ if eq $pageLang .Lang }}
                     <a
                       href="{{ $translation.RelPermalink }}"
-                      class="flex w-full items-center justify-between bg-primary-100 px-4 py-2"
-                      >{{ .LanguageName }}<span
-                        class="ms-2 w-6 text-primary-600"
+                      class="bg-primary-100 flex w-full items-center justify-between px-4 py-2"
+                      >{{ .LanguageName }}<span class="text-primary-600 ms-2 w-6"
                         >{{ partial "icon.html" "check" }}</span
                       ></a
                     >
                   {{ else }}
                     <a
                       href="{{ $translation.RelPermalink }}"
-                      class="flex w-full px-4 py-2 pe-10 ps-4 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                      class="decoration-primary-500 flex w-full px-4 py-2 pe-10 ps-4 hover:underline hover:decoration-2 hover:underline-offset-2"
                       >{{ .LanguageName }}</a
                     >
                   {{ end }}

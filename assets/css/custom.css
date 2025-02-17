@@ -1,64 +1,75 @@
 @font-face {
-  font-family: 'Onest';
-  src: url('/fonts/onest/Onest-Regular.woff2') format('woff2');
+  font-family: "Onest";
+  src: url("/fonts/onest/Onest-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Onest';
-  src: url('/fonts/onest/Onest-SemiBold.woff2') format('woff2');
+  font-family: "Onest";
+  src: url("/fonts/onest/Onest-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Onest';
-  src: url('/fonts/onest/Onest-Bold.woff2') format('woff2');
+  font-family: "Onest";
+  src: url("/fonts/onest/Onest-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Onest';
-  src: url('/fonts/onest/Onest-ExtraBold.woff2') format('woff2');
+  font-family: "Onest";
+  src: url("/fonts/onest/Onest-ExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
 
-
 @font-face {
-  font-family: 'Martian Mono';
-  src: url('/fonts/martianmono/MartianMono-Regular.woff2') format('woff2');
+  font-family: "Martian Mono";
+  src: url("/fonts/martianmono/MartianMono-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Martian Mono';
-  src: url('/fonts/martianmono/MartianMono-SemiBold.woff2') format('woff2');
+  font-family: "Martian Mono";
+  src: url("/fonts/martianmono/MartianMono-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Martian Mono';
-  src: url('/fonts/martianmono/MartianMono-Bold.woff2') format('woff2');
+  font-family: "Martian Mono";
+  src: url("/fonts/martianmono/MartianMono-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Martian Mono';
-  src: url('/fonts/martianmono/MartianMono-ExtraBold.woff2') format('woff2');
+  font-family: "Martian Mono";
+  src: url("/fonts/martianmono/MartianMono-ExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
 
 .font-mono {
-  font-family: 'Martian Mono',ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,liberation mono,courier new,monospace
+  font-family:
+    "Martian Mono",
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    liberation mono,
+    courier new,
+    monospace;
 }
 
-html, :host {
-  font-family: 'Onest', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+html,
+:host {
+  font-family:
+    "Onest", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }

@@ -16,9 +16,7 @@
                   title="{{ .Title | default (i18n "search.open_button_title") }}"
                 >
                   {{ with .Params.icon }}
-                    <span
-                      class="transition-colors group-hover:text-primary-600"
-                    >
+                    <span class="group-hover:text-primary-600 transition-colors">
                       {{- partial "icon.html" . -}}
                     </span>
                   {{- end -}}{{- if .Params.showName | default true -}}
@@ -37,13 +35,13 @@
                 aria-label="appearance switcher"
               >
                 <span
-                  class="inline transition-colors group-hover:text-primary-600"
+                  class="group-hover:text-primary-600 inline transition-colors"
                   title="{{ i18n "footer.dark_appearance" }}"
                 >
                   {{ partial "icon.html" "moon" }}
                 </span>
                 <span
-                  class="hidden transition-colors group-hover:text-primary-600"
+                  class="group-hover:text-primary-600 hidden transition-colors"
                   title="{{ i18n "footer.light_appearance" }}"
                 >
                   {{ partial "icon.html" "sun" }}
@@ -58,9 +56,7 @@
                 title="{{ .Title }}"
                 {{ with .Params.target }}target="{{ . }}"{{ end }}
                 >{{ with .Params.icon }}
-                  <span
-                    class="transition-colors group-hover:text-primary-600"
-                  >
+                  <span class="group-hover:text-primary-600 transition-colors">
                     {{- partial "icon.html" . -}}
                   </span>
                 {{- end -}}{{- if .Params.showName | default true -}}
@@ -108,7 +104,7 @@
     </div>
 
     <!-- Locale switcher -->
-    <div class="flex flex-row items-start ">
+    <div class="flex flex-row items-start">
       {{/* Locale switcher */}}
       {{ if and (.IsTranslated) (eq ($.Scratch.Get "localeCount") 0) }}
         <div>
@@ -116,13 +112,14 @@
         </div>
       {{ end }}
 
+
       <!-- Appearance switcher -->
       {{/* Appearance switcher */}}
       {{ if .Site.Params.footer.showAppearanceSwitcher | default false }}
         <div
           class="{{ if .Site.Params.footer.showScrollToTop | default true -}}
             me-14
-          {{- end }} cursor-pointer text-sm text-neutral-700 hover:text-primary-600"
+          {{- end }} hover:text-primary-600 cursor-pointer text-sm text-neutral-700"
         >
           <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
             <div

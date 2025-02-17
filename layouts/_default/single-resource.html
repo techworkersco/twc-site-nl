@@ -7,7 +7,7 @@
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
-      
+
       {{ if or
         (.Params.showDate | default (.Site.Params.article.showDate | default true))
         (and (.Params.showDateUpdated | default (.Site.Params.article.showDateUpdated | default true)) (ne (partial "functions/date.html" .Date) (partial "functions/date.html" .Lastmod)))
@@ -20,15 +20,15 @@
         </div>
       {{ end }}
 
+
       <h1 class="mb-4 mt-0 text-4xl font-extrabold text-neutral-900">
         {{ .Title | emojify }}
       </h1>
-      <dt class="lead text-xl text-gray-900 mb-6 lg:mb-12">
-         {{ if ne .Params.description nil }}
-            <div> {{ .Params.description }}</div>
+      <dt class="lead mb-6 text-xl text-gray-900 lg:mb-12">
+        {{ if ne .Params.description nil }}
+          <div>{{ .Params.description }}</div>
         {{ end }}
       </dt>
-
 
       {{ with $feature }}
         <div class="prose">
@@ -41,7 +41,7 @@
           {{ end }}
         </div>
       {{ end }}
-      
+
     </header>
     <section class="prose mt-0 flex max-w-full flex-col lg:flex-row">
       {{ if and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in .TableOfContents "<ul") }}

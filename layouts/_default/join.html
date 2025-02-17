@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <article class="max-w-5xl mx-auto">
+  <article class="mx-auto max-w-5xl">
     <header>
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
@@ -9,13 +9,13 @@
       </h1>
     </header>
     <section class="prose mt-6 max-w-full">
-        <div class="lead max-w-4xl">
-            {{ .Page.Params.description }}
-        </div>
+      <div class="lead max-w-4xl">
+        {{ .Page.Params.description }}
+      </div>
       {{ .Content | emojify }}
     </section>
-    <section class="mt-6 ">
-        {{ partial "join-form.html" . }}
-      </section>
+    <section class="mt-6">
+      {{ partial "join-form.html" . }}
+    </section>
   </article>
 {{ end }}

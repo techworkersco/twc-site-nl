@@ -3,7 +3,7 @@
     {{ range $links := . }}
       {{ range $name, $url := $links }}
         <a
-          class="px-1 transition-transform hover:scale-125 hover:text-primary-600"
+          class="hover:text-primary-600 px-1 transition-transform hover:scale-125"
           style="will-change:transform;"
           href="{{ $url | safeURL }}"
           target="_blank"

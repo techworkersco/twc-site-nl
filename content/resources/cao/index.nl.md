@@ -11,17 +11,17 @@ layout: "single-resource"
 
 Over cao's wordt vaak met allerlei jargon gesproken. Hier is een overzicht om de belangrijkste begrippen te verduidelijken.
 
-Begrip | Omschrijving
---- | --- 
-Algemeen verbindend verklaring (AVV) | Als een collectieve arbeidsovereenkomst algemeen verbindend is, geldt de overeenkomst voor alle werknemers in een functie die aan specifieke voorwaarden voldoen. Werkgevende bedrijven zijn gebonden aan algemeen bindende overeenkomsten en kunnen zich hier niet van afmelden.
-Bedrijfstak of sector | Bijvoorbeeld metaalindustrie, informatie- en communicatie technologie (ICT), of horeca.
-Beroep | Het werk of de rol die je uitvoert in ruil voor loon of andere vormen van betaling.
-Collectieve arbeidsovereenkomst (cao) | Een contract dat meestal wordt ondertekend door één of meer werkgevers en één of meer werknemersorganisaties.
-Onderneming | In de context van collectieve arbeidsovereenkomsten en ondernemingsraden verwijst de term 'onderneming' over het algemeen naar een bedrijf.
-Ondernemingsraad (OR) | De Nederlandse wet vereist dat organisaties met 50 of meer werknemers een ondernemingsraad hebben. Kleinere organisaties kunnen ook een ondernemingsraad hebben als ze daarvoor kiezen. Via de ondernemingsraad praten vertegenwoordigers van het bedrijf rechtstreeks met de baas.
-Vakbond | Een vakbond is een groep van haar leden, de werknemers die zich bij de vakbond hebben aangesloten.
-Werkgeversorganisatie of werkgeversvereniging | Er zijn in ieder geval twee vormen van werkgeversorganisaties: <ul><li>Een collectief van bedrijven, zodat deze op overheidsniveau vertegenwoordigd kunnen worden, zoals bijvoorbeeld het geval is voor het midden- en kleinbedrijf (MKB)</li><li>Een gewone vakbond</li> </ul>
-Wet open overheid (WOO) | Een wet die mensen het recht geeft om informatie van de overheid te krijgen over alle overheidsactiviteiten en -besluiten. In sommige landen staat dit ook bekend als een wet op de openbaarheid van bestuur.
+| Begrip                                        | Omschrijving                                                                                                                                                                                                                                                                        |
+| --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Algemeen verbindend verklaring (AVV)          | Als een collectieve arbeidsovereenkomst algemeen verbindend is, geldt de overeenkomst voor alle werknemers in een functie die aan specifieke voorwaarden voldoen. Werkgevende bedrijven zijn gebonden aan algemeen bindende overeenkomsten en kunnen zich hier niet van afmelden.   |
+| Bedrijfstak of sector                         | Bijvoorbeeld metaalindustrie, informatie- en communicatie technologie (ICT), of horeca.                                                                                                                                                                                             |
+| Beroep                                        | Het werk of de rol die je uitvoert in ruil voor loon of andere vormen van betaling.                                                                                                                                                                                                 |
+| Collectieve arbeidsovereenkomst (cao)         | Een contract dat meestal wordt ondertekend door één of meer werkgevers en één of meer werknemersorganisaties.                                                                                                                                                                       |
+| Onderneming                                   | In de context van collectieve arbeidsovereenkomsten en ondernemingsraden verwijst de term 'onderneming' over het algemeen naar een bedrijf.                                                                                                                                         |
+| Ondernemingsraad (OR)                         | De Nederlandse wet vereist dat organisaties met 50 of meer werknemers een ondernemingsraad hebben. Kleinere organisaties kunnen ook een ondernemingsraad hebben als ze daarvoor kiezen. Via de ondernemingsraad praten vertegenwoordigers van het bedrijf rechtstreeks met de baas. |
+| Vakbond                                       | Een vakbond is een groep van haar leden, de werknemers die zich bij de vakbond hebben aangesloten.                                                                                                                                                                                  |
+| Werkgeversorganisatie of werkgeversvereniging | Er zijn in ieder geval twee vormen van werkgeversorganisaties: <ul><li>Een collectief van bedrijven, zodat deze op overheidsniveau vertegenwoordigd kunnen worden, zoals bijvoorbeeld het geval is voor het midden- en kleinbedrijf (MKB)</li><li>Een gewone vakbond</li> </ul>     |
+| Wet open overheid (WOO)                       | Een wet die mensen het recht geeft om informatie van de overheid te krijgen over alle overheidsactiviteiten en -besluiten. In sommige landen staat dit ook bekend als een wet op de openbaarheid van bestuur.                                                                       |
 
 <!-- Vermoeden: Ben heeft gehoord dat sommige OR's onderhandelingen voeren als er een gebrek is aan vakbondsaanwezigheid in sommige bedrijven -->
 

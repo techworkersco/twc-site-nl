@@ -6,7 +6,7 @@
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900">{{ .Title }}</h1>
   </header>
   {{ if .Content }}
-    <section class="text-gray-700 mt-0 flex max-w-full flex-col lg:flex-row">
+    <section class="mt-0 flex max-w-full flex-col text-gray-700 lg:flex-row">
       <div class="min-h-0 min-w-0 max-w-prose grow">
         {{ .Content | emojify }}
       </div>
@@ -33,7 +33,7 @@
       </section>
       {{ partial "pagination.html" . }}
     {{ else }}
-      <section class="text-gray-700 mt-10">
+      <section class="mt-10 text-gray-700">
         <p class="border-t py-8">
           <em>{{ i18n "list.no_articles" | emojify }}</em>
         </p>

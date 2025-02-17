@@ -2,7 +2,7 @@
   {{- $images := .Resources.ByType "image" }}
   {{- $cover := $images.GetMatch (.Params.cover | default "*cover*") }}
   {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $cover }}
-  <article class="max-w-5xl mx-auto">
+  <article class="mx-auto max-w-5xl">
     <header class="max-w-prose">
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
@@ -20,19 +20,18 @@
         </div>
       {{ end }}
 
+
       <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900">
         {{ .Title | emojify }}
       </h1>
 
-
-      <dt class="text-xl font-mono text-gray-900 mb-4">
-          <div>{{ dateFormat "Mon 2 Jan 2006" .Date }}</div>
-          <div>{{ dateFormat "15:04" .Date }}</div>
-         {{ if ne .Params.location nil }}
-            <div> {{ i18n "location" }} {{ .Params.location }}</div>
+      <dt class="mb-4 font-mono text-xl text-gray-900">
+        <div>{{ dateFormat "Mon 2 Jan 2006" .Date }}</div>
+        <div>{{ dateFormat "15:04" .Date }}</div>
+        {{ if ne .Params.location nil }}
+          <div>{{ i18n "location" }} {{ .Params.location }}</div>
         {{ end }}
       </dt>
-
 
       {{ with $feature }}
         <div class="prose">
