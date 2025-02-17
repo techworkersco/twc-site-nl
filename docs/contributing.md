@@ -17,7 +17,7 @@ Content can be added in two different ways:
 
 General writing guidelines:
 
-- Use as little jargon as possible and/or make sure to define it where necessary. We want as many people to be able to
+- Use plain language wherever you can. We want as many people to be able to
   understand the content as possible.
 - Expand acronyms on first use. For example, "Tech Workers Coalition (TWC)"
 - Use inclusive language
