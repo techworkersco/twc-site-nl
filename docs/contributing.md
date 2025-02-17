@@ -61,7 +61,7 @@ We have a workflow that will check for prettier things, so please make sure you 
 hugo mod init github.com/techworkersco/twc-site-nl
 ```
 
-And for good measure:
+And for good measure, to remove unused entries:
 
 ```
 hugo mod tidy
