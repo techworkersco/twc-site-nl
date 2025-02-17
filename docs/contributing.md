@@ -67,7 +67,7 @@ And for good measure, to remove unused entries:
 hugo mod tidy
 ```
 
-### Developing/Running etc
+### Developing or running the site
 
 This is a Hugo site, so it will be similar to editing any other Hugo theme. In general:
 
