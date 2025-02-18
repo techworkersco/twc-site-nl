@@ -5,6 +5,7 @@ lastmod: "2025-01-22"
 description: "Als techwerker kom je misschien wel eens collectieve arbeidsovereenkomsten (cao's) tegen. Maar hoe werkt een cao? Wat staat erin? Hier de basis over cao's in Nederland."
 tags: ["rechten"]
 layout: "single-resource"
+feature: "feature-office-celebration.jpg"
 ---
 
 ## Begrippen
