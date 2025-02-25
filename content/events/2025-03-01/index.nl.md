@@ -1,6 +1,6 @@
 ---
 title: "2.Dh5 Festival"
-date: 2025-03-02T10:00:00+01:00
+date: 2025-03-01T10:00:00+01:00
 location: "Ru Paré, Chris Lebeaustraat 4, Amsterdam"
 organisation: "2.Dh5"
 tags: ["festival"]
