@@ -128,6 +128,7 @@ collections:
         widget: string
         i18n: duplicate
         hint: The organisation running the event (if not Techwerkers)
+        required: false
       - label: Tags
         name: tags
         widget: list
