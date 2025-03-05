@@ -71,7 +71,7 @@ Update the map every week.
 
 ### Step 2: Identify leaders
 
-Identify the people that others listen to. This could be for any reason at all – maybe they’re respected for their work, but maybe they’ve just got great memes in the company Slack. Whatever the reason, these are the people you want on board. Recruit them (if you can), they’ll recruit others.
+Identify the people that others listen to. This could be for any reason at all---maybe they’re respected for their work, but maybe they’ve just got great memes in the company Slack. Whatever the reason, these are the people you want on board. Recruit them (if you can), they’ll recruit others.
 
 ### Step 3: Talk with more coworkers
 
@@ -85,8 +85,8 @@ Once you've got more of your coworkers on board, you can start with actions and 
 
 ### Tips for talking about organizing
 
-- Always address the person you're talking with directly as _you_, or _you and your co-workers_. Avoid terms such as 'we', 'us', or 'I', because it removes the person you're speaking with from the picture. You and your co-workers can organize together for better work conditions at your workplace.
-- Weird one: be kind, but don't say 'thank you' to your co-worker _for the fact that they're organizing_. Your co-worker is not doing you a favour. You and your co-workers are together standing up to get the workplace changes you want.
+- Always address the person you're talking with directly as _you_, or _you and your coworkers_. Avoid terms such as 'we', 'us', or 'I', because it removes the person you're speaking with from the picture. You and your coworkers can organize together for better work conditions at your workplace.
+- Weird one: be kind, but don't say 'thank you' to your coworker _for the fact that they're organizing_. Your coworker is not doing you a favour. You and your coworkers are together standing up to get the workplace changes you want.
 
 ## Join today
 
