@@ -34,7 +34,7 @@ Your reasons for organizing will sustain you through any hard times.
 
 ### Connect with coworkers
 
-Meet up socially with your coworkers. Hold informal coffee chats, set up a memes channel, do games nights and recipe swaps. This way you build trust as the foundation from which to organize.
+Meet up socially with your coworkers. Hold informal coffee chats, set up a memes channel, do games nights and recipe swaps. This way you build networks, relationships, and trust for a foundation from which to organize.
 
 ### Form a planning team
 
