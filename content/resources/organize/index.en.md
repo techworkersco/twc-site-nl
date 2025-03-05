@@ -42,7 +42,7 @@ Find a couple of coworkers who also want to organize. Check that they have the t
 
 Select a regular time outside work to meet up with your planning team. This builds solidarity and gives time to strategize together.
 
-## Core steps
+## Take action
 
 Do you want to get results from your organizing? Then take strategic steps. Here's a roadmap you can use to begin to organize effectively in your workplace.
 
