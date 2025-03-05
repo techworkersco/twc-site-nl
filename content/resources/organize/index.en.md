@@ -40,7 +40,7 @@ Meet up socially with your coworkers. Hold informal coffee chats, set up a memes
 
 Find a couple of coworkers who also want to organize. Check that they have the time and energy to do so. You're the planning team now!
 
-Select a regular time outside work to meet up with your planning team. This helps you build solidarity and strategize together.
+Select a regular time outside work to meet up with your planning team. This builds solidarity and gives time to strategize together.
 
 ## Core steps
 
