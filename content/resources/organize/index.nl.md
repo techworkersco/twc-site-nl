@@ -40,7 +40,7 @@ Spreek eens af met je collega's. Houd informele koffiegesprekken, richt een meme
 
 Zoek een paar collega's die ook wel willen organiseren. Zorg dat ze ook de tijd en energie hebben om dit te doen. Jullie zijn nu het planningsteam!
 
-Kies een vaste tijd buiten het werk om met je planningsteam af te spreken. Dit helpt je om solidariteit te creëren en samen strategieën te bedenken.
+Kies een vaste tijd buiten het werk om met je planningsteam af te spreken. Dit kweekt solidariteit en geeft je tijd om samen strategieën te bedenken.
 
 ## Stappenplan
 
@@ -71,7 +71,7 @@ Werk het overzicht elke week bij.
 
 ### Stap 2: Identificeer leiders
 
-Identificeer de mensen waar anderen naar luisteren. Dit kan om welke reden dan ook zijn. Misschien worden ze gerespecteerd om hun werk, maar misschien delen ze gewoon vaak geweldige memes op Slack. Wat de reden ook is, leiders zijn de mensen die je aan boord wilt hebben. Als je ze kunt binnenhalen, zullen zij op hun beurt weer anderen meenemen.
+Vind de mensen waar anderen naar luisteren. Dit kan om wat voor reden dan ook zijn. Misschien worden ze gerespecteerd om hun werk, maar misschien delen ze gewoon vaak goeie memes op Slack. Wat de reden ook is, leiders zijn de mensen die je aan boord wilt hebben. Haal ze binnen en dan zullen zij op hun beurt weer anderen meebrengen.
 
 ### Stap 3: Praat met meer collega's
 
@@ -79,9 +79,14 @@ Praat met meer van je collega's over wat hen frustreert. Willen ze meer flexibil
 
 Collega's enthousiast krijgen over organiseren op het werk, is vooral veel luisteren. Zodra mensen problemen op het werk hebben benoemd, vraag ze dan hoe ze de situatie zouden veranderen.
 
-> 💡 Haal alle gesprekken over het organiseren zo snel mogelijk van de werkcomputers en -kanalen af---bijvoorbeeld van de email, Slack, Microsoft Teams of Google Meet van het bedrijf. Werkkanalen worden waarschijnlijk gemonitord en elk apparaat dat je van het werk hebt gekregen, kan worden afgeluisterd met trackingsoftware.
+> 💡 Haal alle gesprekken over het organiseren zo snel mogelijk van de werkcomputers en -kanalen af---bijvoorbeeld van de email, Slack, Microsoft Teams of Google Meet van het bedrijf. Werkkanalen kunnen soms gemonitord worden, en elk apparaat dat je van het werk hebt gekregen kan mogelijk trackingsoftware bevatten.
 
 Zodra je meer collega's enthousiast hebt, kun je beginnen met acties en campagnes om de veranderingen op de werkplek te realiseren die jullie willen.
+
+### Tips voor het praten over organiseren
+
+- Spreek degene met wie je praat altijd aan met _jij_, of _jij en je collega's_ (of _u_ en _u en uw collega's_, waar gepast). Vermijd termen zoals 'wij', 'ons' of 'ik'. Dit soort termen plaatsen degene met wie je spreekt buiten beeld. Jij en je collega's kunnen samen zorgen voor betere werkomstandigheden.
+- Klinkt misschien raar: Wees vriendelijk, maar zeg geen 'dankjewel' tegen je collega _voor het feit die organiseert_. Je collega verleent jou geen dienst of gunst ofzo. Jullie zijn onderdeel van dezelfde strijd. Samen met je collega's kun je de veranderingen op de werkplek behalen die jij wilt.
 
 ## Doe mee, vandaag nog
 
