@@ -83,6 +83,9 @@ Getting coworkers fired up is mostly listening and asking some questions here an
 
 Once you've got more of your coworkers on board, you can start with actions and campaigns to build toward getting the workplace changes you want.
 
+### Tips
+
+Try to remove the words "we", "I", and "us" from your vocabulary. Organizing is for you and your co-workers working for better work conditions for you and your co-workers. At an extreme, remove the word thank you, because the thanking can be done when the job is done and you have the conditions you want for you and your co-workers.
 ## Join today
 
 Would you like to get started organizing at your workplace? Empower yourself by becoming a workplace organizer with the support from the Tech Workers Coalition!
