@@ -83,9 +83,11 @@ Getting coworkers fired up is mostly listening and asking some questions here an
 
 Once you've got more of your coworkers on board, you can start with actions and campaigns to build toward getting the workplace changes you want.
 
-### Tips
+### Tips for talking about organizing
 
-Try to remove the words "we", "I", and "us" from your vocabulary. Organizing is for you and your co-workers working for better work conditions for you and your co-workers. At an extreme, remove the word thank you, because the thanking can be done when the job is done and you have the conditions you want for you and your co-workers.
+- Always address the person you're talking with directly as _you_, or _you and your co-workers_. Avoid terms such as 'we', 'us', or 'I', because it removes the person you're speaking with from the picture. You and your co-workers can organize together for better work conditions at your workplace.
+- Weird one: be kind, but don't say 'thank you' to your co-worker _for the fact that they're organizing_. Your co-worker is not doing you a favour. You and your co-workers are together standing up to get the workplace changes you want.
+
 ## Join today
 
 Would you like to get started organizing at your workplace? Empower yourself by becoming a workplace organizer with the support from the Tech Workers Coalition!
