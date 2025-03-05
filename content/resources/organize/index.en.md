@@ -71,7 +71,7 @@ Update the map every week.
 
 ### Step 2: Identify leaders
 
-Identify the people that others listen to. This could be for any reason at all – maybe they’re respected for their work, but maybe they’ve just got great memes in the company Slack. Whatever the reason, these are the people you want on board. If you can recruit them, they’ll recruit others.
+Identify the people that others listen to. This could be for any reason at all – maybe they’re respected for their work, but maybe they’ve just got great memes in the company Slack. Whatever the reason, these are the people you want on board. Recruit them (if you can), they’ll recruit others.
 
 ### Step 3: Talk with more coworkers
 
