@@ -79,7 +79,7 @@ Talk with more of your coworkers about what frustrates them. Do they want more f
 
 Getting coworkers fired up is mostly listening and asking some questions here and there. Once people have identified some problems, ask how they’d change the situation.
 
-> 💡 Take all conversations about organizing off of work computers and channels as soon as possible---for example company email, Slack, Microsoft Teams, or Google Meet. Work channels are likely monitored, and any device that you got from work may be bugged with tracking software.
+> 💡 Take all conversations about organizing off of work computers and channels as soon as possible---for example company email, Slack, Microsoft Teams, or Google Meet. Work channels may sometimes be monitored, and devices that you got from work could contain tracking software.
 
 Once you've got more of your coworkers on board, you can start with actions and campaigns to build toward getting the workplace changes you want.
 
