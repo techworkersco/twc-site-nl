@@ -9,7 +9,7 @@ lastmod: 2025-03-02
 tags: []
 ---
 
-Tech Werkers is a community of tech workers that are based in The Netherlands. Tech Werkers is a local chapter of the [Tech Workers Coalition](https://techworkerscoalition.org/). All Tech Werkers are volunteers, there is no directly funding from organisations, and Tech Werkers is not a registered union.
+Tech Werkers is a community of tech workers that are based in The Netherlands. Tech Werkers is a local chapter of the [Tech Workers Coalition](https://techworkerscoalition.org/). All Tech Werkers are volunteers, and Tech Werkers is not a registered union.
 
 ## Who is a Tech Worker?
 
