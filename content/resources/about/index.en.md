@@ -4,8 +4,8 @@ title: About
 description: Who is Tech Werkers? About our mission and vision, what we want to
   achieve, and how we're going to achieve it.
 feature: twc-thenetherlands.png
-date: 2025-03-02
-lastmod: 2025-03-02
+date: 2025-03-16T00:00:00.000Z
+lastmod: 2025-03-16T00:00:00.000Z
 tags: []
 ---
 
