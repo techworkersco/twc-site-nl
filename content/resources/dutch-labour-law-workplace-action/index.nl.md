@@ -5,7 +5,7 @@ lastmod: "2025-03-19"
 description: "Een overzicht van de bescherming die het Nederlandse arbeidsrecht biedt aan werknemers met betrekking tot verschillende acties op de werkplek."
 tags: []
 layout: "single-resource"
-feature: "feature-dutch-labour-law-workplace-action.jpg"
+feature: "feature-action.jpg"
 ---
 
 > **Let op:** Dit document behandelt juridische kwesties en is alleen bedoeld als informatiebron. Techwerkerscoalitie biedt op geen enkele manier juridisch advies, dus behandel dit document niet alsof het juridisch advies zou zijn.
