@@ -3,7 +3,9 @@ title: "Tech workers for Palestine"
 date: "2025-03-23"
 lastmod: "2025-03-23"
 showDateUpdated: true
-description: "Tech workers in the Netherlands are committed to the liberation of Palestine."
+showSummary: true
+summary: "Tech workers in the Netherlands take action to support the liberation of Palestine."
+description: "Tech workers in the Netherlands take action to support the liberation of Palestine."
 layout: "campaign"
 campaign: "palestine"
 feature: "feature-palestine.jpg"
