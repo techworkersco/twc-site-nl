@@ -5,6 +5,7 @@ lastmod: "2025-03-23"
 showDateUpdated: true
 description: "Tech workers in the Netherlands are committed to the liberation of Palestine."
 layout: "campaign"
+campaign: "palestine"
 feature: "feature-palestine.jpg"
 featureAlt: "A laptop on a table with next to it a plate with slices of watermelon"
 ---

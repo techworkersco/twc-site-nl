@@ -5,6 +5,7 @@ lastmod: "2025-03-23"
 showDateUpdated: true
 description: "Techwerkers in Nederland zetten zich in voor de bevrijding van Palestina."
 layout: "campaign"
+campaign: "palestine"
 feature: "feature-palestine.jpg"
 featureAlt: "Een laptop op een tafel met daarnaast een bord met stukken watermeloen"
 ---
