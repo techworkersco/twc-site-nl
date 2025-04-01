@@ -8,10 +8,10 @@
     "build": "NODE_ENV=production ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
   },
   "dependencies": {
-    "@fontsource-variable/martian-mono": "^5.1.1"
+    "@fontsource-variable/martian-mono": "^5.2.5"
   },
   "devDependencies": {
-    "prettier": "^3.5.2",
+    "prettier": "^3.5.3",
     "prettier-plugin-go-template": "^0.0.15",
     "prettier-plugin-tailwindcss": "^0.6.11"
   }
