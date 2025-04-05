@@ -1,5 +1,5 @@
 ---
-title: "Organiseren voor échte verandering: Basistraining | Sessie #6"
+title: "Organiseren voor échte verandering | Sessie #6"
 date: 2025-03-20T18:00:00+01:00
 location: "Online"
 organisation: ""
