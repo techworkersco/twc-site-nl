@@ -1,0 +1,29 @@
+---
+title: "Booking.com layoffs info session #2"
+date: 2025-04-25T13:00:00+02:00
+location: "Online"
+organisation: ""
+tags: ["organizing"]
+layout: "single-event"
+---
+
+> Are you afraid you’re going to be laid off? Here’s what you can do about it collectively - An Online info session for Booking.com workers
+
+Join us for an online info session hosted by the Tech Workers Coalition (NL Chapter), where you will learn about steps you can take **right now** as a collective to try and prevent the layoffs and protect your jobs.
+
+Learn how you and your coworkers can build stronger solidarity and organize for future collective actions to achieve your goals. There will be time during the session to ask questions.
+
+## Session Times
+
+Multiple sessions are planned to accommodate different schedules:
+
+- **Monday, April 23rd**: 19:00 - 20:00
+- **Friday, April 25th**: 13:00 - 14:00
+
+The session is open to all.
+
+A Google Meet link will be available on this page 30 minutes prior to the posted session time.
+
+## About Tech Workers Coalition
+
+_Guided by a vision for an inclusive & equitable tech industry, the Tech Workers Coalition organizes to build worker power through rank-and-file self-organization and education. The coalition consists of workers in and around the tech industry, labor organizers, community organizers, and friends. We work in solidarity with existing movements towards social justice, workers' rights, and economic inclusion in a democratically structured, all-volunteer, and worker-led organization. The Dutch chapter was started in 2024._
