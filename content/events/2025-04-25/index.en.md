@@ -5,6 +5,7 @@ location: "Online"
 organisation: ""
 tags: ["organizing"]
 layout: "single-event"
+showTableOfContents: false
 ---
 
 > Are you afraid you’re going to be laid off? Here’s what you can do about it collectively - An online info session for Booking.com workers

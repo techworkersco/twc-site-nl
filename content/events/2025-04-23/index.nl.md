@@ -5,6 +5,7 @@ location: "Online"
 organisation: ""
 tags: ["organizeren"]
 layout: "single-event"
+showTableOfContents: false
 ---
 
 > Ben je bang dat je ontslagen wordt? Dit is wat je er gezamenlijk aan kunt doen - Een online infosessie voor medewerkers van Booking.com
