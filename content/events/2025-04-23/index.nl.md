@@ -8,7 +8,9 @@ layout: "single-event"
 showTableOfContents: false
 ---
 
-> Ben je bang dat je ontslagen wordt? Dit is wat je er gezamenlijk aan kunt doen - Een online infosessie voor medewerkers van Booking.com
+{{< lead >}}
+Ben je bang dat je ontslagen wordt? Dit is wat je er gezamenlijk aan kunt doen - Een online infosessie voor medewerkers van Booking.com
+{{< /lead >}}
 
 Kom naar de online infosessie, georganiseerd door de Techwerkerscoalitie, waar je leert wat je **nu** kunt doen om ontslagen te voorkomen en je baan te beschermen.
 

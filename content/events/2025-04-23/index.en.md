@@ -8,7 +8,9 @@ layout: "single-event"
 showTableOfContents: false
 ---
 
-> Are you afraid you’re going to be laid off? Here’s what you can do about it collectively - An online info session for Booking.com workers
+{{< lead >}}
+Are you afraid you’re going to be laid off? Here’s what you can do about it collectively - An online info session for Booking.com workers
+{{< /lead >}}
 
 Join us for an online info session hosted by the Tech Workers Coalition (NL Chapter), where you will learn about steps you can take **right now** as a collective to try and prevent the layoffs and protect your jobs.
 
