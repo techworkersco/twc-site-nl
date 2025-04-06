@@ -23,7 +23,7 @@ Neem deel aan één van de volgende sessies (de sessies hebben dezelfde inhoud):
 - **Woensdag 23 april**: 19:00 - 20:00
 - **Vrijdag 25 april**: 13:00 - 14:00
 
-De sessie is open voor iedereen.
+De sessie is open voor iedereen en wordt gehost op Google Meet. Je wordt aangemoedigd om mee te doen vanuit een incognito venster met een alias/nicknaam, en om jouw camera/audio uit te laten.
 
 Vul onderstaand formulier in om de link naar de sessie te ontvangen. Je email zal **alleen** worden gebruikt voor het versturen van de uitnodiging.
 
