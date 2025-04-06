@@ -17,7 +17,7 @@ Learn how you and your coworkers can build stronger solidarity and organize for 
 
 Multiple sessions are planned to accommodate different schedules:
 
-- **Monday, April 23rd**: 19:00 - 20:00
+- **Wednesday, April 23rd**: 19:00 - 20:00
 - **Friday, April 25th**: 13:00 - 14:00
 
 The session is open to all.

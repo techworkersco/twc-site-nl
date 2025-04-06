@@ -17,7 +17,7 @@ Ontdek hoe jij en je collega's je samen beter kunnen organiseren om met collecti
 
 Neem deel aan één van de volgende sessies (de sessies hebben dezelfde inhoud):
 
-- **Maandag 23 april**: 19:00 - 20:00
+- **Woensdag 23 april**: 19:00 - 20:00
 - **Vrijdag 25 april**: 13:00 - 14:00
 
 De sessie is open voor iedereen.
