@@ -1,6 +1,6 @@
 ---
 title: "Booking.com layoffs infosessie #2"
-date: 2025-04-23T13:00:00+02:00
+date: 2025-04-25T13:00:00+02:00
 location: "Online"
 organisation: ""
 tags: ["organizeren"]
