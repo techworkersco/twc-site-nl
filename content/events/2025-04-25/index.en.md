@@ -7,7 +7,7 @@ tags: ["organizing"]
 layout: "single-event"
 ---
 
-> Are you afraid you’re going to be laid off? Here’s what you can do about it collectively - An Online info session for Booking.com workers
+> Are you afraid you’re going to be laid off? Here’s what you can do about it collectively - An online info session for Booking.com workers
 
 Join us for an online info session hosted by the Tech Workers Coalition (NL Chapter), where you will learn about steps you can take **right now** as a collective to try and prevent the layoffs and protect your jobs.
 
@@ -22,7 +22,7 @@ Multiple sessions are planned to accommodate different schedules:
 
 The session is open to all.
 
-Vul onderstaand formulier in om de link naar de sessie te ontvangen. Uw e-mail zal **alleen** worden gebruikt voor het ontvangen van de uitnodiging.
+Fill in your email in the below form to receive the link to the session. Your email will **only** be used for receiving the invite.
 
 <iframe data-tally-src="https://tally.so/embed/wgzlYd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="211" frameborder="0" marginheight="0" marginwidth="0" title="Booking info session"></iframe>
 <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
