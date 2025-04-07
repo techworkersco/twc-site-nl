@@ -23,7 +23,7 @@ Join one of the following sessions (the content is the same):
 - **Wednesday, April 23rd**: 19:00 - 20:00
 - **Friday, April 25th**: 13:00 - 14:00
 
-The session is open to all and will be hosted on Google Meet. You are encourage to join from an incognito window with an alias/nickname, and to leave your camera/audio off.
+The session is open to all and will be hosted on Google Meet. You're welcome to join from an incognito window with a pseudonym, and to leave your camera and audio off.
 
 Fill in your email in the below form to receive the link to the session. Your email will **only** be used for receiving the invite.
 
