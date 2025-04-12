@@ -12,7 +12,9 @@ feature: "feature-action.jpg"
 
 ## About
 
-This document aims to provide an overview of the Dutch Labour Law, and the protections it provides with respect to various situations employees may face, or actions taken by employees.[^1] It broadly covers different cases of work contracts and situations.
+This resource provides an overview of Dutch Labour Law, and the protections the law provides with respect to various situations employees may face, or actions taken by employees.[1] It broadly covers different cases of work contracts and situations.
+
+The information contained in this resource was prepaped by a Dutch labour lawyer at the request of workers at a major tech company in the Netherlands. It's shared here in modified form with permission, with identifying information removed.
 
 ## Legal protections for employees
 
@@ -80,15 +82,22 @@ It has to be clear to the employer that you refuse to do the work due to conscie
 
 There are by law two ways in which the employer can fire you in this hypothetical occasion:
 
-_a. Immediate dismissal_
+#### a. Immediate dismissal
 
-- Based on article 678, under 2 item j. in book 7 of the Dutch civil code can persistent refusal of work give an urgent reason for dismissal (immediate dismissal).[^2]
+- Based on article 678, under 2 item j. in book 7 of the Dutch civil code can persistent refusal of work give an urgent reason for dismissal (immediate dismissal).[2]
 - If you are dismissed on this ground, you are immediately without work and also the UWV will most likely decide not to give you unemployment benefit. You need to go to court within 2 months to fight this dismissal.
 
-_b. Dismissal_
+#### b. Dismissal
 
-- On the basis of article 7:699 paragraph 3 the grounds for dismissal are listed.[^3] Unfortunately, there is no translation in English online (that I could find). Under article 669, under 3 item f says the following (my translation): ‘_1. The employer may terminate the employment contract if there are reasonable grounds for doing so and redeployment of the employee within a reasonable period, with or without training, in another suitable position is not possible or not reasonable. (...) 3. Reasonable grounds as referred to in paragraph 1 are understood to mean: (...) f. the employee's refusal to perform the agreed work due to a serious conscientious objection, provided that it is plausible that the agreed work cannot be performed in an adapted form;_’
-- In this scenario the employer needs to ask permission to the judge to terminate the contract, so this will take longer. You are employed during the procedure and you are applicable for unemployment benefit (if you are entitled to that).
+- On the basis of article 7:699 paragraph 3 the grounds for dismissal are listed.[3] Under article 669, under 3, item f says the following (cited together with lemma 1, for context):
+
+  > **1.** The employer may terminate the employment contract if there are reasonable grounds for doing so and redeployment of the employee within a reasonable period, with or without training, in another suitable position is not possible or not reasonable.
+  >
+  > (...)
+  >
+  > **3.** Reasonable grounds as referred to in paragraph 1 are understood to mean: (...) f. the employee's refusal to perform the agreed work due to a serious conscientious objection, provided that it is plausible that the agreed work cannot be performed in an adapted form;
+
+- In this scenario the employer needs to ask permission to the judge to terminate the contract, so this will take longer. You are employed during the procedure and you can apply for unemployment benefit, if you are entitled to do that.
 
 ### 3. Can I strike when I don’t agree with the activities of my employer because of conscientious objection?
 
@@ -135,40 +144,39 @@ Dutch employees enjoy protection against wrongful dismissal by an employer. This
 
 For an employer to take action much depends on the kind of action, the timing and the tone of the action and whether or not there has been previous communication. It also depends on the initial response by the employer and whether or not the employer is open for debate and alterations to the work, for example.
 
-[^1]: For an excellent overview of Dutch labour law in English, see the following report: [Dismissal law in The Netherlands](https://ewll.eu/wp-content/uploads/2019/08/EWLL-2018-dismissal-law-dutch-report.pdf) (March 2018), by Tom F.M. Bremers, Emma A.P. Ficq, Caroline J.G.P. Huizinga, and Merel A.C. Keijzer of the European Working Group of Labour Law. This is from 2018, so might not be fully up-to-date with specific issues.
+## Annex
 
-[^2]:
-    **[Dutch Civil Code, Book 7, article 678](https://wetboekplus.nl/burgerlijk-wetboek-boek-7-artikel-678-dringende-redenen-werkgever/): Urgent reasons for the employer to terminate the employment agreement immediately.**
+_Legal texts can sometimes change. The legal articles cited here are confirmed accurate as of April 2025. Always check the original legal source text for the latest authoritative version._
 
-    - **1.** An urgent reason for the employer in the meaning of Article 7:677, paragraph 1, consists of such acts, characteristics or behaviour on the part of the employee, having the result that the employer reasonably cannot be expected to continue the employment agreement.
-    - **2.** An urgent reason may, among others, exist:
-      - **a.** when the employee has misled the employer at the conclusion of the employment agreement by showing false or forged testimonials or by deliberately providing false information about the way in which his previous employment ended;
-      - **b.** when the employee seriously seems to lack the competence or the capability to perform the work to which he has engaged himself;
-      - **c.** when the employee, despite warning, takes to drunkenness or other dissipated behaviour;
-      - **d.** when the employee makes himself guilty of theft, embezzlement, deceit, fraud or other indictable offences as a result of which he becomes unworthy of the employer's trust;
-      - **e.** when the employee batters, crudely insults or seriously threatens the employer, his family members or other employees;
-      - **f.** when the employee tempts or tries to tempt the employer, his family members or other employees to perform or participate in actions contradictory to law or good morals;
-      - **g.** when the employee deliberately, or despite warning, recklessly damages the property of the employer or exposes it to serious danger;
-      - **h.** when the employee deliberately, or despite warning, recklessly exposes himself or others to serious danger;
-      - **i.** when the employee makes public characteristics regarding the household or enterprise of the employer which he was expected to keep confidential;
-      - **j. when the employee persistently refuses to comply with reasonable instructions or orders given by or on behalf of the employer;**
-      - **k.** when the employee crudely neglects the obligations imposed on him by the employment agreement;
-      - **l.** when the employee deliberately or because of reckless behaviour becomes or remains unable to perform the contracted work.
-    - **3.** Contractual provisions leaving the decision whether an urgent reason in the meaning of Article 7:677, paragraph 1, exists to the discretion of the employer, are null and void.
+[1] For an excellent overview of Dutch labour law in English, see the following report: _[Dismissal law in The Netherlands](https://ewll.eu/wp-content/uploads/2019/08/EWLL-2018-dismissal-law-dutch-report.pdf)_ (2018), by Tom F.M. Bremers, Emma A.P. Ficq, Caroline J.G.P. Huizinga, and Merel A.C. Keijzer of the European Working Group of Labour Law. This report is from 2018, so might not be fully up-to-date on specific issues.
 
-1. The employer may terminate the employment contract if there are reasonable grounds for doing so and redeployment of the employee within a reasonable period, with or without training, in another suitable position is not possible or not reasonable. (...) 3. Reasonable grounds as referred to in paragraph 1 are understood to mean: (...) f. the employee's refusal to perform the agreed work due to a serious conscientious objection, provided that it is plausible that the agreed work cannot be performed in an adapted form;
+[2] **[Dutch Civil Code, Book 7, article 678](https://wetboekplus.nl/burgerlijk-wetboek-boek-7-artikel-678-dringende-redenen-werkgever/): Urgent reasons for the employer to terminate the employment agreement immediately.**
 
-[^3]:
-    [Dutch Civil Code, Book 7, article 669](https://wetboekplus.nl/burgerlijk-wetboek-boek-7-artikel-669-opzeggen-arbeidsovereenkomst/):
+- **1.** An urgent reason for the employer in the meaning of Article 7:677, paragraph 1, consists of such acts, characteristics or behaviour on the part of the employee, having the result that the employer reasonably cannot be expected to continue the employment agreement.
+- **2.** An urgent reason may, among others, exist:
+  - **a.** when the employee has misled the employer at the conclusion of the employment agreement by showing false or forged testimonials or by deliberately providing false information about the way in which his previous employment ended;
+  - **b.** when the employee seriously seems to lack the competence or the capability to perform the work to which he has engaged himself;
+  - **c.** when the employee, despite warning, takes to drunkenness or other dissipated behaviour;
+  - **d.** when the employee makes himself guilty of theft, embezzlement, deceit, fraud or other indictable offences as a result of which he becomes unworthy of the employer's trust;
+  - **e.** when the employee batters, crudely insults or seriously threatens the employer, his family members or other employees;
+  - **f.** when the employee tempts or tries to tempt the employer, his family members or other employees to perform or participate in actions contradictory to law or good morals;
+  - **g.** when the employee deliberately, or despite warning, recklessly damages the property of the employer or exposes it to serious danger;
+  - **h.** when the employee deliberately, or despite warning, recklessly exposes himself or others to serious danger;
+  - **i.** when the employee makes public characteristics regarding the household or enterprise of the employer which he was expected to keep confidential;
+  - **j. when the employee persistently refuses to comply with reasonable instructions or orders given by or on behalf of the employer;**
+  - **k.** when the employee crudely neglects the obligations imposed on him by the employment agreement;
+  - **l.** when the employee deliberately or because of reckless behaviour becomes or remains unable to perform the contracted work.
 
-    - **1.** The employer may terminate the employment contract if there are reasonable grounds for doing so and redeployment of the employee within a reasonable period, with or without training, to another suitable position is not possible or not reasonable. Redeployment is in any case not reasonable if there is culpable conduct or omission on the part of the employee as referred to in paragraph 3, section e.
-    - **2.** Redeployment, as referred to in paragraph 1, is not required if the employee holds a religious office.
-    - **3.** Reasonable grounds as referred to in paragraph 1 are understood to mean:
-      - **a.** the loss of jobs as a result of the termination of the company's activities or, viewed over a future period of at least 26 weeks, the necessary loss of jobs as a result of measures being taken for efficient business operations due to economic circumstances;
-      - **b.** illness or disability of the employee as a result of which he is no longer able to perform the agreed work, provided that the period referred to in [Article 670, paragraphs 1 and 11](https://wetten.overheid.nl/BWBR0005290/2016-04-01/0/Boek7/Titeldeel10/afdrukken?celex=32003L0072#Boek7_Titeldeel10_Afdeling9_Artikel670), has expired and it is plausible that no recovery will occur within 26 weeks, or in the case of an employee who has reached the age referred to in [Article 7, section a, of the General Old Age Act](https://wetten.overheid.nl/jci1.3:c:BWBR0002221&artikel=7&g=2025-03-20&z=2025-03-20) (_Algemene Ouderdomswet_), 6 weeks, and that the agreed work cannot be performed in an adapted form within that period;
-      - **c.** the regular inability to perform the agreed work as a result of illness or disability of the employee with unacceptable consequences for business operations, provided that the regular inability to perform the agreed work is not the result of insufficient care on the part of the employer for the working conditions of the employee and it is plausible that no recovery will occur within 26 weeks, or in the case of an employee who has reached the age referred to in Article 7, section a, of the General Old Age Act, 6 weeks, and that the agreed work cannot be performed in an adapted form within that period;
-      - **d.** the employee’s incapacity to perform the agreed work, other than as a result of illness or disability of the employee, provided that the employer has informed the employee of this in good time and has given him sufficient opportunity to improve his performance and the incapacity is not the result of insufficient care on the part of the employer for the employee’s training or for the employee’s working conditions;
-      - **e.** culpable acts or omissions on the part of the employee, such that the employer cannot reasonably be expected to allow the employment contract to continue;
-      - **f. the employee’s refusal to perform the agreed work due to a serious conscientious objection, provided that it is plausible that the agreed work cannot be performed in an adapted form;**
-      - **g.** a disturbed working relationship, such that the employer cannot reasonably be expected to allow the employment contract to continue;
-      - **h.** circumstances other than those mentioned above that are such that the employer cannot reasonably be expected to allow the employment contract to continue.
+[3] Contractual provisions leaving the decision whether an urgent reason in the meaning of Article 7:677, paragraph 1, exists to the discretion of the employer, are null and void. [Dutch Civil Code, Book 7, article 669](https://wetboekplus.nl/burgerlijk-wetboek-boek-7-artikel-669-opzeggen-arbeidsovereenkomst/):
+
+- **1.** The employer may terminate the employment contract if there are reasonable grounds for doing so and redeployment of the employee within a reasonable period, with or without training, to another suitable position is not possible or not reasonable. Redeployment is in any case not reasonable if there is culpable conduct or omission on the part of the employee as referred to in paragraph 3, section e.
+- **2.** Redeployment, as referred to in paragraph 1, is not required if the employee holds a religious office.
+- **3.** Reasonable grounds as referred to in paragraph 1 are understood to mean:
+  - **a.** the loss of jobs as a result of the termination of the company's activities or, viewed over a future period of at least 26 weeks, the necessary loss of jobs as a result of measures being taken for efficient business operations due to economic circumstances;
+  - **b.** illness or disability of the employee as a result of which he is no longer able to perform the agreed work, provided that the period referred to in [Article 670, paragraphs 1 and 11](https://wetten.overheid.nl/BWBR0005290/2016-04-01/0/Boek7/Titeldeel10/afdrukken?celex=32003L0072#Boek7_Titeldeel10_Afdeling9_Artikel670), has expired and it is plausible that no recovery will occur within 26 weeks, or in the case of an employee who has reached the age referred to in [Article 7, section a, of the General Old Age Act](https://wetten.overheid.nl/jci1.3:c:BWBR0002221&artikel=7&g=2025-03-20&z=2025-03-20) (_Algemene Ouderdomswet_), 6 weeks, and that the agreed work cannot be performed in an adapted form within that period;
+  - **c.** the regular inability to perform the agreed work as a result of illness or disability of the employee with unacceptable consequences for business operations, provided that the regular inability to perform the agreed work is not the result of insufficient care on the part of the employer for the working conditions of the employee and it is plausible that no recovery will occur within 26 weeks, or in the case of an employee who has reached the age referred to in Article 7, section a, of the General Old Age Act, 6 weeks, and that the agreed work cannot be performed in an adapted form within that period;
+  - **d.** the employee’s incapacity to perform the agreed work, other than as a result of illness or disability of the employee, provided that the employer has informed the employee of this in good time and has given him sufficient opportunity to improve his performance and the incapacity is not the result of insufficient care on the part of the employer for the employee’s training or for the employee’s working conditions;
+  - **e.** culpable acts or omissions on the part of the employee, such that the employer cannot reasonably be expected to allow the employment contract to continue;
+  - **f. the employee’s refusal to perform the agreed work due to a serious conscientious objection, provided that it is plausible that the agreed work cannot be performed in an adapted form;**
+  - **g.** a disturbed working relationship, such that the employer cannot reasonably be expected to allow the employment contract to continue;
+  - **h.** circumstances other than those mentioned above that are such that the employer cannot reasonably be expected to allow the employment contract to continue.

@@ -12,7 +12,9 @@ feature: "feature-action.jpg"
 
 ## Over
 
-Dit document is bedoeld om een ​​overzicht te geven van het Nederlandse arbeidsrecht en de bescherming die het biedt met betrekking tot verschillende situaties waar werknemers mee te maken kunnen krijgen, of acties die door werknemers ondernomen worden.[^1] Het behandelt in grote lijnen verschillende gevallen van arbeidsovereenkomsten en situaties.
+Dit document is bedoeld om een ​​overzicht te geven van het Nederlandse arbeidsrecht en de bescherming die het biedt met betrekking tot verschillende situaties waar werknemers mee te maken kunnen krijgen, of acties die door werknemers ondernomen worden.[1] Het behandelt in grote lijnen verschillende gevallen van arbeidsovereenkomsten en situaties.
+
+De informatie in dit document is opgesteld door een expert op het gebied van het Nederlands arbeidsrecht, op verzoek van arbeiders bij een groot techbedrijf in Nederland. Het wordt hier met toestemming in aangepaste vorm gedeeld, waarbij identificerende gegevens zijn verwijderd.
 
 ## Juridische bescherming voor werknemers
 
@@ -80,14 +82,21 @@ Het moet voor de werkgever duidelijk zijn dat je weigert het werk te doen vanweg
 
 Er zijn wettelijk twee manieren waarop de werkgever je in dit hypothetische geval kan ontslaan:
 
-_a. Ontslag op staande voet_
+#### a. Ontslag op staande voet
 
-- Op basis van artikel 678, onder 2 nr j. in boek 7 van het Burgerlijk Wetboek kan aanhoudende werkweigering een dringende reden voor ontslag (ontslag op staande voet) opleveren.[^2]
+- Op basis van artikel 678, onder 2 nr j. in boek 7 van het Burgerlijk Wetboek kan aanhoudende werkweigering een dringende reden voor ontslag (ontslag op staande voet) opleveren.[2]
 - Als je op deze grond wordt ontslagen, ben je per direct werkloos en zal het UWV hoogstwaarschijnlijk besluiten je geen werkloosheidsuitkering te verstrekken. Om dit ontslag aan te vechten moet je binnen 2 maanden naar de rechter.
 
-_b. Ontslag_
+#### b. Ontslag
 
-- Op grond van artikel 7:699 lid 3 staan ​​de ontslaggronden opgesomd.[^3] Onder artikel 669, onder 3 nr f staat het volgende: ‘_1. De werkgever kan de arbeidsovereenkomst opzeggen indien daar een redelijke grond voor is en herplaatsing van de werknemer binnen een redelijke termijn, al dan niet met behulp van scholing, in een andere passende functie niet mogelijk is of niet in de rede ligt. (...) 3. Onder een redelijke grond als bedoeld in lid 1 wordt verstaan: (...) f. het weigeren van de werknemer de bedongen arbeid te verrichten wegens een ernstig gewetensbezwaar, mits aannemelijk is dat de bedongen arbeid niet in aangepaste vorm kan worden verricht;_’
+- Op grond van artikel 7:699 lid 3 staan ​​de ontslaggronden opgesomd.[3] Onder artikel 669, onder 3 nr f staat het volgende:
+
+  > **1.** De werkgever kan de arbeidsovereenkomst opzeggen indien daar een redelijke grond voor is en herplaatsing van de werknemer binnen een redelijke termijn, al dan niet met behulp van scholing, in een andere passende functie niet mogelijk is of niet in de rede ligt.
+  >
+  > (...)
+  >
+  > **3.** Onder een redelijke grond als bedoeld in lid 1 wordt verstaan: (...) f. het weigeren van de werknemer de bedongen arbeid te verrichten wegens een ernstig gewetensbezwaar, mits aannemelijk is dat de bedongen arbeid niet in aangepaste vorm kan worden verricht;
+
 - In dit scenario moet de werkgever toestemming vragen aan de rechter om de overeenkomst te ontbinden, dus dit duurt langer. Je bent tijdens de procedure in dienst en je komt in aanmerking voor een werkloosheidsuitkering (als je daar recht op hebt).
 
 ### 3. Mag ik staken als ik het niet eens ben met de activiteiten van mijn werkgever vanwege gewetensbezwaren?
@@ -135,38 +144,39 @@ Werknemers genieten in Nederland bescherming tegen onrechtmatig ontslag door een
 
 Of een werkgever actie onderneemt, hangt af van het soort actie, wanneer de actie plaatsvindt, de toon van de actie, en of er al dan niet eerder is gecommuniceerd. Het hangt ook af van de eerste reactie van de werkgever en of de werkgever bijvoorbeeld openstaat voor discussie en wijzigingen in het werk.
 
-[^1]: Voor een uitstekend Engelstalig overzicht van het Nederlands arbeidsrecht, zie het volgende rapport: [Dismissal law in The Netherlands](https://ewll.eu/wp-content/uploads/2019/08/EWLL-2018-dismissal-law-dutch-report.pdf) (maart 2018), door Tom F.M. Bremers, Emma A.P. Ficq, Caroline J.G.P. Huizinga, en Merel A.C. Keijzer van de Europese Werkgroep Arbeidsrecht. Dit is van 2018, dus is mogelijk niet helemaal actueel met betrekking tot specifieke kwesties.
+## Annex
 
-[^2]:
-    **[Burgerlijk Wetboek, Boek 7, artikel 678](https://wetboekplus.nl/burgerlijk-wetboek-boek-7-artikel-678-dringende-redenen-werkgever/): Dringende redenen werkgever.**
+_Juridische teksten kunnen soms wijzingen. De wetsartikelen die hier geciteerd worden zijn correct ten tijde van april 2025. Controleer altijd de oorspronkelijke juridische brontekst voor de meest recente versie._
 
-    - **1.** Voor de werkgever worden als dringende redenen in de zin van lid 1 van artikel 677 beschouwd zodanige daden, eigenschappen of gedragingen van de werknemer, die ten gevolge hebben dat van de werkgever redelijkerwijze niet kan gevergd worden de arbeidsovereenkomst te laten voortduren.
-    - **2.** Dringende redenen zullen onder andere aanwezig geacht kunnen worden:
-      - **a.** wanneer de werknemer bij het sluiten van de overeenkomst de werkgever heeft misleid door het vertonen van valse of vervalste getuigschriften, of deze opzettelijk valse inlichtingen heeft gegeven omtrent de wijze waarop zijn vorige arbeidsovereenkomst is geëindigd;
-      - **b.** wanneer hij in ernstige mate de bekwaamheid of geschiktheid blijkt te missen tot de arbeid waarvoor hij zich heeft verbonden;
-      - **c.** wanneer hij zich ondanks waarschuwing overgeeft aan dronkenschap of ander liederlijk gedrag;
-      - **d.** wanneer hij zich schuldig maakt aan diefstal, verduistering, bedrog of andere misdrijven, waardoor hij het vertrouwen van de werkgever onwaardig wordt;
-      - **e.** wanneer hij de werkgever, diens familieleden of huisgenoten, of zijn medewerknemers mishandelt, grovelijk beledigt of op ernstige wijze bedreigt;
-      - **f.** wanneer hij de werkgever, diens familieleden of huisgenoten, of zijn medewerknemers verleidt of tracht te verleiden tot handelingen, strijdig met de wetten of de goede zeden;
-      - **g.** wanneer hij opzettelijk, of ondanks waarschuwing roekeloos, eigendom van de werkgever beschadigt of aan ernstig gevaar blootstelt;
-      - **h.** wanneer hij opzettelijk, of ondanks waarschuwing roekeloos, zich zelf of anderen aan ernstig gevaar blootstelt;
-      - **i.** wanneer hij bijzonderheden aangaande de huishouding of het bedrijf van de werkgever, die hij behoorde geheim te houden, bekendmaakt;
-      - **j. wanneer hij hardnekkig weigert te voldoen aan redelijke bevelen of opdrachten, hem door of namens de werkgever verstrekt;**
-      - **k.** wanneer hij op andere wijze grovelijk de plichten veronachtzaamt, welke de arbeidsovereenkomst hem oplegt;
-      - **l.** wanneer hij door opzet of roekeloosheid buiten staat geraakt of blijft de bedongen arbeid te verrichten.
-    - **3.** Bedingen waarbij aan de werkgever de beslissing wordt overgelaten of er een dringende reden in de zin van artikel 677 lid 1 aanwezig is, zijn nietig.
+[1] Voor een uitstekend Engelstalig overzicht van het Nederlands arbeidsrecht, zie het volgende rapport: [Dismissal law in The Netherlands](https://ewll.eu/wp-content/uploads/2019/08/EWLL-2018-dismissal-law-dutch-report.pdf) (2018), door Tom F.M. Bremers, Emma A.P. Ficq, Caroline J.G.P. Huizinga, en Merel A.C. Keijzer van de Europese Werkgroep Arbeidsrecht. Dit is van 2018, dus is mogelijk niet helemaal actueel met betrekking tot specifieke kwesties.
 
-[^3]:
-    [Burgerlijk Wetboek, Boek 7, artikel 669](https://wetboekplus.nl/burgerlijk-wetboek-boek-7-artikel-669-opzeggen-arbeidsovereenkomst/):
+[2] **[Burgerlijk Wetboek, Boek 7, artikel 678](https://wetboekplus.nl/burgerlijk-wetboek-boek-7-artikel-678-dringende-redenen-werkgever/): Dringende redenen werkgever.**
 
-    - **1.** De werkgever kan de arbeidsovereenkomst opzeggen indien daar een redelijke grond voor is en herplaatsing van de werknemer binnen een redelijke termijn, al dan niet met behulp van scholing, in een andere passende functie niet mogelijk is of niet in de rede ligt. Herplaatsing ligt in ieder geval niet in de rede indien sprake is van verwijtbaar handelen of nalaten van de werknemer als bedoeld in lid 3, onderdeel e.
-    - **2.** Herplaatsing, bedoeld in lid 1, is niet vereist, indien de werknemer een geestelijk ambt bekleedt.
-    - **3.** Onder een redelijke grond als bedoeld in lid 1 wordt verstaan:
-      - **a.** het vervallen van arbeidsplaatsen als gevolg van de beëindiging van de werkzaamheden van de onderneming of het, over een toekomstige periode van ten minste 26 weken bezien, noodzakelijkerwijs vervallen van arbeidsplaatsen als gevolg van het wegens bedrijfseconomische omstandigheden treffen van maatregelen voor een doelmatige bedrijfsvoering;
-      - **b.** ziekte of gebreken van de werknemer waardoor hij niet meer in staat is de bedongen arbeid te verrichten, mits de periode, bedoeld in [artikel 670, leden 1 en 11](https://wetten.overheid.nl/BWBR0005290/2016-04-01/0/Boek7/Titeldeel10/afdrukken?celex=32003L0072#Boek7_Titeldeel10_Afdeling9_Artikel670), is verstreken en aannemelijk is dat binnen 26 weken, of bij een werknemer die de in [artikel 7, onderdeel a, van de Algemene Ouderdomswet](https://wetten.overheid.nl/jci1.3:c:BWBR0002221&artikel=7&g=2025-03-20&z=2025-03-20) bedoelde leeftijd heeft bereikt, 6 weken, geen herstel zal optreden en dat binnen die periode de bedongen arbeid niet in aangepaste vorm kan worden verricht;
-      - **c.** het bij regelmaat niet kunnen verrichten van de bedongen arbeid als gevolg van ziekte of gebreken van de werknemer met voor de bedrijfsvoering onaanvaardbare gevolgen, mits het bij regelmaat niet kunnen verrichten van de bedongen arbeid niet het gevolg is van onvoldoende zorg van de werkgever voor de arbeidsomstandigheden van de werknemer en aannemelijk is dat binnen 26 weken, of bij een werknemer die de in artikel 7, onderdeel a, van de Algemene Ouderdomswet bedoelde leeftijd heeft bereikt, 6 weken, geen herstel zal optreden en dat binnen die periode de bedongen arbeid niet in aangepaste vorm kan worden verricht;
-      - **d.** de ongeschiktheid van de werknemer tot het verrichten van de bedongen arbeid, anders dan ten gevolge van ziekte of gebreken van de werknemer, mits de werkgever de werknemer hiervan tijdig in kennis heeft gesteld en hem in voldoende mate in de gelegenheid heeft gesteld zijn functioneren te verbeteren en de ongeschiktheid niet het gevolg is van onvoldoende zorg van de werkgever voor scholing van de werknemer of voor de arbeidsomstandigheden van de werknemer;
-      - **e.** verwijtbaar handelen of nalaten van de werknemer, zodanig dat van de werkgever in redelijkheid niet kan worden gevergd de arbeidsovereenkomst te laten voortduren;
-      - **f. het weigeren van de werknemer de bedongen arbeid te verrichten wegens een ernstig gewetensbezwaar, mits aannemelijk is dat de bedongen arbeid niet in aangepaste vorm kan worden verricht;**
-      - **g.** een verstoorde arbeidsverhouding, zodanig dat van de werkgever in redelijkheid niet kan worden gevergd de arbeidsovereenkomst te laten voortduren;
-      - **h.** andere dan de hiervoor genoemde omstandigheden die zodanig zijn dat van de werkgever in redelijkheid niet kan worden gevergd de arbeidsovereenkomst te laten voortduren.
+- **1.** Voor de werkgever worden als dringende redenen in de zin van lid 1 van artikel 677 beschouwd zodanige daden, eigenschappen of gedragingen van de werknemer, die ten gevolge hebben dat van de werkgever redelijkerwijze niet kan gevergd worden de arbeidsovereenkomst te laten voortduren.
+- **2.** Dringende redenen zullen onder andere aanwezig geacht kunnen worden:
+  - **a.** wanneer de werknemer bij het sluiten van de overeenkomst de werkgever heeft misleid door het vertonen van valse of vervalste getuigschriften, of deze opzettelijk valse inlichtingen heeft gegeven omtrent de wijze waarop zijn vorige arbeidsovereenkomst is geëindigd;
+  - **b.** wanneer hij in ernstige mate de bekwaamheid of geschiktheid blijkt te missen tot de arbeid waarvoor hij zich heeft verbonden;
+  - **c.** wanneer hij zich ondanks waarschuwing overgeeft aan dronkenschap of ander liederlijk gedrag;
+  - **d.** wanneer hij zich schuldig maakt aan diefstal, verduistering, bedrog of andere misdrijven, waardoor hij het vertrouwen van de werkgever onwaardig wordt;
+  - **e.** wanneer hij de werkgever, diens familieleden of huisgenoten, of zijn medewerknemers mishandelt, grovelijk beledigt of op ernstige wijze bedreigt;
+  - **f.** wanneer hij de werkgever, diens familieleden of huisgenoten, of zijn medewerknemers verleidt of tracht te verleiden tot handelingen, strijdig met de wetten of de goede zeden;
+  - **g.** wanneer hij opzettelijk, of ondanks waarschuwing roekeloos, eigendom van de werkgever beschadigt of aan ernstig gevaar blootstelt;
+  - **h.** wanneer hij opzettelijk, of ondanks waarschuwing roekeloos, zich zelf of anderen aan ernstig gevaar blootstelt;
+  - **i.** wanneer hij bijzonderheden aangaande de huishouding of het bedrijf van de werkgever, die hij behoorde geheim te houden, bekendmaakt;
+  - **j. wanneer hij hardnekkig weigert te voldoen aan redelijke bevelen of opdrachten, hem door of namens de werkgever verstrekt;**
+  - **k.** wanneer hij op andere wijze grovelijk de plichten veronachtzaamt, welke de arbeidsovereenkomst hem oplegt;
+  - **l.** wanneer hij door opzet of roekeloosheid buiten staat geraakt of blijft de bedongen arbeid te verrichten.
+
+[3] Bedingen waarbij aan de werkgever de beslissing wordt overgelaten of er een dringende reden in de zin van artikel 677 lid 1 aanwezig is, zijn nietig. [Burgerlijk Wetboek, Boek 7, artikel 669](https://wetboekplus.nl/burgerlijk-wetboek-boek-7-artikel-669-opzeggen-arbeidsovereenkomst/):
+
+- **1.** De werkgever kan de arbeidsovereenkomst opzeggen indien daar een redelijke grond voor is en herplaatsing van de werknemer binnen een redelijke termijn, al dan niet met behulp van scholing, in een andere passende functie niet mogelijk is of niet in de rede ligt. Herplaatsing ligt in ieder geval niet in de rede indien sprake is van verwijtbaar handelen of nalaten van de werknemer als bedoeld in lid 3, onderdeel e.
+- **2.** Herplaatsing, bedoeld in lid 1, is niet vereist, indien de werknemer een geestelijk ambt bekleedt.
+- **3.** Onder een redelijke grond als bedoeld in lid 1 wordt verstaan:
+  - **a.** het vervallen van arbeidsplaatsen als gevolg van de beëindiging van de werkzaamheden van de onderneming of het, over een toekomstige periode van ten minste 26 weken bezien, noodzakelijkerwijs vervallen van arbeidsplaatsen als gevolg van het wegens bedrijfseconomische omstandigheden treffen van maatregelen voor een doelmatige bedrijfsvoering;
+  - **b.** ziekte of gebreken van de werknemer waardoor hij niet meer in staat is de bedongen arbeid te verrichten, mits de periode, bedoeld in [artikel 670, leden 1 en 11](https://wetten.overheid.nl/BWBR0005290/2016-04-01/0/Boek7/Titeldeel10/afdrukken?celex=32003L0072#Boek7_Titeldeel10_Afdeling9_Artikel670), is verstreken en aannemelijk is dat binnen 26 weken, of bij een werknemer die de in [artikel 7, onderdeel a, van de Algemene Ouderdomswet](https://wetten.overheid.nl/jci1.3:c:BWBR0002221&artikel=7&g=2025-03-20&z=2025-03-20) bedoelde leeftijd heeft bereikt, 6 weken, geen herstel zal optreden en dat binnen die periode de bedongen arbeid niet in aangepaste vorm kan worden verricht;
+  - **c.** het bij regelmaat niet kunnen verrichten van de bedongen arbeid als gevolg van ziekte of gebreken van de werknemer met voor de bedrijfsvoering onaanvaardbare gevolgen, mits het bij regelmaat niet kunnen verrichten van de bedongen arbeid niet het gevolg is van onvoldoende zorg van de werkgever voor de arbeidsomstandigheden van de werknemer en aannemelijk is dat binnen 26 weken, of bij een werknemer die de in artikel 7, onderdeel a, van de Algemene Ouderdomswet bedoelde leeftijd heeft bereikt, 6 weken, geen herstel zal optreden en dat binnen die periode de bedongen arbeid niet in aangepaste vorm kan worden verricht;
+  - **d.** de ongeschiktheid van de werknemer tot het verrichten van de bedongen arbeid, anders dan ten gevolge van ziekte of gebreken van de werknemer, mits de werkgever de werknemer hiervan tijdig in kennis heeft gesteld en hem in voldoende mate in de gelegenheid heeft gesteld zijn functioneren te verbeteren en de ongeschiktheid niet het gevolg is van onvoldoende zorg van de werkgever voor scholing van de werknemer of voor de arbeidsomstandigheden van de werknemer;
+  - **e.** verwijtbaar handelen of nalaten van de werknemer, zodanig dat van de werkgever in redelijkheid niet kan worden gevergd de arbeidsovereenkomst te laten voortduren;
+  - **f. het weigeren van de werknemer de bedongen arbeid te verrichten wegens een ernstig gewetensbezwaar, mits aannemelijk is dat de bedongen arbeid niet in aangepaste vorm kan worden verricht;**
+  - **g.** een verstoorde arbeidsverhouding, zodanig dat van de werkgever in redelijkheid niet kan worden gevergd de arbeidsovereenkomst te laten voortduren;
+  - **h.** andere dan de hiervoor genoemde omstandigheden die zodanig zijn dat van de werkgever in redelijkheid niet kan worden gevergd de arbeidsovereenkomst te laten voortduren.
