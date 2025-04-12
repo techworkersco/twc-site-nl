@@ -1,5 +1,5 @@
 ---
-title: "Organizing for Power: Core Fundamentals Training | Session #6"
+title: "Organizing for Power | Session #6"
 date: 2025-03-20T18:00:00+01:00
 location: "Online"
 organisation: ""
