@@ -1,6 +1,7 @@
 ---
 title: "Booking.com layoffs info session #2"
 date: 2025-04-25T13:00:00+02:00
+description: "An online info session for Booking.com workers about organizing against layoffs"
 location: "Online"
 organisation: ""
 tags: ["organizing"]
