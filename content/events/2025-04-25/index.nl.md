@@ -1,6 +1,7 @@
 ---
 title: "Booking.com layoffs infosessie #2"
 date: 2025-04-25T13:00:00+02:00
+description: "Een online infosessie voor Booking.com-medewerkers over organiseren tegen massa-ontslagen"
 location: "Online"
 organisation: ""
 tags: ["organizeren"]
