@@ -8,7 +8,7 @@ layout: "single-resource"
 feature: "feature-action.jpg"
 ---
 
-> **Let op:** Dit document behandelt juridische kwesties en is alleen bedoeld als informatiebron. Techwerkerscoalitie biedt op geen enkele manier juridisch advies, dus behandel dit document niet alsof het juridisch advies zou zijn.
+{{< we-are-not-lawyers >}}
 
 ## Over
 
