@@ -1,18 +1,3 @@
-{{- define "partials/inline/breadcrumbData" -}}
-  {{- $scratchCtx := .scratch -}}
-  {{- with .parent }}
-    {{ partial "inline/breadcrumbData" (dict "scratch" $scratchCtx "parent" .Parent) }}
-    {{- $scratchCtx.Add "listItem" (slice (dict
-      "@type" "ListItem"
-      "position" ($scratchCtx.Get "count")
-      "name" (.Title | humanize | title)
-      "item" .Permalink
-      ))
-    -}}
-    {{- $scratchCtx.Add "count" 1 -}}
-  {{- end }}
-{{- end -}}
-
 {{ if .IsHome -}}
   <script type="application/ld+json">
   {
@@ -63,7 +48,7 @@
   </script> {{- /* Source: https://bullaki.com/projects/web-design/seo-with-hugo-5-breadcrumbs/ */}}
   {{- $scratch := newScratch -}}
   {{- $scratch.Set "count" 1 -}}
-  {{ partial "inline/breadcrumbData" (dict "scratch" $scratch "parent" .Parent) }}
+  {{ partial "breadcrumbData" (dict "scratch" $scratch "parent" .Parent) }}
 
   {{- with index (.GetTerms "categories") 0 -}}
     {{- $scratch.Add "listItem" (slice (dict
