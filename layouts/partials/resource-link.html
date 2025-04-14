@@ -37,15 +37,4 @@
       <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">{{ .Params.description }}</p>
     {{ end }}
   </div>
-
-  <!-- <div class="flex flex-wrap gap-2 text-xs lowercase">
-    {{ $tags := .Params.tags }}
-    {{ if $tags }}
-      {{ range $tags }}
-        <a href="tags/{{ . | urlize }}" class="relative z-10 rounded-full bg-gray-50 px-1 py-1.5 font-medium text-gray-600 hover:bg-gray-100">
-          {{ . }}
-        </a>
-      {{ end }}
-    {{ end }}
-  </div> -->
 </article>
