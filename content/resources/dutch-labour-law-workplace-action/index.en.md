@@ -8,7 +8,7 @@ layout: "single-resource"
 feature: "feature-action.jpg"
 ---
 
-> **Disclaimer:** This document deals with legal issues and is intended to provide an informational resource only. Tech Workers Coalition doesn't in any way provide legal advice, so don't rely on this document as though it would constitute legal advice.
+{{< we-are-not-lawyers >}}
 
 ## About
 
