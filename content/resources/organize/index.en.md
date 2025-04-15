@@ -3,7 +3,7 @@ title: "Organize your workplace"
 date: "2025-03-01"
 lastmod: "2025-03-01"
 description: "Learn how to organize your workplace with the Tech Workers Coalition. Get motivated, form a planning team, and build solidarity to win positive change."
-tags: []
+tags: ["palestine"]
 layout: "single-resource"
 feature: "feature-organize.jpg"
 ---

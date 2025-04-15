@@ -3,7 +3,7 @@ title: "Organiseer je werkplek"
 date: "2025-03-01"
 lastmod: "2025-03-01"
 description: "Leer hoe je je werkplek organiseert met de Techwerkercoalitie. Vind je motivatie, vorm een ​​team en bouw solidariteit op om positieve verandering te realiseren."
-tags: []
+tags: ["palestine"]
 layout: "single-resource"
 feature: "feature-organize.jpg"
 ---
