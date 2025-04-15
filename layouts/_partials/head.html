@@ -100,7 +100,7 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink ($.Site.Title | emojify) | safeHTML }}
   {{ end -}}
   {{/* Icons */}}
-  {{ if templates.Exists "partials/favicons.html" }}
+  {{ if templates.Exists "favicons.html" }}
     {{ partialCached "favicons.html" .Site }}
   {{ else }}
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}" />
@@ -141,7 +141,7 @@
   {{/* Analytics */}}
   {{ partial "analytics.html" . }}
   {{/* Extend head - eg. for custom analytics scripts, etc. */}}
-  {{ if templates.Exists "partials/extend-head.html" }}
+  {{ if templates.Exists "extend-head.html" }}
     {{ partial "extend-head.html" . }}
   {{ end }}
 </head>
