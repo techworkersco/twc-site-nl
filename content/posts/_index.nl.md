@@ -1,5 +1,5 @@
 ---
 title: "Nieuws"
 description: ""
-draft: true
+draft: false
 ---
