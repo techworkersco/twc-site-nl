@@ -1,0 +1,12 @@
+{{- $scratchCtx := .scratch -}}
+{{- with .parent }}
+  {{ partial "breadcrumbData" (dict "scratch" $scratchCtx "parent" .Parent) }}
+  {{- $scratchCtx.Add "listItem" (slice (dict
+    "@type" "ListItem"
+    "position" ($scratchCtx.Get "count")
+    "name" (.Title | humanize | title)
+    "item" .Permalink
+    ))
+  -}}
+  {{- $scratchCtx.Add "count" 1 -}}
+{{- end }}
