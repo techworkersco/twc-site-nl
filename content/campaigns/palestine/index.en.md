@@ -1,7 +1,7 @@
 ---
 title: "Tech workers for Palestine"
-date: "2025-03-23"
-lastmod: "2025-03-23"
+date: "2025-04-15"
+lastmod: "2025-04-15"
 showDateUpdated: true
 showSummary: true
 summary: "Tech workers in the Netherlands take action to support the liberation of Palestine."

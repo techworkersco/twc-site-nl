@@ -1,7 +1,7 @@
 ---
 title: "Techwerkers voor Palestina"
-date: "2025-03-23"
-lastmod: "2025-03-23"
+date: "2025-04-15"
+lastmod: "2025-04-15"
 showDateUpdated: true
 showSummary: true
 summary: "Techwerkers in Nederland zetten zich in voor de bevrijding van Palestina."
