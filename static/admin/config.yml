@@ -8,6 +8,8 @@ backend:
   branch: main
   # we don't need draft history
   squash_merges: true
+  # Let external people fork and submit PRs
+  open_authoring: true
 
 media_folder: static/img
 public_folder: /img
