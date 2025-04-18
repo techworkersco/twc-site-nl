@@ -3,13 +3,13 @@ local_backend: true
 publish_mode: editorial_workflow
 
 backend:
-  name: git-gateway
+  name: github
+  repo: techworkersco/twc-site-nl
   branch: main
-  accept_roles:
-    - admin
-    - editor
   # we don't need draft history
   squash_merges: true
+  # Let external people fork and submit PRs
+  open_authoring: true
 
 media_folder: static/img
 public_folder: /img
