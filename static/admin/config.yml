@@ -172,6 +172,12 @@ collections:
         widget: datetime
         i18n: duplicate
         format: "YYYY-MM-DDTHH:mm:ssZ"
+      - label: Feature Image
+        name: feature
+        widget: image
+        allow_multiple: false
+        i18n: false
+        choose_url: true
       - label: Body
         name: body
         widget: markdown
