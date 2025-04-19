@@ -1,12 +1,12 @@
 ---
-title: "Nieuwsbericht"
-date: "2025-04-15"
-lastmod: "2025-04-15"
-description: "..."
-author: "Will"
+layout: single
+author: Will
+lastmod: 2025-04-15
+title: Nieuwsbericht
+date: 2025-04-15
+feature: img_0168.jpg
 tags: []
-layout: "single"
-feature: "feature-office-celebration.jpg"
+description: ...
 ---
 
 Hier komt het bericht.
