@@ -1,14 +1,12 @@
-{{- $events := .Site.GetPage "events" -}}
----
-events:
-{{- range sort $events.Pages ".Date" "asc" -}}
-{{- $images := .Resources.ByType "image" }}
+{{- $events := (.Site.GetPage "events").Pages -}}
+{{- range sort $events ".Date" "asc" -}}
+{{- $images := .Resources.ByType "image" -}}
 {{- $feature := $images.GetMatch .Params.feature }}
 - title: {{ .Params.title }}
-  date: {{ .Date.Format "2006-01-02T15:04:05Z07:00" }}
+  date: {{ .Date.Format "2006-01-02 15:04:05 -07:00" }}
   location: {{ .Params.location }}
   tags: {{ .Params.tags }}
-  timezones: ["{{ .Date.Format "MST"}}"]
+  timezones: ["Europe/Amsterdam"]
   {{- with $feature }}
   image: {{ .Permalink }}
   {{- else }}
