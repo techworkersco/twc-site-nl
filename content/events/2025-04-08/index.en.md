@@ -1,9 +1,10 @@
 ---
 title: "Shaping radical technologies"
-date: 2025-04-08T17:30:00+01:00
+date: 2025-04-08T17:30:00+02:00
 location: "VU StudentenD0k, de Boelelaan 1105, Amsterdam"
 organisation: ""
 tags: []
+feature: "feature-rosa.jpg"
 ---
 
 Have you ever wondered how capitalism influences technological developments? What is the meaning of digital colonialism? What is the role of workers in the modern tech industry, and how we can unite and fight for liberation in the digital age?

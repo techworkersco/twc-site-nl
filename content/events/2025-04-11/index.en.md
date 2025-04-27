@@ -1,9 +1,10 @@
 ---
 title: "Tech workers conference Berlin"
-date: 2025-04-11T9:00:00+01:00
+date: 2025-04-11T9:00:00+02:00
 location: "Berlin"
 organisation: ""
 tags: [""]
+feature: "feature-conference.jpg"
 ---
 
 Tech worker comrades in Berlin are organizing a conference, and you're invited!
