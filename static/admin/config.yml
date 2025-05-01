@@ -180,11 +180,6 @@ collections:
         widget: datetime
         i18n: duplicate
         format: "YYYY-MM-DDTHH:mm:ssZ"
-      - label: Last Modified Date
-        name: lastmod
-        widget: datetime
-        i18n: duplicate
-        format: "YYYY-MM-DDTHH:mm:ssZ"
       - label: Tags
         name: tags
         widget: list
