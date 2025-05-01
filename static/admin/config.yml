@@ -34,6 +34,7 @@ collections:
     create: true
     slug: "index"
     path: "{{title}}/{{slug}}"
+    summary: "{{ fields.index | ternary('INDEX - ', '')}}{{fields.title}}"
     media_folder: ""
     public_folder: ""
     i18n: true
@@ -87,7 +88,7 @@ collections:
     # This can be overriden later in the repo. It's just used by decap on creation.
     path: "{{year}}-{{month}}-{{day}}-{{title}}/{{slug}}"
     # This is just the view in decap CMS
-    summary: "{{fields.date | date('YYYY-MM-DD')}} - {{fields.title}}"
+    summary: "{{fields.index | ternary('INDEX - ', '')}}{{fields.date | date('YYYY-MM-DD')}} - {{fields.title}}"
     media_folder: ""
     public_folder: ""
     i18n: true

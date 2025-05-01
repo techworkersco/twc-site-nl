@@ -1,6 +1,7 @@
 ---
 title: "Activiteiten"
 description: ""
+index: true
 ---
 
 {{< lead >}}
