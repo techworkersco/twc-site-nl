@@ -42,11 +42,6 @@ collections:
       field: layout
       value: single-resource
     fields:
-      - label: Layout
-        name: layout
-        widget: hidden
-        default: single-resource
-        i18n: duplicate
       - label: Title
         name: title
         widget: string

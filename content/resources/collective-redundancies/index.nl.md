@@ -4,7 +4,6 @@ date: "2025-04-21"
 lastmod: "2025-04-21"
 description: "Deze gids biedt een neutraal en uitgebreid overzicht van de Nederlandse arbeidswetgeving en werknemersrechten tijdens collectief ontslag. Het beschrijft de belangrijkste wettelijke beschermingen, de rol van de ondernemingsraad en de rechten die werknemers in dergelijke situaties hebben. Hieronder vallen onder meer opzegtermijn, transitievergoeding en de mogelijkheid om ontslag aan te vechten. De informatie is objectief en biedt werknemers duidelijke richtlijnen over de procedures en hun juridische opties."
 tags: []
-layout: "single-resource"
 feature: "feature-layoffs.jpg"
 ---
 

@@ -4,7 +4,6 @@ date: "2025-04-21"
 lastmod: "2025-04-21"
 description: "This guide provides a neutral, comprehensive overview of Dutch labour laws and employee rights during collective redundancy. The guide outlines key legal protections, the role of the works council, and the rights employees have in such situations, including notification, transition payment, and the ability to challenge dismissals. The information is unbiased, offering employees clear guidance on the processes and their legal options in line with Dutch legislation."
 tags: []
-layout: "single-resource"
 feature: "feature-layoffs.jpg"
 ---
 

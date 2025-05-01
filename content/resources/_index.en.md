@@ -6,5 +6,4 @@ cascade:
   showAuthor: false
   showSummary: true
   invertPagination: true
-layout: "resources"
 ---
