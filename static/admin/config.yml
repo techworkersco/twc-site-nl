@@ -37,10 +37,6 @@ collections:
     media_folder: ""
     public_folder: ""
     i18n: true
-    # Hack to hide the resources index
-    filter:
-      field: layout
-      value: single-resource
     fields:
       - label: Title
         name: title
@@ -95,10 +91,6 @@ collections:
     media_folder: ""
     public_folder: ""
     i18n: true
-    # Hack to hide the resources
-    filter:
-      field: layout
-      value: single-event
     fields:
       - label: Title
         name: title
