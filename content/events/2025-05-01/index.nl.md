@@ -4,7 +4,6 @@ date: 2025-05-01T14:00:00+01:00
 location: "Museumplein, Amsterdam"
 organisation: ""
 tags: [""]
-layout: "single-event"
 ---
 
 Techwerkers vieren de Dag van de Arbeid! Het evenement waar de techwerkers zich bij aansluiten wordt georganiseerd door de vakbond [FNV](https://www.fnv.nl/acties/dag-van-de-arbeid). Programma:

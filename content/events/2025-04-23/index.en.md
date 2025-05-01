@@ -5,7 +5,6 @@ location: "Online"
 description: "An online info session for Booking.com workers about organizing against layoffs"
 organisation: ""
 tags: ["organizing"]
-layout: "single-event"
 showTableOfContents: false
 ---
 

@@ -105,11 +105,6 @@ collections:
       field: layout
       value: single-event
     fields:
-      - label: Layout
-        name: layout
-        widget: hidden
-        default: single-event
-        i18n: duplicate
       - label: Title
         name: title
         widget: string
