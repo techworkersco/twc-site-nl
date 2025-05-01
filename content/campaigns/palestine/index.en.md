@@ -5,7 +5,6 @@ lastmod: "2025-04-15"
 showDateUpdated: true
 showSummary: true
 summary: "Tech workers in the Netherlands take action to support the liberation of Palestine."
-description: "Tech workers in the Netherlands take action to support the liberation of Palestine."
 campaign: "palestine"
 feature: "feature-palestine.jpg"
 featureAlt: "A laptop on a table with next to it a plate with slices of watermelon"
