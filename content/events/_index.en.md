@@ -1,7 +1,7 @@
 ---
 title: "Events"
 description: ""
-layout: "events"
+index: true
 ---
 
 {{< lead >}}

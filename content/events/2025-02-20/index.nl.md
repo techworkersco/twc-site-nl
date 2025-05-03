@@ -4,7 +4,6 @@ date: 2025-02-20T18:00:00+01:00
 location: "Online"
 organisation: ""
 tags: ["training"]
-layout: "single-event"
 ---
 
 _Organiseren voor échte verandering: Basistraining_ is een intensieve training waarin je leert hoe je vaker en beter de campagnes kunt winnen die voor jou belangrijk zijn!

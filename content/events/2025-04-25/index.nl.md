@@ -5,7 +5,6 @@ description: "Een online infosessie voor Booking.com-medewerkers over organisere
 location: "Online"
 organisation: ""
 tags: ["organizeren"]
-layout: "single-event"
 showTableOfContents: false
 ---
 

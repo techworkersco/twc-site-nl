@@ -4,7 +4,6 @@ date: 2025-04-15T17:00:00+01:00
 location: "Online"
 organisation: ""
 tags: ["organizing"]
-layout: "single-event"
 ---
 
 Would you like to learn more about the Tech Workers Coalition? Want to get more involved? Join the Tech Workers Coalition onboarding call on 15 April!

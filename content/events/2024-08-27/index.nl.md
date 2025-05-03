@@ -4,7 +4,6 @@ date: 2024-08-07T17:30:00+02:00
 location: "Online"
 organisation: ""
 tags: ["organizing"]
-layout: "single-event"
 ---
 
 ![Blad voor de 'Leer zelf organiseren'-activiteit](events/2024-08-27/learn-to-organise-NL.png)

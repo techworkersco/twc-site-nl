@@ -1,7 +1,7 @@
 ---
 title: "Congrats 🥳"
 description: "You're joining the Tech Workers Coalition! Together we can take collective action and change tech work in the Netherlands for the better."
-layout: "join-success"
+layout: "success"
 ---
 
 ## What happens next?

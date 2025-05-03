@@ -4,7 +4,6 @@ date: 2024-08-07T17:30:00+02:00
 location: "Online"
 organisation: "Open working and reading group to learn more about organising together"
 tags: ["organizing"]
-layout: "single-event"
 ---
 
 ![Flyer for the 'Learn to organise' event](events/2024-08-27/learn-to-organise-NL.png)

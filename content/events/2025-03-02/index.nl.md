@@ -4,7 +4,6 @@ date: 2025-03-02T10:00:00+01:00
 location: "Ru Paré, Chris Lebeaustraat 4, Amsterdam"
 organisation: "2.Dh5"
 tags: ["festival"]
-layout: "single-event"
 ---
 
 Techwerkers in Nederland doen mee aan het 2.Dh5 festival in Amsterdam. Kom gerust even hallo zeggen bij het techwerkerscoalitie-standje!
