@@ -165,7 +165,7 @@ collections:
         name: campaign
         widget: string
         i18n: duplicate
-        hint: Resources with this identifier will show up in the bottom of the campaign page 
+        hint: Resources with this identifier will show up in the bottom of the campaign page
       - label: Feature Image
         name: feature
         widget: image
