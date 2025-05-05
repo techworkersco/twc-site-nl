@@ -4,7 +4,6 @@ date: 2025-01-21T18:00:00+01:00
 location: "Catu, Catullusweg 11, Rotterdam"
 organisation: "Rubber Ducky Collective"
 tags: ["workshop"]
-layout: "single-event"
 ---
 
 ![Flyer voor de 'Rubber Ducky Collective: Programming for Beginners' workshop](events/2025-01-21/programming-skillshare-catu.png)

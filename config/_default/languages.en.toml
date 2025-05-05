@@ -20,8 +20,8 @@ copyright = "2025 Tech Workers Coalition"
   links = [
     { instagram = "https://instagram.com/techwerkers" },
     # { linkedin = "" },
-    # { bluesky = "https://bsky.app/profile/techwerkers.bsky.social" },
+    { bluesky = "https://bsky.app/profile/techwerkers.bsky.social" },
     # { x-twitter = "" },
-    # { mastodon = "" },
+    { mastodon = "https://mastodon.nl/@techwerkers" },
     { email = "mailto:hey@techwerkers.nl" },
   ]

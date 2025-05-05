@@ -4,7 +4,6 @@ date: 2025-03-13T18:00:00+01:00
 location: "Online"
 organisation: ""
 tags: ["training"]
-layout: "single-event"
 ---
 
 _Organizing for Power: Core Fundamentals Training_ is an intensive training programme where you'll learn how to win more of the campaigns that matter to you!

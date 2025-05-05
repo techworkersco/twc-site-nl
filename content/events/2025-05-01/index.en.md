@@ -4,7 +4,6 @@ date: 2025-05-01T14:00:00+01:00
 location: "Museumplein, Amsterdam"
 organisation: ""
 tags: [""]
-layout: "single-event"
 ---
 
 Tech workers are celebrating Labour Day! This event is organized by the labour union [FNV](https://www.fnv.nl/acties/dag-van-de-arbeid). Programme:

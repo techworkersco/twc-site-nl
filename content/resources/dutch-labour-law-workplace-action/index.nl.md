@@ -4,7 +4,6 @@ date: "2025-03-19"
 lastmod: "2025-03-19"
 description: "Een overzicht van de bescherming die het Nederlandse arbeidsrecht biedt aan werknemers met betrekking tot verschillende acties op de werkplek."
 tags: ["palestine"]
-layout: "single-resource"
 feature: "feature-action.jpg"
 ---
 

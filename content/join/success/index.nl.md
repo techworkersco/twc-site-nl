@@ -1,7 +1,7 @@
 ---
 title: "Goed bezig 🥳"
 description: "Je komt bij Techwerkers! Samen kunnen we techwerk in Nederland beter maken, op de manier die jij wilt."
-layout: "join-success"
+layout: "success"
 ---
 
 ## Wat nu?

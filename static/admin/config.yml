@@ -3,13 +3,13 @@ local_backend: true
 publish_mode: editorial_workflow
 
 backend:
-  name: git-gateway
+  name: github
+  repo: techworkersco/twc-site-nl
   branch: main
-  accept_roles:
-    - admin
-    - editor
   # we don't need draft history
   squash_merges: true
+  # Let external people fork and submit PRs
+  open_authoring: true
 
 media_folder: static/img
 public_folder: /img
@@ -34,19 +34,11 @@ collections:
     create: true
     slug: "index"
     path: "{{title}}/{{slug}}"
+    summary: "{{ fields.index | ternary('INDEX - ', '')}}{{fields.title}}"
     media_folder: ""
     public_folder: ""
     i18n: true
-    # Hack to hide the resources index
-    filter:
-      field: layout
-      value: single-resource
     fields:
-      - label: Layout
-        name: layout
-        widget: hidden
-        default: single-resource
-        i18n: duplicate
       - label: Title
         name: title
         widget: string
@@ -96,20 +88,11 @@ collections:
     # This can be overriden later in the repo. It's just used by decap on creation.
     path: "{{year}}-{{month}}-{{day}}-{{title}}/{{slug}}"
     # This is just the view in decap CMS
-    summary: "{{fields.date | date('YYYY-MM-DD')}} - {{fields.title}}"
+    summary: "{{fields.index | ternary('INDEX - ', '')}}{{fields.date | date('YYYY-MM-DD')}} - {{fields.title}}"
     media_folder: ""
     public_folder: ""
     i18n: true
-    # Hack to hide the resources
-    filter:
-      field: layout
-      value: single-event
     fields:
-      - label: Layout
-        name: layout
-        widget: hidden
-        default: single-event
-        i18n: duplicate
       - label: Title
         name: title
         widget: string
