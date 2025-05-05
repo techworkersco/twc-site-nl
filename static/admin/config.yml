@@ -132,20 +132,11 @@ collections:
     # Note: This is the post creation date
     path: "{{title}}/{{slug}}"
     # This is just the view in decap CMS
-    summary: "{{fields.date | date('YYYY-MM-DD')}} - {{fields.title}}"
+    summary: "{{fields.index | ternary('INDEX - ', '')}}{{fields.date | date('YYYY-MM-DD')}} - {{fields.title}}"
     media_folder: ""
     public_folder: ""
     i18n: true
-    # Hack to hide the resources
-    filter:
-      field: layout
-      value: single
     fields:
-      - label: Layout
-        name: layout
-        widget: hidden
-        default: single
-        i18n: duplicate
       - label: Title
         name: title
         widget: string

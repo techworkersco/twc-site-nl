@@ -1,5 +1,4 @@
 ---
-layout: single
 author: Will
 title: Will goes to Berlin - A recap
 date: 2025-04-15

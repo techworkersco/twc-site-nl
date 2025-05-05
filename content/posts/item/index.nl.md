@@ -1,5 +1,4 @@
 ---
-layout: single
 author: Will
 title: Will ging naar Berlin - Samenvatting
 date: 2025-04-15
