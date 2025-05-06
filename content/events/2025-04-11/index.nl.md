@@ -1,9 +1,10 @@
 ---
 title: "Techwerkerconferentie Berlijn"
-date: 2025-04-11T9:00:00+01:00
+date: 2025-04-11T9:00:00+02:00
 location: "Berlijn"
 organisation: ""
 tags: [""]
+feature: "feature-conference.jpg"
 ---
 
 Techwerkerkameraden in Berlijn organiseren een conferentie, en jij bent uitgenodigd!

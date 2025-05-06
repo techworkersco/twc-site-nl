@@ -1,9 +1,10 @@
 ---
 title: "Radicale technologieën vormgeven"
-date: 2025-04-08T17:30:00+01:00
+date: 2025-04-08T17:30:00+02:00
 location: "VU StudentenD0k, de Boelelaan 1105, Amsterdam"
 organisation: ""
 tags: [""]
+feature: "feature-rosa.jpg"
 ---
 
 Heb je je ooit afgevraagd hoe kapitalisme technologische ontwikkelingen beïnvloedt? Wat digitaal kolonialisme betekent? Wat de is rol van werknemers in de moderne tech-industrie, en hoe je je kunt verenigen om te vechten voor bevrijding in het digitale tijdperk?

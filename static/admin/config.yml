@@ -118,6 +118,18 @@ collections:
         i18n: true
         default: []
         allow_add: true
+      - label: Feature Image
+        name: feature
+        widget: image
+        allow_multiple: false
+        i18n: true
+        choose_url: true
+        required: false
+      - label: Feature Image Alt Text
+        name: featureAlt
+        widget: string
+        i18n: true
+        required: false
       - label: Body
         name: body
         widget: markdown

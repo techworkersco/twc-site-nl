@@ -5,6 +5,8 @@ description: "An online info session for Booking.com workers about organizing ag
 location: "Online"
 organisation: ""
 tags: ["organizing"]
+feature: feature-booking.png
+featureAlt: "A flyer for the Booking.com layoff session"
 showTableOfContents: false
 ---
 

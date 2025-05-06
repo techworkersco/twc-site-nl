@@ -1,6 +1,6 @@
 ---
 title: "Organizing meetup"
-date: 2025-04-21T18:00:00+01:00
+date: 2025-04-21T18:00:00+02:00
 location: "Online"
 organisation: ""
 tags: ["organizing"]

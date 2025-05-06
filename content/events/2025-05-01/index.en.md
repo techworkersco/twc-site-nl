@@ -1,6 +1,6 @@
 ---
 title: "Labour day"
-date: 2025-05-01T14:00:00+01:00
+date: 2025-05-01T14:00:00+02:00
 location: "Museumplein, Amsterdam"
 organisation: ""
 tags: [""]

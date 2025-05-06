@@ -1,9 +1,10 @@
 ---
 title: "Introductie op de Techwerkerscoalitie (Engelstalig)"
-date: 2025-04-15T17:00:00+01:00
+date: 2025-04-15T17:00:00+02:00
 location: "Online"
 organisation: ""
 tags: []
+feature: "feature-onboarding.jpg"
 ---
 
 Wil je meer weten over Techwerkers? Ben je benieuwd wat je zelf kunt doen? Kom dan naar de Techwerkers introductiebijeenkomst (Engelstalig) op 15 april!

@@ -15,3 +15,19 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[outputFormats]
+  [outputFormats.yaml]
+    baseName = 'index'
+    isHTML = false
+    isPlainText = true
+    mediaType = 'application/yaml'
+    noUgly = true
+    notAlternative = true
+    path = ''
+    permalinkable = false
+    protocol = ''
+    rel = ''
+    root = false
+    ugly = false
+    weight = 0

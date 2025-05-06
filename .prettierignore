@@ -10,5 +10,8 @@
 #/exampleSite/content/docs/version-2/lighthouse.html
 # UPSTREAM-->
 
+# yaml formats :shrug:
+/layouts/_default/events.yaml
+
 # TODO: See if we can remove these ignores
 /layouts/_partials/resource-link.html

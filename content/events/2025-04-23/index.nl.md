@@ -5,6 +5,7 @@ location: "Online"
 description: "Een online infosessie voor Booking.com-medewerkers over organiseren tegen massa-ontslagen"
 organisation: ""
 tags: ["organizeren"]
+feature: feature-booking.png
 showTableOfContents: false
 ---
 
