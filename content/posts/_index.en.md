@@ -1,5 +1,6 @@
 ---
 title: "News"
 description: ""
-draft: true
+draft: false
+index: true
 ---
