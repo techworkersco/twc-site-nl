@@ -1,6 +1,6 @@
 ---
 title: "Organisatiebijeenkomst"
-date: 2025-05-19T18:00:00+02:00
+date: 2025-05-26T18:00:00+02:00
 location: "Online"
 organisation: ""
 tags: ["organisatie"]
