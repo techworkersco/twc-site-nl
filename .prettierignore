@@ -15,3 +15,6 @@
 
 # TODO: See if we can remove these ignores
 /layouts/_partials/resource-link.html
+
+# Ignore any posts because they're likely to be from the CMS
+/content/posts/
