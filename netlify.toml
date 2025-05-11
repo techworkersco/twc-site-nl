@@ -78,6 +78,19 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/posts"
+  to = "/en/posts"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/posts"
+  to = "/nl/posts"
+  status = 301
+  force = true
+
 # Localised 404 redirects
 # Netlify shadowing means that pages that do exist behind the * will render if they exist
 #   otherwise they will return the referenced 404.
