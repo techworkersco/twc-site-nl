@@ -52,3 +52,9 @@
   translation: "Featured"
 - id: resources-description
   translation: "Guides and resources for tech workers."
+- id: recent-posts
+  translation: "Recent news"
+- id: posts
+  translation: "news"
+- id: post-description
+  translation: "News and updates relevant to tech workers"

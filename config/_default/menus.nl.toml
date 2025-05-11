@@ -26,11 +26,6 @@
   weight = 30
 
 [[main]]
-  name = "Nieuws"
-  pageRef = "posts"
-  weight = 40
-
-[[main]]
   name = "Doe mee"
   pageRef = "join"
   weight = 50
