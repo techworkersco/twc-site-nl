@@ -13,7 +13,7 @@ This was a nice event to meet up at, and was a first time for a number of tech w
 
 The tech workers were prepared --- ready with custom flags, a DIY banner, stickers, and flyers to promote the [Tech Workers for Palestine campaign](https://techwerkers.nl/en/campaigns/palestine/). The banner asked people what they wanted to change on their work floor. 'No more work!', one person shouted passing by --- which is a totally valid response when it comes to wage labour. Above all, the prompt was great at starting conversations with fellow tech workers. Some of the conversations touched on what people would like to change not only at work, but also in the tech industry more broadly. It was clear that our mission has purpose, and that tech workers need to be equipped with education, training, and community support so that people in tech (is that you?) can organize in their workplace, and take back power.
 
-![A tech worker talking with another tech worker with a banner in the background](img_0369.jpg)
+![Tech workers talking with each other with a banner in the background](img_0369.jpg)
 
 For the future, there were some practical lessons too:
 
