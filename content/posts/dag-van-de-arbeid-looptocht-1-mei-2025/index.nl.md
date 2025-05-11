@@ -1,7 +1,7 @@
 ---
 title: Dag van de arbeid looptocht - 1 Mei 2025
 description: Techwerkers vertegenwoordigen zich persoonlijk tijdens de Dag van de Arbeid looptocht in Amsterdam
-author: Tech Werkers
+author: Ben
 date: 2025-05-08T12:00:00+02:00
 tags: []
 feature: whatsapp-image-2025-05-01-at-15.45.02.jpeg
