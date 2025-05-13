@@ -1,6 +1,6 @@
 ---
 title: Labour day walk - 1 May 2025
-summary: Tech workers represent in person at the Labour Day walk in Amsterdam
+summary: Tech workers represent in person at the Labour Day walk in Amsterdam.
 showSummary: true
 author: Ben
 date: 2025-05-08T12:00:00+02:00
