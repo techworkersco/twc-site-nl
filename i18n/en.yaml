@@ -36,6 +36,8 @@
   translation: "Submit"
 - id: show-all
   translation: "Show all"
+- id: show-more
+  translation: "Show more"
 - id: show-resources
   translation: "Show all resources"
 - id: read-more

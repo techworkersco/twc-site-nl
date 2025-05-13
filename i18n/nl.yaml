@@ -36,6 +36,8 @@
   translation: "Verstuur"
 - id: show-all
   translation: "Toon alle"
+- id: show-more
+  translation: "Toon meer"
 - id: show-resources
   translation: "Naar de kennisbank"
 - id: read-more
@@ -53,7 +55,7 @@
 - id: resources-description
   translation: "Handige info voor techwerkers."
 - id: recent-posts
-  translation: "Recent nieuws"
+  translation: "Laatste nieuws"
 - id: posts
   translation: "nieuws"
 - id: post-description
