@@ -11,7 +11,7 @@
 - id: join
   translation: "Doe mee met de Techwerkerscoalitie"
 - id: join-description
-  translation: "Vul de volgende gegevens in, zodat we je alvast iets beter kunnen leren kennen!"
+  translation: "Vul hier je gegevens in om je aan te melden."
 - id: join-form
   translation: "Je gegevens"
 - id: name

@@ -11,7 +11,7 @@
 - id: join
   translation: "Join the Tech Workers Coalition"
 - id: join-description
-  translation: "Fill out the following information so we can get to know you better!"
+  translation: "Fill out your details to join."
 - id: join-form
   translation: "Your details"
 - id: name
