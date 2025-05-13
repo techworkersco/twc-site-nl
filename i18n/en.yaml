@@ -36,6 +36,8 @@
   translation: "Submit"
 - id: show-all
   translation: "Show all"
+- id: show-more
+  translation: "Show more"
 - id: show-resources
   translation: "Show all resources"
 - id: read-more
@@ -52,3 +54,9 @@
   translation: "Featured"
 - id: resources-description
   translation: "Guides and resources for tech workers."
+- id: recent-posts
+  translation: "Recent news"
+- id: posts
+  translation: "news"
+- id: post-description
+  translation: "News and updates relevant to tech workers"
