@@ -1,7 +1,6 @@
 ---
 title: Dag van de arbeid-parade - 1 Mei 2025
-summary: Techwerkers zijn persoonlijk aanwezig bij de Dag van de Arbeid-parade
-  in Amsterdam
+summary: Techwerkers zijn persoonlijk aanwezig bij de Dag van de Arbeid-parade in Amsterdam.
 showSummary: true
 author: Ben
 date: 2025-05-08T12:00:00+02:00
