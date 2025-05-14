@@ -52,3 +52,5 @@
   translation: "Featured"
 - id: resources-description
   translation: "Guides and resources for tech workers."
+- id: how-to-find-you
+  translation: "How can we find you?"
