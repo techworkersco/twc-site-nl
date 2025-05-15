@@ -4,17 +4,14 @@
       <h2 class="mb-8 mt-16 text-4xl font-extrabold">{{ i18n "featured" }}</h2>
       <p class="mt-2 text-lg/8 text-gray-600">{{ i18n "resources-description" }}</p>
     </div>
-    {{ if .Site.Params.homepage.showRecent | default false }}
-      <!-- <h2 class="mt-16 mb-8 text-4xl font-extrabold">{{ i18n "featured" | emojify }}</h2> -->
-      <div
-        class="mx-auto grid max-w-2xl grid-cols-1 gap-x-4 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-      >
-        {{ $recentResource := first 3 (where .Site.RegularPages "Section" "resources") }}
-        {{ range $recentResource }}
-          {{ partial "resource-link.html" . }}
-        {{ end }}
-      </div>
-    {{ end }}
+    <div
+      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-4 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+    >
+      {{ $recentResource := first 3 (where .Site.RegularPages "Section" "resources") }}
+      {{ range $recentResource }}
+        {{ partial "resource-link.html" . }}
+      {{ end }}
+    </div>
   </div>
   <div class="mx-4 lg:mx-0">
     <a

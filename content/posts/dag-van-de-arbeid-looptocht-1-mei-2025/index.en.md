@@ -1,11 +1,13 @@
 ---
 title: Labour day walk - 1 May 2025
-description: Tech workers represent in person at the Labour Day walk in Amsterdam
+summary: Tech workers represent in person at the Labour Day walk in Amsterdam.
+showSummary: true
 author: Ben
 date: 2025-05-08T12:00:00+02:00
 tags: []
 feature: whatsapp-image-2025-05-01-at-15.45.02.jpeg
-featureAlt: Tech workers stand on a grassy field at Museumplein Amsterdam showing flags for Tech Workers Coalition
+featureAlt: Tech workers stand on a grassy field at Museumplein Amsterdam
+  showing flags for Tech Workers Coalition
 ---
 1 May is not a public holiday in The Netherlands. Yet that didn't stop a number of collaborators from Tech Workers Coalition showing up at the FNV Union's [Labour Day manifestation](https://www.fnv.nl/acties/dag-van-de-arbeid) in Amsterdam. The event started at Museumplein at 1pm, where flags were flown and tech workers showed up to support the day. Around 9000 people strong, the crowd then walked at 2pm from Museumplein to Martin Luther Kingpark, arriving at 4pm. FNV had additional festivities which tech workers attended.
 

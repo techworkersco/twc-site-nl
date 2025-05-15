@@ -79,6 +79,19 @@
   force = true
 
 [[redirects]]
+  from = "/campaigns"
+  to = "/en/campaigns"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/campaigns"
+  to = "/nl/campaigns"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/posts"
   to = "/en/posts"
   status = 301
