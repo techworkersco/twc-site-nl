@@ -6,7 +6,10 @@
   action="{{ relLangURL "join/success" }}"
 >
   <h3 class="mt-10 text-2xl font-bold text-gray-900">{{ i18n "join-form" }}</h3>
-  <p class="my-6 text-gray-600">{{ i18n "join-description" }}</p>
+  <p class="my-6 text-gray-600">
+    {{ i18n "join-description" }}
+    <a href="{{ relLangURL "join/principles" }}">{{ i18n "join-principles" }}</a>
+  </p>
   <div class="mb-5">
     <label for="name" class="mb-2 block font-bold text-gray-900">{{ i18n "name" }}</label>
     <input
@@ -30,6 +33,28 @@
     />
   </div>
   <div class="mb-5">
+    <p class="text-grey-900 mb-2 block pb-2 font-bold">{{ i18n "how-to-find-you" }}</p>
+    <label for="social-link-1" class="mb-2 block text-gray-900">Link #1</label>
+    <input
+      type="url"
+      id="social-link-1"
+      name="social_media_1"
+      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+      placeholder="{{ i18n "social-examples-1" }}"
+      required
+    />
+  </div>
+  <div class="mb-5">
+    <label for="social-link-2" class="mb-2 block text-gray-900">Link #2</label>
+    <input
+      type="url"
+      id="social-link-2"
+      name="social_media_2"
+      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+      placeholder="{{ i18n "social-examples-2" }}"
+    />
+  </div>
+  <div class="mb-5">
     <label for="organization" class="mb-2 block font-bold text-gray-900"
       >{{ i18n "employer" }}</label
     >
@@ -40,32 +65,6 @@
       class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500"
       placeholder="{{ i18n "workplace" }}"
       required
-    />
-  </div>
-  <div class="mb-5">
-    <p class="mb-2 block font-bold text-grey-900 pb-2">{{ i18n "how-to-find-you" }}</p>
-    <label for="social-link-1" class="mb-2 block text-gray-900"
-      >{{ i18n "social-link" }} #1</label
-    >
-    <input
-      type="url"
-      id="social-link-1"
-      name="social_media_1"
-      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-      placeholder="{{ i18n "social-examples" }}"
-      required
-    />
-  </div>
-  <div class="mb-5">
-    <label for="social-link-2" class="mb-2 block text-gray-900"
-      >{{ i18n "social-link" }} #2</label
-    >
-    <input
-      type="url"
-      id="social-link-2"
-      name="social_media_2"
-      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500"
-      placeholder="{{ i18n "social-examples" }}"
     />
   </div>
   <div class="mb-5">

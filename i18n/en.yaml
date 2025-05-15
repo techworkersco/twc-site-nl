@@ -11,17 +11,19 @@
 - id: join
   translation: "Join the Tech Workers Coalition"
 - id: join-description
-  translation: "Fill out your details to join."
+  translation: "Fill out the following details so that a fellow tech worker can check that you're elibigle to join."
+- id: join-principles
+  translation: "Check the joining principles."
 - id: join-form
   translation: "Your details"
 - id: name
   translation: "Name"
 - id: email
   translation: "Email"
-- id: social-link
-  translation: "Website or social media"
-- id: social-examples
-  translation: "For example LinkedIn, Instagram, Mastodon, etc"
+- id: social-examples-1
+  translation: "LinkedIn, personal website, blog, etc"
+- id: social-examples-2
+  translation: "Github, Instagram, Mastodon, etc"
 - id: employer
   translation: "Employer (if any)"
 - id: workplace
@@ -31,7 +33,7 @@
 - id: your-goals
   translation: "Your goals"
 - id: like-to-achieve
-  translation: "What would you like to achieve with the Tech Workers Coalition? This will help us connect you with the right people and resources."
+  translation: "What would you like to achieve with the Tech Workers Coalition? This helps connect you with the right people and resources."
 - id: submit
   translation: "Submit"
 - id: show-all
