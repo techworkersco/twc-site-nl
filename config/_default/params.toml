@@ -9,6 +9,8 @@ colorScheme = "cherry" # options: `congo` (default), `avocado`, `cherry`, `fire`
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 
+defaultThemeColor = "#FFFFFF"
+
 enableSearch = true
 enableCodeCopy = true
 enableImageLazyLoading = true
@@ -35,10 +37,6 @@ fingerprintAlgorithm = "sha256"
   layout = "custom" # valid options: page, profile, custom
   showRecent = true
   recentLimit = 5
-
-# [params]
-#   heroImage = "img/solar.jpg"
-#   heroText = "Welcome to Tech Workers Coalition"
 
 [article]
   showDate = true
@@ -72,16 +70,3 @@ fingerprintAlgorithm = "sha256"
 
 [taxonomy]
   showTermCount = true
-
-# [fathomAnalytics]
-  # site = "ABC12345"
-
-#[umamiAnalytics]
-#  site = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-#  region = "eu"  # Can be either "eu" or "us"
-
-# [verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""
