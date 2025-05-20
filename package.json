@@ -7,8 +7,8 @@
     "postinstall": "vendor-copy",
     "assets": "rimraf assets/lib && vendor-copy",
     "server": "hugo server -b http://localhost -p 8000",
-    "dev": "NODE_ENV=development ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
-    "build": "NODE_ENV=production ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
+    "dev": "NODE_ENV=development ./node_modules/tailwindcss/lib/cli.js -c ./tailwind.config.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
+    "build": "NODE_ENV=production ./node_modules/tailwindcss/lib/cli.js -c ./tailwind.config.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.1"
