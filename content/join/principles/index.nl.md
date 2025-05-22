@@ -1,7 +1,7 @@
 ---
 title: "Wie kan zich aansluiten?"
 description: "Iedereen die in tech werkt kan meedoen! Om ervoor te zorgen dat techwerkers zich vrij kunnen uiten binnen de groep, zijn er wel een paar toelatingscriteria."
-layout: "criteria"
+layout: "principles"
 ---
 
 Techwerkers behoudt zich het recht voor om deelnameverzoeken af ​​te wijzen van mensen die:

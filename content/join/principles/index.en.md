@@ -1,7 +1,7 @@
 ---
 title: "Who can join?"
 description: "Anyone who works in tech can join! To ensure that tech workers can speak and act freely within the group, there are however a few eligibility principles."
-layout: "criteria"
+layout: "principles"
 --- 
 
 Tech Workers Coalition reserves the right to reject join requests from people who:
