@@ -2,7 +2,7 @@
 {{- range sort $events ".Date" "asc" -}}
 {{- $images := .Resources.ByType "image" -}}
 {{- $feature := $images.GetMatch .Params.feature }}
-- title: {{ .Params.title | jsonify }}
+- title: NL {{ .Params.title | jsonify }}
   date: {{ .Date.Format "2006-01-02 15:04:05 -07:00" }}
   locations: [{{ .Params.location | jsonify }}]
   tags: {{ .Params.tags | jsonify }}
