@@ -212,10 +212,15 @@ collections:
         name: title
         widget: string
         i18n: true
-      - label: Description
-        name: description
+      - label: Summary
+        name: summary
         widget: string
         i18n: true
+      - label: Show Summary
+        name: showSummary
+        widget: boolean
+        i18n: duplicate
+        default: true
       - label: Author
         name: author
         widget: string

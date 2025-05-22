@@ -1,11 +1,13 @@
 ---
 title: Dag van de arbeid-parade - 1 Mei 2025
-description: Techwerkers zijn persoonlijk aanwezig bij de Dag van de Arbeid-parade in Amsterdam
+summary: Techwerkers zijn persoonlijk aanwezig bij de Dag van de Arbeid-parade in Amsterdam.
+showSummary: true
 author: Ben
 date: 2025-05-08T12:00:00+02:00
 tags: []
 feature: whatsapp-image-2025-05-01-at-15.45.02.jpeg
-featureAlt: Techwerkers staan op een grasveld op het Museumplein in Amsterdam en tonen vlaggen van Tech Workers Coalition.
+featureAlt: Techwerkers staan op een grasveld op het Museumplein in Amsterdam en
+  tonen vlaggen van Tech Workers Coalition.
 ---
 1 mei is geen officiële feestdag in Nederland. Toch weerhield dat een aantal techwerkers er niet van om naar de [Dag van de Arbeid-manifestatie](https://www.fnv.nl/acties/dag-van-de-arbeid) van de FNV in Amsterdam te komen. Het evenement begon om 13.00 uur op het Museumplein, waar vlaggen wapperden en techwerkers aanwezig waren om hun steun voor de georganiseerde arbeid te tonen. Een stoet van zo'n 9000 mensen vertrok om 14.00 uur van het Museumplein naar het Martin Luther Kingpark, waar ze om 16.00 uur aankwam. De FNV had nog extra festiviteiten georganiseerd waar techwerkers aan deelnamen.
 

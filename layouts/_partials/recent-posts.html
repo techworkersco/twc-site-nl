@@ -1,0 +1,22 @@
+<div class="mx-auto max-w-7xl bg-white pb-4 sm:pb-6">
+  <div class="mb-10 mb-8 px-4 sm:mb-10 sm:px-0">
+    <div class="mx-auto mb-8 max-w-2xl sm:mb-10 lg:mx-0">
+      <h2 class="mb-8 mt-16 text-4xl font-extrabold">{{ i18n "recent-posts" }}</h2>
+      <p class="mt-2 text-lg/8 text-gray-600">{{ i18n "posts-description" }}</p>
+    </div>
+
+    {{ $posts := .Site.GetPage "section" "posts" }}
+    {{ $past_posts := where $posts.Pages ".Date" "le" now }}
+
+    {{ range first 5 (sort $past_posts ".Date" "desc") }}
+      {{ partial "article-link.html" . }}
+    {{ end }}
+  </div>
+  <div class="mx-4 lg:mx-0">
+    <a
+      class="hover:text-primary-600 decoration-primary-600 mt-6 text-gray-500 hover:underline hover:underline-offset-2"
+      href="{{ "posts" | relLangURL }}"
+      >{{ i18n "show-more" }} {{ i18n "posts" }} →</a
+    >
+  </div>
+</div>
