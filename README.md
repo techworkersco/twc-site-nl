@@ -10,6 +10,8 @@
 
 > This repository is responsible for most content visible on the website [techwerkers.nl](https://techwerkers.nl). The site is made with a static site generator [Hugo](https://gohugo.io/).
 
+This repo uses large portions of the hugo theme [congo by jpanther](https://www.github.com/jpanther/congo)
+
 ## 🛠️ Installation
 
 Read the [installation guide](./docs/contributing.md) to get set up.
