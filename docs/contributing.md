@@ -79,3 +79,15 @@ This is a Hugo site, so it will be similar to editing any other Hugo theme. In g
    - Be sure to add your motivations for the changes in the PR description.
 1. Get approval, maintainers will merge when they're happy with the changes.
 1. Celebrate 🎉
+
+### Regenerating styles (tailwind)
+
+If you are changing styles and not seeing the expected results, then you may need to run tailwind.
+
+1. `npm i`
+1. `npm run build`
+
+This will regenerate the styles from `assets/css/main.css` into `assets/css/compiled/main.css`
+which is used by the site when rendering.
+
+Note: `npm run dev` can be used if you want a watcher for tailwind. (e.g. frequent changes)
