@@ -25,7 +25,7 @@
         {{ .Title | emojify }}
       </h1>
 
-      <dt class="mb-4 font-mono text-xl text-gray-900">
+      <dt class="text-gray-900 mb-4 font-mono text-xl">
         <div>{{ dateFormat "Mon 2 Jan 2006" .Date }}</div>
         <div>{{ dateFormat "15:04" .Date }}</div>
         {{ if ne .Params.location nil }}

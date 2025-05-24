@@ -9,7 +9,7 @@
         <li>
           <a
             href="{{ .URL }}"
-            class="hover:bg-primary-600 hover:text-neutral mx-1 block min-w-[1.8rem] rounded text-center"
+            class="mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
             aria-label="Previous page"
             rel="prev"
           >
@@ -22,7 +22,7 @@
           <li class="mx-1 min-w-[1.8rem] text-center">
             <a
               href="{{ .URL }}"
-              class="hover:bg-primary-600 hover:text-neutral block rounded"
+              class="block rounded hover:bg-primary-600 hover:text-neutral"
               aria-label="First page"
             >
               {{ .PageNumber }}
@@ -39,14 +39,14 @@
             <span
               aria-current="page"
               aria-label="Page {{ $i }}"
-              class="bg-primary-200 text-primary-700 block rounded font-semibold"
+              class="block rounded bg-primary-200 font-semibold text-primary-700"
             >
               {{ $i }}
             </span>
           {{- else }}
             <a
               href="{{ (index $.Paginator.Pagers (sub $i 1)).URL }}"
-              class="hover:bg-primary-600 hover:text-neutral block rounded"
+              class="block rounded hover:bg-primary-600 hover:text-neutral"
               aria-label="Page {{ $i }}"
             >
               {{ $i }}
@@ -62,7 +62,7 @@
           <li class="mx-1 min-w-[1.8rem] text-center">
             <a
               href="{{ .URL }}"
-              class="hover:bg-primary-600 hover:text-neutral block rounded"
+              class="block rounded hover:bg-primary-600 hover:text-neutral"
               aria-label="Last page"
             >
               {{ .PageNumber }}
@@ -74,7 +74,7 @@
         <li>
           <a
             href="{{ .URL }}"
-            class="hover:bg-primary-600 hover:text-neutral mx-1 block min-w-[1.8rem] rounded text-center"
+            class="mx-1 block min-w-[1.8rem] rounded text-center hover:bg-primary-600 hover:text-neutral"
             aria-label="Next page"
             rel="next"
           >

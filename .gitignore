@@ -1,7 +1,17 @@
+# Packages and other generated files
 node_modules
 .DS_Store
+
+# envs and locks
 .env
 .hugo_build.lock
+
+# Misc
 *.log
+
+# Built artefacts
 /public
 /resources
+
+# Generated artefacts
+/assets/lib
