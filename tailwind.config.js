@@ -1,8 +1,5 @@
 module.exports = {
-  content: [
-    "./layouts/**/*.html",
-    "./content/**/*.{html,md}",
-  ],
+  content: ["./layouts/**/*.html", "./content/**/*.{html,md}"],
   darkMode: "class",
   theme: {
     colors: {
