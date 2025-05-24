@@ -1,5 +1,3 @@
-// Original contents from: https://github.com/jpanther/congo/blob/64156145138d6a1a2e8436d6062e297f272542d5/assets/js/search.js
-// Adjustments made to `/` triggering search
 var fuse;
 var showButtons = document.querySelectorAll("[id^='search-button']");
 var hideButton = document.getElementById("close-search-button");
@@ -25,15 +23,6 @@ modal.addEventListener("click", function (event) {
   return false;
 });
 document.addEventListener("keydown", function (event) {
-  // We don't need search on `/`, and it interrupts form entry
-  // Forward slash to open search wrapper
-  //if (event.key == "/") {
-  //if (!searchVisible) {
-  //event.preventDefault();
-  //displaySearch();
-  //}
-  //}
-
   // Esc to close search wrapper
   if (event.key == "Escape") {
     hideSearch();

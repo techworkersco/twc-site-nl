@@ -21,9 +21,9 @@
     src="{{ $jsAppearance.RelPermalink }}"
     integrity="{{ $jsAppearance.Data.Integrity }}"
   ></script>
-  {{ $cssScheme := resources.Get (printf "css/schemes/%s.css" (lower .Site.Params.colorScheme | default "congo")) }}
+  {{ $cssScheme := resources.Get (printf "css/schemes/%s.css" (lower .Site.Params.colorScheme | default "cherry")) }}
   {{ if not $cssScheme }}
-    {{ $cssScheme = resources.Get "css/schemes/congo.css" }}
+    {{ $cssScheme = resources.Get "css/schemes/cherry.css" }}
   {{ end }}
   {{ $assets.Add "css" (slice $cssScheme) }}
   {{ $cssMain := resources.Get "css/compiled/main.css" }}

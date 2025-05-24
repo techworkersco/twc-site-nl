@@ -24,7 +24,7 @@
       <h1 class="mb-4 mt-0 text-4xl font-extrabold text-neutral-900">
         {{ .Title | emojify }}
       </h1>
-      <dt class="lead mb-6 text-xl text-gray-900 lg:mb-12">
+      <dt class="lead text-gray-900 mb-6 text-xl lg:mb-12">
         {{ if ne .Params.description nil }}
           <div>{{ .Params.description }}</div>
         {{ end }}

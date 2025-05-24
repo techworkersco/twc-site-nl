@@ -2,14 +2,15 @@
 
 [![Netlify Status][netlify_bagde]][netlify_url]
 [![Code style][code_style_badge]][code_style_url]
-[![Twitter: nederlandtwc][twitter_badge]][twitter_url]
 
 [![website][website_badge]][website_url]
 [![production][production_badge]][production_url]
 [![i18n-en][i18n_en_badge]][i18n_en_url]
 [![i18n-nl][i18n_nl_badge]][i18n_nl_url]
 
-> This repository is responsible for most content visible on the website [techwerkers.nl](https://techwerkers.nl). The site is made with a static site generator called [Jekyll](https://jekyllrb.com/) in a language called Ruby.
+> This repository is responsible for most content visible on the website [techwerkers.nl](https://techwerkers.nl). The site is made with a static site generator [Hugo](https://gohugo.io/).
+
+This repo uses large portions of the hugo theme [congo by jpanther](https://www.github.com/jpanther/congo)
 
 ## 🛠️ Installation
 
@@ -29,8 +30,6 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 [website_url]: https://techwerkers.nl/
 [production_badge]: https://img.shields.io/badge/production-url-blue.svg
 [production_url]: https://app.netlify.com/sites/twc-site-nl/deploys
-[twitter_badge]: https://img.shields.io/twitter/follow/nederlandtwc.svg?style=social
-[twitter_url]: https://twitter.com/nederlandtwc
 
 <!-- i18n Links -->
 

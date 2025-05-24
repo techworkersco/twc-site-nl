@@ -1,21 +1,21 @@
-<div class="mx-auto max-w-7xl bg-white pb-4 sm:pb-6">
+<div class="bg-white mx-auto max-w-7xl pb-4 sm:pb-6">
   <div class="mb-10 mb-8 px-4 sm:mb-10 sm:px-0">
     <div class="mx-auto mb-8 max-w-2xl sm:mb-10 lg:mx-0">
       <h2 class="mb-8 mt-16 text-4xl font-extrabold">{{ i18n "events-upcoming" }}</h2>
-      <p class="mt-2 text-lg/8 text-gray-600">{{ i18n "events-description" }}</p>
+      <p class="text-gray-600 mt-2 text-lg/8">{{ i18n "events-description" }}</p>
     </div>
 
     {{ $events := .Site.GetPage "section" "events" }}
     {{ $future_events := where $events.Pages ".Date" "ge" now }}
 
     {{ range first 5 (sort $future_events ".Date" "asc") }}
-      <div class="border-t border-gray-100">
-        <dl class="divide-y divide-gray-100">
+      <div class="border-gray-100 border-t">
+        <dl class="divide-gray-100 divide-y">
           <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-            <dt class="text-xl font-medium lowercase text-gray-900">
+            <dt class="text-gray-900 text-xl font-medium lowercase">
               <div>{{ dateFormat "Mon 2 Jan" .Date }}</div>
             </dt>
-            <dd class="sm:text-medium mt-1 text-xl font-bold text-gray-700 sm:col-span-2 sm:mt-0">
+            <dd class="sm:text-medium text-gray-700 mt-1 text-xl font-bold sm:col-span-2 sm:mt-0">
               <div class="flex-2 flex max-w-prose flex-row">
                 <a
                   class="decoration-primary-500 hover:underline hover:underline-offset-2"
@@ -31,7 +31,7 @@
   </div>
   <div class="mx-4 lg:mx-0">
     <a
-      class="hover:text-primary-600 decoration-primary-600 mt-6 text-gray-500 hover:underline hover:underline-offset-2"
+      class="text-gray-500 mt-6 decoration-primary-600 hover:text-primary-600 hover:underline hover:underline-offset-2"
       href="{{ "events" | relLangURL }}"
       >{{ i18n "show-all" }} {{ i18n "events" }} →</a
     >

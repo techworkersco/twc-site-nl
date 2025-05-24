@@ -5,7 +5,7 @@
 >
   <div
     id="search-modal"
-    class="bg-neutral top-20 mx-auto flex min-h-0 w-full max-w-3xl flex-col rounded-md border border-neutral-200 shadow-lg"
+    class="top-20 mx-auto flex min-h-0 w-full max-w-3xl flex-col rounded-md border border-neutral-200 bg-neutral shadow-lg"
   >
     <header class="relative z-10 flex flex-none items-center justify-between px-2">
       <form class="flex min-w-0 flex-auto items-center">
@@ -22,7 +22,7 @@
       </form>
       <button
         id="close-search-button"
-        class="hover:text-primary-600 flex h-8 w-8 items-center justify-center text-neutral-700"
+        class="flex h-8 w-8 items-center justify-center text-neutral-700 hover:text-primary-600"
         title="{{ i18n "search.close_button_title" }}"
       >
         {{ partial "icon.html" "xmark" }}

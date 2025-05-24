@@ -1,7 +1,7 @@
 <form
   id="join"
   name="subscribe"
-  class="ml-0 mt-4 max-w-2xl rounded-lg bg-red-600"
+  class="bg-red-600 ml-0 mt-4 max-w-2xl rounded-lg"
   data-netlify="true"
   action="{{ relLangURL "join/success" }}"
 >
@@ -22,12 +22,12 @@
     />
   </div>
   <div class="mb-5">
-    <label for="name" class="mb-2 block font-bold text-gray-900">{{ i18n "name" }}</label>
+    <label for="name" class="text-gray-900 mb-2 block font-bold">{{ i18n "name" }}</label>
     <input
       type="text"
       id="name"
       name="name"
-      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+      class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="Youssra Jansen"
       required
     />
@@ -62,7 +62,7 @@
       type="text"
       id="organization"
       name="company"
-      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+      class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "workplace" }}"
       required
     />
@@ -76,14 +76,14 @@
       type="text"
       id="your-goals"
       name="how_did_hear"
-      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+      class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "your-goals" }}"
     />
   </div>
   <button
     type="submit"
     role="button"
-    class="not-prose w-full rounded-lg bg-blue-700 py-2.5 text-center font-mono font-bold uppercase text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:w-auto"
+    class="not-prose bg-blue-700 text-white hover:bg-blue-800 focus:ring-blue-300 w-full rounded-lg py-2.5 text-center font-mono font-bold uppercase focus:outline-none focus:ring-4 sm:w-auto"
   >
     {{ i18n "submit" }}
   </button>

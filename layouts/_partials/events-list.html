@@ -8,16 +8,16 @@
   </div>
   {{ $future_events := where $events.Pages ".Date" "ge" now }}
   {{ range sort $future_events ".Date" "asc" }}
-    <div class="border-t border-gray-100">
-      <dl class="divide-y divide-gray-100">
+    <div class="border-gray-100 border-t">
+      <dl class="divide-gray-100 divide-y">
         <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-          <dt class="text-xl font-medium lowercase text-gray-900">
+          <dt class="text-gray-900 text-xl font-medium lowercase">
             <div>{{ dateFormat "Mon 2 Jan" .Date }}</div>
           </dt>
-          <dd class="sm:text-medium mt-1 text-xl font-bold text-gray-700 sm:col-span-2 sm:mt-0">
+          <dd class="sm:text-medium text-gray-700 mt-1 text-xl font-bold sm:col-span-2 sm:mt-0">
             <div class="flex-2 flex max-w-prose flex-row">
               <a
-                class="hover:text-primary-500 decoration-primary-500 hover:underline hover:underline-offset-2"
+                class="decoration-primary-500 hover:text-primary-500 hover:underline hover:underline-offset-2"
                 href="{{ .Permalink }}"
                 >{{ .Params.title }}</a
               >
@@ -36,16 +36,16 @@
   </div>
   {{ $past_events := where $events.Pages ".Date" "le" now }}
   {{ range sort $past_events ".Date" "desc" }}
-    <div class="border-t border-gray-100">
-      <dl class="divide-y divide-gray-100">
+    <div class="border-gray-100 border-t">
+      <dl class="divide-gray-100 divide-y">
         <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-          <dt class="text-xl font-medium lowercase text-gray-900">
+          <dt class="text-gray-900 text-xl font-medium lowercase">
             <div>{{ dateFormat "Mon 2 Jan" .Date }}</div>
           </dt>
-          <dd class="sm:text-medium mt-1 text-xl font-bold text-gray-700 sm:col-span-2 sm:mt-0">
+          <dd class="sm:text-medium text-gray-700 mt-1 text-xl font-bold sm:col-span-2 sm:mt-0">
             <div class="flex-2 flex max-w-prose flex-row">
               <a
-                class="hover:text-primary-500 decoration-primary-500 hover:underline hover:underline-offset-2"
+                class="decoration-primary-500 hover:text-primary-500 hover:underline hover:underline-offset-2"
                 href="{{ .Permalink }}"
                 >{{ .Params.title }}</a
               >
