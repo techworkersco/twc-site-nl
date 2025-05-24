@@ -9,7 +9,7 @@
 [![i18n-en][i18n_en_badge]][i18n_en_url]
 [![i18n-nl][i18n_nl_badge]][i18n_nl_url]
 
-> This repository is responsible for most content visible on the website [techwerkers.nl](https://techwerkers.nl). The site is made with a static site generator called [Jekyll](https://jekyllrb.com/) in a language called Ruby.
+> This repository is responsible for most content visible on the website [techwerkers.nl](https://techwerkers.nl). The site is made with a static site generator [Hugo](https://gohugo.io/).
 
 ## 🛠️ Installation
 
