@@ -22,7 +22,7 @@
           {{ range $context.GetTerms $taxonomy }}
             <a
               href="{{ .RelPermalink }}"
-              class="hover:border-primary-600 hover:text-primary-600 my-1 mr-2 rounded-md border border-neutral-200 px-1 py-[1px]"
+              class="my-1 mr-2 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-600 hover:text-primary-600"
               >{{ .LinkTitle }}</a
             >
           {{ end }}

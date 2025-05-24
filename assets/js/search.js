@@ -23,7 +23,6 @@ modal.addEventListener("click", function (event) {
   return false;
 });
 document.addEventListener("keydown", function (event) {
-
   // Esc to close search wrapper
   if (event.key == "Escape") {
     hideSearch();
