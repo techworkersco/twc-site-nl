@@ -3,7 +3,7 @@ title: "Events"
 description: ""
 index: true
 layout: "events"
-outputs: ["HTML", "RSS", "YAML"]
+outputs: ["HTML", "RSS"]
 ---
 
 {{< lead >}}

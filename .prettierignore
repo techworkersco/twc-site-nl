@@ -11,7 +11,7 @@
 # UPSTREAM-->
 
 # yaml formats :shrug:
-/layouts/_default/events.yaml
+/layouts/**/*.yaml
 
 # TODO: See if we can remove these ignores
 /layouts/_partials/resource-link.html
