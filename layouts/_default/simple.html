@@ -4,11 +4,11 @@
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
-      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900">
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
         {{ .Title | emojify }}
       </h1>
     </header>
-    <section class="prose mt-6 max-w-full">
+    <section class="prose mt-6 max-w-full dark:prose-invert">
       {{ .Content | emojify }}
     </section>
     <footer class="pt-8">

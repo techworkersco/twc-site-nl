@@ -10,13 +10,13 @@
 >
   {{- partial "head.html" . -}}
   <body
-    class="bg-neutral m-auto flex h-screen flex-col px-6 text-lg leading-7 text-neutral-900 sm:px-6 md:px-12 lg:px-16"
+    class="bg-neutral m-auto flex h-screen flex-col px-6 text-lg leading-7 text-neutral-900 sm:px-6 md:px-12 lg:px-16 dark:bg-neutral-800 dark:text-neutral"
   >
     <div id="the-top" class="absolute flex self-center">
       <a
-        class="bg-primary-200 -translate-y-8 rounded-b-lg px-3 py-1 text-sm focus:translate-y-0"
+        class="bg-primary-200 -translate-y-8 rounded-b-lg px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
         href="#main-content"
-        ><span class="text-primary-600 pe-2 font-bold">&darr;</span>{{ i18n "nav.skip_to_main" }}</a
+        ><span class="text-primary-600 pe-2 font-bold dark:text-primary-400">&darr;</span>{{ i18n "nav.skip_to_main" }}</a
       >
     </div>
     {{ $header := print "header/" .Site.Params.header.layout ".html" }}
