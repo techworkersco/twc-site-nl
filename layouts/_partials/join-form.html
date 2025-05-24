@@ -5,18 +5,18 @@
   data-netlify="true"
   action="{{ relLangURL "join/success" }}"
 >
-  <h3 class="mt-10 text-2xl font-bold text-gray-900">{{ i18n "join-form" }}</h3>
-  <p class="my-6 text-gray-600">
+  <h3 class="text-gray-900 mt-10 text-2xl font-bold">{{ i18n "join-form" }}</h3>
+  <p class="text-gray-600 prose my-6 text-lg">
     {{ i18n "join-description" }}
     <a href="{{ relLangURL "join/principles" }}">{{ i18n "join-principles" }}</a>
   </p>
   <div class="mb-5">
-    <label for="email" class="mb-2 block font-bold text-gray-900">{{ i18n "email" }}</label>
+    <label for="email" class="text-gray-900 mb-2 block font-bold">{{ i18n "email" }}</label>
     <input
       type="email"
       id="email"
       name="email"
-      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+      class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="hey@email.nl"
       required
     />
@@ -34,28 +34,28 @@
   </div>
   <div class="mb-5">
     <p class="text-grey-900 mb-2 block pb-2 font-bold">{{ i18n "how-to-find-you" }}</p>
-    <label for="social-link-1" class="mb-2 block text-gray-900">Link #1</label>
+    <label for="social-link-1" class="text-gray-900 mb-2 block">Link #1</label>
     <input
       type="url"
       id="social-link-1"
       name="social_media_1"
-      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+      class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "social-examples-1" }}"
       required
     />
   </div>
   <div class="mb-5">
-    <label for="social-link-2" class="mb-2 block text-gray-900">Link #2</label>
+    <label for="social-link-2" class="text-gray-900 mb-2 block">Link #2</label>
     <input
       type="url"
       id="social-link-2"
       name="social_media_2"
-      class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-gray-900 focus:border-blue-500 focus:ring-blue-500"
+      class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "social-examples-2" }}"
     />
   </div>
   <div class="mb-5">
-    <label for="organization" class="mb-2 block font-bold text-gray-900"
+    <label for="organization" class="text-gray-900 mb-2 block font-bold"
       >{{ i18n "employer" }}</label
     >
     <input
@@ -68,7 +68,7 @@
     />
   </div>
   <div class="mb-5">
-    <label for="your-goals" class="mb-2 block font-bold text-gray-900"
+    <label for="your-goals" class="text-gray-900 mb-2 block font-bold"
       >{{ i18n "your-goals" }}</label
     >
     <p class="pb-2">{{ i18n "like-to-achieve" }}</p>
