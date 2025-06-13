@@ -104,6 +104,34 @@
   status = 301
   force = true
 
+# Localised redirects for root content
+
+[[redirects]]
+  from = "/squeakywheel"
+  to = "/en/campaigns/squeakywheel"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/squeakywheel"
+  to = "/nl/campaigns/squeakywheel"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/palestine"
+  to = "/en/campaigns/palestine"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/palestine"
+  to = "/nl/campaigns/palestine"
+  status = 301
+  force = true
+
 # Localised 404 redirects
 # Netlify shadowing means that pages that do exist behind the * will render if they exist
 #   otherwise they will return the referenced 404.
