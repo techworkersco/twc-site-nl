@@ -7,14 +7,14 @@ showSummary: true
 summary: "Er verandert niets op het werk totdat je wat lawaai maakt"
 campaign: "squeakywheel"
 feature: "feature-squeakywheel.jpg"
-featureAlt: "A lone shopping cart in a parking lot"
+featureAlt: "Een eenzaam winkelwagentje op een parkeerterrein"
 ---
 
 Er verandert niets op het werk totdat je wat lawaai maakt. Blijft niet stilzwijgen over arrogante managers en uitbuiters in de tech-industrie! Heeft je baas iets gezegd waar je tenen van krommen? Stuur de opmerking door en het komt anoniem op de Techwerkers Instagram-pagina ([@techwerkers](https://instagram.com/techwerkers/)). Waarom in je kussen schreeuwen, als je je verhaal ook kunt delen met andere techwerkers?
 
 # Hoe het werkt
 
-1. Je stuur een uitspraak van je baas of manager in. 
+1. Je stuurt een uitspraak van je baas of manager in. 
 2. Iemand van het techwerkersteam verwijdert alle persoonlijk identificeerbare informatie (PII) en herformuleert de tekst, zodat niemand de inzending naar jou terug kan leiden. 
 3. Je inzending wordt geplaatst 🎉 
 
