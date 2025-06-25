@@ -1,3 +1,5 @@
+/* Code lovingly borrowed from https://hugocodex.org/add-ons/slider-carousel/ */
+
 document.addEventListener('DOMContentLoaded', function() {
     
   const carousels = document.querySelectorAll('.carousel');
