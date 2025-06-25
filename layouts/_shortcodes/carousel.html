@@ -1,0 +1,17 @@
+{{ .Scratch.Set "height" (.Get "height") }}
+{{ .Scratch.Set "unit" (.Get "unit") }}
+{{ .Scratch.Set "ordinal" .Ordinal }}
+{{ .Scratch.Set "total_items" (.Get "totalItems") }}
+{{ .Scratch.Set "visible_items" (.Get "visibleItems") }}
+<div id="carousel{{ .Ordinal }}" class="carousel" duration="{{ .Get `duration` }}">
+    <ul>
+      {{ .Inner }}
+    </ul>
+    <ol>
+      {{ range $.Scratch.Get "total_items" }}
+        <li><a href="#c{{ . }}_slide"></a></li>
+      {{ end }}
+    </ol>
+    <div class="prev">&lsaquo;</div>
+    <div class="next">&rsaquo;</div>
+</div>
