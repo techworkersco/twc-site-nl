@@ -3,7 +3,10 @@
 {{- $images := $.Page.Resources.ByType "image" }}
 {{- $image_processed := $images.GetMatch ($.Scratch.Get "image") }}
 {{ with .Parent }}
-<li id="c{{ $.Scratch.Get "ordinal" }}_slide" style="min-width: calc(100%/{{ .Get "visibleItems" }}); padding-bottom: {{ .Get "height" }}{{ .Get "unit" }};">
-  {{ partial "picture.html" (dict "img" $image_processed "alt" "" "class" "" "lazy" false "webp" true) }}
-</li>
+  <li
+    id="c{{ $.Scratch.Get "ordinal" }}_slide"
+    style="min-width: calc(100%/{{ .Get "visibleItems" }}); padding-bottom: {{ .Get "height" }}{{ .Get "unit" }};"
+  >
+    {{ partial "picture.html" (dict "img" $image_processed "alt" "" "class" "" "lazy" false "webp" true) }}
+  </li>
 {{ end }}
