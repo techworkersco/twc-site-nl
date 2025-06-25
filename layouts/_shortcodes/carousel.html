@@ -1,9 +1,14 @@
 {{ .Scratch.Set "height" (.Get "height") }}
 {{ .Scratch.Set "unit" (.Get "unit") }}
 {{ .Scratch.Set "ordinal" .Ordinal }}
+{{ .Scratch.Set "class" (.Get "class") }}
 {{ .Scratch.Set "total_items" (.Get "totalItems") }}
 {{ .Scratch.Set "visible_items" (.Get "visibleItems") }}
-<div id="carousel{{ .Ordinal }}" class="carousel" duration="{{ .Get `duration` }}">
+<div
+  id="carousel{{ .Ordinal }}"
+  class="carousel {{ $.Scratch.Get "class" }}"
+  duration="{{ .Get `duration` }}"
+>
   <ul>
     {{ .Inner }}
   </ul>

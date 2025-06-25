@@ -14,7 +14,7 @@ Nothing changes at work until you make some noise. This confessional is for all 
 
 ## Sample Squeaks
 
-{{< carousel height="100" unit="%" visibleItems=1 totalItems=4 duration="4000" >}}
+{{< carousel height="100" unit="%" visibleItems=1 totalItems=4 duration="4000" class="mb-10">}}
     {{< carousel-item image="SW-1A.png" >}}
     {{< carousel-item image="SW-1B.png" >}}
     {{< carousel-item image="SW-1C.png" >}}
