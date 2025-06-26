@@ -1,12 +1,12 @@
 <header class="py-6 font-semibold text-neutral-900 sm:py-10 print:hidden">
-  <nav class="flex items-start justify-between sm:items-center">
+  <nav class="mx-auto flex max-w-[95rem] items-start justify-between sm:items-center">
     {{/* Site logo/title */}}
     <div class="flex flex-row items-center">
       {{ partial "logo.html" . }}
     </div>
     {{/* Main menu */}}
     {{ if or .Site.Menus.main (.Site.Params.enableSearch | default false) }}
-      <ul class="flex list-none flex-col text-end sm:flex-row">
+      <ul class="flex list-none flex-col text-end lg:flex-row">
         {{ if .Site.Menus.main }}
           {{ range .Site.Menus.main }}
             {{ if and (eq .Params.action "locale") (or (not page.IsTranslated) (not hugo.IsMultilingual)) }}
