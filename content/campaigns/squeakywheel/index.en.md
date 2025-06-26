@@ -4,6 +4,7 @@ date: "2025-06-09"
 lastmod: "2025-06-09"
 showDateUpdated: true
 showSummary: true
+showTableOfContents: false
 summary: "Nothing changes at work until you make some noise"
 campaign: "squeakywheel"
 feature: "feature-squeakywheel-en.png"
@@ -14,11 +15,11 @@ Nothing changes at work until you make some noise. This confessional is for all 
 
 ## Sample Squeaks
 
-{{< carousel height="100" unit="%" visibleItems=1 totalItems=4 duration="4000" class="mb-10">}}
-    {{< carousel-item image="SW-1A.png" >}}
-    {{< carousel-item image="SW-1B.png" >}}
-    {{< carousel-item image="SW-1C.png" >}}
-    {{< carousel-item image="SW-1D.png" >}}
+{{< carousel height="50" unit="%" visibleItems=2 totalItems=4 duration="4000" class="mb-10">}}
+  {{< carousel-item image="SW-1A.png" class="p-2.5" >}}
+  {{< carousel-item image="SW-1B.png" class="p-2.5" >}}
+  {{< carousel-item image="SW-1C.png" class="p-2.5" >}}
+  {{< carousel-item image="SW-1D.png" class="p-2.5" >}}
 {{< /carousel >}}
 
 # How it works
