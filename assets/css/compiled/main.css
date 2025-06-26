@@ -2162,8 +2162,16 @@ code {
   max-width: 10rem;
 }
 
+.max-w-\[128rem\] {
+  max-width: 128rem;
+}
+
 .max-w-\[6rem\] {
   max-width: 6rem;
+}
+
+.max-w-\[95rem\] {
+  max-width: 95rem;
 }
 
 .max-w-full {
