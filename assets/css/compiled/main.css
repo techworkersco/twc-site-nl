@@ -2422,6 +2422,10 @@ code {
      object-position: left;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .p-2\.5 {
   padding: 0.625rem;
 }
@@ -2438,11 +2442,6 @@ code {
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
-}
-
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
 
 .px-2 {
