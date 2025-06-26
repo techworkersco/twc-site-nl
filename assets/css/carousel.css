@@ -10,7 +10,6 @@
   scroll-snap-type: x mandatory;
   scroll-snap-points-y: repeat(100%);
   scroll-behavior: smooth;
-  background: gray;
   -ms-overflow-style: none;
   scrollbar-width: none;
   margin: 0;
@@ -69,9 +68,10 @@
   border: 2px solid white;
   background: transparent;
   border-radius: 100%;
+  box-shadow: 2px 2px black;
 }
 .carousel ol li.selected a {
-  background: white;
+  background: gray;
 }
 .carousel .prev,
 .carousel .next {
@@ -87,6 +87,7 @@
   transform: translateY(-50%);
   z-index: 9;
   line-height: 0;
+  text-shadow: 2px 2px black;
 }
 .carousel .next {
   left: auto;
