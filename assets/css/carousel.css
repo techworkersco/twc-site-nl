@@ -56,10 +56,12 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 9;
+  mix-blend-mode: difference;
+  padding: 0;
 }
 .carousel ol li {
   list-style: none;
-  padding: 0 5px;
+  padding: 0 2px;
 }
 .carousel ol li a {
   display: block;
@@ -68,10 +70,9 @@
   border: 2px solid white;
   background: transparent;
   border-radius: 100%;
-  box-shadow: 2px 2px black;
 }
 .carousel ol li.selected a {
-  background: gray;
+  background: white;
 }
 .carousel .prev,
 .carousel .next {
@@ -79,7 +80,8 @@
   user-select: none;
   cursor: pointer;
   font-size: 50px;
-  color: white;
+  filter: invert(100%);
+  mix-blend-mode: difference;
   position: absolute;
   left: 0;
   padding: 15px 15px 30px;
@@ -87,8 +89,8 @@
   transform: translateY(-50%);
   z-index: 9;
   line-height: 0;
-  text-shadow: 2px 2px black;
 }
+
 .carousel .next {
   left: auto;
   right: 0;
