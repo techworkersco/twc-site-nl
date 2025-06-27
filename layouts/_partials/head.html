@@ -32,6 +32,8 @@
   {{ if $cssCustom }}
     {{ $assets.Add "css" (slice $cssCustom) }}
   {{ end }}
+  {{ $cssCarousel := resources.Get "css/carousel.css" }}
+  {{ $assets.Add "css" (slice $cssCarousel) }}
   {{ $bundleCSS := $assets.Get "css" | resources.Concat "css/main.bundle.css" | resources.Minify | resources.Fingerprint $algorithm }}
   <link
     type="text/css"
@@ -61,6 +63,8 @@
     {{ $jsRTL := resources.Get "js/rtl.js" }}
     {{ $assets.Add "js" (slice $jsRTL) }}
   {{ end }}
+  {{ $jsCarousel := resources.Get "js/carousel.js" }}
+  {{ $assets.Add "js" (slice $jsCarousel) }}
   {{ if $assets.Get "js" }}
     {{ $bundleJS := $assets.Get "js" | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint $algorithm }}
     <script

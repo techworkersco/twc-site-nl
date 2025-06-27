@@ -12,6 +12,15 @@ featureAlt: "Tekst: We zijn 'n gezin heir"
 
 Er verandert niets op het werk totdat je wat lawaai maakt. Blijft niet stilzwijgen over arrogante managers en uitbuiters in de tech-industrie! Heeft je baas iets gezegd waar je tenen van krommen? Stuur de opmerking door en het komt anoniem op de Techwerkers Instagram-pagina ([@techwerkers](https://instagram.com/techwerkers/)). Waarom in je kussen schreeuwen, als je je verhaal ook kunt delen met andere techwerkers?
 
+## Voorbeeld Squeaks
+
+{{< carousel height="50" unit="%" visibleItems=2 totalItems=4 duration="4000" class="mb-10" >}}
+    {{< carousel-item image="SW-1A.png" class="p-1" >}}
+    {{< carousel-item image="SW-1B.png" class="p-1" >}}
+    {{< carousel-item image="SW-1C.png" class="p-1" >}}
+    {{< carousel-item image="SW-1D.png" class="p-1" >}}
+{{< /carousel >}}
+
 # Hoe het werkt
 
 1. Je stuurt een uitspraak van je baas of manager in. 
