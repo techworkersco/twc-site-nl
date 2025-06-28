@@ -21,11 +21,11 @@
       {{ end }}
 
 
-      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900">
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
         {{ .Title | emojify }}
       </h1>
 
-      <dt class="text-gray-900 mb-4 font-mono text-xl">
+      <dt class="text-gray-900 mb-4 font-mono text-xl dark:text-neutral">
         <div>{{ dateFormat "Mon 2 Jan 2006" .Date }}</div>
         <div>{{ dateFormat "15:04" .Date }}</div>
         {{ if ne .Params.location nil }}
@@ -44,9 +44,8 @@
           {{ end }}
         </div>
       {{ end }}
-
     </header>
-    <section class="prose mt-0 flex max-w-full flex-col lg:flex-row">
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       {{ if and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
         <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
           <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">

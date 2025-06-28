@@ -4,15 +4,12 @@
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
-      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900">
-        {{ .Title | emojify }}
-      </h1>
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
     </header>
-    <section class="prose mt-6 max-w-4xl">
-      <div class="lead">
-        {{ .Params.description }}
+    <section class="prose mt-6 max-w-4xl dark:prose-invert">
+      <div class="min-h-0 min-w-0 grow">
+        {{ .Content | emojify }}
       </div>
-      {{ .Content | emojify }}
     </section>
     <section class="mt-6">
       {{ partial "events-list.html" . }}

@@ -1,8 +1,7 @@
 <div class="bg-white mx-auto max-w-7xl pb-4 sm:pb-6">
   <div class="mb-10 mb-8 px-4 sm:mb-10 sm:px-0">
     <div class="mx-auto mb-8 max-w-2xl sm:mb-10 lg:mx-0">
-      <h2 class="mb-8 mt-16 text-4xl font-extrabold">{{ i18n "recent-posts" }}</h2>
-      <p class="text-gray-600 mt-2 text-lg/8">{{ i18n "posts-description" }}</p>
+      <h2 class="mb-8 mt-16 text-4xl font-extrabold dark:text-white">{{ i18n "recent-posts" }}</h2>
     </div>
 
     {{ $posts := .Site.GetPage "section" "posts" }}
@@ -14,7 +13,7 @@
   </div>
   <div class="mx-4 lg:mx-0">
     <a
-      class="text-gray-500 mt-6 decoration-primary-600 hover:text-primary-600 hover:underline hover:underline-offset-2"
+      class="text-gray-500 mt-6 decoration-primary-600 hover:text-primary-600 hover:underline hover:underline-offset-2 dark:text-white"
       href="{{ "posts" | relLangURL }}"
       >{{ i18n "show-more" }} {{ i18n "posts" }} →</a
     >

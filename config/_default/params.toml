@@ -7,7 +7,7 @@
 
 colorScheme = "cherry"
 defaultAppearance = "light" # valid options: light or dark
-autoSwitchAppearance = false
+autoSwitchAppearance = true
 
 defaultThemeColor = "#FFFFFF"
 
