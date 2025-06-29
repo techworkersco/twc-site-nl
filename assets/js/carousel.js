@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextarrow = carousel.querySelector(".next");
     const prevarrow = carousel.querySelector(".prev");
 
-    console.log(bullets, slides);
     // Initialize the carousel
     nextarrow.style.display = "block";
     prevarrow.style.display = "block";
