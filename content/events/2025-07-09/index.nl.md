@@ -8,7 +8,7 @@ tags: ["organizing"]
 
 *Voertaal: De presentatie is in het Engels, maar je kunt gewoon in het Nederlands vragen stellen.*
 
-*De sessie wordt 's avonds gehouden. De preciese tijd volgt nog.*
+*De sessie wordt 's avonds gehouden. De precieze tijd volgt nog.*
 
 Een infosessie over ondernemingsraden. De sessie gaat in op:
 
