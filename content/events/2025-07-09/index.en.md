@@ -6,7 +6,7 @@ organisation: ""
 tags: ["organizing"]
 ---
 
-*The session is held in the evening. Exact time to be confirmed.*
+*The session will be held in the evening. Exact time to be confirmed.*
 
 An info session about works councils. The session covers:
 
