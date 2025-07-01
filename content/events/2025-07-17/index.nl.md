@@ -1,6 +1,6 @@
 ---
 title: "Chillen in het park"
-date: 2025-07-17T17:00:00+02:00
+date: 2025-07-18T17:00:00+02:00
 location: "Oosterpark, Amsterdam"
 organisation: ""
 tags: [""]
