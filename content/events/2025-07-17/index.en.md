@@ -3,7 +3,7 @@ title: "Chill in the park"
 date: 2025-07-17T17:00:00+02:00
 location: "Oosterpark, Amsterdam"
 organisation: ""
-tags: ["organizing"]
+tags: [""]
 ---
 
 Tech workers aren't always working. Time off work is among the core achievements of today's labour rights!
