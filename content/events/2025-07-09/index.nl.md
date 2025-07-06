@@ -15,4 +15,4 @@ Een infosessie over ondernemingsraden. De sessie gaat in op:
 * Waarom het een goed idee is om bij jouw ondernemingsraad te gaan
 * Hoe bereid je je aanmelding voor je ondernemingsraad voor
 
-Doe mee met de sessie op Youtube heir: https://www.youtube.com/watch?v=RzuqkixGsDA
+[Doe mee met de sessie op Youtube.](https://www.youtube.com/watch?v=RzuqkixGsDA)

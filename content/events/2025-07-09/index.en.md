@@ -12,4 +12,4 @@ An info session about works councils. The session covers:
 * Why you should consider joining your works council
 * How to prep your works council application
 
-You can join the session on Youtube here: https://www.youtube.com/watch?v=RzuqkixGsDA
+[Join the session on Youtube.](https://www.youtube.com/watch?v=RzuqkixGsDA)
