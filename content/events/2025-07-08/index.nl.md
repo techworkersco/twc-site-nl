@@ -1,10 +1,12 @@
 ---
-title: "AI Sceptici Leesgroep"
+title: "Uitgesteld: AI Sceptici Leesgroep"
 date: 2025-07-08T18:00:00+02:00
 location: "Online"
 organisation: ""
 tags: ["reading-group"]
 ---
+
+**Uitgesteld! Een nieuwe datum en tijd worden binnenkort bevestigd**
 
 *Voertaal: Engels*
 
