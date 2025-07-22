@@ -8,7 +8,7 @@ tags: ["training"]
 
 ⚠️ *Caution: Due to timezone scheduling this workshop takes place in the middle of the night* ⚠️ 
 
-Join Tech Workers Coalition in the first organizing skills workshop of the summer! You'll be learning about and ✨ practicing ✨ *structured organizing conversations*.
+Join Tech Workers Coalition in the first organizing skills workshop of the summer! You'll be learning about and ✨ practicing ✨ structured organizing conversations.
 
 Organizing conversations are a core skill for every tech worker, whether you want to form a union at your shop, or building community power against an incoming data center. 
 

@@ -10,7 +10,7 @@ tags: ["training"]
 
 ⚠️ *Let op: Vanwege de tijdzoneplanning vindt deze workshop midden in de nacht plaats* ⚠️
 
-Doe mee met de eerste Techwerkersworkshop over organisatievaardigheden van deze zomer! Je leert over en ✨ oefent ✨ *gestructureerde organisatiegesprekken voeren*.
+Doe mee met de eerste Techwerkersworkshop over organisatievaardigheden van deze zomer! Je leert over en ✨ oefent ✨ gestructureerde organisatiegesprekken te voeren.
 
 Het voeren van organisatiegesprekken is een essentiële vaardigheid voor elke techwerker, of je nu een vakbond wilt oprichten of de kracht van een gemeenschap wilt versterken tegen een aankomend datacenter.
 
