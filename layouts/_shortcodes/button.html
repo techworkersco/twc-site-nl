@@ -1,0 +1,9 @@
+<a
+  class="rounded-md bg-primary-600 px-4 py-2 text-neutral no-underline hover:rounded-md hover:bg-primary-500"
+  {{ with .Get "href" }}href="{{ . | relLangURL }}"{{ end }}
+  {{ with .Get "target" }}target="{{ . }}"{{ end }}
+  {{ with .Get "download" }}download="{{ . }}"{{ end }}
+  role="button"
+>
+  {{ .Inner }}
+</a>

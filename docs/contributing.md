@@ -1,52 +1,93 @@
 # 🤝 Contributing
 
-> [!WARNING]
-> This is out of date at present and will be updated soon
+Thank YOU for even considering contributing 💖
 
-## Add an event
+## Adding content (events/resources/etc)
 
-Add a file inside the [`_events`](_events) directory. Copy a previous file as a template, and make sure to include the right time zone for The Netherlands!
+Content can be added in two different ways:
 
-## Add a blog post (inside /blog)
+1. Via the admin site: https://techwerkers.nl/admin
+1. Running `decap-server` locally (see heading below) and commiting the changes instead.
 
-Add a file inside the [`_blog`](_blog) directory. Copy a previous file as a template. If an author does not exist, add one inside [`_data/authors.yml`](_data/authors.yml). A name is the only thing necessary, but photo is optional too.
+> [!INFO]
+> The admin site will only be accessible to those that have access to the netlify admin. You can ask for access in our
+> slack channel.
 
-## Add a press mention
+### Content Guidelines
 
-Inside [`_data/press.yml`](_data/press.yml) file, add a media entry, with date format in `YYYY-MM-DD`.
+General writing guidelines:
 
-## Translation
+- Use plain language wherever you can. We want as many people to be able to
+  understand the content as possible.
+- Expand acronyms on first use. For example, "Tech Workers Coalition (TWC)"
+- Use inclusive language
 
-I18n (internationalization) is made available with the [jekyll-multiple-languages-plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin/). When a page has a translated version available, a link will show up on the top right if you use the [default_translate](_layouts/default_translate.html) layout. English is the default language, while other languages have their two letter ISO code prefixed, for example [TechWorkersCoalition.org/ru](https://TechWorkersCoalition.org/ru) for Russian.
+**Internationalization** - We want to have our site in at least Dutch and English. If you are unable to provide one or the
+other, please write in the language you can, and ask for translation help in the `#local-netherlands` Tech Workers Coalition Slack channel.
 
-### Localise date
+### Running `decap-server`
 
-Normally displaying a date is done using native liquid templates `{{ page.date | date: '%-d %B %Y' }}`, but for localisation, we need to pass it a language which can be done using our custom [\_plugins/i18n_filter.rb](_plugins/i18n_filter.rb), and translation keys. We would replace our liquid template with the following:
+Run both of the following
 
-`{{ page.date | localize: site.lang, '%-d %B %Y' }}`
+```sh
+hugo server
+npx decap-server
+```
 
-### Adding new language
+Then open https://localhost:1313/admin in your browser to see the Decap CMS. Any new content or changes will be saved to
+disk, so you can commit and make a PR as per normal.
 
-1. Add new language key to [en.yml](_i18n/en.yml)
-2. Add two letter iso code in [config](_config.yml). The order here determines the order shown on the page. English must be first.
-3. Inside the [i18n](_i18n) directory create a
+## Developing the site
 
-- `LANGUAGE.yml` with the language key and value in its own language, for example `es: Español`
+### Pre-requisites
 
-Note, only the default [en.yml](_i18n/en.yml) must contain the names of each language. The other language yaml files contain just their own language key. To include only certain languages, specify the exact language keys you want. For example `languages: ["en", 'ja']`
+You will need to have [Hugo](https://gohugo.io/getting-started/installing/) installed first.
 
-## API feeds
+Also, we use prettier for formatting.
 
-Currently [techworkerscoalition.org](https://techworkerscoalition.org) uses Berlin press and events either from GitHub or directly from our exposed APIs e.g [/events.json](https://techwerkers.nl/events.json). You can find other uses cases [here](https://github.com/techworkersco/twc-site/blob/master/_config.yml#L32)
+```sh
+npm i  # Install, if you haven't already
+npx prettier --write .
+```
 
-## Supported Pages
+We have a workflow that will check for prettier things, so please make sure you run before submitting a PR.
 
-- Landing Page [index.yml](../_pages/index.md)
-- Join Page [join.md](../_pages/join.md)
-- Events [events.md](../_pages/events.md)
-- Press mentions [press_mentions.md](../_pages/press_mentions.md)
+### [Re-]Initializing the site
 
-## Supported Languages
+> [!INFO]
+> This only needs to be done if you need to generate a `go.mod`. If it already exists you can ignore this.
 
-- English
-- Nederlands
+```shell
+hugo mod init github.com/techworkersco/twc-site-nl
+```
+
+And for good measure, to remove unused entries:
+
+```
+hugo mod tidy
+```
+
+### Developing or running the site
+
+This is a Hugo site, so it will be similar to editing any other Hugo theme. In general:
+
+1. Check out the repo
+1. Run `hugo server` to start the development server
+1. Open https://localhost:1313 in your browser
+1. Make the changes you need (hugo has live refresh things)
+1. Commit your changes, and make a PR.
+   - Be sure to add your motivations for the changes in the PR description.
+1. Get approval, maintainers will merge when they're happy with the changes.
+1. Celebrate 🎉
+
+### Regenerating styles (tailwind)
+
+If you are changing styles and not seeing the expected results, then you may need to run tailwind.
+
+1. `npm i`
+1. `npm run build`
+
+This will regenerate the styles from `assets/css/main.css` into `assets/css/compiled/main.css`
+which is used by the site when rendering.
+
+Note: `npm run dev` can be used if you want a watcher for tailwind. (e.g. frequent changes)

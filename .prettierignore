@@ -1,11 +1,20 @@
-#/assets/css/compiled/
+# From upstream congo <--UPSTREAM
+/assets/css/compiled/
 #/assets/lib/
 
-# From upstream congo
-/layouts/_default/*.json
-/layouts/partials/picture.html
-/layouts/shortcodes/figure.html
-/layouts/shortcodes/screenshot.html
+/layouts/_default/_markup/*.html
+/layouts/_partials/picture.html
+/layouts/_shortcodes/figure.html
+/layouts/_shortcodes/screenshot.html
+
+#/exampleSite/content/docs/version-2/lighthouse.html
+# UPSTREAM-->
+
+# yaml formats :shrug:
+/layouts/**/*.yaml
 
 # TODO: See if we can remove these ignores
-/layouts/partials/resource-link.html
+/layouts/_partials/resource-link.html
+
+# Ignore any content because its possible it comes from the CMS
+/content/

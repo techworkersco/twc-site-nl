@@ -1,0 +1,14 @@
+<div class="bg-white mx-auto max-w-7xl pb-8 sm:pb-10">
+  <div class="mb-10">
+    <div
+      class="mx-auto grid max-w-2xl grid-cols-1 gap-x-4 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+    >
+      {{ $recentResource := where .Site.RegularPages "Section" "resources" }}
+      {{ $sorted := sort $recentResource "Date" "desc" }}
+      {{ range $sorted }}
+        {{ partial "resource-link.html" . }}
+      {{ end }}
+
+    </div>
+  </div>
+</div>

@@ -3,13 +3,13 @@ local_backend: true
 publish_mode: editorial_workflow
 
 backend:
-  name: git-gateway
+  name: github
+  repo: techworkersco/twc-site-nl
   branch: main
-  accept_roles:
-    - admin
-    - editor
   # we don't need draft history
   squash_merges: true
+  # Let external people fork and submit PRs
+  open_authoring: true
 
 media_folder: static/img
 public_folder: /img
@@ -34,19 +34,11 @@ collections:
     create: true
     slug: "index"
     path: "{{title}}/{{slug}}"
-    media_folder: ''
-    public_folder: ''
+    summary: "{{ fields.index | ternary('INDEX - ', '')}}{{fields.title}}"
+    media_folder: ""
+    public_folder: ""
     i18n: true
-    # Hack to hide the resources index
-    filter: 
-      field: layout
-      value: single-resource
     fields:
-      - label: Layout
-        name: layout
-        widget: hidden
-        default: single-resource
-        i18n: duplicate
       - label: Title
         name: title
         widget: string
@@ -55,6 +47,17 @@ collections:
         name: description
         widget: text
         i18n: true
+      - label: Feature Image
+        name: feature
+        widget: image
+        allow_multiple: false
+        i18n: true
+        choose_url: true
+      - label: Feature Image Alt Text
+        name: featureAlt
+        widget: string
+        i18n: true
+        required: false
       - label: Created Date
         name: date
         widget: datetime
@@ -63,6 +66,7 @@ collections:
         name: lastmod
         widget: datetime
         i18n: duplicate
+        required: false
       - label: Tags
         name: tags
         widget: list
@@ -84,20 +88,11 @@ collections:
     # This can be overriden later in the repo. It's just used by decap on creation.
     path: "{{year}}-{{month}}-{{day}}-{{title}}/{{slug}}"
     # This is just the view in decap CMS
-    summary: "{{fields.date | date('YYYY-MM-DD')}} - {{fields.title}}"
-    media_folder: ''
-    public_folder: ''
+    summary: "{{fields.index | ternary('INDEX - ', '')}}{{fields.date | date('YYYY-MM-DD')}} - {{fields.title}}"
+    media_folder: ""
+    public_folder: ""
     i18n: true
-    # Hack to hide the resources 
-    filter: 
-      field: layout
-      value: single-event
     fields:
-      - label: Layout
-        name: layout
-        widget: hidden
-        default: single-event
-        i18n: duplicate
       - label: Title
         name: title
         widget: string
@@ -116,12 +111,142 @@ collections:
         widget: string
         i18n: duplicate
         hint: The organisation running the event (if not Techwerkers)
+        required: false
       - label: Tags
         name: tags
         widget: list
         i18n: true
         default: []
         allow_add: true
+      - label: Feature Image
+        name: feature
+        widget: image
+        allow_multiple: false
+        i18n: true
+        choose_url: true
+        required: false
+      - label: Feature Image Alt Text
+        name: featureAlt
+        widget: string
+        i18n: true
+        required: false
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - name: campaigns
+    label: Campaigns
+    format: yaml-frontmatter
+    extension: md
+    folder: content/campaigns
+    create: true
+    slug: "index"
+    path: "{{title}}/{{slug}}"
+    summary: "{{fields.index | ternary('INDEX - ', '')}}{{fields.title}}"
+    media_folder: ""
+    public_folder: ""
+    i18n: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Created Date
+        name: date
+        widget: datetime
+        i18n: duplicate
+        format: "YYYY-MM-DDTHH:mm:ssZ"
+      - label: Last Modified Date
+        name: lastmod
+        widget: datetime
+        i18n: duplicate
+        required: false
+      - label: Show Date Updated
+        name: showDateUpdated
+        widget: boolean
+        i18n: duplicate
+      - label: Summary
+        name: summary
+        widget: text
+        i18n: true
+      - label: Show Summary
+        name: showSummary
+        widget: boolean
+        i18n: duplicate
+      - label: Campaign Identifier
+        name: campaign
+        widget: string
+        i18n: duplicate
+        hint: Resources with this identifier will show up in the bottom of the campaign page
+      - label: Feature Image
+        name: feature
+        widget: image
+        allow_multiple: false
+        i18n: true
+        choose_url: true
+      - label: Feature Image Alt Text
+        name: featureAlt
+        widget: string
+        i18n: true
+        required: false
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - name: posts
+    label: News
+    format: yaml-frontmatter
+    extension: md
+    folder: content/posts
+    create: true
+    slug: "index"
+    # Note: This is the post creation date
+    path: "{{title}}/{{slug}}"
+    # This is just the view in decap CMS
+    summary: "{{fields.index | ternary('INDEX - ', '')}}{{fields.date | date('YYYY-MM-DD')}} - {{fields.title}}"
+    media_folder: ""
+    public_folder: ""
+    i18n: true
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Summary
+        name: summary
+        widget: string
+        i18n: true
+      - label: Show Summary
+        name: showSummary
+        widget: boolean
+        i18n: duplicate
+        default: true
+      - label: Author
+        name: author
+        widget: string
+        i18n: true
+      - label: Posting Date
+        name: date
+        widget: datetime
+        i18n: duplicate
+        format: "YYYY-MM-DDTHH:mm:ssZ"
+      - label: Tags
+        name: tags
+        widget: list
+        i18n: true
+        default: []
+        allow_add: true
+      - label: Feature Image
+        name: feature
+        widget: image
+        allow_multiple: false
+        i18n: duplicate
+        choose_url: true
+      - label: Feature Image Alt Text
+        name: featureAlt
+        widget: string
+        i18n: true
+        required: false
       - label: Body
         name: body
         widget: markdown

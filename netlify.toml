@@ -3,7 +3,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.142.0"
+  HUGO_VERSION = "0.146.2"
 
 # Set base URL for deploying previews
 [context.deploy-preview]
@@ -75,6 +75,60 @@
 [[redirects]]
   from = "/resources"
   to = "/nl/resources"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/campaigns"
+  to = "/en/campaigns"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/campaigns"
+  to = "/nl/campaigns"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts"
+  to = "/en/posts"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/posts"
+  to = "/nl/posts"
+  status = 301
+  force = true
+
+# Localised redirects for root content
+
+[[redirects]]
+  from = "/squeakywheel"
+  to = "/en/campaigns/squeakywheel"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/squeakywheel"
+  to = "/nl/campaigns/squeakywheel"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/palestine"
+  to = "/en/campaigns/palestine"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/palestine"
+  to = "/nl/campaigns/palestine"
   status = 301
   force = true
 

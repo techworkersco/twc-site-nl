@@ -1,0 +1,33 @@
+{{/* Determine the correct context and scope */}}
+{{/* This allows for different logic depending on where the partial is called */}}
+{{ $context := . }}
+{{ $scope := default nil }}
+
+{{ if (reflect.IsMap . ) }}
+  {{ $context = .context }}
+  {{ $scope = cond (not .scope) nil .scope }}
+{{ end }}
+
+{{ with $context }}
+  {{ $meta := newScratch }}
+
+  {{/* Output taxonomies */}}
+  {{ if or
+    (and (ne $scope "single") (.Params.showTaxonomies | default (.Site.Params.list.showTaxonomies | default (.Site.Params.article.showTaxonomies | default false))))
+    (and (eq $scope "single") (.Params.showTaxonomies | default (.Site.Params.article.showTaxonomies | default false)))
+  }}
+    <div class="my-1 flex flex-wrap text-xs lowercase leading-relaxed text-neutral-500">
+      {{ range $taxonomy, $terms := .Site.Taxonomies }}
+        {{ if (gt (len ($context.GetTerms $taxonomy)) 0) }}
+          {{ range $context.GetTerms $taxonomy }}
+            <a
+              href="{{ .RelPermalink }}"
+              class="my-1 mr-2 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-600 hover:text-primary-600"
+              >{{ .LinkTitle }}</a
+            >
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}

@@ -11,19 +11,24 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
+  name = "Organize your workplace"
+  pageRef = "resources/organize"
+  weight = 10
+
+[[main]]
   name = "Events"
   pageRef = "events"
-  weight = 10
+  weight = 20
 
 [[main]]
   name = "Resources"
   pageRef = "resources"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "Join"
   pageRef = "join"
-  weight = 30
+  weight = 50
 
 # [[main]]
 #   name = "GitHub"

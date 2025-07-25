@@ -11,17 +11,19 @@
 - id: join
   translation: "Doe mee met de Techwerkerscoalitie"
 - id: join-description
-  translation: "Vul de volgende gegevens in, zodat we je alvast iets beter kunnen leren kennen!"
+  translation: "Vul hier je gegevens in om je aan te melden."
+- id: join-principles
+  translation: "Lees de deelnamecriteria."
 - id: join-form
   translation: "Je gegevens"
 - id: name
   translation: "Naam"
 - id: email
   translation: "Email"
-- id: social-link
-  translation: "Website of sociale media"
-- id: social-examples
-  translation: "Bijvoorbeeld LinkedIn, Instagram, Mastodon, enz"
+- id: social-examples-1
+  translation: "LinkedIn, persoonlijke website, blog, enz"
+- id: social-examples-2
+  translation: "Github, Instagram, Mastodon, enz"
 - id: employer
   translation: "Werkgever (waar van toepassing)"
 - id: workplace
@@ -36,6 +38,8 @@
   translation: "Verstuur"
 - id: show-all
   translation: "Toon alle"
+- id: show-more
+  translation: "Toon meer"
 - id: show-resources
   translation: "Naar de kennisbank"
 - id: read-more
@@ -52,3 +56,11 @@
   translation: "Uitgelicht"
 - id: resources-description
   translation: "Handige info voor techwerkers."
+- id: how-to-find-you
+  translation: "Hoe kunnen we je vinden?"
+- id: recent-posts
+  translation: "Laatste nieuws"
+- id: posts
+  translation: "nieuws"
+- id: post-description
+  translation: "Nieuws en updaten relevant voor techwerkers"

@@ -1,5 +1,5 @@
-{{- partial "partials/functions/warnings.html" .Site -}}
-{{- partial "partials/functions/init.html" . -}}
+{{- partial "functions/warnings.html" .Site -}}
+{{- partial "functions/init.html" . -}}
 <!doctype html>
 <html
   lang="{{- site.Language.LanguageCode | default "" -}}"
@@ -10,21 +10,21 @@
 >
   {{- partial "head.html" . -}}
   <body
-    class="m-auto flex h-screen flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 sm:px-6 md:px-12 lg:px-16"
+    class="m-auto flex h-screen flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-6 md:px-12 lg:px-16"
   >
     <div id="the-top" class="absolute flex self-center">
       <a
-        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0"
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
         href="#main-content"
-        ><span class="pe-2 font-bold text-primary-600">&darr;</span
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
         >{{ i18n "nav.skip_to_main" }}</a
       >
     </div>
-    {{ $header := print "partials/header/" .Site.Params.header.layout ".html" }}
+    {{ $header := print "header/" .Site.Params.header.layout ".html" }}
     {{ if templates.Exists $header }}
       {{ partial $header . }}
     {{ else }}
-      {{ partial "partials/header/basic.html" . }}
+      {{ partial "header/basic.html" . }}
     {{ end }}
     <div class="relative flex grow flex-col">
       <main id="main-content" class="grow">

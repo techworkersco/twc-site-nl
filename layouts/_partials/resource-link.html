@@ -1,0 +1,40 @@
+<article class="flex flex-col items-start justify-between max-w-full md:max-w-xl lg:max-w-2xl">
+  {{- $images := $.Resources.ByType "image" }}
+  {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
+  {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}
+  {{- with $feature }}
+    <div class="w-full mb-4">
+      <a
+        href="{{ with $.Params.externalUrl }}
+          {{ . }}
+        {{ else }}
+          {{ $.RelPermalink }}
+        {{ end }}"
+        aria-label="{{ $.Title | emojify }}"
+      >
+        <img
+          alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default $.Title | emojify }}"
+          class="w-full h-auto aspect-square object-cover rounded-md"
+          src="{{ .RelPermalink }}"
+
+          {{ if $.Site.Params.enableImageLazyLoading | default true }}
+            loading="lazy"
+          {{ end }}
+        />
+      </a>
+    </div>
+  {{- end }}
+
+  <div class="group relative">
+    <h3 class="mt-4 sm:text-medium text-xl font-bold text-gray-700 sm:col-span-2 sm:mt-0">
+      <a href="{{ $.RelPermalink }}">
+        <span class="absolute inset-0"></span>
+        {{ .Title | emojify }}
+      </a>
+    </h3>
+
+    {{ if .Params.description }}
+      <p class="mt-5 line-clamp-3 text-sm/6 text-gray-600">{{ .Params.description }}</p>
+    {{ end }}
+  </div>
+</article>
