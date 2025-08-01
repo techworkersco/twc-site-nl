@@ -11,7 +11,7 @@
     "build": "NODE_ENV=production ./node_modules/tailwindcss/lib/cli.js -c ./tailwind.config.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.7.1"
+    "@fortawesome/fontawesome-free": "^7.0.0"
   },
   "devDependencies": {
     "@fontsource-variable/martian-mono": "^5.2.6",
