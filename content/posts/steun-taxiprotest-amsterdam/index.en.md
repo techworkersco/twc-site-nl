@@ -9,13 +9,13 @@ feature: feature-taxiprotest.jpg
 featureAlt: "Flyer with a call from Taxi Protest Amsterdam, next to the Tech Workers logo, a black heart emoji, and the name Taxi Protest Amsterdam"
 ---
 
-The Tech Workers Coalition Netherlands expresses its support for the drivers of Taxi Protest Amsterdam, who struck on the evening of August 2nd during the busy Canal Parade in the capital.
+The Tech Workers Coalition Netherlands expresses its support for the drivers of Taxi Protest Amsterdam, who are going on strike on the evening of 2 August during the busy Canal Parade in the capital.
 
-Drivers working for the Uber and Bolt platforms are going on strike for 10 hours on Saturday night in protest:
+Drivers working for the Uber and Bolt platforms are going on strike for 10 hours on Saturday night to demand:
 
-* For better pay
-* Against unfair competition
-* Against American and Estonian tech platforms that are coming to Amsterdam to ruin the taxi sector
+* Better pay
+* And end to unfair competition
+* A halt to American and Estonian tech platforms that are coming to Amsterdam to ruin the taxi sector
 
 The platform workers are also demanding mandatory professional qualifications for all drivers.
 
