@@ -23,14 +23,14 @@ Bedrijven zoals Uber en Bolt tonen keer op keer dat ze arbeiders en het arbeidsr
 
 De platformbedrijven pogen ten onrechte al jaren om de chauffeurs die voor hen werken weg te zetten als ‘zelfstandig ondernemers’, in plaats van als de werknemers die het werkelijk zijn, om zodoende [hun verantwoordelijkheden als werkgever](https://www.bbc.co.uk/news/articles/c7047kz0vr0o) [te ontlopen](https://www.fnv.nl/nieuwsbericht/sectornieuws/flex/2025/02/fnv-mag-ook-voor-schijnzelfstandigen-cao-naleving).
 
-En in 2020 voerde Uber massaontslagen door op diens hoofdkantoor in Amsterdam, [zonder dat hiervoor de wettelijk vereiste goedkeuring door de UWV](https://nos.nl/artikel/2357403) werd gegeven. Arbeiders werden onder druk gezet en hun accounts voortijdig afgesloten.
+En in 2020 voerde Uber massaontslagen door op diens hoofdkantoor in Amsterdam, [zonder dat hiervoor de wettelijk vereiste goedkeuring door de UWV](https://nos.nl/artikel/2357403) werd gegeven. Arbeiders werden onder druk gezet en hun werkaccounts zonder waarschuwing afgesloten.
 
 De operatiewijze van platformen zoals Uber en Bolt schaadt bovendien zowel chauffeurs als passagiers. 
 
 Ze komen een stad binnen. Kunnen door miljarden aan investeringen in durfkapitaal jarenlang met verlies blijven groeien (soms geholpen door wat [illegale](https://www.theguardian.com/news/2022/jul/10/former-eu-digital-chief-neelie-kroes-secretly-helped-uber-lobby-dutch-pm-leak-suggests) [praktijken](https://www.theguardian.com/news/2022/jul/10/uber-files-leak-reveals-global-lobbying-campaign)), waardoor de lokale taxisector én delen van het openbaar vervoer worden uitgehold. Tot het moment dat een groot deel van de stad en de lokale chauffeurs afhankelijk is gemaakt van een app die helemaal in handen is van één of ander  techbedrijf dat alle spelregels dicteert. 
 
-Toen Uber in 2023 dynamische prijzen invoerde, leidde dat én tot hogere ritprijzen (nadelig voor reizigers) én tot lagere inkomsten voor de arbeiders. Alleen Uber zelf zag haar inkomsten groeien, zo [concludeerden onderzoekers](https://www.ox.ac.uk/news/2025-06-23-new-oxford-research-reveals-uber-s-algorithmic-pricing-leaves-drivers-and-passengers) van de Universiteit van Oxford in een recent onderzoek. 
+Toen Uber in 2023 dynamische prijzen invoerde, leidde dat én tot hogere ritprijzen (nadelig voor reizigers) én tot lagere inkomsten voor de arbeiders. Alleen Uber zelf zag haar inkomsten groeien, zoals onderzoekers van de Universiteit van Oxford [in een recent onderzoek aantoonden](https://www.ox.ac.uk/news/2025-06-23-new-oxford-research-reveals-uber-s-algorithmic-pricing-leaves-drivers-and-passengers). 
 
 Genoeg is genoeg. 
 
-Steun aan Taxi Protest Amsterdam!
+Steun aan het Taxi Protest Amsterdam!
