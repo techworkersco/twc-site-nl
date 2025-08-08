@@ -27,7 +27,7 @@
 
 [[main]]
   name = "Over ons"
-  pageRef = "resources/about"
+  pageRef = "about"
   weight = 35
 
 [[main]]
