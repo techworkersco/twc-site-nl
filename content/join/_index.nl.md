@@ -7,4 +7,4 @@ featureAlt: "Drie mensen zitten rond een tafel in een café achter een laptop, l
 
 ![Drie mensen zitten rond een tafel in een café achter een laptop, samen lachend, en wijzen naar een mobiele telefoon. Afbeelding door Ketut Subiyanto op Pexels.](join.jpg)
 
-Wil me meer over Tech Werkers weten? Kijk naar Over Ons [heir]({{% relref path="resources/about" %}}).
+Wil me meer over Tech Werkers weten? Kijk naar Over Ons [hier]({{% relref path="about" %}}).
