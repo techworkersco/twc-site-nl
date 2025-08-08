@@ -4,6 +4,7 @@ title: About
 description: What is Tech Workers Coalition? Meet the new worker movement in The Netherlands.
 date: 2025-08-08T00:00:00.000Z
 lastmod: 2025-08-08T00:00:00.000Z
+feature: feature.jpg
 tags: []
 ---
 
@@ -25,7 +26,7 @@ Tired of going at it alone? Same. You deserve a supportive community that has yo
 
 ### Grow knowledge and skills
 
-Things are changing ever-faster, especially with tech at work. You need to know  your rights, your options, and get support when things get tough. Tech workers coalition offers both background and hands-on resources for tech workers. Come join info sessions and trainings on topics that matter to you, and share your own knowledge with other tech workers.
+Things are changing ever-faster, especially with tech at work. You need to know  your rights, your options, and get support when things get tough. Tech Workers Coalition offers both background and hands-on resources for tech workers. Come join info sessions and trainings on topics that matter to you, and share your own knowledge with other tech workers.
 
 _**Obligatory disclaimer:** Tech workers aren't lawyers. That said, some law-nerds in the coalition do like to stay up-to-date with current Dutch labour law (or know who to call when it's needed)._
 
