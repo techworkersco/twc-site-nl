@@ -31,7 +31,7 @@ _**Obligatory disclaimer:** Tech workers aren't lawyers. That said, some law-ner
 
 ### Organize your workplace
 
-Do you know who's on your works council? Does your workplace even have a works council? (It's a legal requirement for any company in the Netherlands with over 50 people.) Tech Workers Coalition can help you get more done through your works council. Or you could start a [workers' (labour) council](https://en.wikipedia.org/wiki/Workers'_council), if that's more your thing? Get together with other tech workers to organize for the workplace changes you want.
+Do you know who's on your works council? Does your workplace even have a works council? (It's a legal requirement for any company in the Netherlands with over 50 people.) Tech Workers Coalition can help you get more done through your works council. Or you could start a [workers' (labour) council](https://en.wikipedia.org/wiki/Workers'_council), if that's more your thing? Get together with other tech workers to organize for get the workplace changes you want.
 
 ## FAQ
 
