@@ -104,6 +104,19 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/about"
+  to = "/en/about"
+  status = 301
+  force = true
+  conditions = {Language = "en"}
+
+[[redirects]]
+  from = "/about"
+  to = "/nl/about"
+  status = 301
+  force = true
+
 # Localised redirects for root content
 
 [[redirects]]
