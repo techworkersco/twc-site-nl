@@ -7,6 +7,7 @@ date: 2025-08-01T14:17:00.000Z
 lastmod: 2025-08-01T14:17:00.000Z
 showDate: true
 showDateUpdated: true
+sharingLinks: false
 ---
 
 Simpel gezegd, techwerkers.nl is een collectief van techwerkers in Nederland. Wij (inclusief jij!) zijn een grassroots collectief dat collectieve macht opbouwt op jouw werkplek. Wij ondersteunen alle werknemers in de tech-industrie - inclusief, onder ander: ingenieurs, bezorgers, content moderators, klantenservice, magazijnplukkers, videogame artiesten en meer!
