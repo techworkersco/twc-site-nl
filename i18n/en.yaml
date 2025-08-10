@@ -1,66 +1,33 @@
-- id: events
-  translation: "events"
-- id: events-description
-  translation: "Take part in one of the upcoming events."
-- id: events-upcoming
-  translation: "Upcoming"
-- id: events-previous
-  translation: "Previous"
-- id: more-info
-  translation: "More info"
-- id: join
-  translation: "Join the Tech Workers Coalition"
-- id: join-description
-  translation: "Fill out the following details so that a fellow tech worker can check that you're elibigle to join."
-- id: join-principles
-  translation: "Check the joining principles."
-- id: join-form
-  translation: "Your details"
-- id: name
-  translation: "Name"
-- id: email
-  translation: "Email"
-- id: social-examples-1
-  translation: "LinkedIn, personal website, blog, etc"
-- id: social-examples-2
-  translation: "Github, Instagram, Mastodon, etc"
-- id: employer
-  translation: "Employer (if any)"
-- id: workplace
-  translation: "Workplace"
-- id: how-did-hear
-  translation: "How did you hear about the Tech Workers Coalition?"
-- id: your-goals
-  translation: "Your goals"
-- id: like-to-achieve
-  translation: "What would you like to achieve with the Tech Workers Coalition? This helps connect you with the right people and resources."
-- id: submit
-  translation: "Submit"
-- id: show-all
-  translation: "Show all"
-- id: show-more
-  translation: "Show more"
-- id: show-resources
-  translation: "Show all resources"
-- id: read-more
-  translation: "Read more"
-- id: date
-  translation: "Date"
-- id: time
-  translation: "Time"
-- id: locatie
-  translation: "Location"
-- id: organizer
-  translation: "Organizer"
-- id: featured
-  translation: "Featured"
-- id: resources-description
-  translation: "Guides and resources for tech workers."
-- id: how-to-find-you
-  translation: "How can we find you?"
-- id: recent-posts
-  translation: "Recent news"
-- id: posts
-  translation: "news"
-- id: post-description
-  translation: "News and updates relevant to tech workers"
+events: "events"
+events-description: "Take part in one of the upcoming events."
+events-upcoming: "Upcoming"
+events-previous: "Previous"
+more-info: "More info"
+join: "Join the Tech Workers Coalition"
+join-description: "Fill out the following details so that a fellow tech worker can check that you're elibigle to join."
+join-principles: "Check the joining principles."
+join-form: "Your details"
+name: "Name"
+email: "Email"
+social-examples-1: "LinkedIn, personal website, blog, etc"
+social-examples-2: "Github, Instagram, Mastodon, etc"
+employer: "Employer (if any)"
+workplace: "Workplace"
+how-did-hear: "How did you hear about the Tech Workers Coalition?"
+your-goals: "Your goals"
+like-to-achieve: "What would you like to achieve with the Tech Workers Coalition? This helps connect you with the right people and resources."
+submit: "Submit"
+show-all: "Show all"
+show-more: "Show more"
+show-resources: "Show all resources"
+read-more: "Read more"
+date: "Date"
+time: "Time"
+locatie: "Location"
+organizer: "Organizer"
+featured: "Featured"
+resources-description: "Guides and resources for tech workers."
+how-to-find-you: "How can we find you?"
+recent-posts: "Recent news"
+posts: "news"
+post-description: "News and updates relevant to tech workers"
