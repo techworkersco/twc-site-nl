@@ -11,3 +11,5 @@ Fill out the following details so that a fellow tech worker can check that you'r
 [Check the joining principles]({{% relref path="join/principles" %}})
 
 {{% /join-form %}}
+
+Want to more info? [Learn more about Tech Workers Coalition]({{% relref path="about" %}}).

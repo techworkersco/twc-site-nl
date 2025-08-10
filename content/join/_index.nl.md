@@ -11,3 +11,5 @@ Vul hier je gegevens in om je aan te melden.
 [Lees de deelnamecriteria]({{% relref path="join/principles" %}})
 
 {{% /join-form %}}
+
+Wil je meer weten? [Ontdekt meer over Techwerkers]({{% relref path="about" %}}).
