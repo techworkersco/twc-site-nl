@@ -10,10 +10,6 @@
   translation: "Meer info"
 - id: join
   translation: "Doe mee met de Techwerkerscoalitie"
-- id: join-description
-  translation: "Vul hier je gegevens in om je aan te melden."
-- id: join-principles
-  translation: "Lees de deelnamecriteria."
 - id: join-form
   translation: "Je gegevens"
 - id: name
