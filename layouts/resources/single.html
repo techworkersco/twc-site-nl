@@ -10,9 +10,9 @@
 
       {{ if or
         (.Params.showDate | default (.Site.Params.article.showDate | default true))
-        (and (.Params.showDateUpdated | default (.Site.Params.article.showDateUpdated | default true)) (ne (partial "functions/date.html" .Date) (partial "functions/date.html" .Lastmod)))
+        (and (.Params.showDateUpdated | default (.Site.Params.article.showDateUpdated | default false)) (ne (partial "functions/date.html" .Date) (partial "functions/date.html" .Lastmod)))
         (and (.Params.showWordCount | default (.Site.Params.article.showWordCount | default false)) (ne .WordCount 0))
-        (and (.Params.showReadingTime | default (.Site.Params.article.showReadingTime | default false)) (ne .ReadingTime 0))
+        (and (.Params.showReadingTime | default (.Site.Params.article.showReadingTime | default true)) (ne .ReadingTime 0))
         (.Params.showEdit | default (.Site.Params.article.showEdit | default false))
       }}
         <div class="mb-10 text-sm text-neutral-500 print:hidden">

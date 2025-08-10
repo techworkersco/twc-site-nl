@@ -57,6 +57,26 @@ fingerprintAlgorithm = "sha256"
   showComments = false
   sharingLinks = ["facebook", "x-twitter", "mastodon", "reddit", "linkedin", "email", "threads", "telegram"]
 
+[resource]
+  showDate = false
+  showDateUpdated = false
+  showAuthor = false
+  showBreadcrumbs = true
+  showDraftLabel = false
+  showEdit = false
+  editURL = "https://github.com/"
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = true
+  showReadingTime = false
+  showTableOfContents = true
+  showTaxonomies = true
+  showWordCount = false
+  showComments = false
+  showSummary = true
+  sharingLinks = ["facebook", "x-twitter", "mastodon", "reddit", "linkedin", "email", "threads", "telegram"]
+
 [list]
   showBreadcrumbs = true
   showSummary = false
