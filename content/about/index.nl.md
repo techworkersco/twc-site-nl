@@ -1,13 +1,12 @@
 ---
-layout: single-resource
-title: Wie is techwerkers.nl?
+title: Over ons
 description: Jij bent er. Laten we meer over ons vertellen.
 feature: twc-techwerkersnl-nederland.png
 featureAlt: Het logo van TWC NL
 date: 2025-08-01T14:17:00.000Z
 lastmod: 2025-08-01T14:17:00.000Z
-tags:
-  - meta
+showDate: true
+showDateUpdated: true
 ---
 
 Simpel gezegd, techwerkers.nl is een collectief van techwerkers in Nederland. Wij (inclusief jij!) zijn een grassroots collectief dat collectieve macht opbouwt op jouw werkplek. Wij ondersteunen alle werknemers in de tech-industrie - inclusief, onder ander: ingenieurs, bezorgers, content moderators, klantenservice, magazijnplukkers, videogame artiesten en meer!
