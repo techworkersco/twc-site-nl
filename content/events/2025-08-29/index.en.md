@@ -1,5 +1,5 @@
 ---
-title: "Techwerkers chill in the park"
+title: "Tech workers chill in the park"
 date: 2025-08-29T18:00:00+02:00
 location: "Near statue De Parkwachter, Westerpark, Amsterdam"
 organisation: ""
