@@ -19,11 +19,11 @@ Doe mee
 
 Bij Techwerkers kun je jouw gemeenschap vinden, je kennis over tech en arbeidsrechten vergroten, en de vaardigheden ontwikkelen om je te organiseren en de macht op de werkvloer terug te winnen.
 
-### Vind je gemeenschap
+### Gemeenschap
 
 Ben je het zat om altijd alles alleen te moeten doen? Herkenbaar. Je verdient een gemeenschap van mensen die je steunen. Of het nu op kantoor of op straat is, alleen samen met collega's kun je echte verandering teweegbrengen en winnen.
 
-### Vergroot je kennis en vaardigheden
+### Kennis en vaardigheden
 
 Dingen veranderen steeds sneller, vooral met tech. Wat zijn je rechten? Waar kun je ondersteuning krijgen? Techwerkers biedt zowel achtergrondinformatie als praktische steun voor techwerkers. Kom naar info-sessies en trainingen over onderwerpen die je interessant vindt, en deel je eigen kennis met andere techwerkers.
 
