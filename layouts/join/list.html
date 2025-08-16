@@ -4,9 +4,6 @@
   {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $cover }}
   <article class="mx-auto max-w-5xl">
     <header>
-      {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
-        {{ partial "breadcrumbs.html" . }}
-      {{ end }}
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900">
         {{ .Title | emojify }}
       </h1>
@@ -27,10 +24,7 @@
         </div>
       {{ end }}
     </section>
-    <section class="mt-6">
-      {{ partial "join-form.html" . }}
-    </section>
-    <section class="prose mt-12 max-w-full">
+    <section class="prose mt-12 max-w-full text-lg">
       {{ .Content | emojify }}
     </section>
   </article>

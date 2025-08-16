@@ -1,10 +1,11 @@
 ---
-layout: single-resource
 title: Over
 description: Wat is Techwerkers? Maak kennis met de nieuwe arbeidersbeweging in Nederland.
 date: 2025-08-15T00:00:00.000Z
 lastmod: 2025-08-15T00:00:00.000Z
-tags: []
+showDate: true
+showDateUpdated: true
+sharingLinks: false
 ---
 
 Techwerkers is een gemeenschap van techwerkers die zich inzetten voor zelf-organisatie op de werkvloer om de macht van de arbeiders in Nederland terug te winnen. De groep, opgericht in 2024, is een lokale afdeling van de [Techwerkerscoalitie](https://techworkerscoalition.org/), die actief is sinds 2017.
@@ -54,5 +55,5 @@ Ben je het zat om altijd maar alleen te zijn? Te weinig waardering te krijgen vo
 <span class="flex justify-center uppercase font-mono">
 {{< button href="join" >}}
 Doe mee
-{{</button >}}
+{{</ button >}}
 </span>

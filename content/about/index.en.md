@@ -1,5 +1,4 @@
 ---
-layout: single-resource
 title: About
 description: What is Tech Workers Coalition? Find out more about the new worker movement in The Netherlands.
 date: 2025-08-15T00:00:00.000Z

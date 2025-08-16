@@ -24,4 +24,6 @@ copyright = "2025 Tech Workers Coalition"
     # { x-twitter = "" },
     { mastodon = "https://mastodon.nl/@techwerkers" },
     { email = "mailto:hey@techwerkers.nl" },
+    { github = "https://github.com/techworkersco/twc-site-nl/" },
+    { circle-info = "https://techwerkers.nl/en/about" },
   ]

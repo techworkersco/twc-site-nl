@@ -12,26 +12,26 @@
   {{ $meta := newScratch }}
 
   {{/* Gather partials for this context */}}
-  {{ if .Params.showDate | default (.Site.Params.article.showDate | default true) }}
+  {{ if .Params.showDate | default (.Site.Params.resource.showDate | default true) }}
     {{ $meta.Add "partials" (slice (partial "meta/date.html" .Date)) }}
   {{ end }}
 
-  {{ if and (.Params.showDateUpdated | default (.Site.Params.article.showDateUpdated | default false)) (ne (partial "functions/date.html" .Date) (partial "functions/date.html" .Lastmod)) }}
+  {{ if and (.Params.showDateUpdated | default (.Site.Params.resource.showDateUpdated | default false)) (ne (partial "functions/date.html" .Date) (partial "functions/date.html" .Lastmod)) }}
     {{ $meta.Add "partials" (slice (partial "meta/date-updated.html" .Lastmod)) }}
   {{ end }}
 
-  {{ if and (.Params.showWordCount | default (.Site.Params.article.showWordCount | default false)) (ne .WordCount 0) }}
+  {{ if and (.Params.showWordCount | default (.Site.Params.resource.showWordCount | default false)) (ne .WordCount 0) }}
     {{ $meta.Add "partials" (slice (partial "meta/word-count.html" .)) }}
   {{ end }}
 
-  {{ if and (eq $scope "single") (.Params.showEdit | default (.Site.Params.article.showEdit | default false)) }}
+  {{ if and (eq $scope "single") (.Params.showEdit | default (.Site.Params.resource.showEdit | default false)) }}
     {{ $meta.Add "partials" (slice (partial "meta/edit.html" .)) }}
   {{ end }}
 
   {{/* Output taxonomies */}}
   {{ if or
-    (and (ne $scope "single") (.Params.showTaxonomies | default (.Site.Params.list.showTaxonomies | default (.Site.Params.article.showTaxonomies | default false))))
-    (and (eq $scope "single") (.Params.showTaxonomies | default (.Site.Params.article.showTaxonomies | default false)))
+    (and (ne $scope "single") (.Params.showTaxonomies | default (.Site.Params.list.showTaxonomies | default (.Site.Params.resource.showTaxonomies | default false))))
+    (and (eq $scope "single") (.Params.showTaxonomies | default (.Site.Params.resource.showTaxonomies | default false)))
   }}
     <div class="my-6 flex flex-wrap text-xs leading-relaxed text-neutral-500">
       {{ range $taxonomy, $terms := .Site.Taxonomies }}
@@ -56,8 +56,8 @@
     {{ end }}
 
     {{/* Output draft label */}}
-    {{ if and (eq $scope "single") (and .Draft .Site.Params.article.showDraftLabel) }}
-      <span class="ps-2">{{ partial "badge.html" (i18n "article.draft" | emojify) }}</span>
+    {{ if and (eq $scope "single") (and .Draft .Site.Params.resource.showDraftLabel) }}
+      <span class="ps-2">{{ partial "badge.html" (i18n "resource.draft" | emojify) }}</span>
     {{ end }}
   </div>
 {{ end }}
