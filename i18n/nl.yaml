@@ -26,8 +26,8 @@ error:
   404_description: "Het lijkt er op dat de opgevraagde pagina niet bestaat."
 
 footer:
-  dark_appearance: "Omschakelen naar donker uiterlijk"
-  light_appearance: "Omschakelen naar licht uiterlijk"
+  dark_appearance: "Omschakelen naar donkere modus"
+  light_appearance: "Omschakelen naar lichte modus"
   powered_by: "Aangedreven door {{ .Hugo }} &amp; {{ .Congo }}"
 
 list:
