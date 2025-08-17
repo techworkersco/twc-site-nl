@@ -7,8 +7,7 @@
 >
   <h3 class="text-gray-900 mt-10 text-2xl font-bold">{{ i18n "join-form" }}</h3>
   <p class="text-gray-600 prose my-6 text-lg">
-    {{ i18n "join-description" }}
-    <a href="{{ relLangURL "join/principles" }}">{{ i18n "join-principles" }}</a>
+    {{ .Inner }}
   </p>
   <div class="mb-5">
     <label for="email" class="text-gray-900 mb-2 block font-bold">{{ i18n "email" }}</label>

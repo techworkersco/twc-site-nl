@@ -7,23 +7,22 @@
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
-
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h1>
       {{ if or
         (.Params.showDate | default (.Site.Params.article.showDate | default true))
-        (and (.Params.showDateUpdated | default (.Site.Params.article.showDateUpdated | default true)) (ne (partial "functions/date.html" .Date) (partial "functions/date.html" .Lastmod)))
+        (and (.Params.showDateUpdated | default (.Site.Params.article.showDateUpdated | default false)) (ne (partial "functions/date.html" .Date) (partial "functions/date.html" .Lastmod)))
         (and (.Params.showWordCount | default (.Site.Params.article.showWordCount | default false)) (ne .WordCount 0))
-        (and (.Params.showReadingTime | default (.Site.Params.article.showReadingTime | default false)) (ne .ReadingTime 0))
+        (and (.Params.showReadingTime | default (.Site.Params.article.showReadingTime | default true)) (ne .ReadingTime 0))
         (.Params.showEdit | default (.Site.Params.article.showEdit | default false))
       }}
-        <div class="mb-10 text-sm text-neutral-500 print:hidden">
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
           {{ partial "resource-meta.html" (dict "context" . "scope" "single") }}
         </div>
       {{ end }}
 
 
-      <h1 class="mb-4 mt-0 text-4xl font-extrabold text-neutral-900">
-        {{ .Title | emojify }}
-      </h1>
       <dt class="lead text-gray-900 mb-6 text-xl lg:mb-12">
         {{ if ne .Params.description nil }}
           <div>{{ .Params.description }}</div>
@@ -41,9 +40,8 @@
           {{ end }}
         </div>
       {{ end }}
-
     </header>
-    <section class="prose mt-0 flex max-w-full flex-col lg:flex-row">
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
       {{ if and (.Params.showTableOfContents | default (.Site.Params.article.showTableOfContents | default false)) (in .TableOfContents "<ul") }}
         <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
           <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">
@@ -62,7 +60,7 @@
       {{ if .Params.showComments | default (.Site.Params.article.showComments | default false) }}
         {{ if templates.Exists "comments.html" }}
           <div class="pt-3">
-            <hr class="border-dotted border-neutral-300" />
+            <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
             <div class="pt-3">
               {{ partial "comments.html" . }}
             </div>
