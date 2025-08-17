@@ -18,12 +18,10 @@ copyright = "2025 Tech Workers Coalition"
   headline = ""
   bio = ""
   links = [
-    { instagram = "https://instagram.com/techwerkers" },
-    # { linkedin = "" },
-    { bluesky = "https://bsky.app/profile/techwerkers.bsky.social" },
-    # { x-twitter = "" },
-    { mastodon = "https://mastodon.nl/@techwerkers" },
-    { email = "mailto:hey@techwerkers.nl" },
-    { github = "https://github.com/techworkersco/twc-site-nl/" },
-    { circle-info = "https://techwerkers.nl/en/about" },
+    { name = "instagram", url = "https://instagram.com/techwerkers" },
+    { name = "bluesky", url = "https://bsky.app/profile/techwerkers.bsky.social" },
+    { name = "mastodon", url = "https://mastodon.nl/@techwerkers" },
+    { name = "email", url = "mailto:hey@techwerkers.nl" },
+    { name = "github", url = "https://github.com/techworkersco/twc-site-nl/" },
+    { name = "circle-info", url = "https://techwerkers.nl/en/about", target = "_self" },
   ]
