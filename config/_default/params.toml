@@ -22,8 +22,8 @@ fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-  logo = "img/logo-nl.png"
-  logo_en = "img/logo-en.png"
+  logo = "img/twc-nederland.svg"
+  logo_en = "img/twc-thenetherlands-animated.svg"
   # logoDark = "img/dark-logo.jpg"
   showTitle = false
 
