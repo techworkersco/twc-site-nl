@@ -23,5 +23,5 @@ copyright = "2025 Techwerkers"
     { name = "mastodon", url = "https://mastodon.nl/@techwerkers" },
     { name = "email", url = "mailto:hey@techwerkers.nl" },
     { name = "github", url = "https://github.com/techworkersco/twc-site-nl/" },
-    { name = "circle-info", url = "https://techwerkers.nl/nl/about", target = "_self" },
+    { name = "over", url = "https://techwerkers.nl/nl/about", icon = "circle-info", target = "_self" },
   ]
