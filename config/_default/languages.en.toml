@@ -21,6 +21,7 @@ copyright = "2025 Tech Workers Coalition"
     { name = "instagram", url = "https://instagram.com/techwerkers" },
     { name = "bluesky", url = "https://bsky.app/profile/techwerkers.bsky.social" },
     { name = "mastodon", url = "https://mastodon.nl/@techwerkers" },
+    { name = "linkedin", url = "https://www.linkedin.com/company/techwerkers-nl/" },
     { name = "email", url = "mailto:hey@techwerkers.nl" },
     { name = "github", url = "https://github.com/techworkersco/twc-site-nl/" },
     { name = "About", url = "https://techwerkers.nl/en/about", icon = "circle-info", target = "_self" },
