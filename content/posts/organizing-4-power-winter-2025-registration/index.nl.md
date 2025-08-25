@@ -16,7 +16,7 @@ De sessies bestaan ​​uit een mix van lezingen, discussies, voorbereidende ta
 
 Meer achtergrondinformatie: https://bit.ly/O4P-Power-Up
 
-De training is gratis en voor iedereen toegankelijk.
+De training is *gratis* en *voor iedereen toegankelijk*.
 
 Voertaal is Engels.
 
