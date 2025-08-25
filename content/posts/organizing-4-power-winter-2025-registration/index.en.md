@@ -16,7 +16,7 @@ Sessions consist of a mixture of lectures, discussions, prep tasks, and some han
 
 More background: https://bit.ly/O4P-Power-Up
 
-Training is free and open to all.
+Training is *free* and *open to all*.
 
 ## Schedule
 
