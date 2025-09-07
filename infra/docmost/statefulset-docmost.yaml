@@ -1,0 +1,38 @@
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: docmost-docmost
+spec:
+  selector:
+    matchLabels:
+      app: docmost-docmost
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: docmost-docmost
+    spec:
+      containers:
+      - name: docmost
+        image: docmost/docmost:latest
+        envFrom:
+        - configMapRef:
+            name: docmost-docmost
+        - secretRef:
+            name: docmost-docmost
+        ports:
+        - containerPort: 3000
+          name: http
+        volumeMounts:
+        - mountPath: /app/data/storage
+          name: docmost-data
+  volumeClaimTemplates:
+  - metadata:
+      name: docmost-data
+    spec:
+      accessModes: ["ReadWriteOnce"]
+      storageClassName: local-path
+      resources:
+        requests:
+          storage: 5Gi

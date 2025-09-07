@@ -1,0 +1,36 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: docmost
+
+resources:
+- ns.yaml
+# Gateway, routes, tls
+- certificate-docmost.yaml
+- gateway.yaml
+- httproute.yaml
+# Dependencies (Postgres, redis)
+- configmap-postgres.yaml
+- deployment-redis.yaml
+- service-postgres.yaml
+- service-redis.yaml
+- statefulset-postgres.yaml
+# Docmost core
+- configmap-docmost.yaml
+- service-docmost.yaml
+- statefulset-docmost.yaml
+
+generators:
+- |-
+  apiVersion: viaduct.ai/v1
+  kind: ksops
+  metadata:
+    name: docmost-ksops
+    annotations:
+      config.kubernetes.io/function: |
+        exec:
+          path: ksops
+  files:
+  - ./secret-postgres.enc.yaml
+  - ./secret-docmost.enc.yaml

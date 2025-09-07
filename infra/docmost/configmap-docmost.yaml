@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: docmost-docmost
+data:
+  APP_URL: "https://docmost.techwerkers.nl/"
+  REDIS_URL: "redis://docmost-redis.docmost.svc:6379"
+  PORT: "3000"
+  MAIL_DRIVER: "smtp"
+  SMTP_HOST: "disroot.org"
+  SMTP_PORT: "587"
+  SMTP_USERNAME: techwerkers
+  MAIL_FROM_ADDRESS: "docmost@techwerkers.nl"
+  MAIL_FROM_NAME: Techwerkers Docmost

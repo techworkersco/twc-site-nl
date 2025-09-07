@@ -1,0 +1,5 @@
+creation_rules:
+- path_regex: ".yaml$"
+  unencrypted_regex: "^(apiVersion|metadata|kind|type)$"
+  age: >-
+    age1uu9uughvqte75n94w6equ5ak40tw646k9487y32eh32ygnx3c9kseznu9c
