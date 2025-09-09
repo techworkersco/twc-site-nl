@@ -20,9 +20,7 @@ write_files:
     KbdInteractiveAuthentication no
     ChallengeResponseAuthentication no
     MaxAuthTries 2
-    AllowTcpForwarding no
     X11Forwarding no
-    AllowAgentForwarding no
     AuthorizedKeysFile .ssh/authorized_keys
     AllowUsers k3s-admin
 - path: /var/lib/rancher/k3s/server/manifests/traefik-config.yaml
@@ -73,8 +71,17 @@ write_files:
           enableGatewayAPI: true
         extraArgs:
         - "--enable-gateway-api"
+- path: /etc/network/interfaces
+  content: |
+    auto eth0
+    iface eth0 inet dhcp
+        post-up echo 1 > /proc/sys/net/ipv4/ip_forward
+        post-up iptables -t nat -A POSTROUTING -s '10.0.0.0/16' -o eth0 -j MASQUERADE
+  append: true
 runcmd:
 - printf "[sshd]\nenabled = true\nport = ssh, 22\nbanaction = iptables-multiport" > /etc/fail2ban/jail.local
 - systemctl enable fail2ban
-- "curl -sfL https://get.k3s.io | sh -"
+- curl -sfL https://get.k3s.io | sh -
+- echo 1 > /proc/sys/net/ipv4/ip_forward
+- iptables -t nat -A POSTROUTING -s '10.0.0.0/16' -o eth0 -j MASQUERADE
 - reboot

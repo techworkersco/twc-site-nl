@@ -60,11 +60,15 @@ Firewalls:
     port: 6443
 ```
 
+TODO: Move the above to the terraform provider.
+
 ### Servers
 
-API Server:
+Cloud init: `cloudinit/k3s-server.yaml`
 
-- Location: Nuremberg;
+**API Server:**
+
+- Location: Nuremberg
 - Image: Debian 13
 - Type: Shared vCPU
   - Arch: x86 (Intel/AMD)
@@ -80,12 +84,60 @@ API Server:
   - http-traffic
   - k3s-api
 - Backups: true
-- Cloud Init: contents of `k3s-server-01.ci.yaml`
-- Name: k3s-server-01
+- Cloud Init: contents of `k3s-server.cloudinit.yaml`
+- Name: k3s-server-[number]
 
-Agents:
+Command:
 
-TBD
+```sh
+hcloud server create \
+  --datacenter nbg1-dc3 \
+  --type cx22 \
+  --image debian-13 \
+  --primary-ipv4 techwerkers-k8s \
+  --enable-backup \
+  --firewall http-traffic \
+  --firewall ssh \
+  --firewall k3s-api \
+  --network vpc \
+  --ssh-key "k3s@techwerkers" \
+  --user-data-from-file cloudinit/k3s-agent.yaml \
+  --name k3s-server-[number]
+```
+
+**Agents:**
+
+Cloud init: `cloudinit/k3s-agent.yaml`
+
+- Location: Nuremberg
+- Image: Debian 13
+- Type: Shared vCPU
+  - Arch: x86 (Intel/AMD)
+  - CX22
+- Networking:
+  - Public IPv4: None
+  - Public IPv6: None
+  - Private networks: vpc
+- SSH Keys:
+  - k3s@techwerkers
+- Backups: true
+- Cloud Init: contents of `k3s-agent.cloudinit.yaml`
+- Name: k3s-agent-[number]
+
+Command:
+
+```sh
+hcloud server create \
+  --datacenter nbg1-dc3 \
+  --type cx22 \
+  --image debian-13 \
+  --network vpc \
+  --ssh-key "k3s@techwerkers" \
+  --without-ipv4 \
+  --without-ipv6 \
+  --user-data-from-file cloudinit/k3s-agent.yaml \
+  --name k3s-agent-[number]
+```
 
 ## Kubernetes Manifests
 
