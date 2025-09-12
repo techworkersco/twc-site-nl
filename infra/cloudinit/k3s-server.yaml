@@ -1,0 +1,87 @@
+#cloud-config
+users:
+- name: k3s-admin
+  groups: users, admin
+  sudo: ALL=(ALL) NOPASSWD:ALL
+  shell: /bin/bash
+  ssh_authorized_keys:
+  - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIBkr4ymLwooqPWgM5ruNK/5KGlcP8lopUbDL72fyuUp k3s@techwerkers
+packages:
+- fail2ban
+package_update: true
+package_upgrade: true
+# Harden SSHD
+write_files:
+- path: /etc/ssh/sshd_config.d/ssh-hardening.conf
+  content: |
+    PermitRootLogin no
+    PasswordAuthentication no
+    Port 22
+    KbdInteractiveAuthentication no
+    ChallengeResponseAuthentication no
+    MaxAuthTries 2
+    X11Forwarding no
+    AuthorizedKeysFile .ssh/authorized_keys
+    AllowUsers k3s-admin
+- path: /var/lib/rancher/k3s/server/manifests/traefik-config.yaml
+  content: |
+    ---
+    apiVersion: helm.cattle.io/v1
+    kind: HelmChartConfig
+    metadata:
+      name: traefik
+      namespace: kube-system
+    spec:
+      valuesContent: |-
+        providers:
+          kubernetesGateway:
+            enabled: true
+          kubernetesIngress:
+            enabled: false
+        ingressClass:
+          enabled: false
+        # only exposed via port-forward
+        api:
+          dashboard: true
+          insecure: true
+        logs:
+          general:
+            level: INFO
+          access:
+            enabled: true
+- path: /var/lib/rancher/k3s/server/manifests/helmchart-cert-manager.yaml
+  content: |
+    ---
+    apiVersion: helm.cattle.io/v1
+    kind: HelmChart
+    metadata:
+      name: cert-manager
+      namespace: kube-system
+    spec:
+      chart: oci://quay.io/jetstack/charts/cert-manager
+      version: v1.18.2
+      targetNamespace: cert-manager
+      createNamespace: true
+      valuesContent: |-
+        crds:
+          enabled: true
+        config:
+          apiVersion: controller.config.cert-manager.io/v1alpha1
+          kind: ControllerConfiguration
+          enableGatewayAPI: true
+        extraArgs:
+        - "--enable-gateway-api"
+- path: /etc/network/interfaces
+  content: |
+    auto eth0
+    iface eth0 inet dhcp
+        post-up echo 1 > /proc/sys/net/ipv4/ip_forward
+        post-up iptables -t nat -A POSTROUTING -s '10.0.0.0/16' -o eth0 -j MASQUERADE
+  append: true
+runcmd:
+- printf "[sshd]\nenabled = true\nport = ssh, 22\nbanaction = iptables-multiport" > /etc/fail2ban/jail.local
+- systemctl enable fail2ban
+- curl -sfL https://get.k3s.io | sh -
+- echo 1 > /proc/sys/net/ipv4/ip_forward
+- iptables -t nat -A POSTROUTING -s '10.0.0.0/16' -o eth0 -j MASQUERADE
+- reboot

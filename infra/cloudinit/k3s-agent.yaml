@@ -1,0 +1,43 @@
+#cloud-config
+users:
+- name: k3s-admin
+  groups: users, admin
+  sudo: ALL=(ALL) NOPASSWD:ALL
+  shell: /bin/bash
+  ssh_authorized_keys:
+  - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIBkr4ymLwooqPWgM5ruNK/5KGlcP8lopUbDL72fyuUp k3s@techwerkers
+packages:
+- systemd-resolved
+package_update: true
+package_upgrade: true
+manage_resolv_conf: true
+resolv_conf:
+  nameservers: ['1.1.1.1', '1.0.0.1']
+write_files:
+- path: /etc/ssh/sshd_config.d/ssh-hardening.conf
+  content: |
+    PermitRootLogin no
+    PasswordAuthentication no
+    Port 22
+    KbdInteractiveAuthentication no
+    ChallengeResponseAuthentication no
+    MaxAuthTries 2
+    X11Forwarding no
+    AuthorizedKeysFile .ssh/authorized_keys
+    AllowUsers k3s-admin
+- path: /etc/network/interfaces
+  content: |
+    auto enp7s0
+    iface enp7s0 inet dhcp
+        post-up echo "Waiting..."
+        post-up ip route add default via 10.0.0.1
+  append: true
+- path: /etc/systemd/resolved.conf
+  content: |
+    [Resolve]
+    DNS=1.1.1.1 1.0.0.1
+  append: true
+runcmd:
+- ip route add default via 10.0.0.1
+- printf "nameserver 1.1.1.1\nnameserver 1.0.0.1" > /etc/resolv.conf
+- curl -sfL https://get.k3s.io | sh -s - agent --server https://10.0.0.2:6443/ --token <token>

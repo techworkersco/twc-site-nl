@@ -1,0 +1,7 @@
+Host k3s-server-01
+  HostName 167.235.136.141
+  Port 22
+  IdentityFile ~/.ssh/id_ed25519_techwerkers
+  User k3s-admin
+  PreferredAuthentications publickey
+  PasswordAuthentication no

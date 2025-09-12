@@ -1,0 +1,11 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: docmost
+spec:
+  secretName: docmost-tls
+  dnsNames:
+  - "docmost.techwerkers.nl"
+  issuerRef:
+    name: acme
+    kind: ClusterIssuer
