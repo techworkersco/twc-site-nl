@@ -1,6 +1,6 @@
 ---
 title: "AI Sceptici Leesgroep"
-date: 2025-08-21T19:00:00+02:00
+date: 2025-09-23T19:00:00+02:00
 location: "Online"
 organisation: ""
 tags: ["reading-group"]
@@ -10,8 +10,8 @@ tags: ["reading-group"]
 
 Laten we het over AI hebben! 
 
-Leeswerk: *[Hoofdstuk 1 van het Artificial Power: 2025 Landscape Report](https://ainowinstitute.org/publications/research/ai-now-2025-landscape-report#chapter-1-ai-s-false-gods)* (maar doe gerust mee ook als je niet de hele tekst af hebt kunnen lezen)
+Vandaag een brainstorm sessie om zelf een artikel te schrijven over de (veelal negatieve) impact van generatieve AI op het werk voor techwerkers.
 
-Iedereen is welkom. Deze groep is helemaal nieuw dus kom gewoon langs als het je interessant lijkt.
+Iedereen is welkom. Kom gewoon langs als het je interessant lijkt.
 
 [Sluit je aan bij Techwerkers](/nl/join) voor de sessielink.
