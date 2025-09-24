@@ -1,16 +1,16 @@
 ---
-title: "Socialisme & AI"
+title: "Socialism & AI"
 date: 2025-09-30T19:15:00+02:00
 location: "Pieter Nieuwlandstraat 93, Amsterdam"
 organisation: ""
 tags: [""]
-featureAlt: "Socialisme & AI! 30 september in Nieuwland, Amsterdam. Met Dwayne R. Monroe, Technologist δ Marxist, en Will Denton, Techwerkers."
+featureAlt: "Socialism & AI! 30 September at Nieuwland, Amsterdam. Featuring Dwayne R. Monroe, Technologist δ Marxist, and Will Denton, Tech Workers Coalition."
 ---
 
-Mensen gebruiken generatieve AI tegenwoordig voor vanalles, of het nu op het werk is, in het onderwijs, of voor persoonlijk advies. Maar hoe beïnvloedt deze technologie de arbeidersklasse op individueel en maatschappelijk niveau?
+People use generative AI for everything nowadays, whether at work, in education, or for personal advice. But how does this technology affect the working class at an individual and societal level?
 
-Van werknemers die worden aangestuurd door ondoorzichtige algoritmen tot de dreiging van massa-automatisering, je ziet vaak de menselijke kosten niet. En nu AI steeds meer geïntegreerd is in mensen hun leven, sturen grote techbedrijven aan op deregulering, het onderdrukken van concurrentie en het beheren van de technologie met minimale transparantie om controle en winst te maximaliseren.
+From workers managed by opaque algorithms to the threat of mass automation, you often don’t see the human cost. And as AI has become increasingly integrated into people's lives, big tech companies have been pushing for deregulation, to crush competition, and to manage the technology with minimal transparency to maximize control and profits.
 
-Neem deel aan een sessie met Will Denton van Techwerkers en Dwayne Monroe (Marxist en ervaren IT'er) om de andere kant van AI te bespreken en hoe je de technologie (indien van toepassing) in je voordeel kunt gebruiken.
+Join for a session with Will Denton from the Tech Workers Coalition, and Dwayne Monroe (marxist and veteran-IT worker) to discuss the other side of AI and how (if at all) you can use the technology to your advantage.
 
-[Meer informatie](https://socialisme.nu/agenda/bijeenkomst-socialism-ai)
+[More info](https://socialisme.nu/agenda/bijeenkomst-socialism-ai)

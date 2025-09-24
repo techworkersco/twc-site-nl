@@ -1,15 +1,16 @@
 ---
-title: "Techwerkers chillen in het park"
+title: "Socialisme & AI"
 date: 2025-09-30T19:15:00+02:00
-location: "Bij standbeeld De Parkwachter, Westerpark, Amsterdam"
+location: "Pieter Nieuwlandstraat 93, Amsterdam"
 organisation: ""
 tags: [""]
+featureAlt: "Socialisme & AI! 30 september in Nieuwland, Amsterdam. Met Dwayne R. Monroe, Technologist δ Marxist, en Will Denton, Techwerkers."
 ---
 
-Kom chillen in het Westerpark met andere techwerkers! Op vrijdag 29 augustus, vanaf 18.00 uur. Verzamelen bij standbeeld [*De Parkwachter*](https://maps.app.goo.gl/fn5HsdJVmHkH9fv67).
+Mensen gebruiken generatieve AI tegenwoordig voor vanalles, of het nu op het werk is, in het onderwijs, of voor persoonlijk advies. Maar hoe beïnvloedt deze technologie de arbeidersklasse op individueel en maatschappelijk niveau?
 
-Veel mensen kennen elkaar nog niet, dus kom gewoon even langs om hoi te zeggen 🙂
+Van werknemers die worden aangestuurd door ondoorzichtige algoritmen tot de dreiging van massa-automatisering, je ziet vaak de menselijke kosten niet. En nu AI steeds meer geïntegreerd is in mensen hun leven, sturen grote techbedrijven aan op deregulering, het onderdrukken van concurrentie en het beheren van de technologie met minimale transparantie om controle en winst te maximaliseren.
 
-Neem vrienden en collega's mee!
+Neem deel aan een sessie met Will Denton van Techwerkers en Dwayne Monroe (Marxist en ervaren IT'er) om de andere kant van AI te bespreken en hoe je de technologie (indien van toepassing) in je voordeel kunt gebruiken.
 
-[More info](https://socialisme.nu/agenda/bijeenkomst-socialism-ai)
+[Meer informatie](https://socialisme.nu/agenda/bijeenkomst-socialism-ai)
