@@ -1,0 +1,38 @@
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: nocodb-nocodb
+spec:
+  selector:
+    matchLabels:
+      app: nocodb-nocodb
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: nocodb-nocodb
+    spec:
+      containers:
+      - name: nocodb
+        image: nocodb/nocodb:latest
+        envFrom:
+        - configMapRef:
+            name: nocodb-nocodb
+        - secretRef:
+            name: nocodb-nocodb
+        ports:
+        - containerPort: 8080
+          name: http
+        volumeMounts:
+        - mountPath: /usr/app/data
+          name: nocodb-data
+  volumeClaimTemplates:
+  - metadata:
+      name: nocodb-data
+    spec:
+      accessModes: ["ReadWriteOnce"]
+      storageClassName: local-path
+      resources:
+        requests:
+          storage: 5Gi

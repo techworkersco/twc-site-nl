@@ -1,0 +1,19 @@
+---
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: nocodb
+spec:
+  parentRefs:
+  - name: nocodb
+  hostnames:
+  - nocodb.techwerkers.nl
+  rules:
+  - matches:
+    - path:
+        type: PathPrefix
+        value: /
+    backendRefs:
+      - name: nocodb-nocodb
+        port: 8080
+        weight: 1

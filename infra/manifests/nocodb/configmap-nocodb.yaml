@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nocodb-nocodb
+data:
+  NC_SMTP_FROM: "nocodb@techwerkers.nl"
+  NC_SMTP_HOST: "disroot.org"
+  NC_SMTP_PORT: "587"
+  NC_SMTP_USERNAME: techwerkers
+  PORT: "8080"
+  NC_PUBLIC_URL: "https://nocodb.techwerkers.nl/"
+  NC_REDIS_URL: "redis://nocodb-redis.nocodb.svc:6379"
