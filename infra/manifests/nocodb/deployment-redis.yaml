@@ -1,0 +1,23 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nocodb-redis
+  labels:
+    app: nocodb-redis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nocodb-redis
+  template:
+    metadata:
+      labels:
+        app: nocodb-redis
+    spec:
+      containers:
+      - name: redis
+        image: redis:7.2-alpine
+        ports:
+        - containerPort: 6379
+          name: redis

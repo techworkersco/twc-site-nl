@@ -1,0 +1,36 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: nocodb
+
+resources:
+- ns.yaml
+# Gateway, routes, tls
+- certificate-nocodb.yaml
+- gateway.yaml
+- httproute.yaml
+# Dependencies (Postgres, redis)
+- configmap-postgres.yaml
+- deployment-redis.yaml
+- service-postgres.yaml
+- service-redis.yaml
+- statefulset-postgres.yaml
+# Docmost core
+- configmap-nocodb.yaml
+- service-nocodb.yaml
+- statefulset-nocodb.yaml
+
+generators:
+- |-
+  apiVersion: viaduct.ai/v1
+  kind: ksops
+  metadata:
+    name: nocodb-ksops
+    annotations:
+      config.kubernetes.io/function: |
+        exec:
+          path: ksops
+  files:
+  - ./secret-postgres.enc.yaml
+  - ./secret-nocodb.enc.yaml

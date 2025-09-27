@@ -1,0 +1,11 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: nocodb
+spec:
+  secretName: nocodb-tls
+  dnsNames:
+  - "nocodb.techwerkers.nl"
+  issuerRef:
+    name: acme
+    kind: ClusterIssuer
