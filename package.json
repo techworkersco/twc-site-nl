@@ -11,11 +11,11 @@
     "build": "NODE_ENV=production ./node_modules/tailwindcss/lib/cli.js -c ./tailwind.config.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^7.0.0"
+    "@fortawesome/fontawesome-free": "^7.0.1"
   },
   "devDependencies": {
-    "@fontsource-variable/martian-mono": "^5.2.6",
-    "@tailwindcss/typography": "^0.5.15",
+    "@fontsource-variable/martian-mono": "^5.2.7",
+    "@tailwindcss/typography": "^0.5.19",
     "fuse.js": "^7.1.0",
     "prettier": "^3.6.2",
     "prettier-plugin-go-template": "^0.0.15",
