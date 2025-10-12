@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: docmost
-        image: docmost/docmost:latest
+        image: docmost/docmost:latest  # Overridden
         envFrom:
         - configMapRef:
             name: docmost-docmost
