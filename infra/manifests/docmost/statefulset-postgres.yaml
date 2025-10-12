@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: postgres
-        image: postgres:17-alpine
+        image: postgres:latest  # Overridden
         envFrom:
         - configMapRef:
             name: docmost-postgres

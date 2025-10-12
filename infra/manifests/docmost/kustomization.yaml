@@ -4,6 +4,14 @@ kind: Kustomization
 
 namespace: docmost
 
+images:
+- name: docmost/docmost
+  newTag: 0.23.2
+- name: redis
+  newTag: 8.2-alpine
+- name: postgres
+  newTag: 17-alpine 
+
 resources:
 - ns.yaml
 # Gateway, routes, tls

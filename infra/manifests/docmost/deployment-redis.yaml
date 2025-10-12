@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: redis:7.2-alpine
+        image: redis:latest  # Overridden
         ports:
         - containerPort: 6379
           name: redis
