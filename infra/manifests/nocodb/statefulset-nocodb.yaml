@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nocodb
-        image: nocodb/nocodb:latest
+        image: nocodb/nocodb:latest  # Overridden
         envFrom:
         - configMapRef:
             name: nocodb-nocodb

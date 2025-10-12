@@ -4,6 +4,14 @@ kind: Kustomization
 
 namespace: nocodb
 
+images:
+- name: nocodb/nocodb
+  newTag: 0.264.9
+- name: redis
+  newTag: 7.2-alpine
+- name: postgres
+  newTag: 17-alpine 
+
 resources:
 - ns.yaml
 # Gateway, routes, tls
