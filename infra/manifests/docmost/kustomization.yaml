@@ -8,7 +8,7 @@ images:
 - name: docmost/docmost
   newTag: 0.23.2
 - name: redis
-  newTag: 7.2-alpine
+  newTag: 8.2-alpine
 - name: postgres
   newTag: 17-alpine 
 
