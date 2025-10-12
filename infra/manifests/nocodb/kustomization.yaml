@@ -8,7 +8,7 @@ images:
 - name: nocodb/nocodb
   newTag: 0.265.1
 - name: redis
-  newTag: 7.2-alpine
+  newTag: 8.2-alpine
 - name: postgres
   newTag: 17-alpine 
 
