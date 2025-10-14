@@ -13,7 +13,7 @@ Because managing cloud infra manually is error prone and easy to mess up.
 Ensure the environment is set up:
 
 ```sh
-sops decrypt tf.state.enc > tf.state
+sops decrypt tf.tfstate.enc > tf.tfstate
 export TF_VAR_hcloud_token="$(sops decrypt tf.enc)"
 ```
 
@@ -29,7 +29,7 @@ tofu apply
 
 ```sh
 sops encrypt --filename-override .enc tf.tfstate > tf.tfstate.enc
-git add tf.state.enc
+git add tf.tfstate.enc
 git commit -m "Updating latest tf state"
 ```
 
