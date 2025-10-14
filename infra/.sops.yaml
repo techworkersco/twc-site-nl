@@ -6,3 +6,6 @@ creation_rules:
 - path_regex: ".env$"
   age: >-
     age1uu9uughvqte75n94w6equ5ak40tw646k9487y32eh32ygnx3c9kseznu9c
+- path_regex: ".enc$"
+  age: >-
+    age1uu9uughvqte75n94w6equ5ak40tw646k9487y32eh32ygnx3c9kseznu9c
