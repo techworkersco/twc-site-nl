@@ -21,91 +21,20 @@ make SSH'ing into the host easier.
 cat ssh_config >> ~/.ssh/config
 ```
 
+> [!NOTE]
+> `./id_ed25519_techwerkers.pub` is in this repo for brevity.
+
 ## Hetzner
 
 We are using Hetzner Cloud servers to host some small machines to run
 kubernetes (specifically k3s).
 
-### Networks, firewalls, etc.
-
-Networks:
-
-```yaml
-- vpc: 10.0.0.0/16
-  zone: eu-central
-```
-
-Firewalls:
-
-```yaml
-- name: ssh
-  inbound:
-  - source: Any IPv4, Any IPv6
-    protocol: tcp
-    port: 22
-  - source: Any IPv4, Any IPv6
-    protocol: icmp
-- name: http-traffic
-  inbound:
-  - source: Any IPv4, Any IPv6
-    protocol: tcp
-    port: 80
-  - source: Any IPv4, Any IPv6
-    protocol: tcp
-    port: 443
-- name: k3s-api
-  inbound:
-  - source: Any IPv4, Any IPv6
-    protocol: tcp
-    port: 6443
-```
-
-TODO: Move the above to the terraform provider.
-
-### Servers
-
-Cloud init: `cloudinit/k3s-server.yaml`
-
-**API Server:**
-
-- Location: Nuremberg
-- Image: Debian 13
-- Type: Shared vCPU
-  - Arch: x86 (Intel/AMD)
-  - CX22
-- Networking:
-  - Public IPv4: 167.235.136.141
-  - Public IPv6
-  - Private networks: vpc
-- SSH Keys:
-  - k3s@techwerkers
-- Firewalls:
-  - ssh
-  - http-traffic
-  - k3s-api
-- Backups: true
-- Cloud Init: contents of `k3s-server.cloudinit.yaml`
-- Name: k3s-server-[number]
-
-Command:
-
-```sh
-hcloud server create \
-  --datacenter nbg1-dc3 \
-  --type cx22 \
-  --image debian-13 \
-  --primary-ipv4 techwerkers-k8s \
-  --enable-backup \
-  --firewall http-traffic \
-  --firewall ssh \
-  --firewall k3s-api \
-  --network vpc \
-  --ssh-key "k3s@techwerkers" \
-  --user-data-from-file cloudinit/k3s-agent.yaml \
-  --name k3s-server-[number]
-```
+This is all managed in the `tf` subdirectory. Both `opentofu` and `terraform`
+can be used to manage the infra. See the README in that directory for more info.
 
 **Agents:**
+
+We don't have any [yet], however past attempts have worked with the following:
 
 Cloud init: `cloudinit/k3s-agent.yaml`
 
