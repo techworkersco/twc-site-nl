@@ -1,0 +1,68 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: nocodb-backup
+spec:
+  schedule: "0 3 * * *"
+  concurrencyPolicy: Forbid
+  jobTemplate:
+    spec:
+      template:
+        metadata:
+          labels:
+            app: nocodb-backup
+        spec:
+          containers:
+          - name: postgres-backup
+            image: quay.io/b-3-n/postgres-backup:latest # PATCHME
+            imagePullPolicy: Always
+            env:
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: nocodb-backup
+                  key: DB_PASSWORD
+            envFrom:
+            - configMapRef:
+                name: nocodb-backup
+            volumeMounts:
+            - name: ssh
+              mountPath: /root/.ssh/id_ed25519
+              subPath: id_ed25519
+              readOnly: true
+            - name: ssh 
+              mountPath: /root/.ssh/known_hosts
+              subPath: known_hosts
+              readOnly: true
+          - name: data-backup
+            image: quay.io/b-3-n/file-backup:latest # PATCHME
+            imagePullPolicy: Always
+            envFrom:
+            - configMapRef:
+                name: nocodb-backup
+            volumeMounts:
+            - name: ssh
+              mountPath: /root/.ssh/id_ed25519
+              subPath: id_ed25519
+              readOnly: true
+            - name: ssh 
+              mountPath: /root/.ssh/known_hosts
+              subPath: known_hosts
+              readOnly: true
+            - name: nocodb-data 
+              mountPath: /data/nocodb
+              readOnly: true
+          restartPolicy: OnFailure
+          volumes:
+          - name: ssh
+            secret:
+              secretName: nocodb-backup
+              defaultMode: 384
+              items:
+              - key: id_ed25519
+                path: id_ed25519
+              - key: SSH_KNOWN_HOSTS
+                path: known_hosts
+          - name: nocodb-data
+            persistentVolumeClaim:
+              claimName: nocodb-data-nocodb-nocodb-0

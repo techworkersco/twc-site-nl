@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: docmost-backup
+data:
+  # For postgres-backup
+  DB_HOST: docmost-postgres.docmost.svc
+  DB_PORT: "5432"
+  DB_USER: docmost
+  # For file-backup
+  FILE_PATH: /data/docmost
+  # Destination SSH server details
+  SSH_HOST: u499668-sub3.your-storagebox.de
+  SSH_USER: u499668-sub3
+  SSH_PORT: "23"
+  SSH_KEY_PATH: /root/.ssh/id_ed25519
+  SSH_REMOTE_DIR: backups
+  DEBUG: "1"

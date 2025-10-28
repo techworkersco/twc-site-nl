@@ -1,0 +1,14 @@
+ARG POSTGRES_VERSION=17-alpine
+FROM postgres:$POSTGRES_VERSION
+
+RUN apk update && apk add --no-cache openssh
+
+COPY docker-entrypoint.d /docker-entrypoint.d
+COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+
+COPY postgres-backup/postgres-backup.sh /usr/local/bin/postgres-backup.sh
+
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh /usr/local/bin/postgres-backup.sh
+
+ENTRYPOINT ["docker-entrypoint.sh"]
+CMD ["postgres-backup.sh"]

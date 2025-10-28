@@ -11,6 +11,10 @@ images:
   newTag: 8.2-alpine
 - name: postgres
   newTag: 17-alpine 
+- name: quay.io/b-3-n/postgres-backup
+  newTag: 17-alpine
+- name: quay.io/b-3-n/file-backup
+  newTag: 0.1-alpine
 
 resources:
 - ns.yaml
@@ -28,6 +32,9 @@ resources:
 - configmap-nocodb.yaml
 - service-nocodb.yaml
 - statefulset-nocodb.yaml
+# Backups
+- configmap-backup.yaml
+- cronjob-backup.yaml
 
 generators:
 - |-
@@ -42,3 +49,4 @@ generators:
   files:
   - ./secret-postgres.enc.yaml
   - ./secret-nocodb.enc.yaml
+  - ./secret-backup.enc.yaml

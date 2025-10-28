@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nocodb-backup
+data:
+  # For postgres-backup
+  DB_HOST: nocodb-postgres.nocodb.svc
+  DB_PORT: "5432"
+  DB_USER: nocodb
+  # For file-backup
+  FILE_PATH: /data/nocodb
+  # Destination SSH server details
+  SSH_HOST: u499668-sub2.your-storagebox.de
+  SSH_USER: u499668-sub2
+  SSH_PORT: "23"
+  SSH_KEY_PATH: /root/.ssh/id_ed25519
+  SSH_REMOTE_DIR: backups
+  DEBUG: "1"
