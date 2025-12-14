@@ -6,9 +6,7 @@ done
 
 interval="$1"
 
-# Setup the SSH connection
-ssh_setup
-
+# Validate inputs
 file_path=${FILE_PATH:-""}
 
 if [ -z "$file_path" ]; then
@@ -16,11 +14,13 @@ if [ -z "$file_path" ]; then
   exit 1
 fi
 
-ssh_dir=${SSH_REMOTE_DIR:-""}
+# Setup
+ssh_setup
+rsnapshot_setup "$file_path/"
 
-rsnapshot_setup_sshfs "$ssh_dir"
+# Backup
+rsnapshot_setup_sshfs
 
-linfo "Starting rsnapshot backup for path: $file_path with interval: ${interval}"
-rsnapshot_backup "$file_path" "$interval"
+rsnapshot_backup "$interval"
 
 rsnapshot_cleanup_sshfs
