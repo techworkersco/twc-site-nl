@@ -1,14 +1,14 @@
 ARG ALPINE_VERSION=3.22
 FROM alpine:$ALPINE_VERSION
 
-RUN apk update && apk add --no-cache openssh bash
+RUN apk update && apk add --no-cache openssh bash sshfs rsync rsnapshot
 
 COPY docker-entrypoint.d/ /docker-entrypoint.d/
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 
 COPY file-backup/file-backup.sh /usr/local/bin/file-backup.sh
+COPY file-backup/rsnapshot-backup.sh /usr/local/bin/rsnapshot-backup.sh
 
-RUN chmod +x /usr/local/bin/docker-entrypoint.sh /usr/local/bin/file-backup.sh
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh /usr/local/bin/file-backup.sh /usr/local/bin/rsnapshot-backup.sh
 
 ENTRYPOINT ["docker-entrypoint.sh"]
-CMD ["file-backup.sh"]

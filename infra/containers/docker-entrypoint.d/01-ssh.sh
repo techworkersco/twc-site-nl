@@ -47,3 +47,25 @@ function ssh_send_file() {
   scp -i "${ssh_key_path}" -P$ssh_port ${ssh_opts} "$source_path" "${ssh_addr}:${backup_path}"
   linfo "Backup transferred to ${ssh_addr}:${backup_path}"
 }
+
+function sshfs_mount() {
+  local local_dir=$1
+  local remote_dir=$2
+  
+  if [ ! -d "$local_dir" ]; then
+    linfo "Creating local mount directory at $local_dir"
+    mkdir -p "$local_dir"
+  fi
+
+  linfo "Mounting remote directory ${remote_dir} to local directory ${local_dir} via SSHFS..."
+  sshfs -o IdentityFile="${ssh_key_path}" -p${ssh_port} ${ssh_addr}:${remote_dir} "${local_dir}"
+  linfo "Remote directory mounted."
+}
+
+function sshfs_umount() {
+  local local_dir=$1
+
+  linfo "Unmounting SSHFS from local directory ${local_dir}..."
+  umount "${local_dir}"
+  linfo "SSHFS unmounted."
+}
