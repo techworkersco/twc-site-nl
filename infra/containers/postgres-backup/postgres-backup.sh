@@ -23,5 +23,9 @@ pg_backup_to_file "$backup_path"
 file_info=$(ls -lh "$backup_path")
 ldebug "Backup file at $backup_path info: $file_info"
 
-ssh_dir=${SSH_REMOTE_DIR:-""}
-ssh_send_file "$backup_path" "$ssh_dir"
+# Backup
+rsnapshot_setup_sshfs
+
+rsnapshot_backup "$interval"
+
+rsnapshot_cleanup_sshfs
