@@ -36,6 +36,7 @@ resources:
 # Backups
 - configmap-backup.yaml
 - cronjob-backup.yaml
+- cronjob-backup-weekly.yaml
 
 generators:
 - |-
