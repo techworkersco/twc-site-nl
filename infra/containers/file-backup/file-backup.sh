@@ -1,5 +1,8 @@
 #!/bin/sh
 set -e
+for f in /docker-entrypoint.d/*.sh; do
+  source $f
+done
 
 # Setup the SSH connection
 ssh_setup

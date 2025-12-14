@@ -1,5 +1,8 @@
 #!/bin/sh
 set -e
+for f in /docker-entrypoint.d/*.sh; do
+  source $f
+done
 
 # Database connection setup
 db_host=${DB_HOST:-"localhost"}
@@ -26,6 +29,10 @@ function pg_backup() {
 # SSH connection setup
 pg_setup
 ssh_setup
+
+# Mount SSHFS
+#backup_dir="/tmp/sshfs"
+#sshfs_mount "backup_dir"
 
 # Backup process
 backup_dir="/tmp"
