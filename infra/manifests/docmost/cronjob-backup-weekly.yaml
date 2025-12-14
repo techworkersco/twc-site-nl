@@ -1,21 +1,21 @@
 apiVersion: batch/v1
 kind: CronJob
 metadata:
-  name: docmost-backup
+  name: docmost-backup-weekly
 spec:
-  schedule: "0 3 * * *"
+  schedule: "0 4 1 * *"
   concurrencyPolicy: Forbid
   jobTemplate:
     spec:
       template:
         metadata:
           labels:
-            app: docmost-backup
+            app: docmost-backup-weekly
         spec:
           containers:
           - name: postgres-backup
             image: quay.io/b-3-n/postgres-backup:latest # PATCHME
-            command: ["postgres-backup.sh", "daily"]
+            command: ["postgres-backup.sh", "weekly"]
             imagePullPolicy: Always
             env:
             - name: DB_PASSWORD
@@ -42,7 +42,7 @@ spec:
           - name: data-backup
             image: quay.io/b-3-n/file-backup:latest # PATCHME
             imagePullPolicy: Always
-            command: ["file-backup.sh", "daily"]
+            command: ["file-backup.sh", "weekly"]
             env:
             - name: SSH_REMOTE_DIR
               value: snapshot_data

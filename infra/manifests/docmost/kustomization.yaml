@@ -12,9 +12,9 @@ images:
 - name: postgres
   newTag: 17-alpine 
 - name: quay.io/b-3-n/postgres-backup
-  newTag: 17-alpine
+  newTag: 17-alpine-0.2
 - name: quay.io/b-3-n/file-backup
-  newTag: 0.1-alpine
+  newTag: 0.2-alpine
 
 
 resources:
@@ -36,6 +36,7 @@ resources:
 # Backups
 - configmap-backup.yaml
 - cronjob-backup.yaml
+- cronjob-backup-weekly.yaml
 
 generators:
 - |-

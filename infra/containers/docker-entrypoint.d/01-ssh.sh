@@ -8,14 +8,19 @@ ssh_host=${SSH_HOST:-""}
 ssh_key_path=${SSH_KEY_PATH:-"/root/.ssh/id_ed25519"}
 ssh_addr=${ssh_user}@${ssh_host}
 ssh_opts="-o ConnectTimeout=5"
+ssh_remote_dir=${SSH_REMOTE_DIR:-""}
 
 function ssh_setup() {
+  ldebug "SSH_USER: ${ssh_user}"
+  ldebug "SSH_PORT: ${ssh_port}"
+  ldebug "SSH_HOST: ${ssh_host}"
+  ldebug "SSH_KEY_PATH: ${ssh_key_path}"
+  ldebug "SSH_ADDR: ${ssh_addr}"
+  ldebug "SSH_REMOTE_DIR: ${ssh_remote_dir}"
+
   if [ -z "$ssh_host" ]; then
     lerror "SSH_HOST is not set."
   fi
-
-  ldebug "SSH connection: ${ssh_addr} on port ${ssh_port}"
-  ldebug "SSH Keyfile Path: ${ssh_key_path}"
 
   linfo "Testing SSH connection..."
   ssh -i "${ssh_key_path}" -p$ssh_port ${ssh_opts} "${ssh_addr}" "ls" 1>/dev/null
@@ -46,4 +51,25 @@ function ssh_send_file() {
   linfo "Transferring backup to remote server..."
   scp -i "${ssh_key_path}" -P$ssh_port ${ssh_opts} "$source_path" "${ssh_addr}:${backup_path}"
   linfo "Backup transferred to ${ssh_addr}:${backup_path}"
+}
+
+function sshfs_mount() {
+  local local_dir=$1
+  
+  if [ ! -d "$local_dir" ]; then
+    linfo "Creating local mount directory at $local_dir"
+    mkdir -p "$local_dir"
+  fi
+
+  linfo "Mounting remote directory ${ssh_remote_dir} to local directory ${local_dir} via SSHFS..."
+  sshfs -o IdentityFile="${ssh_key_path}" -p${ssh_port} ${ssh_addr}:${ssh_remote_dir} "${local_dir}"
+  linfo "Remote directory mounted."
+}
+
+function sshfs_umount() {
+  local local_dir=$1
+
+  linfo "Unmounting SSHFS from local directory ${local_dir}..."
+  umount "${local_dir}"
+  linfo "SSHFS unmounted."
 }

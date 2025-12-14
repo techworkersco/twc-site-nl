@@ -1,26 +1,27 @@
 #!/bin/sh
 set -e
+for f in /docker-entrypoint.d/*.sh; do
+  source $f
+done
 
-# Setup the SSH connection
-ssh_setup
+# Inputs
+interval="$1"
 
+# Validate inputs
 file_path=${FILE_PATH:-""}
+
 if [ -z "$file_path" ]; then
-  lerror "FILE_PATH is not set. Exiting."
-fi
-if [ ! -e "$file_path" ]; then
-  lerror "File $file_path does not exist. Exiting."
+  lerror "FILE_PATH environment variable is not set. Exiting."
+  exit 1
 fi
 
-# Backup process
-backup_dir="/tmp"
-backup_file="file_backup.sql.gz"
-backup_path="${backup_dir}/${backup_file}"
+# Setup
+ssh_setup
+rsnapshot_setup "$file_path/"
 
-tar -czf $backup_path $file_path
+# Backup
+rsnapshot_setup_sshfs
 
-file_info=$(ls -lh "$backup_path")
-ldebug "Backup file at $backup_path info: $file_info"
+rsnapshot_backup "$interval"
 
-ssh_dir=${SSH_REMOTE_DIR:-""}
-ssh_send_file "$backup_path" "$ssh_dir"
+rsnapshot_cleanup_sshfs
