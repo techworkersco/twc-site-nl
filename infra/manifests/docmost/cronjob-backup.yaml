@@ -15,6 +15,7 @@ spec:
           containers:
           - name: postgres-backup
             image: quay.io/b-3-n/postgres-backup:latest # PATCHME
+            command: ["postgres-backup.sh", "daily"]
             imagePullPolicy: Always
             env:
             - name: DB_PASSWORD
@@ -22,9 +23,13 @@ spec:
                 secretKeyRef:
                   name: docmost-backup
                   key: DB_PASSWORD
+            - name: SSH_REMOTE_DIR
+              value: snapshot_psql
             envFrom:
             - configMapRef:
                 name: docmost-backup
+            securityContext:
+              privileged: true
             volumeMounts:
             - name: ssh
               mountPath: /root/.ssh/id_ed25519
@@ -37,9 +42,15 @@ spec:
           - name: data-backup
             image: quay.io/b-3-n/file-backup:latest # PATCHME
             imagePullPolicy: Always
+            command: ["file-backup.sh", "daily"]
+            env:
+            - name: SSH_REMOTE_DIR
+              value: snapshot_data
             envFrom:
             - configMapRef:
                 name: docmost-backup
+            securityContext:
+              privileged: true
             volumeMounts:
             - name: ssh
               mountPath: /root/.ssh/id_ed25519

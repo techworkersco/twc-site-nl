@@ -14,5 +14,6 @@ data:
   SSH_USER: u499668-sub3
   SSH_PORT: "23"
   SSH_KEY_PATH: /root/.ssh/id_ed25519
-  SSH_REMOTE_DIR: backups
+  #SSH_REMOTE_DIR: backup_snapshots
   DEBUG: "1"
+  RSNAPSHOT_SYNC_FIRST: "1"
