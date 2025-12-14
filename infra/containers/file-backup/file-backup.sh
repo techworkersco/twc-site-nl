@@ -4,6 +4,7 @@ for f in /docker-entrypoint.d/*.sh; do
   source $f
 done
 
+# Inputs
 interval="$1"
 
 # Validate inputs
