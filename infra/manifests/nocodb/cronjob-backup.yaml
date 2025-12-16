@@ -15,16 +15,21 @@ spec:
           containers:
           - name: postgres-backup
             image: quay.io/b-3-n/postgres-backup:latest # PATCHME
-            imagePullPolicy: Always
+            command: ["postgres-backup.sh", "daily"]
+            imagePullPolicy: IfNotPresent
             env:
             - name: DB_PASSWORD
               valueFrom:
                 secretKeyRef:
                   name: nocodb-backup
                   key: DB_PASSWORD
+            - name: SSH_REMOTE_DIR
+              value: snapshot_psql
             envFrom:
             - configMapRef:
                 name: nocodb-backup
+            securityContext:
+              privileged: true
             volumeMounts:
             - name: ssh
               mountPath: /root/.ssh/id_ed25519
@@ -36,10 +41,16 @@ spec:
               readOnly: true
           - name: data-backup
             image: quay.io/b-3-n/file-backup:latest # PATCHME
-            imagePullPolicy: Always
+            imagePullPolicy: IfNotPresent
+            command: ["file-backup.sh", "daily"]
+            env:
+            - name: SSH_REMOTE_DIR
+              value: snapshot_data
             envFrom:
             - configMapRef:
                 name: nocodb-backup
+            securityContext:
+              privileged: true
             volumeMounts:
             - name: ssh
               mountPath: /root/.ssh/id_ed25519
