@@ -16,7 +16,7 @@ spec:
           - name: postgres-backup
             image: quay.io/b-3-n/postgres-backup:latest # PATCHME
             command: ["postgres-backup.sh", "daily"]
-            imagePullPolicy: Always
+            imagePullPolicy: IfNotPresent
             env:
             - name: DB_PASSWORD
               valueFrom:
@@ -41,7 +41,7 @@ spec:
               readOnly: true
           - name: data-backup
             image: quay.io/b-3-n/file-backup:latest # PATCHME
-            imagePullPolicy: Always
+            imagePullPolicy: IfNotPresent
             command: ["file-backup.sh", "daily"]
             env:
             - name: SSH_REMOTE_DIR

@@ -16,3 +16,4 @@ data:
   SSH_KEY_PATH: /root/.ssh/id_ed25519
   SSH_REMOTE_DIR: backups
   DEBUG: "1"
+  RSNAPSHOT_SYNC_FIRST: "1"
