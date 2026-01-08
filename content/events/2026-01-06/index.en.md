@@ -1,6 +1,6 @@
 ---
 title: "Book club: Technofeudalism"
-date: 2025-12-23T18:00:00+02:00
+date: 2026-01-06T20:00:00+02:00
 location: "Online"
 organisation: ""
 tags: ["reading-group"]
