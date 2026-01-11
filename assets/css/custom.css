@@ -74,7 +74,7 @@ html,
     "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.prose :where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+.prose :where(blockquote):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   font-weight: 500;
   font-style: unset;
   color: var(--tw-prose-quotes);
@@ -85,10 +85,10 @@ html,
   padding-inline-start: 1em;
 }
 
- .prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
+.prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::before {
   content: none;
 }
 
-.prose :where(blockquote p:last-of-type):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+.prose :where(blockquote p:last-of-type):not(:where([class~="not-prose"], [class~="not-prose"] *))::after {
   content: none;
 }
