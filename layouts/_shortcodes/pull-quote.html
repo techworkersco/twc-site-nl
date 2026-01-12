@@ -1,0 +1,4 @@
+<div class="flex text-2xl italic text-primary-600">
+  <div class="flex align-text-bottom">{{ partial "icon.html" (.Get 0 | default "quotes") }}</div>
+  {{- .Inner | markdownify -}}
+</div>
