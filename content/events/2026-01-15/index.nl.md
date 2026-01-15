@@ -17,9 +17,9 @@ De voertaal van de presentatie is Engels. Vragen kun je ook in het Nederlands st
 
 ## Livestream
 
-Zit de Jitsi-kamer vol? Bekijk hier de livestream of [klets mee op youtube](https://www.youtube.com/live/Wh3CyPxV4vc).
+Zit de Jitsi-kamer vol? Bekijk hier de livestream of [klets mee op youtube](https://youtube.com/live/xC3A4-vFJ5I).
 
-{{< youtube Wh3CyPxV4vc >}}
+{{< youtube xC3A4-vFJ5I >}}
 
 Donderdag 15 januari  
 19:00-20:00  
