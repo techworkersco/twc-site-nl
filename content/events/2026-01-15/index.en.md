@@ -15,9 +15,9 @@ All welcome, no experience required!
 
 ## Livestream
 
-Is the Jitsi room full? Watch the livestream here or [join on youtube](https://www.youtube.com/live/Wh3CyPxV4vc).
+Is the Jitsi room full? Watch the livestream here or [join on youtube](https://youtube.com/live/xC3A4-vFJ5I).
 
-{{< youtube Wh3CyPxV4vc >}}
+{{< youtube xC3A4-vFJ5I >}}
 
 Thursday 15 January  
 19:00-20:00  
