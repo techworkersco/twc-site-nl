@@ -3165,6 +3165,11 @@ code {
     padding-bottom: 2.5rem;
   }
 
+  .sm\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
   .sm\:pb-10 {
     padding-bottom: 2.5rem;
   }
