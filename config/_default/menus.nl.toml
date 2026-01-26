@@ -16,8 +16,8 @@
   weight = 10
 
 [[main]]
-  name = "Activiteiten"
-  pageRef = "events"
+  name = "Agenda"
+  url = "https://events.techwerkers.nl/"
   weight = 20
 
 [[main]]
