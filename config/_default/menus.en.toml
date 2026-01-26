@@ -17,7 +17,7 @@
 
 [[main]]
   name = "Events"
-  pageRef = "events"
+  url = "https://events.techwerkers.nl/"
   weight = 20
 
 [[main]]
