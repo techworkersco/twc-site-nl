@@ -40,7 +40,7 @@ const plugin = {
         console.info("Discord bridge loaded!");
         plugin.gancio = gancio;
         plugin.settings = settings;
-        if (settings.tags != undefined) {
+        if (settings.tags != undefined && settings.tags != "") {
             plugin.tags = new Set(settings.tags.split(","));
         }
         else {

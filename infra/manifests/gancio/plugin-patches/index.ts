@@ -47,7 +47,7 @@ const plugin = {
     plugin.gancio = gancio;
     plugin.settings = settings;
 
-    if (settings.tags != undefined) {
+    if (settings.tags != undefined && settings.tags != "") {
       plugin.tags = new Set(settings.tags.split(","));
     } else {
       plugin.tags = new Set();
