@@ -92,7 +92,7 @@ async function createDiscordEvent(event) {
     // check if tags match
     const eventTags = new Set(event.tags.map((e) => e.tag));
     const intersection = [...plugin.tags].filter((e) => eventTags.has(e));
-    if (intersection.length == 0 && plugin.tags.length != 0) {
+    if (intersection.length == 0 && plugin.tags.size != 0) {
         console.info("Not sending event to Discord - tags have no overlap.");
         return;
     }
