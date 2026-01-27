@@ -1,0 +1,19 @@
+---
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: gancio
+spec:
+  parentRefs:
+  - name: gancio
+  hostnames:
+  - events.techwerkers.nl
+  rules:
+  - matches:
+    - path:
+        type: PathPrefix
+        value: /
+    backendRefs:
+      - name: gancio-gancio
+        port: 13120
+        weight: 1

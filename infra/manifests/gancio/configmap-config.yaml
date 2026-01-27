@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gancio-config
+data:
+  config.json: |
+    {
+      "server": {
+        "host": "0.0.0.0",
+        "port": 13120
+      },
+      "db": {
+        "dialect": "sqlite",
+        "storage": "/data/db.sqlite"
+      },
+      "upload_path": "/data/uploads",
+      "plugins_path": "/data/plugins",
+      "user_locale": "/data/user_locale",
+      "baseurl": "https://events.techwerkers.nl"
+    }
