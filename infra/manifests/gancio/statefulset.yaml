@@ -1,0 +1,56 @@
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: gancio-gancio
+spec:
+  selector:
+    matchLabels:
+      app: gancio-gancio
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: gancio-gancio
+    spec:
+      containers:
+      - name: gancio
+        image: cisti/gancio:latest  # Overridden
+        args:
+        - "--config"
+        - "/app/config/config.json"
+        envFrom:
+        - configMapRef:
+            name: gancio-env
+        - secretRef:
+            name: gancio-env
+        ports:
+        - containerPort: 13120
+          name: http
+        volumeMounts:
+        - mountPath: /data
+          name: gancio-data
+        - mountPath: /app/config
+          name: gancio-config
+        - mountPath: /home/node/gancio_plugins/gancio-plugin-discord-bridge/index.ts
+          subPath: index.ts
+          name: gancio-discord-plugin-patches
+        - mountPath: /home/node/gancio_plugins/gancio-plugin-discord-bridge/index.js
+          subPath: index.js
+          name: gancio-discord-plugin-patches
+      volumes:
+      - name: gancio-config
+        configMap:
+          name: gancio-config
+      - name: gancio-discord-plugin-patches
+        configMap:
+          name: gancio-discord-plugin-patches
+  volumeClaimTemplates:
+  - metadata:
+      name: gancio-data
+    spec:
+      accessModes: ["ReadWriteOnce"]
+      storageClassName: local-path
+      resources:
+        requests:
+          storage: 5Gi

@@ -1,0 +1,40 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: gancio
+
+images:
+- name: cisti/gancio
+  newTag: 1.28.2
+
+resources:
+- ns.yaml
+# Gateway, routes, tls
+- certificate.yaml
+- gateway.yaml
+- httproute.yaml
+# Docmost core
+- configmap-env.yaml
+- configmap-config.yaml
+- service.yaml
+- statefulset.yaml
+
+configMapGenerator:
+- name: gancio-discord-plugin-patches
+  files:
+  - plugin-patches/index.ts
+  - plugin-patches/index.js
+
+generators:
+- |-
+  apiVersion: viaduct.ai/v1
+  kind: ksops
+  metadata:
+    name: gancio-ksops
+    annotations:
+      config.kubernetes.io/function: |
+        exec:
+          path: ksops
+  files:
+  - ./secret.enc.yaml
