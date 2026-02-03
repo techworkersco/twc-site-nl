@@ -1,0 +1,55 @@
+apiVersion: helm.cattle.io/v1
+kind: HelmChartConfig
+metadata:
+  name: traefik
+  namespace: kube-system
+spec:
+  valuesContent: |-
+    providers:
+      kubernetesGateway:
+        enabled: true
+        allowCrossNamespace: true
+      kubernetesCRD:
+        enabled: true
+        allowCrossNamespace: true
+      kubernetesIngress:
+        enabled: false
+
+    # No need for the default ingress class
+    ingressClass:
+      enabled: false
+
+    # TODO: Make sure nothing relies on the default gateway
+    # Disable the default provisioned gateway
+    # gateway:
+    #   enabled: false
+
+    # Trafiek ports
+    ports:
+      web:
+        port: 8000
+        expose:
+          default: true
+        exposedPort: 80
+        # If we ever need to tweak timeouts
+        # transport:
+        #   repondingTimeouts:
+        #     idleTimeout: 0s
+        #     readTimeout: 0s
+        #     writeTimeout: 0s
+      websecure:
+        port: 8443
+        expose:
+          default: true
+        exposedPort: 443
+
+    # only exposed via port-forward
+    api:
+      dashboard: true
+      insecure: true
+
+    logs:
+      general:
+        level: INFO
+      access:
+        enabled: true
