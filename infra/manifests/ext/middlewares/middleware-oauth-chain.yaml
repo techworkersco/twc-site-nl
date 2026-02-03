@@ -1,0 +1,9 @@
+apiVersion: traefik.io/v1alpha1
+kind: Middleware
+metadata:
+  name: oauth-chain
+spec:
+  chain:
+    middlewares:
+      - name: oauth-redirect
+      - name: oauth-auth
