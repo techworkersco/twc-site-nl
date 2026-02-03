@@ -1,0 +1,46 @@
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: listmonk-listmonk
+spec:
+  selector:
+    matchLabels:
+      app: listmonk-listmonk
+  serviceName: listmonk-listmonk
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: listmonk-listmonk
+    spec:
+      containers:
+      - name: listmonk
+        image: listmonk/listmonk:latest  # Overridden
+        command:
+        - "sh"
+        - "-c"
+        - |
+          ./listmonk --install --idempotent --yes --config '' && \
+          ./listmonk --upgrade --yes --config '' && \
+          ./listmonk --config ''
+        envFrom:
+        - configMapRef:
+            name: listmonk-listmonk-env
+        - secretRef:
+            name: listmonk-listmonk
+        ports:
+        - containerPort: 9000
+          name: http
+        volumeMounts:
+        - mountPath: /listmonk/uploads
+          name: listmonk-data
+  volumeClaimTemplates:
+  - metadata:
+      name: listmonk-data
+    spec:
+      accessModes: ["ReadWriteOnce"]
+      storageClassName: local-path
+      resources:
+        requests:
+          storage: 2Gi
