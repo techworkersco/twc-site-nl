@@ -1,0 +1,14 @@
+apiVersion: traefik.io/v1alpha1
+kind: Middleware
+metadata:
+  name: oauth-redirect
+spec:
+  errors:
+    status:
+    - "401"
+    - "403"
+    service:
+      name: oauth2-proxy
+      namespace: oauth2-proxy
+      port: 80
+    query: "/oauth2/sign_in?rd={url}"

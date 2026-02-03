@@ -1,0 +1,36 @@
+---
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: excalidash
+spec:
+  parentRefs:
+  - name: excalidash
+  hostnames:
+  - excalidash.techwerkers.nl
+  rules:
+  # Ensure oauth2-proxy is routed
+  - matches:
+    - path:
+        type: PathPrefix
+        value: /oauth2
+    backendRefs:
+    - name: oauth2-proxy
+      namespace: oauth2-proxy
+      port: 80
+      weight: 1
+  # Root router
+  - matches:
+    - path:
+        type: PathPrefix
+        value: /
+    backendRefs:
+    - name: excalidash-frontend
+      port: 80
+      weight: 1
+    filters:
+    - type: ExtensionRef
+      extensionRef:
+        group: traefik.io
+        kind: Middleware
+        name: oauth-chain

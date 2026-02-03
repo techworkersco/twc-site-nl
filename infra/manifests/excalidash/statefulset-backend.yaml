@@ -1,0 +1,38 @@
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: excalidash-backend
+spec:
+  selector:
+    matchLabels:
+      app: excalidash-backend
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: excalidash-backend
+    spec:
+      containers:
+      - name: backend
+        image: zimengxiong/excalidash-backend # Overridden
+        envFrom:
+        - configMapRef:
+            name: excalidash-backend-env
+        - secretRef:
+            name: excalidash-env
+        ports:
+        - containerPort: 8000
+          name: http
+        volumeMounts:
+        - mountPath: /app/prisma
+          name: excalidash-data
+  volumeClaimTemplates:
+  - metadata:
+      name: excalidash-data
+    spec:
+      accessModes: ["ReadWriteOnce"]
+      storageClassName: local-path
+      resources:
+        requests:
+          storage: 2Gi

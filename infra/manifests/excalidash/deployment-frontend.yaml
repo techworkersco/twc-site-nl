@@ -1,0 +1,26 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: excalidash-frontend
+  labels:
+    app: excalidash-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: excalidash-frontend
+  template:
+    metadata:
+      labels:
+        app: excalidash-frontend
+    spec:
+      containers:
+      - name: frontend
+        image: zimengxiong/excalidash-frontend # Overridden
+        envFrom:
+        - configMapRef:
+            name: excalidash-frontend-env
+        ports:
+        - containerPort: 80
+          name: http
