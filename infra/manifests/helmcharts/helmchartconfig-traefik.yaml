@@ -19,10 +19,9 @@ spec:
     ingressClass:
       enabled: false
 
-    # TODO: Make sure nothing relies on the default gateway
     # Disable the default provisioned gateway
-    # gateway:
-    #   enabled: false
+    gateway:
+      enabled: false
 
     # Trafiek ports
     ports:
