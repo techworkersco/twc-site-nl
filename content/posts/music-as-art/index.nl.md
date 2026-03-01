@@ -3,7 +3,7 @@ title: "Stap in, loser. We eisen muziek terug als kunstvorm."
 summary: "Wat gebeurt er met hoe je muziek beleeft als je alleen maar naar vibe-afspeellijsten luistert met achtergrondgeluid? Techwerker en artiest SUPERDAZE zegt dat het tijd is om muziek terug te eisen als de kunstvorm die het werkelijk is."
 showSummary: true
 author: "SUPERDAZE"
-date: 2026-03-02T07:00:00+02:00
+date: 2026-03-01T07:00:00+02:00
 tags: ["opinie"]
 feature: feature.png
 featureAlt: "Collage met een cassettebandje, geluidsgolfrepresentatie, en de 'stap in loser'-meme."

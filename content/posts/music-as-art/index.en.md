@@ -3,7 +3,7 @@ title: "Get in, loser. We’re reclaiming music as art."
 summary: "What happens to how you experience music, when all you ever listen to are vibe playlists with background filler content? Tech worker and artist SUPERDAZE says it's time to reclaim music as the art form it really is."
 showSummary: true
 author: "SUPERDAZE"
-date: 2026-03-02T07:00:00+02:00
+date: 2026-03-01T07:00:00+02:00
 tags: ["opinion"]
 feature: feature.png
 featureAlt: "Collage with a cassette tape, audio wave form, and the 'get in loser' meme."
