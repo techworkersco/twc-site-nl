@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: excalidash-frontend-env
-data:
-  BACKEND_URL: "excalidash-backend.excalidash.svc.cluster.local:8000"

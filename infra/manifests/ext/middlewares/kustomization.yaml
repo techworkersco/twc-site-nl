@@ -1,4 +1,0 @@
-resources:
-- middleware-oauth-auth.yaml
-- middleware-oauth-chain.yaml
-- middleware-oauth-redirect.yaml
