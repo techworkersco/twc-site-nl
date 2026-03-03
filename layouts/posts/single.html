@@ -21,6 +21,14 @@
           {{ partial "article-meta.html" (dict "context" . "scope" "single") }}
         </div>
       {{ end }}
+
+
+      <dt class="lead text-gray-700 mb-6 text-xl lg:mb-12">
+        {{ if ne .Params.summary nil }}
+          <div>{{ .Params.summary }}</div>
+        {{ end }}
+      </dt>
+
       {{ with $feature }}
         <div class="prose">
           {{ $altText := $.Params.featureAlt | default $.Params.coverAlt | default "" }}

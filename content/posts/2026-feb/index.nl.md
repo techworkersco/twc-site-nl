@@ -7,7 +7,6 @@ date: 2026-02-01T07:00:00+02:00
 tags: ["community update"]
 feature: feature.png
 featureAlt: "Heldere, speelse collage met diverse objecten gerelateerd aan tech en werk."
-
 ---
 
 ## Schijnwerper: Massaontslagen bij ASML
