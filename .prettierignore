@@ -1,6 +1,6 @@
 # From upstream congo <--UPSTREAM
 /assets/css/compiled/
-#/assets/lib/
+/assets/lib/
 
 /layouts/_default/_markup/*.html
 /layouts/_partials/picture.html
