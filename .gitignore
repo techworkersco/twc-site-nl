@@ -12,6 +12,3 @@ node_modules
 # Built artefacts
 /public
 /resources
-
-# Generated artefacts
-/assets/lib
