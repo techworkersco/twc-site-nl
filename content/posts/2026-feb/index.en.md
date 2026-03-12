@@ -1,5 +1,5 @@
 ---
-title: "Layoffs at ASML, get started with meshcore, and more | Community update February 2026"
+title: "Layoffs at ASML, get started with meshcore, and more | February 2026"
 summary: "The latest on layoffs at ASML, getting started with meshcore, plus ways to connect and organize together with other tech workers in the Netherlands."
 showSummary: true
 author:
