@@ -1,12 +1,12 @@
 ---
-title: "Massaontslagen bij ASML, aan de slag met meshcore en meer | Bericht aan de gemeenschap, februari 2026"
+title: "Massaontslagen bij ASML, aan de slag met meshcore en meer | Februari 2026"
 summary: "Het laatste nieuws over ontslagen bij ASML, aan de slag met meshcore, plus manieren om in contact te komen en je te organiseren met andere techwerkers in Nederland."
 showSummary: true
 author:
 date: 2026-02-01T07:00:00+02:00
 tags: ["community update"]
 feature: feature.png
-featureAlt: "Heldere, speelse collage met diverse objecten gerelateerd aan tech en werk."
+featureAlt: "Helder, speels collage met diverse objecten gerelateerd aan tech en werk."
 ---
 
 ## Schijnwerper: Massaontslagen bij ASML
