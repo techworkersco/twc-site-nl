@@ -7,6 +7,8 @@ tags: ["rights"]
 feature: "feature-illest.png"
 ---
 
+## HEAVY WIP
+
 All things long term illness in The Netherlands are covered by the Ziektewet: https://wetten.overheid.nl/BWBR0001888/2026-01-01/0
 
 This resource is about a the section(s) in the Ziektewet which covers long term illness (langdurig ziekte). The contents of this resource contain:
