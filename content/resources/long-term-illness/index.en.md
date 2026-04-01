@@ -115,7 +115,7 @@ The difference is with your own GP is, of course, that the company doctor is pai
 The company doctor is allowed to [share non-medical information with your employer](https://www.arboned.nl/nieuws/wat-zijn-de-taken-van-een-bedrijfsarts), concerning:
 
 - Your capabilities and limitations, and the extent to which you're able to work
-- How long they expect you to be absent
+- An indication as to how long they expect you to be absent
 - Any advice regarding adjustments, work arrangements, or interventions that the employer must implement for you to be able to reintegrate
 
 For example, a company doctor may indicate to an employer:
