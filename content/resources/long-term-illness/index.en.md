@@ -108,7 +108,7 @@ As an employee, you have at least the following general obligations (non-exhaust
 
 ## The role of company doctors
 
-At least in theory, a company doctor should function like any other doctor. They have a medical background, and their stated goal is for you to get well, so that you're able to resume your regular work activities. Company doctors should observe strict patient-doctor confidentiality and shouldn't share medical information with the employer.
+A company doctor should function like any other doctor. They have a medical background, and their stated goal is for you to get well, so that you're able to resume your regular work activities. Company doctors should observe strict patient-doctor confidentiality and shouldn't share medical information with the employer.
 
 The difference is with your own GP is, of course, that the company doctor is paid by your employer. In that light, it's up to you how much information you choose to share with your company doctor.
 
