@@ -380,7 +380,7 @@ If you're concerned about the advice your company doctor is giving you, then you
 
 ### I disagree with my company doctor's advice. What should I do? 
 
-You can get a second opinion fron an alternative company doctor. And the employer will have to pay for it.
+You can get a second opinion fron an alternative company doctor. The employer is required to pay for it.
 
 ### Is the company doctor allowed to share my medical details with the company? 
 
