@@ -301,7 +301,7 @@ As a result, some people decide it's just not worth the hassle to try to reinteg
 
 _**Think very carefully if you're planning to resign!**_
 
-If you resign, then you may become ineligible for the most important benefits available in the Netherlands for people who experience long-term illness or unemployment. Benefits that you'd be fully entitled to.
+If you resign, then you may become ineligible for the most important benefits available in the Netherlands for people who experience long-term illness or unemployment. Benefits that you'd be fully entitled to otherwise.
 
 Here's why. 
 
