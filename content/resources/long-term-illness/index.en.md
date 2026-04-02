@@ -291,7 +291,7 @@ If the UWV approved the employer's request (though see here for [some reasons th
 
 ℹ️ **Note**: You don't *resign* at the end of the two-year process. Instead, assuming you applied and are eligible, you'll transfer to receiving the WIA or WW benefits. So never resign if anyone in the company asks or pressures you to do so!
 
-⚠️ **Important**: Many work visas, such as the *kennismigrant* (knowledge migrant) visa, require you to be formally employed. When your contract ends, then you're no longer formally employed. (The WIA benefit is not seen as employment.) And hence you're no longer meeting your work visa requirements. Without a valid visa, you may need to leave the country after two years of long-term illness.
+⚠️ **Important**: Many work visas, such as the *kennismigrant* (knowledge migrant, highly-skilled migrant) visa, require you to be formally employed. When your contract ends, then you're no longer formally employed. The WIA benefit is not seen as employment. Hence, you're no longer meeting your work visa requirements. Without a valid visa, you may need to leave the country after two years of long-term illness.
 
 ### Resigning? Don't do it! (in most cases)
 
