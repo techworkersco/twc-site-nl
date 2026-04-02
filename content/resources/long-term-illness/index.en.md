@@ -135,6 +135,8 @@ There are strict penalties in the Netherlands for accessing or sharing personal 
 
 This means that you're under **no obligation** to share medical information with your manager or boss. 
 
+You're also under no obligation to share information with the company doctor. That said, providing your company doctor with relevant information may improve their ability to treat you. And like any other health care provider, company doctors are just as much required to keep your information confidential or they may face professional penalties. 
+
 ## Timeline
 
 If you're long-term ill, certain events and actions need to take place at specific times. Here's a diagram that gives a visual overview of what should happen when during the first two years of long-term illness:
