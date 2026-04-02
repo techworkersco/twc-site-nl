@@ -235,11 +235,7 @@ Your reintegration strategy should be part of the plan to action [LINK]. You're 
 
 #### *Eerste spoor*: Reintegrate into current company
 
-<!-- Check: Should the below read 'non-permanent' disability? Or is it the case that Eerste spoor generally involves permanent disability? And would 'disability' be the best general label or maybe 'impairment'? -->
-
-<!-- Suggest to remove the reference to this being the most common one, as people ending up in one of the other paths may then get the feeling that they're abnormal or something :) -->
-
-The *Eerste spoor* (roughly, 'first track') way of exiting a long-term illness trajectory involves reintegrating into the company where you're currently working. *Eerste spoor* generally assumes a non-terminal, non-role impacting, permanent disability. It can include any of the following:
+The *Eerste spoor* (roughly, 'first track') way of exiting a long-term illness trajectory involves reintegrating into the company where you're currently working. *Eerste spoor* generally assumes a non-terminal disability, which could either be temporary or permanent. It can include any of the following:
 
 | Situation | Comment |
 | -- | -- |
