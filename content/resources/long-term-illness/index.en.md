@@ -256,11 +256,9 @@ Is this strange? It can actually make a lot of sense in certain situations. For 
 
 If a suitable position is found, then the *tweede spoor* has benefits to all the parties:
 
-<!-- Check: Is it known what benefits the receiving company gets? Is this tax breaks, direct payments, something else? -->
-
 - You get to work in an environment that suits you better. You're likely allowed to continue your reintegration trajectory, and are less likely to require WIA or WW benefits.
 - The previous company no longer has to pay your wages and facilitate the reintegration trajectory.
-- The new company gets certain benefits to absorb the risk of onboarding someone who's reintegrating from long-term illness.
+- The new company gets certain tax benefits and can get insurance to absorb the risk of onboarding someone who's reintegrating from long-term illness.
 
 ⚠️ **Important:** You shouldn't ever be pressured to apply for jobs in other companies during your reintegration. Only consider *tweede spoor* in consultation with the company doctor, never at the initiative of the employer.
 
