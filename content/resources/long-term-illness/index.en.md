@@ -278,7 +278,7 @@ If you fulfill your obligations as a worker who's long-term ill (see: [Timeline]
 
 Your employer can only unilaterally end your contract during long-term illness if the UWV gives them permission to do so. But the UWV has strict rules on when it'll give such permission, and generally won't do so during the first two year of reintegration.
 
-The only exception to this is when you apply for, and get, early WIA benefit.
+The only exception to this is at the end of the long-term illness trajectory where the employer applies for a permit to unilaterally end the contract.
 
 At the end of the 2 years, two applications made to the UWV:
 
