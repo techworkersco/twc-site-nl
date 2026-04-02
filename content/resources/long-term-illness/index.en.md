@@ -117,11 +117,11 @@ The company doctor is, however, allowed to [share non-medical information with y
 
 For example, a company doctor may indicate to an employer:
 
-- 'The patient is unable to work at this time. The next evaluation is on 25 June.'
+- 'It is unadvised for the patient to be working at this time. The next evaluation is on 25 June.'
 - 'The patient is undergoing a form of treatment which requires them to be absent from work for several hours, around 2-3 times a week.'
-- 'The patient is able to reintegrate doing light, desk-based work for 10 hours a week.'
+- 'It is advised that the patient reintegrates by doing light, desk-based work for 10 hours a week.'
 - 'The patient is expected to be able to reintegrate over a period of 9 weeks. This is subject to change.'
-- 'The patient is expected not to be able to reintegrate at this time.'
+- 'The patient should not be expected to reintegrate at this time.'
 
 Again, the company doctor **isn't allowed** to share your medical information.
 
