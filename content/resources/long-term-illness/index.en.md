@@ -107,19 +107,15 @@ As an employee, you have at least the following general obligations (non-exhaust
 
 ## The role of company doctors
 
-A company doctor should function like any other doctor. They have a medical background, and their stated goal is for you to get well, so that you're able to resume your regular work activities. Company doctors should observe strict patient-doctor confidentiality and shouldn't share medical information with the employer.
+A company doctor a primary care doctor paid by the employer. Their professional goal is for you to get well, so that you're able to resume your regular work activities. Company doctors should observe strict patient-doctor confidentiality and shouldn't share medical information with the employer.
 
-The difference is with your own GP is, of course, that the company doctor is paid by your employer. In that light, it's up to you how much information you choose to share with your company doctor.
-
-The company doctor is allowed to [share non-medical information with your employer](https://www.arboned.nl/nieuws/wat-zijn-de-taken-van-een-bedrijfsarts), concerning:
+The company doctor is, however, allowed to [share non-medical information with your employer](https://www.arboned.nl/nieuws/wat-zijn-de-taken-van-een-bedrijfsarts), concerning:
 
 - Your capabilities and limitations, and the extent to which you're able to work
 - An indication as to how long they expect you to be absent
 - Any advice regarding adjustments, work arrangements, or interventions that the employer must implement for you to be able to reintegrate
 
 For example, a company doctor may indicate to an employer:
-
-<!-- Made these somewhat more concrete -->
 
 - 'The patient is unable to work at this time. The next evaluation is on 25 June.'
 - 'The patient is undergoing a form of treatment which requires them to be absent from work for several hours, around 2-3 times a week.'
