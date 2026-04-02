@@ -327,7 +327,7 @@ Not all companies have a published policy, however if there is one, it should al
 
 ### Will people think I'm just on a paid vacation? 
 
-People might, but they'd be wrong. If you're ill and can't work, then you need time  to recover---as would anyone else in those circumstances. Dutch law protects workers from employer retaliation during long-term illness, so as long as you fulfil your [obligations](#obligations) as a worker, your boss can't fire you for being long-term ill. Let people talk, and look after yourself.
+People might think that, but they're wrong and it couldn't be any further from the truth. Some people lack empathy in these situations, and they just may not know how to interact in that case. The reality is, if you're ill and can't work, then you need time to recover---as would anyone else in those circumstances.
 
 ### Can my doctor say I'm not allowed to work?
 
