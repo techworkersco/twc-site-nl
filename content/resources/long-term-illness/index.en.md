@@ -361,11 +361,9 @@ However, your manager can share information insofar as it's relevant in the cont
 
 Information about where you are in your reintegration (such as how many hours you're building up), are less relevant though. Discuss with your manager what you're comfortable sharing.
 
-### My GP and my company doctor disagree. Who's right? 
+Your company doctor, GP, and any specialists you might be seeing are all heathcare providers. In theory, they should all have your well-being and recovery at heart.
 
-Your company doctor, GP, and any specialists you might be seeing are all heathcare providers. In theory, they should all have your well-being and recovery at heart. (But note that the company doctor is paid by your employer.) 
-
-However, only the company doctor's advice forms the direct input to your reintegration plan, which ultimately you and your employer should agree upon. You can choose to provide your company doctor with any relevant information from your GP or specialist doctor, so that the company doctor can take this into account in formulating their advice. (You aren't obliged to share this medical information, but you can if it's helpful.)
+However, only the company doctor's advice forms the direct input to your plan of action, which ultimately you and your employer should agree upon. Your company doctor can ask for additional information from your other healthcare providers, however this needs to be under strict written consent from you, the patient. The information should always be sent between the health care providers (there is a formal channel for this), and the patient shouldn't be requested to gather this information directly.
 
 If you're concerned about the advice your company doctor is giving you, then you're fully entitled to a second opinion from an alternative company doctor -- at the company's expense.
 
