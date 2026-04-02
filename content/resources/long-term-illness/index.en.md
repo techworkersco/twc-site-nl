@@ -235,7 +235,7 @@ Your reintegration strategy should be part of the plan to action [LINK]. You're 
 
 #### *Eerste spoor*: Reintegrate into current company
 
-The *Eerste spoor* (roughly, 'first track') way of exiting a long-term illness trajectory involves reintegrating into the company where you're currently working. *Eerste spoor* generally assumes a non-terminal disability, which could either be temporary or permanent. It can include any of the following:
+The *Eerste spoor* (roughly, 'first track') way of exiting a long-term illness trajectory involves reintegrating into the company where you're currently working. *Eerste spoor* generally assumes a non-terminal disability, which could either be temporary or permanent. Examples of re-integrating through *eerste spoor* include:
 
 | Situation | Comment |
 | -- | -- |
