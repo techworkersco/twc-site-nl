@@ -123,7 +123,7 @@ For example, a company doctor may indicate to an employer:
 - 'The patient is expected to be able to reintegrate over a period of 9 weeks. This is subject to change.'
 - 'The patient should not be expected to reintegrate at this time.'
 
-Again, the company doctor **isn't allowed** to share your medical information.
+Again, the company doctor **isn't allowed** to share your medical information without your consent.
 
 ## Who's allowed to know my medical information?
 
