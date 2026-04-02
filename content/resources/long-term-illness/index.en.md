@@ -44,7 +44,7 @@ Are you feeling overwhelmed by the amount of information in this resource? Then 
 | Regular duties | Work duties <br/> Job tasks | The definition of the work in the employee's contract. What would be expected in a normal day of work, including the hours of work. 100% regular duties implies working at the contracted hours (for example 32 hours if that is stated in the contract). |
 | UWV | *Uitvoeringsinstituut Werknemersverzekeringen* <br/> Employee Insurance Agency | The government department that is responsible for evaluating eligibility for, and eventually paying, a number of collectively provided benefits. UWV checks that companies follow the correct procedures when applying for benefits, and will hold companies accountable if processes aren't followed correctly. |
 | *Verzekeringarts* | Insurance doctor | This doctor works at the UWV and is responsible for evaluating how the patient has been handled during the long-term illness trajectory. |
-| WIA benefit | *WIA-uitkering*, from *[Wet werk en inkomen naar arbeidsvermogen](https://wetten.overheid.nl/BWBR0019057/2026-01-01)*<br/> Sickness benefit | The WIA benefit is specifically for people who are occupationally impaired, either fully or partially. When a person is declared as occupationally impaired, they generally receive a portion (or all) of their future income from the WIA benefit. This benefit is paid from collective provisions, instead of through the employer. |
+| WIA benefit | *WIA-uitkering*, from *[Wet werk en inkomen naar arbeidsvermogen](https://wetten.overheid.nl/BWBR0019057/2026-01-01)*<br/> Sickness benefit | The WIA benefit is specifically for people who are occupationally impaired, either fully or partially. When a person is declared as occupationally impaired, they generally receive a portion (or all) of their future income from the WIA benefit. This benefit is paid from collective provisions, instead of through the employer. </br> Note that the UWV often rejects applications for WIA benefits from people who are still able to work at 65% or more of their previous capacity (less than 35% occupationally impaired). |
 | WW benefit | *WW-uitkering*, from *[Werkloosheidswet](https://wetten.overheid.nl/BWBR0004045/2026-01-01)* <br/> Unemployment benefit | The general unemployment benefit for individuals without paid work in the Netherlands. |
 | *Ziektewet* | Sickness benefit act | The law that encompasses what happens when someone is declared ill. This covers, amongst others, long-term illness. It provides protections for both businesses and individuals. |
 
@@ -270,11 +270,13 @@ If a suitable position is found, then the *tweede spoor* has benefits to all the
 
 #### A note on reintegrating at a reduced capacity
 
-Reintegrating back into work at a reduced capacity is, in theory, one of the options to exit the long-term illness trajectory. The option might come up in conversation with the company doctor when you're discussing what's realistic.
+If you're still able to work to some extent, though not 100% of your prior hours, then you could consider reintegrating at a reduced capacity. This option for exiting the long-term illness trajectory might come up in conversation with the company doctor.
 
-However, there's no guarantee that this option will be available in all cases. While the company must facilitate your reintegration, they may try to argue that they can't have someone working at reduced hours.
+Note, though, that the option to reintegrate at a reduced capacity might not be available in all cases. While the company must facilitate your reintegration, they aren't required to offer you reduced hours if they can argue it wouldn't be feasible.
 
-For example: You're reintegrating and are currently at 50% of your original capacity. The company doctor expects that you might be able to increase this to 60%. The company, however, argues that they need someone at 80% capacity, otherwise it'll negatively impact their business. In this case, the UWV decides what happens to your contract.
+For example: You're reintegrating and the company doctor expects that you might be able to reach 60% of your previous capacity. The company, however, argues that they need someone at 80% capacity, otherwise it'll negatively impact their business. 
+
+In this case, the UWV decides what happens to your contract.
 
 ### Employer terminates the contract
 
