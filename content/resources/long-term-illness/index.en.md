@@ -331,11 +331,9 @@ People might, but they'd be wrong. If you're ill and can't work, then you need t
 
 ### Can my doctor say I'm not allowed to work?
 
-They could try, but it wouldn't have any legal basis. 
+You might feel you need to ask your doctor: 'Am I allowed to work?'. However, it's not for a doctor to give or refuse *permission* to work like that to their patients. 
 
-If you'd ask your physiotherapist: 'Am I allowed to work?', they're unlikely to answer yes or no. People work in healthcare to treat patients, not to give you permission to do one thing or another. 
-
-More likely your healthcare provider will give you personal advice on what's best for your treatment, and how (not) following that advice could affect your treatment. As a patient, it's more helpful to ask your healthcare provider what you can best do and avoid, given the specific treatment you're undergoing. 
+What doctors, and any other healthcare provider, can do is give you personal *advice* on what's best for your treatment. For example, they might say: 'I would recommend you take at least 3 weeks rest to recover', and state how (not) following their advice could affect your treatment. Hence as a patient, it's more helpful to ask your healthcare provider what sort of activities you can best do and avoid, and for how long, given the specific treatment you're undergoing. 
 
 ### How can I be 30% occupationally impaired (*arbeidsongeschikt*)? 
 
