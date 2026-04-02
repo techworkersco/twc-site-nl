@@ -351,8 +351,6 @@ No. Really no.
 
 They can ask 'When will you come back?', or 'What work will you be able to perform?'. But anything related to what illness you have, a specific diagnosis, or medical information, is a hard no.
 
-In some cases, your employer may request evidence from your healthcare provider. (Some companies already ask for a doctor's note if you've been ill for just two days!) However, any such evidence shouldn't ever contain any medical information. Instead, it should only relate to the advice your healthcare provider has given you about how certain activities could affect your recovery. 
-
 The reality is that people are curious, however you're under no obligation to share medical details with anyone in your company.
 
 ### Is my manager allowed to share my reintegration plan with my teammates?
