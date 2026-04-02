@@ -98,7 +98,7 @@ As an employee, you have at least the following general rights (non-exhaustive):
 
 As an employee, you have at least the following general obligations (non-exhaustive):
 
-- Work with your employer on the Plan of Action in conjunction with advice from the company doctor
+- Work with your employer on the plan of action (the reintegration plan) in conjunction with advice from the company doctor
 - Regularly meet with the employer, as per the plan of action
 - Stick to any agreements made with the employer, usually as stated in the plan of action
 - Work with the company doctor if any agreements with the employer can't be met or are unachievable. 
