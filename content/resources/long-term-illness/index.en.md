@@ -327,7 +327,7 @@ Not all companies have a published policy, however if there is one, it should al
 
 ### Will people think I'm just on a paid vacation? 
 
-People might, but they'd be wrong. You're entitled to time off to recover when you need it -- as is anyone else who's long-term ill. Let people talk, and look after yourself.
+People might, but they'd be wrong. If you're ill and can't work, then you need time  to recover---as would anyone else in those circumstances. Dutch law protects workers from employer retaliation during long-term illness, so as long as you fulfil your [obligations](#obligations) as a worker, your boss can't fire you for being long-term ill. Let people talk, and look after yourself.
 
 ### Can my doctor say I'm not allowed to work?
 
