@@ -98,11 +98,11 @@ As an employee, you have at least the following general rights (non-exhaustive):
 
 As an employee, you have at least the following general obligations (non-exhaustive):
 
-- Work with the company doctor to develop a reintegration plan
-- Regularly meet with the employer, as per the reintegration plan
-- Stick to any agreements made with the employer, usually as stated in the reintegration plan
+- Work with your employer on the Plan of Action in conjunction with advice from the company doctor
+- Regularly meet with the employer, as per the plan of action
+- Stick to any agreements made with the employer, usually as stated in the plan of action
 - Work with the company doctor if any agreements with the employer can't be met or are unachievable. 
-    - For example, if treatment isn't working as expected, the number of hours a week you work may have to be adjusted.
+    - For example, if treatment isn't working as expected, the number of hours a week you work may have to be adjusted down.
 - Participate in any required events, such as the [Year 1](#year-1) review or the End evaluation.
 
 ## The role of company doctors
