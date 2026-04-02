@@ -63,8 +63,6 @@ Note that, although uncommon in tech, Dutch law allows companies to withold pay 
 
 ## What is long-term illness?
 
-<!-- TODO: find definition wetboek on 4 weeks period? -->
-
 Someone counts as being long-term ill if they're unable to perform their regular duties for at least 4 weeks in a row. Some examples:
 
 - You're a truck driver and you've broken your leg, which prevents you from driving for 2 months
