@@ -86,12 +86,10 @@ During long-term illness, specific events and actions must take place at specifi
 
 ### Rights
 
-<!-- TODO: Some citations still to be added -->
-
 As an employee, you have at least the following general rights (non-exhaustive):
 
-- Right to manage their own health ({cite})
-- Right to choose their own healthcare providers ({cite})
+- Right to manage their own health
+- Right to choose their own healthcare providers
 - Right to a second opinion from an alternative company doctor, at the company's expense
 
 ### Obligations
