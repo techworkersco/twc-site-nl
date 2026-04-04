@@ -1,7 +1,7 @@
 ---
 title: "Long-term illness in the Netherlands"
-date: "2026-04-01"
-lastmod: "2026-04-01"
+date: "2026-04-04"
+lastmod: "2026-04-04"
 description: "Navigating long-term illness in the Netherlands. What are your rights, obligations, and how does this whole thing work?"
 tags: ["rights"]
 feature: "feature.jpg"
@@ -226,7 +226,7 @@ There's no 'correct' way to exit a long-term illness trajectory. Which path you 
 
 Reintegration involves going back to formal, paid work in some form or other, and in some capacity or other---whether that's in your current role, a different role, at your current company or a different one.
 
-Your reintegration strategy should be part of the plan to action [LINK]. You're considered as having successfully reintegrated when you:
+Your reintegration strategy should be part of the [plan to action](#terminology). You're considered as having successfully reintegrated when you:
 
 1. Are working your agreed contracted hours
 2. Are performing your regular duties, or agreed adjusted duties
