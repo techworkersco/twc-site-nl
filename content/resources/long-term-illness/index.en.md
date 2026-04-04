@@ -1,449 +1,429 @@
 ---
-title: "Long term illness - AND YOU 🫵"
-date: "2026-04-01"
-lastmod: "2026-04-01"
-description: "Navigating long term illness in The Netherlands. What are your rights, obligations, and how does this whole thing work?"
+title: "Long-term illness in the Netherlands"
+date: "2026-04-04"
+lastmod: "2026-04-04"
+description: "Navigating long-term illness in the Netherlands. What are your rights, obligations, and how does this whole thing work?"
 tags: ["rights"]
-feature: "feature-illest.png"
+feature: "feature.jpg"
+featureAlt: "A person lays ill on a couch covered with a blanket, with glasses of water and pills on a side table. Image by Kaboom on Pexels."
 ---
 
-## HEAVY WIP
+All things long-term illness (*langdurige ziekte*) in the Netherlands are covered by the [*Ziektewet*](https://wetten.overheid.nl/BWBR0001888/2026-01-01/0).
 
-All things long term illness in The Netherlands are covered by the Ziektewet: https://wetten.overheid.nl/BWBR0001888/2026-01-01/0
+This resource discusses the sections in the *Ziektewet* that cover long-term illness. It addresses what counts as long-term illness, what your rights and obligations are when you've been ill for a while, and provides answers to some frequently asked questions. 
 
-This resource is about a the section(s) in the Ziektewet which covers long term illness (langdurig ziekte). The contents of this resource contain:
-
-- Clarifying terminology
-- The definition of long term illness
-- How someone is declared as being sick
-- Information rights - who has access to what information
-- Timelines, rights, obligations.
-- Exit paths from the illness
-- Disputes and how to navigate them
-- FAQ
+Any steps taken while you're ill should always focus on supporting your health. Understanding your rights, obligations, and processes for long-term illness is key for your future.
 
 {{< we-are-not-lawyers >}}
 
 ## A personal note
 
-Are you currently not feeling your 100% normal self? Then go see your GP/Huisarts. This resource will be here when you get back. Look after your own health first before worrying about process and legal aspects of it.
+Are you currently not feeling your 100% normal self? Then go see your general practitioner (GP, *huisarts*). This resource will be here when you get back. Look after your own health first before worrying about admin and processes.
 
-Are feeling overwhelmed by the amount of information below? Then you’re a normal human being, there is a lot of information below to digest, please take your time.
-
-If you need support, please reach out to [hey@techwerkers.nl](mailto:hey@techwerkers.nl) and we will try our best help and/or to point you in the right direction.
+Are you feeling overwhelmed by the amount of information in this resource? Then you're a normal human being. There's a lot to digest here, so take your time. If you need support, reach out to [hey@techwerkers.nl](mailto:hey@techwerkers.nl) and a fellow worker will try to point you in the right direction.
 
 ## Terminology
 
-General terms
-
-| Term | Other Names | Description |  
+| Term | Other names | Description | 
 | --- | --- | --- |
-| Employee/Patient | Individual | This resource takes the perspective of the employee, and in many cases the patient. The term employee will be used when referring to contracts and/or employee/employer relationship. Patient will be used in conjunction with healthcare related information. |
-| Employer/Company | | The registered company with which the employee has a signed contract to perform their work duties |
-| Obligation |  | Something that is required, even against the specific will of an individual. e.g. you are obligated to tell your employer you are calling in sick unless it is physically impossible |
-| Regular duties | Work duties, Job tasks | The definition of the work in the employee’s contract. What would be expected in a normal day of work, including the hours of work. 100% regular duties implies working at the contracted hours (e.g. 32 hours if that is the case in the contract). |
-| Illness | Sickness, Sick | Anything that prevents someone from performing their regular duties |
-| Recovered |  | When a person that was declared as ill is now able to perform 100% of their regular duties |
-| First day of illness period |  | <p>The first day that the employee was unable to perform their regular duties. (<a target="_blank" rel="noopener noreferrer nofollow" class="link" href="http://wetten.overheid.nl/jci1.3:c:BWBR0005290&amp;boek=7&amp;titeldeel=10&amp;afdeling=2&amp;artikel=629&amp;lid=1">cite</a> - Burger Wetboek 7:629 lid 1)<br />Note: Illness during vacation should be transferred to sick leave, and as such the first day of illness might be whilst someone is on vacation.</p> |
-| Last day of illness period |  | When the sick registered employee has worked for 4 uninterrupted weeks at 100% of their regular duties (<a target="_blank" rel="noopener noreferrer nofollow" class="link" href="http://wetten.overheid.nl/jci1.3:c:BWBR0005290&amp;boek=7&amp;titeldeel=10&amp;afdeling=2&amp;artikel=629&amp;lid=10">cite</a> - Burgerlijk Wetboek 7:629 lid 10) |
-| Illness Period |  | A period of time when someone is first declared ill, and the last day of the illness. See above for the definition of last day of illness period. This may or may not be for the same illness - See the FAQ for a specific example. |
-| Medical information | Patient Dossier<br />Private Medical Information<br />Medical details | Medical information includes (among other):<ul><li>Diagnosis</li><li>Treatments/therapies and the contents thereof</li><li>Details of conversations at medical appointments</li></ul>Anything you would share in private to your doctor is very likely medical information. |
-| Occupational impairment | arbeidsongeschikt | This applies if the prognosis of an illness and/or situation is likely to result in a permanent reduction in a persons ability to perform 100% of their regular duties. e.g. illness without full recovery. Occupational impairment is usually measured in a percent of the persons ability to perform their regular duties. |
+| *Arbo-arts* | Occupational health physician | The term '*arbo-arts*' is sometimes mistakenly used to refer to a *bedrijfsarts* (company doctor). An *arbo-arts* is a health care professional that can work under the supervision of a company doctor. They aren't allowed to perform independent medical assessments. |
+| *Arbodienst* | Working conditions service <br/> Health and safety service | A broad term for a collection of services that a company may provide under the heading of health and wellness, often with the thought of reducing operational risks. Although not mandatory, many large companies hire external providers for managing their *arbodienst*. Many *arbodienst* companies provide not only a *bedrijfsarts* but also others services, such as additional counseling services, wellness plans, risk management, and the like. If your company wants to change its *arbodienst* provider, and if you have a works council, then your works council must be asked for consent on any such change. |
+| *Bedrijfsarts* | Company doctor | A primary care doctor, paid by the employer who works in conjunction with a worker -- their patient. A company doctors focus is on their patients health, and is obliged to keep the workers medical information private, and not share it with the company that pays for their services. The company doctor evaluates and reports back an advice to the company on their patients capabilities to perform their regular duties. Company doctors are chosen by the company and, if there's a works council, the company's works council. |
+| Employee | Patient <br/> Individual | This resource uses the term 'employee' when referring to contracts or the employee-employer relationship. 'Patient' will be used in conjunction with healthcare related information. |
+| Employer | Company <br/> Workplace | The registered company with which the employee has a signed contract to perform their work duties |
+| *Huisarts* | General practitioner (GP) <br/> Home doctor | A primary care doctor who's often the first point of contact when someone's ill and requires medical support. A GP can be involved in diagnosing and treating medical conditions, as well as referring to specialists for further support and treatment -- this can include physical (such as orthopedic) and mental (such as therapy) treatments. GPs must keep their patient's medical information private, though they can share it with third parties with the patient's consent. In the Netherlands people can choose their own GP. |
+| Illness | Sickness | Anything that prevents someone from performing their regular duties |
+| Illness period | | A period of time that spans from the first day that someone's declared ill to their last day of illness. An illness period can include multiple different illnesses, for example the flu and then a broken leg. |
+| Illness period, first day of | | <p>The first day that the employee was unable to perform their regular duties. ([Burgerlijk Wetboek 7:629 lid 1](http://wetten.overheid.nl/jci1.3:c:BWBR0005290&amp;boek=7&amp;titeldeel=10&amp;afdeling=2&amp;artikel=629&amp;lid=1)) <br/> ℹ️ <strong>Note:</strong> Illness during vacation should be transferred to sick leave, and as such the first day of illness might be whilst someone is on vacation.</p> |
+| Illness period, last day of | | The day at which an employee who was previously registered sick has worked at 100% of their regular duties for 4 weeks without interruption. ([Burgerlijk Wetboek 7:629 lid 10](http://wetten.overheid.nl/jci1.3:c:BWBR0005290&amp;boek=7&amp;titeldeel=10&amp;afdeling=2&amp;artikel=629&amp;lid=10)) |
+| Medical information | Patient dossier <br/> Private medical information <br/> Medical details | Medical information includes, among other things:<ul><li>Diagnosis</li><li>Treatments or therapies and the contents thereof</li><li>Details of conversations at medical appointments</li></ul>Anything you'd share in private with your doctor is very likely medical information. |
+| Obligation | | Something that's required, whether you like it or not. For example, you're obliged to tell your employer you're calling in sick, unless it's physically impossible for you to do so. |
+| Occupational impairment | *Arbeidsongeschikt* | You have an occupational impairment if the prognosis of an illness results in a permanent reduction in a your ability to perform 100% of your regular duties. In other words: illness without full recovery. Occupational impairment is usually measured in a percentage of the person's inability to perform their regular duties. 40% occupationally impaired, implies you can work at 60% of your original capacity |
+| *Personeelshandboek* | Employee handbook <br/> Company policy | An optional document that details the rules and procedures on how things are done at a particular company. For example, it may describe how to request leave, call in sick, or report an incident. |
+| <a href="https://www.uwv.nl/nl/ziek/loondoorbetaling/plan-van-aanpak">Plan of action</a> | *Plan van aanpak* | The plan is generated  and agreed upon between the employee and the employer based on outputs from the company doctor. It should contain a plan of action about the reintegration trajectory. Basic principles: <ul><li>Work tasks should remain relevant to your original job description. For example, you can't be required to mop floors if that wasn't part of your job.</li><li>It should ideally be a step for step plan for the re-integration with goal dates, not with target dates.</li><li>You may agree to additional company provided therapy, counciling, etc, but you are under no obligation to do so./li></ul>Some employers may be pushy for dates about when you'll return to work. The reality is that health doesn't work that way. Take the plan of action one step at a time, and revise with your employer when needed. |
+| Recovered | | When a person who was declared as ill is now able to perform 100% of their regular duties, and has done so for at least 4 consecutive weeks. |
+| Regular duties | Work duties <br/> Job tasks | The definition of the work in the employee's contract. What would be expected in a normal day of work, including the hours of work. 100% regular duties implies working at the contracted hours (for example 32 hours if that is stated in the contract). |
+| UWV | *Uitvoeringsinstituut Werknemersverzekeringen* <br/> Employee Insurance Agency | The government department that is responsible for evaluating eligibility for, and eventually paying, a number of collectively provided benefits. UWV checks that companies follow the correct procedures when applying for benefits, and will hold companies accountable if processes aren't followed correctly. |
+| *Verzekeringarts* | Insurance doctor | This doctor works at the UWV and is responsible for evaluating how the patient has been handled during the long-term illness trajectory. |
+| WIA benefit | *WIA-uitkering*, from *[Wet werk en inkomen naar arbeidsvermogen](https://wetten.overheid.nl/BWBR0019057/2026-01-01)*<br/> Sickness benefit | The WIA benefit is specifically for people who are occupationally impaired, either fully or partially. When a person is declared as occupationally impaired, they generally receive a portion (or all) of their future income from the WIA benefit. This benefit is paid from collective provisions, instead of through the employer. </br> Note that the UWV often rejects applications for WIA benefits from people who are still able to work at 65% or more of their previous capacity (less than 35% occupationally impaired). |
+| WW benefit | *WW-uitkering*, from *[Werkloosheidswet](https://wetten.overheid.nl/BWBR0004045/2026-01-01)* <br/> Unemployment benefit | The general unemployment benefit for individuals without paid work in the Netherlands. |
+| *Ziektewet* | Sickness benefit act | The law that encompasses what happens when someone is declared ill. This covers, amongst others, long-term illness. It provides protections for both businesses and individuals. |
 
-Specific roles and/or other government provided benefits
+## I'm not okay, what should I do?
 
-| Term | Other Names | Description |
-| --- | --- | --- |
-| Arbodienst | Working Conditions Service  Health and Safety Service | A broad term for a collection of services a company may provide under the heading of health/wellness, often with the thought of reducing operational risks. Although not mandatory, many large companies hire external companies for managing their arbodienst.  Many arbodienst providers provide not only a bedrijfsarts (see below), but also other services to the companies choosing. This may include additional counseling services, wellness plans, risk management, etc.  Works Councils have the specif Right of Consent for changes in the arbodienst provider if a company chooses to change theirs. |
-| Huisarts | GP/General Practitioner  Home Doctor | A health care professional that is bound by obligations to keep medical information private. An individual chooses their own GP.  In The Netherlands, personal health care generally goes through someones GP. This includes getting referrals for medical treatments, which can include physical (e.g. orthopedic), and mental (e.g. therapy) treatments. They are involved in the process of diagnosing, and collecting and sharing medical information under the consent of their patient. |
-| Bedrijfsarts | Company doctor | A health care professional that is bound by obligations to keep medical information private. They are chosen by the company in conjunction with their Works Council (especially on changing provider).  A company doctor is paid by the employer. Although this may seem like a conflict of interest - their focus is (and always should be) their patients health.  A company doctor is under no obligation to share medical information of their patient to the company that pays for their services. They are required to evaluate and report - in conjunction with the patient - on the patients abilities to perform their regular duties. |
-| Arbo-arts | Occupational health physician | This term is sometimes mistakenly used for a bedrijfsarts.  An arbo-arts is a health care professional that can work under the supervision of a company doctor. They are not allowed to perform independent medical assessments. |
-| Verzekeringarts | Insurance Doctor | This doctor works at the UWV and is responsible for evaluating the total handling of the patient during the long term illness trajectory. |
-| WIA benefit | WIA-Uitkering  Sickness benefit | This is different than the WW Benefit, and is specific to occupational impairment.  When a person is declared as occupationally impaired, then they generally receive a portion (or all) of their future income from the WIA benefit. This benefit is paid by the government, instead of through the employer. |
-| WW benefit | WW-Uitkering  Unemployment benefit | The general unemployment benefit for individuals without jobs in The Netherlands. |
-| UWV | Uitvoeringsinstituut Werknemersverzekeringen  Employee Insurance Agency | The government department that is responsible for evaluating, and eventually paying a number of government benefits.  They ensure that companies have followed the correct procedures when applying for government benefits and will hold companies accountable if processes are not followed correctly. |
-| Ziektewet | Sickness Benefit Act | The law that encompasses what happens when someone is declared ill. This covers, amongst others, long term illness. It provides protections for both businesses and individuals through specifying certain laws. |
+As a human being writing this document: that honestly sucks. Let's figure this one out:
 
-## What is long term illness (langdurige ziekte)?
+1. **Notify**: Before anything else, tell your manager you're calling in sick. Check your [company policy](#how-can-i-find-my-companys-sick-leave-policy) on how to do so. If your manager is unavailable and you can't find your company policy, check with a coworker. Make sure someone knows that you're not working.
+2. **Get help**: Next, figure out what you need for yourself. Depending on the illness, you may want to reach out to your GP. For now, look after yourself.
 
-This resource specifically references long term illness, which is when someone is unable to perform their regular duties for at least 4 weeks ({cite wettenboek?})
+Company expectations during first days of illness can vary. It's best practice clarify to your manager what they can expect from you over the coming days. 
 
-Some examples:
+Company policy may say that you need to contact someone who's actually contributed to your being unwell, for example a manager who's assaulted you. If that's the case, many companies have a trust person (*vertrouwenspersoon*) who you could contact. Alternatively, you could contact your manager's manager, or someone in human resources (HR).
 
-- A rubbish truck driver, and have recently broken a bone in your leg which prevents you from walking/moving for the foreseeable 3 months
-- Undergoing cancer treatment and are unable to work as a result
-- An acquired brain injury (concussion, stroke) and have been advised to not work
-- Extreme stress related which results in the inability to work, both work and non-work related.
+Note that, although uncommon in tech, Dutch law allows companies to withold pay during the first 2 days of sick leave -- sometimes called *[wachtdagen](https://www.rijksoverheid.nl/onderwerpen/ziekteverzuim-van-het-werk/vraag-en-antwoord/hoe-lang-krijg-ik-loon-doorbetaald-als-ik-ziek-ben)*. If so, this should be stated in the company policy. 
 
-In The Netherlands, time that is not worked due to illness is paid by the employer. There are insurance companies that will insure business from losses as a result of long term illness - although as an employee you should not need to worry about this.
+## What is long-term illness?
 
-The goal should always be to ensure the best health of an individual. Understanding your rights, obligations, and processes for long term illness is key for your future.
+Someone counts as being long-term ill if they're unable to perform their regular duties for at least 4 weeks in a row. Some examples:
 
-### What about burnout?
+- You're a truck driver and you've broken your leg, which prevents you from driving for 2 months
+- You're undergoing cancer treatment and are unable to work as a result
+- You've had a stroke and have been advised to not work
+- You're experiencing extreme stress due to which you're unable to work
 
-An all too common occurrence in The Netherlands unfortunately - and that includes tech companies. (cite? https://www.burnoutpoli.com/feiten-en-cijfers-burn-out/ https://www.rivm.nl/mentale-gezondheid/monitor/werkenden/burn-out-klachten , https://ruudmeulenberg.nl/bedrijven/5-stressvolle-beroepen/
+In the Netherlands, time that someone isn't able to work due to illness is paid by the employer. (Insurance companies will insure businesses from any losses they might incur as a result of long-term illness. As a worker you don't need to worry about this.)
 
-Why does work related burnout still result in paid employment? In the same way that a construction worker needs to have a safe environment to perform their tasks, even someone sitting behind a computer also needs a safe environment to work. High workloads/toxic culture/unrealistic expectations/transgressive behaviour are all things that lead to an unhealthy work environment.
+### A note on burnout
 
-This resource will not touch on more specific details of burnout, however it is important to highlight burnout specifically could be a reason for long term illness. Also, it should be mentioned that burnout is not a generally recognized diagnosis term. Burnout is often classified under general anxiety disorder, depression, insomnia, and/or other related specific diagnoses. The official diagnosis should only be important to you as the individual and should be only in consultant with your GP. An official diagnosis is often needed for the sake for coverage of costs of treatments by insurance companies.
+You can be long-term ill due to burnout. Unfortunately, burnout is all too common in the Netherlands, [including](https://www.burnoutpoli.com/feiten-en-cijfers-burn-out/) at [tech](https://www.rivm.nl/mentale-gezondheid/monitor/werkenden/burn-out-klachten) [companies](https://ruudmeulenberg.nl/bedrijven/5-stressvolle-beroepen/). High workloads, toxic culture, unrealistic expectations and transgressive behaviour can lead to an unhealthy work environment. But whether you're working in construction or sitting behind a computer, you need a safe working environment.
 
-More information on burnout can be read here: [_https://www.undercoveractivist.com/post/what-can-we-do-about-burnout_](https://www.undercoveractivist.com/post/what-can-we-do-about-burnout)
+Note that 'burnout' isn't a generally recognized diagnosis term. Burnout can get classified as 'generalised anxiety disorder', 'depression', 'insomnia', or other diagnoses. While what you have should ideally only matter to you as a person, insurance companies might request an official diagnosis before covering treatment costs.
 
-## I’m not okay, how do I report as sick?
+[More information on burnout.](https://www.undercoveractivist.com/post/what-can-we-do-about-burnout)
 
-As a human being writing this document, that honesty sucks. Let’s figure this out together.
+## Your rights and obligations during long-term illness
 
-Before anything else, tell you manager you are calling in sick (and/or check your company policy on how to do so). If your manager is unavailable and you can’t find your company policy, check with a colleague. Make sure someone is aware you are not working.
+During long-term illness, specific events and actions must take place at specific times. Some of these obligations are on the employee, and some on the employer. Some are needed for you to be able apply for [WIA benefit](#terminology).
 
-Next, figure out what you need for yourself. Depending on the illness, you may want to be in contact with your GP. For now, look after yourself.
+### Rights
 
-The context of this resource is long term illness, so the rest is following is relevant if you believe that you may not be able to work for some time. In a following section is a timeline of specific key moments. The first day(s) of illness and what companies expect can vary. It’s good to be clear with your manager what they can expect from you in the coming day(s). Ask around and/or check your company policy for specifics to your employer.
+As an employee, you have at least the following general rights (non-exhaustive):
 
-Company policies may say that you need to inform someone that might be contributing to you calling in sick (e.g. an overbearing manager). If that is the case, many companies have a trust person (vertrouwpersoon) that might be able to be contacted. Alternatively, contacting your managers manager directly, or someone in HR is recommended.
+- Right to manage their own health
+- Right to choose their own healthcare providers
+- Right to a second opinion from an alternative company doctor, at the company's expense
 
-Depending on the company, you may be referred to a company doctor quickly or not. Either way, you should receive contact with the company doctor within the first 6 weeks of any long term illness. Even if you are referred to a company doctor, you are also welcome to consult your own GP as you wish.
+### Obligations
 
-Long term illness processes are not always followed correctly
+As an employee, you have at least the following general obligations (non-exhaustive):
 
-Keep specific dates (e.g. first date of illness, appointment dates with company doctors etc) in a calendar somewhere. Although as an individual you have many rights, you also have some obligations which can be important in latter stages of long term illness.
+- Work with your employer on the plan of action (the reintegration plan) in conjunction with advice from the company doctor
+- Regularly meet with the employer, as per the plan of action
+- Stick to any agreements made with the employer, usually as stated in the plan of action
+- Work with the company doctor if any agreements with the employer can't be met or are unachievable. 
+    - For example, if treatment isn't working as expected, the number of hours a week you work may have to be adjusted down.
+- Participate in any required events, such as the [Year 1](#year-1) review or the End evaluation.
 
-ℹ️ Although uncommon in tech, it’s possible you will not be paid for the first 2 days of sick leave. This is generally written into the company policy. There is no legal requirement for employees to be paid for the first 2 days of sick leave. (cite for wachtdagen: https://www.rijksoverheid.nl/onderwerpen/ziekteverzuim-van-het-werk/vraag-en-antwoord/hoe-lang-krijg-ik-loon-doorbetaald-als-ik-ziek-ben)
+## The role of company doctors
 
-## Who has the right to my information?
+A company doctor a primary care doctor paid by the employer. Their professional goal is for you to get well, so that you're able to resume your regular work activities. Company doctors should observe strict patient-doctor confidentiality and shouldn't share medical information with the employer.
 
-> …no information from the medical file may be shared with others outside the practice or institution without the patient's or client's consent.
+The company doctor is, however, allowed to [share non-medical information with your employer](https://www.arboned.nl/nieuws/wat-zijn-de-taken-van-een-bedrijfsarts), concerning:
 
-(Ref: https://www.autoriteitpersoonsgegevens.nl/themas/gezondheid/gezondheidsgegevens-in-een-dossier/toegang-tot-het-dossier-met-gezondheidsgegevens)
+- Your capabilities and limitations, and the extent to which you're able to work
+- An indication as to how long they expect you to be absent
+- Any advice regarding adjustments, work arrangements, or interventions that the employer must implement for you to be able to reintegrate
 
-Per the last part of the above sentence, a patient may choose to share medical information with their company, however they are under **no obligation** to do so. Sharing information with a company doctor is not sharing information with the company itself as that information is held under patient-doctor confidentiality privilege.
+For example, a company doctor may indicate to an employer:
 
-There are strict penalties in The Netherlands for sharing personal information without consent, that is guarded by the Autoriteit Persoongegevens. Medical information has extract protections than standard personally identifiable information, and as such the incidence of sharing such medical information from company doctors to employers without consent is low.
+- 'It is unadvised for the patient to be working at this time. The next evaluation is on 25 June.'
+- 'The patient is undergoing a form of treatment which requires them to be absent from work for several hours, around 2-3 times a week.'
+- 'It is advised that the patient reintegrates by doing light, desk-based work for 10 hours a week.'
+- 'The patient is expected to be able to reintegrate over a period of 9 weeks. This is subject to change.'
+- 'The patient should not be expected to reintegrate at this time.'
 
-It can be worthwhile to consider a company doctor as essentially any other doctor. They have a goal for you to re-integrate into your normal daily activities, and their medical background should be a value add in the conversation. However much information you choose to share with your medical team is still a personal decision and one that everyone needs to evaluate for themselves.
+Again, the company doctor **isn't allowed** to share your medical information without your consent.
 
-There is some non-medical specific information that the company doctor is allowed to share with the employer: (https://www.arboned.nl/nieuws/wat-zijn-de-taken-van-een-bedrijfsarts , ideally we have a {cite})
+## Who's allowed to know my medical information?
 
-- The limitations and capabilities of the employee and the extent to which the employee is incapacitated for work.
-- The expected duration of the absence.
-- Any advice regarding adjustments, work arrangements or interventions that the employer must implement for reintegration.
+The *Autoriteit Persoonsgegevens* (Dutch authority on the use of Personally Identifying Information, or PII) [states on medical information](https://www.autoriteitpersoonsgegevens.nl/themas/gezondheid/gezondheidsgegevens-in-een-dossier/toegang-tot-het-dossier-met-gezondheidsgegevens):
 
-⚠️ The above list does NOT include or allow medical information.
+> … no information from the medical file may be shared with others outside the practice or institution without the patient's or client's consent.
 
-It is within reason that a company doctor may indicate to the employer:
+There are strict penalties in the Netherlands for accessing or sharing personal information without consent, a process that's guarded by the *Autoriteit Persoongegevens*.
 
-- The patient is undergoing treatment (non-specific treatment details) which requires them to be absent from work at certain days/times.
-- The patient is unable to work at this time. The point of next evaluation is at a specific date.
-- After evaluation, the patient is capable to re-integrate doing specific sort of tasks at a specific number of hours per week (or more if they are seeing improvements).
-- The expectation is that the patient will re-integrate over a specific number of weeks/months (subject to change).
-- The expectation is that the patient will not be able to re-integrate at this time.
+This means that you're under **no obligation** to share medical information with your manager or boss. 
 
-## Timelines, Obligations, Rights
+You're also under no obligation to share information with the company doctor. That said, providing your company doctor with relevant information may improve their ability to treat you. And like any other health care provider, company doctors are just as much required to keep your information confidential or they may face professional penalties. 
 
-There is a specific timeline of events and actions that need to take place. Some of these are obligations that are needed in order to apply for the WIA benefit. Some of these obligations are on the employee, and some are on the employer.
+## Timeline
 
-General obligations of an employee: (non-exhaustive)
+If you're long-term ill, certain events and actions need to take place at specific times. Here's a diagram that gives a visual overview of what should happen when during the first two years of long-term illness:
 
-- Regular meetings with the employer as per the plan
-- Holding oneself to agreements made in consultation with the employer (and usually based on the advice of the company doctor)
-- Working with the company doctor if those agreements can’t be met or are unachievable
-    - e.g. agree to re-integrate at a certain number of hours/week, however a treatment wasn’t working as expected etc
-- Participating in specific timeline events - specifically the Year 1 review, End evaluation, etc.
+![Long-term illness timeline diagram](diagram-en.png)
+*Overview of what needs to happen during year 1 and year 2 of long-term illness.*
 
-General rights of an employee: (non-exhaustive)
+This section describes what should happen during the first two years of long-term illness. 
 
-- Right to a second opinion from an alternative company doctor at the expense of the company
-- Right to manage their own health ({cite}).
-- Right to choose healthcare providers ({cite})
+You can also [exit the long-term illness trajectory](#exiting-long-term-illness) at any point before two years have passed.
 
-The following headings dive into further details of the following diagram:
-
-![WIP](WIP.png)
-
-The assumption here is that a person remains on long term illness. In reality, many people do exit the long term illness trajectory. Those exit paths are covered under the Exit Path heading.
+ℹ️ **Note:** Keep specific dates (such as the first date of the illness, appointment dates with company doctors) in a calendar somewhere. Having a record of what happened when can help you, especially during the latter stages of long-term illness.
 
 ### Year 1
 
-| Timeline | Description | Responsibility of |  
+| Timeline | Description | Responsibility of | 
 | --- | --- | --- |
-| Day 0<br />First day of Illness | First day of illness/reporting in sick. This generally involves talking to your manager and/or informing someone at your company. If you’re unsure what the process is, check with a colleague or your company policy as these can vary from employer to employer | Employee |
-| Week 1<br />Contact with the company doctor | Usually someone at your company will inform the company doctor within the first week. It’s possible the company doctor will reach out to you, or alternatively you may be given the company doctors contact information and be asked to reach out.<br />❗ You should contact your company doctor in line with your companies policies. | Employee + Employer |
-| By Week 6<br />Delivery of the Problem Analysis | A problem analysis should be delivered by the company doctor to the company. This can contain information such as:<ul><li>The cause of the illness - be it home related, work related, or a combination</li><li>What the work capabilities are of the patient at this moment. e.g. the type of work tasks, how many hours they are available (if any), etc</li><li>What the re-integration trajectory, specifically key next steps</li><li>The future outlook in terms of work tasks and impact to ability to perform their regular duties</li></ul>Company doctor<br />(in consultation with the employee) |
-| By Week 8/Within 2 weeks of the problem analysis<br /><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.uwv.nl/nl/ziek/loondoorbetaling/plan-van-aanpak">Plan of Action</a> delivered | The plan of action is agreed upon between the employee and the employer - generally based on the input of the company doctor. This can include:</p><ul><li>Adjustments to work tasks - e.g. redistributing of tasks, swapping with colleagues etc</li><li>Adjustments to working hours</li><li>Adjustments to the working environment - e.g. A different chair/table, better ventilation, etc.</li><li>Additional company provided treatment/therapies. Some employers choose to go above and beyond what the legal minimums are. See above section as to what information is not shared.</li><li>Additional company provided counseling/training [if applicable].</li></ul><p>❗ The employer is not legally required to follow the direction of the company doctor - however they generally do as the company doctors recommendations are used if disputes happen later in the trajectory. | Employee + Employer |
-| Week 8 until the exit from long term illness.<br />Every 6 weeks at a minimum | Catch up on the re-integration trajectory and assessing the Plan of Action compared to the current state. What is working, what is not working, what adjustments need to be made (considering state of health), etc.<br />If agreements in the Plan of Action are not able to be met for whatever reason, then the employee needs to be in contact with the company doctor and should follow their advice.<br />❗ The employee is required to be present in these catch ups (within reason)<br />❗ The employer is responsible to ensure these take place at suitable times. | Employee + Employer |
-| Week 42<br />Illness declaration to UWV | This is generally done by the government agency called P-Direkt. If P-Direkt is not repsonsible, then the employer needs to take action to ensure the UWV is informed. | Employer |
-| Week 44-48<br />Preparation for Year 1 Evaluation | The employer is informed by the UWV about the process of the Year 1 Evaluation. The employer seeks the relevant information and advice from the company doctor that is required for submission to the UWV. | Employer |
-| By Week 52<br />Year 1 Evaluation | A conversation takes place between the employee and the employer, along with feedback from the company doctor. The purpose is to assess the current re-integration trajectory, what has worked, what as not worked, what the future entails. This report and discussion relate to the capabilities of the employee to perform their regular work duties. This will likely include questions along the lines of:</p><ul><li>Is the employee likely to re-integrate at all? Should there be a consideration for early WIA benefit (See year 2 for more details)</li><li>Is it possible that the employee will re-integrate into their current role?</li><li>If not, can the employee re-integrate in a similar or different role in the company? (First track)</li><li>If not, can the employee re-integrate in the same or similar role in another company? (Second track)</li><li>What does the plan of action look like for the coming year?</li></ul>As a good reminder, this is about the persons ability to perform their regular work tasks, and should not be related to specific medical details. The company doctor can help advise what a persons capabilities are without providing specific medical information.<br />❗ The Year 1 Evaluation one of many core pieces of evidence supplied to the UWV at the end of the 2 year period. | Employee + Employer |
-| Week 52+<br />Reduction in Salary | Although the minimum requirement in The Netherlands is that companies pay 70% of an employees salary for the whole 2 year period, it is common that companies pay 100% of the salary all, or a portion of the first year.<br />Some companies pay 100% for the two year period, how it is more common that the salary is reduced to 70% after the completion of the first year.<br />View you company policy for more details. Any changes to the company policy require consent from the company Works Council. |  |
+| <b>Day 0</b></br> First day of illness | First day of illness or reporting in sick. This generally involves talking to your manager or informing someone at your company. If you're unsure what the process is, check with a colleague or your company policy. | Employee |
+| <b>Week 1</b><br />Contact with the company doctor | Usually someone at your company will inform the company doctor within the first week. The company doctor might reach out to you, or you may be given the company doctor's contact information and be asked to reach out.<br /> ⚠️ <b>Important:</b> Contact your company doctor in line with your company's policies. | Employee + Employer |
+| <b>By week 6</b><br />Delivery of problem analysis | The company doctor should deliver a problem analysis of your long-term illness to the company. This can contain information such as:<ul><li>Cause of illness, that is, whether it's home related, work related, or a combination (no medical information)</li><li>What sort of work you can still do, and how much (if any)</li><li>What the key next steps are in the reintegration trajectory</li><li>Future outlook in terms of work tasks and ability to perform your regular duties</li></ul> | Company doctor, in consultation with the employee |
+| <b>By week 8</b>, or within 2 weeks of the problem analysis<br /><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.uwv.nl/nl/ziek/loondoorbetaling/plan-van-aanpak">Plan of action</a> delivered | Employee and employer agree on a plan of action, generally based on the input from the company doctor. This can include:</p><ul><li>Adjustments to work tasks, such as no heavy lifting</li><li>Adjustments to working hours</li><li>Adjustments to the working environment, for example a different chair, better ventilation</li><li>Additional company-provided treatment or therapies.</li><li>Additional company-provided counseling or training, if applicable</li></ul><p> ℹ️ <b>Note:</b> Adjustments to working hours can mean 100% staying at home and rehabilitating. </br> ℹ️ <b>Note:</b> The employer isn't legally required to follow the advice of the company doctor. However, they generally do, as the company doctor's recommendations are used if disputes happen later in the trajectory. | Employee + Employer |
+| <b>Week 8</b> until the exit from long-term illness, every 6 weeks at a minimum </br> Evaluation meetings| Meeting to assess how the reintegration trajectory is going in light of the plan of action. What's working, what isn't, do you require any adjustments?<br /> If, for whatever reason, the plan of action isn't working, then you need to contact the company doctor and follow their advice.<br /> ⚠️ <b>Important:</b> You're required to be present in these catch-up meetings (within reason). The employer must ensure the meetings take place at suitable times. | Employee + Employer |
+| <b>Week 42</b><br />Illness declared to UWV | Generally the government agency called 'P-Direkt' reports your long-term illness to the UWV. If P-Direkt doesn't perform this task, then the employer needs to do so. | Employer |
+| <b>Weeks 44-48</b><br />Prepare for year 1 evaluation | The UWV informs the employer about the process of the year 1 evaluation. The employer gets relevant information and advice from the company doctor and submits that to UWV. | Employer |
+| <b>By week 52</b><br />Year 1 evaluation | You'll meet with your employer to evaluate your reintegration trajectory -- what works, what doesn't, what the future entails -- along with feedback from the company doctor. The focus is on your capability to perform your regular work duties. The conversation will likely include questions along the lines of:</p><ul><li>Are you likely to reintegrate at all? If not, could you consider applying for early WIA benefit?</li><li>Can you likely reintegrate into your current role? <ul><li> If not, can you reintegrate into another role at the same company? ([*Eerste spoor*](#eerste-spoor-first-track))</li><li>If not, can you reintegrate into a similar role at another company? ([*Tweede spoor*](#tweede-spoor-second-track))</li></ul><li>What is the plan of action for the coming year?</li></ul> </br> ⚠️ <b>Important:</b>This conversion should only concern your ability to perform your regular work tasks, and shouldn't consider specific medical details. The company doctor can advise what your capabilities are without providing medical information.<br /> ℹ️ <b>Note:</b> The year 1 evaluation reports is supplied as evidence to the UWV at the end of the 2-year period. | Employee + Employer |
+| <b>Week 52+</b><br />Salary reduction likely | Dutch law requires companies in the Netherlands to pay at minimum 70% of your salary for the whole 2-year period of long-term illness. That said, it's common for companies to pay 100% of your salary for most if not all of the first year, and then reduce that to 70% from the start of year 2. (They're also allowed to pay 100% for the whole 2 years.) Check your company policy for details. | Employer |
 
-Additional notes:
+#### Additional company benefits
 
-- Plan of action:
-    - Unless agreed upon by the employee, work tasks should remain relevant to the persons job description. e.g. you cannot be expected to mop floors if that was not part of your job description.
-    - Any additional treatments/therapies cannot be forced upon an employee if they are not in agreement
-    - Any additional guidance/counseling cannot be forced upon an employee if they are not in agreement
+Why might a company offer additional training, therapy, or other treatments when you're ill? Two core reasons:
+
+- They are genuinely nice people at the company who care about your health
+- There's a salary-sized fiscal incentive, as the company is required to pay your wages while you're away on sick leave
+
+⚠️ **Important:** That your company pays for any additional resources does *not* mean they're entitled to your medical information. To be explicit: if your company is paying for a psychologist, they're *in no way* entitled to information about any of the conversations you had. That would be a severe breach of privacy, professional confidentiality, and data protection duties.
 
 ### Year 2
 
 | Timeline | Description | Responsibility of |
 | --- | --- | --- |
-| From week 8  Regular catchup/evaluation of re-integration | These catch-ups should continue per Year 1 Week 8. The content of these discussions may change per the Year 1 Evaluation. If it’s unlikely that the employee will return to their role, then alternatives (Eerste Spoor + Tweede Spoor) would likely have been discussed in the evaluation and the Plan of Action would be adjusted. | Employee + Employer |
-| By Week 68  Deadline for application of early WIA benefit | In some cases it is clear with the patient and the company doctor that a person will not be able to return to their role (e.g. terminal illness). In those cases it is possible to apply early for the WIA Benefit, however that needs to be done by Week 68. | Employee + Company Doctor |
-| Week 86 to Week 93  End evaluation report compilation start | If it is clear that the employee is unlikely to return to their role, then the process of creating the End Evaluation begins. The end evaluation contains an overview of the re-integration process, along with some documents which should have been produced along the way (e.g. Year 1 Evaluation).  The company doctor should provide the medical dossier to the patient. This information is submitted by the patient when applying for the WIA Benefit, as the Insurance Doctor at the UWV will make an evaluation to ensure that the diagnosis and treatments were within guidelines. | Employee + Company Doctor + Employer |
-| Week 88 | UWV notifies the employee outlining the process to apply for the WIA Benefit as it is coming near the end of the 2 year period. The employee generally has already started the process per the previous step. | UWV |
-| By Week 93  Submission of application for WIA Benefit to UWV | Assuming the employee is unlikely to reintegrate, then the documents from the End Evaluation (including any required documents) are required to be submitted to the UWV.  In exceptional cases, it is possible to extend this deadline if the employee is on a re-integration trajectory and is very likely to re-integrate before the 2 year period | Employee + Employer |
-| Week 104  UWV decision is known | The UWV should have made a decision as to the outcome of the application to the WIA benefit, and whether or not the company was granted a permit to end the contract unilaterally.  If approved, then the employer is allowed to unilaterally end the contract, at which point the employee no longer has a valid contract. The employee is now unemployed. Assuming the WIA-benefit was approved, then they begin to be paid by the UWV directly.  The now unemployed needs to check their ability to remain within the country, as they may no longer have a valid visa.  Was the employers application declined by the UWV? See Year 3 heading below |     |
+| <b>From week 8</b>, continued every 6 weeks at a minimum</br> Evaluation meetings | Meetings to evaluate how your reintegration is going in light of the plan of action continue. The content of the discussions may change though in year 2. If it's unlikely that you'll return to a role at your current company (a trajectory called '[eerste spoor](#eerste-spoor-first-track)'), then alternatives (so-called '[tweede spoor](#tweede-spoor-second-track)') may be discussed and your plan of action might get adjusted. | Employee + Employer |
+| <b>By week 68</b> </br> Deadline to apply for early WIA benefit | If it's clear that you won't be able to return to your role (for example due to terminal illness), then you can apply early for the WIA benefit. Your application needs to be in by week 68. | Employee + Company doctor |
+| <b>Weeks 86 to 93</b></br> Start compiling end evaluation | If it's clear that you're unlikely to return to your role, then you can now start creating an end evaluation. The end evaluation gives an overview of the reintegration process, along with some documents produced along the way. This includes the year 1 evaluation, as well as your medical dossier compiled by the company doctor. You'll submit the end evaluation and accompanying documents when applying for the WIA benefit. The insurance doctor at the UWV evaluates the information to ensure that the diagnosis and treatments were within guidelines. | Employee + Company doctor | 
+| <b>Week 88</b> | The UWV notifies you to outline how you can apply for the WIA benefit. | UWV |
+| <b>By week 93</b> </br> Apply for WIA benefit | If you're unlikely to reintegrate, and if you're applying for WIA benefit, then you must now submit the end evaluation and accompanying documents to the UWV. The employer submits their application for a permit to end your contract, together with supporting evidence. In exceptional cases, the UWV can extend this deadline if you're on a reintegration trajectory and are very likely to reintegrate before the end of the 2 year period. | Employee + Employer |
+| <b>Week 104</b> UWV decision known | The UWV should by now have communicated: <ul> <li>whether you'll receive the WIA benefit or not</li> <li>whether your employer is allowed to end your contract unilaterally or not</li></ul> If the employer is allowed to unilaterally end your contract, then you're now officially without a job. If your WIA benefit application got approved, then from now on you'll paid directly by the UWV. </br> ⚠️ <b>Important:</b> If you're in the Netherlands on a work-related visa, check whether you're still allowed to stay in the country. | UWV |
 
-### Year 3?
+### After year 2
 
-The UWV has a responsibility to ensure that the process of long term illness is being followed correctly by the employer. This is the safety net to ensure employers are following all rules and regulations. If the UWV denies the request, they can require the employer to continue with the re-integration trajectory. This can happen for up to another 52 weeks, and is at the discretion of the UWV.
+The UWV must ensure that your employer has followed all the rules and regulations in the process of long-term illness correctly. If the UWV denies the employer's request to unilaterally terminate your contract, then the UWV can require the employer to continue with the reintegration trajectory. This can happen for up to another 52 weeks, and is at the discretion of the UWV.
 
-Some of the reasons why the UWV may deny the application:
+#### Disputing the UWV's decision
 
-- Insufficient reintegration efforts by the employer
-- Signs that possible recovery and reintegration are present (This is more likely to happen if applying for early WIA-benefit at week 68)
-- Procedural errors and errors with timing of events
-- Insufficient information in the medical dossier (usually given from the company doctor to the employee)
-- Unclear evidence as to how occupationally impaired the employee is - usually per the diagnosis from the company doctor
-- The employee challenges the outcome of the decision of the UWV, and the UWV reconsiders their decision.
+If the UWV permits your employer to [unilaterally end your contract](https://www.uwv.nl/nl/ontslag/ontslag-na-2-jaar-arbeidsongeschiktheid-ziekte), but you believe they shouldn't have, then you have the right to challenge the UWV's decision. 
 
-Ref: https://uwverzuimregisseur.nl/kennisbank/afwijzing-wia-aanvraag/
+For example, when requesting permission from the UWV to end your contract, the employer must provide certain documents as evidence. If you have indication that some of the documents that your employer submitted are incorrect, then you can argue that this invalidates their case. And that the employer's request to be allowed to fire you shouldn't be granted.
 
-### Addendum
+If you dispute the UWV's decision and the UWV rules in your favour, then you keep your contract. You remain employed, the reintegration process will generally continue, and your boss must continue to pay you.
 
-Some additional notes from the above table
+ℹ️ **Note:** Unsure whether your case was handled correctly? You might want to contact a labour lawyer.
 
-**Plan of Action**
+#### Reasons why the UWV might reject the employer's request
 
-- Unless agreed upon by the employee, work tasks should remain relevant to the persons job description. e.g. you cannot be expected to mop floors if that was not part of your job description.
-- Any additional treatments/therapies cannot be forced upon an employee if they are not in agreement
-- Any additional guidance/counseling cannot be forced upon an employee if they are not in agreement
+Some of the reasons why the [UWV may deny the employer's request to be allowed to unilaterally terminate your contract](https://uwverzuimregisseur.nl/kennisbank/afwijzing-wia-aanvraag/):
 
-**Timelines/Expectations**
+- Employer has made insufficient efforts to facilitate your reintegration
+- There are signs that you could still recover and reintegrate
+- Evidence as to how occupationally impaired you are is unclear
+- Your medical dossier, compiled by the company doctor, contains insufficient information to justify terminating your contract
+- Procedural errors
+- You've challenged the UWV's earlier decision to allow the employer to terminate your contract, and the UWV agrees with your challenge
 
-In the context of the Plan of Action, some employers can be pushy for dates/deadlines of when someone will return to to work. The reality is that healthcare does not work like this. The plan of action should be a step for step plan and should also be revised as such. The expectation to complete step 5 whilst still on step 1 is not realistic and not the purpose of the Plan of Action.
+## Exiting long-term illness
 
-**Working hours**
+You can exit the long-term illness trajectory in various ways:
 
-- Adjustments to working hours - This can mean 100% staying at home and rehabilitating.
+* Reintegration ...
+  * ... [into your current company (*Eerste spoor*)](#eerste-spoor-reintegrate-into-current-company) 
+  * ... [into a different company (*Tweede spoor*)](#tweede-spoor-reintegrate-into-a-different-company)
+* [Employer terminates the contract](#employer-terminates-the-contract)
+* [Resigning? Generally not advised](#resigning-dont-do-it-in-most-cases)
 
-**Additional company benefits**
+The following sections give more information on each of these options.
 
-There are two core reasons why companies offer additional training/therapy/treatments when someone is ill:
+There's no 'correct' way to exit a long-term illness trajectory. Which path you take depends on many factors, and should always focus on what's best for you given your personal circumstances.
 
-- There are genuinely nice people in the company that care about the health of their people
-- There is a salary sized fiscal incentive as the company is required to pay the salary whilst the person is away on sick leave.
+### Reintegration
 
-Although companies may pay for these additional resources, it does not mean they are entitled to medical information that may take place in some of these therapies. To be explicit - If a company is paying for a psychologist, it does NOT entitle them to information of the conversations that took place. That would be a severe breach of personal privacy.
+Reintegration involves going back to formal, paid work in some form or other, and in some capacity or other---whether that's in your current role, a different role, at your current company or a different one.
 
-## Re-integration/Exiting long term illness
+Your reintegration strategy should be part of the [plan to action](#terminology). You're considered as having successfully reintegrated when you:
 
-The method of exiting the long term illness trajectory generally falls into the following 4 categories
+1. Are working your agreed contracted hours
+2. Are performing your regular duties, or agreed adjusted duties
+3. Have been doing (1) and (2) for 4 consecutive weeks
 
-1.  Eerste spoor - Re-integrating into your current company
-2.  Tweede spoor - Re-integrating into a different company
-3.  Contract termination - Usually at the end of the 2 years, and usually with the WIA-benefit.
-4.  ~~Resigning~~ - Generally unadvised, however more discussion is below.
+#### *Eerste spoor*: Reintegrate into current company
 
-Each of these will be expanded upon in the following sections.
+The *Eerste spoor* (roughly, 'first track') way of exiting a long-term illness trajectory involves reintegrating into the company where you're currently working. *Eerste spoor* generally assumes a non-terminal disability, which could either be temporary or permanent. Examples of re-integrating through *eerste spoor* include:
 
-❗ Which path a person exits long term illness is very situational and depending on the circumstances. There is never a “Correct” way to exit long term illness, it should always be what is best of all people involved.
+| Situation | Comment |
+| -- | -- |
+| Reintegrate into your current role | Bluntly put, 'back to the day job'. |
+| Reintegrate into the same role, but in a different part of the business | Mostly applicable if your illness was related to the specific work environment, and you work at a larger organization. For example, a project manager may experience high stress in one department, but might thrive doing the same work in a different department. |
+| Reintegrate into a different, equivalent role in the same company | This could apply if a physical injury prevents you from doing your current job, and your work environment couldn't be adjusted to suit this role specifically. For example, if an injury leaves you unable to walk. |
+| Reintegrate into the same role, but at a permanently reduced capacity | Some illnesses can leave you at a permanently reduced capacity to work. For example, if you've experienced repeated concussions or strokes, at the end of the 2-year trajectory you may have the prognosis that you'll be able to work at at most 70% capacity. |
 
-### Eerste spoor
+#### *Tweede spoor*: Reintegrate into a different company
 
-Directly translates to: First track.
+The *[Tweede spoor](https://www.fnv.nl/werk-inkomen/ziekte-re-integratie/re-integratie/2e-spoor)* (second track) involves reintegrating into a different company. Your contract with the current company would end, and a new one at another company begins.
 
-In short: Re-integrating into the company where the person is currently working.
+Is this strange? It can actually make a lot of sense in certain situations. For example:
 
-Eerste spoor is the more common exit path. It generally assumes a non-terminal and non-role impacting permanent disability. It is also a fairly broad term, and includes (but is not limited to) the following:
+- You work in a call centre. Your long-term illness is related to the subject matter of the calls, which induces anxiety and make you relive past trauma.
+- You're reintegrating, but it's clear that the work environment isn't conducive to your recovery.
+- In consultation with the company doctor, you start looking at job postings for call centre work at other companies where the subject matter doesn't hamper your recovery.
 
-- Re-integrating into the role you were doing in the same part of the business  
-    The first option is bluntly put: “back to the day job”.
-- Re-integrating into the same role, but in a different area of of the business  
-    This may be more applicable if the reason for the illness was related to the specific work environment, and applies more to larger organizations.  
-    e.g. A project manager in one department of the company may not be able to function due to the nature of the work which lead to high stress. There may be alternative areas of the business that require a project manager where that person is suited for.
-- Re-integrating into an alternative equivalent role within the company  
-    Although not limited to, this is especially applicable if there is a physical injury which prevents the person from doing their regular job.  
-    e.g. a crush injury resulted in someones inability to walk, and their work environment couldn’t be adjusted to suit this role specifically.
-- Re-integrating at a permanent reduced capacity as a result of occupational impairment.  
-    Although less common, this is also a reality for some people. Some illnesses, and especially brain injuries can leave people at a permanently reduced capacity (e.g. repetitive concussions, strokes, etc).  
-    e.g. the person has reached the end of the 2 year period and the prognosis/expectation is that the person will not return to 100% capacity in the coming year(s).
+If a suitable position is found, then the *tweede spoor* has benefits to all the parties:
 
-The reintegration strategy should be part of the [Plan to Action](https://www.uwv.nl/nl/ziek/loondoorbetaling/plan-van-aanpak) and may contain details as follows:
+- You get to work in an environment that suits you better. You're likely allowed to continue your reintegration trajectory, and are less likely to require WIA or WW benefits.
+- The previous company no longer has to pay your wages and facilitate the reintegration trajectory.
+- The new company gets certain tax benefits and can get insurance to absorb the risk of onboarding someone who's reintegrating from long-term illness.
 
-- Specific work tasks whilst reintegrating within the scope of the role
-- Number of hours per week
-- Any additional therapies the company can provide
-- Any additional training the company can provide
+⚠️ **Important:** You shouldn't ever be pressured to apply for jobs in other companies during your reintegration. Only consider *tweede spoor* in consultation with the company doctor, never at the initiative of the employer.
 
-The employee is consider successfully reintegrated when they:
+#### A note on reintegrating at a reduced capacity
 
-- Are working their agreed upon contracted hours
-- Are performing their regular duties, or adjusted duties it performing an alternative role in the company
-- Have been doing the above 2 conditions for at least 4 weeks.
+If you're still able to work to some extent, though not 100% of your prior hours, then you could consider reintegrating at a reduced capacity. This option for exiting the long-term illness trajectory might come up in conversation with the company doctor.
 
-#### Re-integrating at a reduced capacity
+Note, though, that the option to reintegrate at a reduced capacity might not be available in all cases. While the company must facilitate your reintegration, they aren't required to offer you reduced hours if they can argue it wouldn't be feasible.
 
-There are rules as to when someone may return at a reduced capacity and this needs to be verified by the company doctor to avoid abuse (e.g. a company pressuring someone to work less hours).
+For example: You're reintegrating and the company doctor expects that you might be able to reach 60% of your previous capacity. The company, however, argues that they need someone at 80% capacity, otherwise it'll negatively impact their business. 
 
-A conversation about re-integrating at a reduced capacity is likely to come up in the following circumstance:
+In this case, the UWV decides what happens to your contract.
 
-- The 2 year period is coming close
-- The employee is re-integrating and shows a desire to remain at the company
-- There is conversation of load and capacity between the employee and the company doctor with regards to “what is realistic”
+### Employer terminates the contract
 
-There are no guarantees that this option to re-integrate at a reduced capacity exists however. The company does have the responsibility to facilitate the re-integration and make adjustments to he work environment, however they may be able to prove that this is just not possible.
+If you fulfill your obligations as a worker who's long-term ill (see: [Timeline](#timeline)), it's pretty much impossible for your employer to unilaterally end your contract during the first 2 years illness. 
 
-As an example: An employee is reintegrating and is currently at 50% of their original capacity. The expectation from the company doctor is that this may increase, but less than 10%. The company provides evidence that they need someone at 80% capacity, and it is impacting their business. The UWV will evaluate this situation (usually with the insurance doctor) to make a decision about what happens to the persons contract.
+Your employer can only unilaterally end your contract during long-term illness if the UWV gives them permission to do so. But the UWV has strict rules on when it'll give such permission, and generally won't do so during the first two year of reintegration.
 
-See the Contract Termination section below for more information on what can happen.
+The only exception to this is at the end of the long-term illness trajectory where the employer applies for a permit to unilaterally end the contract.
 
-### Tweede spoor (Second track)
+At the end of the 2 years, two applications made to the UWV:
 
-Directly translates to: Second track.
+- You apply for the WIA Benefit
+- The employer applies for a permit to end the contract unilaterally
 
-In short: Re-integrating into a different company. The employees contract ends with the current company and a new one begins at another company.
+The UWV has the last say on whether the employer can end your contract or not.
 
-At first glance this option may seem strange, however it can make a lot of sense in certain situations. To start with an example:
+If the UWV approved the employer's request (though see here for [some reasons they might not](#reasons-why-the-uwv-might-reject-the-employers-request)) and your WIA benefit application, then you'll now get paid monthly by the UWV.
 
-- An employee works in a call center at a company
-- Their long term illness is related to the subject matter of the calls they were receving. e.g. Inducing anxiety/reliving trauma for someone.
-- They are re-integrating, however it’s clear the work environment is not condusive to a health re-integration
-- In collaboration with the company doctor, they look at job postings for other companies to see if there is call center work available in other companies where the subject matter is more suitable to the employee
-- The employee see’s a job posting and they like the idea of joining that new company
+ℹ️ **Note**: You don't *resign* at the end of the two-year process. Instead, assuming you applied and are eligible, you'll transfer to receiving the WIA or WW benefits. So never resign if anyone in the company asks or pressures you to do so!
 
-If a suitable positiion is found, then the tweede spoor has benefits to all the parties:
+⚠️ **Important**: Many work visas, such as the *kennismigrant* (knowledge migrant, highly-skilled migrant) visa, require you to be formally employed. When your contract ends, then you're no longer formally employed. The WIA benefit is not seen as employment. Hence, you're no longer meeting your work visa requirements. Without a valid visa, you may need to leave the country after two years of long-term illness.
 
-- The employee get’s a job in an environment which suits them better. The employee is generally allowed to continue their re-integration trajectory
-- The new company is allowed certain benefits to reduce the risk of employing someone who may return to illness (although the expectation is that the person will re-integrate generally)
-- The previous company no longer has an obligation to pay the employee’s salary and/or to follow through with the re-integration trajectory
-- The UWV is less likely to need to pay out either the WIA of WW benefits.
+### Resigning? Don't do it! (in most cases)
 
-A conversation around tweede spoor is more likely to come up during the 1st year evaluation, and especially if the future prognosis looks as though the person will never fully re-integrate via the eerste spoor. It is important to emphasize that no one should be pressured to apply for jobs in other companies, especially during their re-integration. The discussion around tweede spoor needs to be initiated by the company doctor, and not the employer. ({cite})
+Your work environment itself may be anxiety-inducing and hampering your recovery. On top of that, the long-term illness reintegration process can be bureaucratic, and at times stressful. Especially if you're not sure if obligations are being followed correctly. (This happens more often than it should.)
 
-Ref: https://www.fnv.nl/werk-inkomen/ziekte-re-integratie/re-integratie/2e-spoor
+As a result, some people decide it's just not worth the hassle to try to reintegrate. They want to cut the process short and resign.
 
-### Contract termination
+_**Think very carefully if you're planning to resign!**_
 
-The only way to end a contract unilaterally due to illness is through the UWV. And the UWV has strict rules, thus the timeline from earlier. In short, it’s generally impossible to unilaterally end a contract before the 2 years - with one exception, which is an early WIA benefit, however it appears as though that is also rare. ({cite})
+If you resign, then you may become ineligible for the most important benefits available in the Netherlands for people who experience long-term illness or unemployment. Benefits that you'd be fully entitled to otherwise.
 
-At the end of the 2 years, there are two applications made to the UWV
+Here's why. 
 
-- One from the employee for the WIA Benefit
-- One from the employer to apply for a permit to end the contract unilaterally.
+The WW and WIA benefits are designed to cover situations where you're unable to work due to factors outside of your control. However, when you resign from a job, authorities in the Netherlands will frame that as you being *able* to work, but simply *choosing* not to do so. Choosing not to work is within your control. Hence, in the worst case scenario, resigning may leave you ineligible for the WIA or WW benefits that you'd normally be entitled to.
 
-The UWV asks for a number of documents whilst doing the applications. They get the last say on whether the contract can be ended or not.
-
-ℹ️ As the employee, you do not actually resign at the end of the process, so you should not resign at the request of anyone in the company.
-
-Assuming the permit is approved (see the timeline for Year 3+ details in the case of rejection), and assuming WIA benefit is approved, then the individual will now get paid monthly by the UWV.
-
-❗Many work visa’s require a person to be employed (Kennismigrant/Knowledge Migrant, amongst others). When the contract ends, then the individual is no longer employed. The WIA benefit is not seen as employment. It is possible that the person may need to leave the country in these circumstances.
-
-### ~~Resigning~~ - Generally unadvised
-
-WIA and WW benefits are unemployment benefits in The Netherlands, and specifically cover illness and general unemployment respectively.
-
-Why is it generally unadvised not to resign?
-
-When an individual resigns from a job in The Netherlands, then it is seen as the individual not willing to work. The WW and WIA benefits are designed to cover situations where the unemployment is outside the control of the individual. It is still possible to apply for the WW benefit after resigning, however there are stronger rules - especially considering the WIA benefit is designed for situations where an individual is occupationally impaired.
-
-In the worst case scenario, resigning whilst integrating may forfeit the rights of the employee to both of these benefits.
-
-Why is it only generally unadvised, instead of just plain unadvised?
-
-This very much depends on the individuals circumstances. The long term illness process can be bureaucratic, and at times stressful - especially if you’re not sure if obligations are being followed correctly (this happens more often than what it should). One of the many contributing factors of long term illness is an anxiety inducing work environment. Combining that with a - at times - stressful re-integration process, then some individuals just do not see it as worth the hassle. Some individuals see their ability to rehabilitate being hampered by the process itself and choose to just cut the process short. This is a personal choice, and is only included in this resource as a “There is always a choice”, however this is best discussed with a person that can be trusted/healthcare provider.
-
-As a further warning:
-
-- Nearly all new employment contracts in The Netherlands include a clause for a probation period
-- Employers are [not required to give any reason](https://www.uwv.nl/nl/ontslag/werknemer-ontslaan) to end a contract during the probation period
-- If you are sick during a probation period, then you can still be fired without any choice of recourse
-- Fixed length contracts also do not require any reason for ending them
-- Depending on the circumstance, the individual [may not have a right to the WW-benefit](https://www.uwv.nl/nl/ww/wanneer-recht-op-ww)
-
-## Disputes/Legal challenges
-
-Communication is hard, and it’s not any easier when it comes to law(s). Disputes happen when parties interpret laws in different ways. These disputes can be resolved in many different ways, the last of which being a judge in a court.
-
-Most disputes for long term illness are likely to happen at the end where the contract is being unilaterally terminated. That contract being the thing that binds an employer with an obligation to pay an employee.
-
-At the end of the 2 year period, the employer is applying for a permit with the UWV to be able to terminate the contract unilaterally (ref: https://www.uwv.nl/nl/ontslag/ontslag-na-2-jaar-arbeidsongeschiktheid-ziekte). The employer provides certains documents as evidence, at which point the UWV either approves the permit and the contract is ended, or the permit is declined and the employers obligation continues.
-
-Disputes can therefore happen at two levels:
-
-1.  Between the employer and the UWV - “We believe you should approve this permit”
-2.  Between the employee and the UWV - “I believe you should not have approved the permit”
-
-In general, there is never a direct dispute between the employer and the employee, as the UWV is the facilitator of this process.
-
-As an individual, you have the right to dispute the decision being made. Any documents that you are submitting to the UWV should be correct and true when being sent to them. If you believe the UWV received documents that are incorrect, then you are within your rights create a dispute with the UWV.
-
-In the situation where a permit has been approved, it is disputed, and the UWV rules the favour of the employee, then the individual remains exactly that. An employee. The re-integration process will generally continue, and the employer in that case would be obligated to continue paying the employees salary.
-
-ℹ️ Are you unsure whether your case was handled correctly? You will likely need a lawyer for this.
-
-### Involvement of healthcare providers in legal disputes
-
-TL;DR: A healthcare provider (doctors, therapists etc), generally do not give **permission**, they generally give **advice**. Not all healthcare providers are obliged to give advice either.
-
-e.g. If you ask a physiotherapist: “Am I allowed to work?” they are unlikely to answer yes or no, and are likely to just tell your company doctor to contact them.
-
-As per the previous section, the disputes are generally between the employer and the UWV, or between the employee and the UWV. During disputes, it’s possible that some evidence may be requested from the healthcare providers.
-
-That evidence is should not contain medical information, however it might be related to the advice given at certain times. Below are some examples which may be helpful.
-
-**Someone is undergoing medical treatment which prevents them from doing their work**
-
-The situation:
-
-- Someone is receiving medical treatment for a condition
-- The company doctor, in consultation with their patient (the employee), advises them based on the treatment that it is not advised to perform their usual work duties (e.g. you’re sick, you shouldn’t work).
-- The advice is given to the patient and the company
-
-In the above situation, the company doctor is not specifically given or retracting permission for that person to work, they are just advising based on the situation.
-
-**An injury resulting in preventing them from doing their work**
-
-The situation:
-
-- Someone has an accident that results in reduce mobility in one of their legs.
-- They are attending treatment with a physio. In order to understand the nature of the injury, measurements are taken that show a reduction in mobility.
-- The patients work duties require them to have more mobility in their leg than what they are currently able to do.
-- The patient asks the physio for a recommendation letter to say that they cannot work.
-
-The job of the physio in this case is to treat their patient to get the patient back to an acceptable/full range of motion. They can offer general advice to the person directly, however that is generally advice on what best benefits their recovery. Whether a person is able to work or not is not their not their responsibility to say one way or the other. Although it happens often, the patient should not need to ask the physio for the recommendation letter. Instead the company doctor (with the patients permission) can ask for a recommendation letter from the physio, and that will be added to your patient dossier.
-
-e.g. It should generally **not** be expected that to be able to obtain a letter from a treatment provider that mentions specifically that “The patient is unable to work”.
-
-### Why is there a semantics dance from healthcare providers?
-
-In short: Liability.
-
-As an over generalization - people working in healthcare are generally working there to treat patients, not to help settle contract disputes.
-
-As such, health care providers are more likely to give personal advice on what is best for their treatment and what the possible affects of not following that advice would have on the treatment. As a patient undergoing treatment, you are encouraged to ask how you can best do your work given the specific treatment. Any expectation of a healthcare provider to say whether you can or cannot work is however unrealistic.
-
-In summary, and to avoid disappointment, it is unlikely that you will ever receive **permission** to work or not from a health care provider.
+Of course whether you resign or not is still a personal choice. There's always a choice. Decide what's best for you, and ideally discuss your choices with someone you trust and a healthcare provider.
 
 ## FAQ
 
-| Question | Answer |
-| --- | --- |
-| How can I find my company sick policy? | Not all companies have a published policy, however if there is one, it should always be published/accessible on some intranet or document archive. All else fails:<br /><ol><li>Ask a colleague</li><li>Ask someone in HR</li><li>Ask your manager</li></ol> |
-| Can I request second opinion from a different company doctor? | Yes |
-| So I can just get some free paid vacation right? | Unfortunately these “jokes” are all too common. There are bad actors in every system, and those examples are generally used as a reason to remove some of the protections that greatly help people in needing situations.<br />Jokes are a way that some people cope with hardship, however we generally recommend people to be aware that this has pretty damning impacts on people, especially when we consider that end of life care falls under long term illness. |
-| I was ill, I then recovered, but within 4 weeks I got ill again. What happens now? | In order to be fully recovered, you need to be performing your regular duties for 4 weeks uninterrupted. If a second illness is present withing 4 weeks that prevents you from performing your regular duties, then in the eyes of the law - this is the same illness period.<br />In an extreme example, you’ve been reintegrating over 1.5 years and you have just gone to 100% - and you break your leg within the first week of working 100%. This is the same illness period (in the eyes of the law) |
-| Can my employer ask details about my diagnosis and/or specific treatment details? | No<br />Really no.<br />They can ask “when will you be ready to come back?” but not “what do you have?” |
-| What about my work visa at the end of 2 years | 🤷<br />Many work visa’s require a condition of employment to remain valid. At the end of the 2 year period the employment contract is effectively terminated. You will need to check the specific requirements of your visa and/or consult the IND (the immigration department) |
-| Does my line manager have the right to inquire about the nature of my illness? | In the case of what this means for what work you are able to perform: yes.<br />In the case of knowing the specific diagnosis and/or medical information: no.<br />The reality is that people are curious, however you are under no obligation to share medical details. |
-| Does the company doctor (or additional healthcare provided provided by the company) have a right or obligation to share the nature of my illness with the company? | The same applies per the previous question. What work duties you are able to perform: Yes Medical details: No |
-| Does my manager have the right to share details about my medical condition / reintegration with my teammates? | In general, your manager should not have medical details of your illness.<br />As to reintegration - If it is relevant in the context of performing work duties, then it is okay. As an example, it is good that people know you are picking up certain tasks.<br />As to the status of your re-integration (e.g. building up hours), this seems less relevant and should be discussed with the line manage what you’re comfortable sharing. |
-| What happens when the company doctor wants men to reintegrate but I am still not able to work? Is my GP / specialist doctor’s opinion more important or theirs? | The company doctor is a primary care provider, and thus their advice generally should be followed.<br />It is your right as an individual to get a second opinion from an alternative company doctor at the expense of the company. |
-| Does the company doctor have the right to get details about my medical condition from my regular doctor / the specialist I am seeing? | As a patient, you are in the control of your own medical details and who they are shared with. You are not required to share details of therapy with your GP and vice versa. The same applies to a company doctor. If you are uncomfortable sharing details with a specific company doctor, you have a right to a secondary opinion via another company doctor. |
-| My manager wants to force me back to work and keeps giving me unrequited medical advice that is the opposite of what my doctor says, What should I do? | In general, your manager should not have medical details of your illness.<br />From a social perspective, this might be a case of someone trying to be overly helpful. If the advice is unwelcome, you are encourage to communicate with that person about how their advice is unwelcome. If that does not resolve the situation, then escalating internally (generally with HR) is sensible. |
-| I am following the reintegration plan but my health is not improving / getting worse. Can I go back to full sick leave? | Your re-integration should generally match what you are capable of doing. However that needs to be in discussion with your company doctor. There are obligations in terms of the overall timeline for long term illness that require talking to the company doctor here. |
-| What happens if I get sick with another thing during my reintegration / long term illness?<br />e.g. Breaking a leg after fully recovering from stress related leave. | Long term illness is defined by a long term illness <strong>period.</strong> That period starts on the first day of leave, and ends after 4 weeks of working at 100% of the contracted work duties. In the example, if that leg break happens in week 3 of working at 100%, then unfortunately that can be classed as the same period.<br />It is very important to be in discussion with the company doctor/employer in this situation. It is up to the discretion of the company as to whether this is one or two illness periods. If this is nearing the end of the two year illness period AND it is deemed as one singular period, then the company is within their rights to apply for the permit at the UWV to end the contract unilaterally. |
-| Can the company doctor tell you to leave the company?</span> | In the context of Tweede Spoor, there is a trajectory where a person might apply for roles in other companies. This may be more common if the cause of the illness is related to the work environment at the specific company.<br />Alternatively, if this was a blunt statement - It seems unprofessional, but as an individual, they have a rights to say whatever they wish.<br />Do you have to listen in that case? No. |
-| Where can I escalate to?</span> | See the section on disputes.<br />In general, it’s good to keep a paper trail. If you feel as though you are not being treated correctly, then ask for any requests in writing (email). If you request the outcomes of discussions in writing and are not receiving it, then send an email with your understanding of the situation and ask for them to correct you if you are wrong (e.g. ensure the paper trail exists) |
-| Where can I reach out to for legal advice? | Are you a member of one of the unions? This is a great place to start. Disputes have been happening for years, and unions generally have good knowledge on how to support you in situations.<br />As for specific legal counsel, please reach out to <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="mailto:hey@techwerkers.nl">hey@techwerkers.nl</a> and we will try our best to give you some contacts. |
-| How can I be partially occupationally impaired? e.g. 30% arbeidsongeschikt | This will be very related to the specific illness in question and what the expected prognosis is. A common example may be someone that suffered an acquired brain injury (e.g. stroke) where they are still able to work, however at a reduced capacity |
+### How can I find my company's sick leave policy? 
+
+Not all companies have a published policy, however if there is one, it should always be accessible on some intranet or document archive. If all else fails:
+
+- Ask a coworker
+- Ask someone in HR
+- Ask your manager
+
+### Will people think I'm just on a paid vacation? 
+
+People might think that, but they're wrong and it couldn't be any further from the truth. Some people lack empathy in these situations, and they just may not know how to interact in that case. The reality is, if you're ill and can't work, then you need time to recover---as would anyone else in those circumstances.
+
+### Can my doctor say I'm not allowed to work?
+
+You might feel you need to ask your doctor: 'Am I allowed to work?'. However, it's not for a doctor to give or refuse *permission* to work like that to their patients. 
+
+What doctors, and any other healthcare provider, can do is give you personal *advice* on what's best for your treatment. For example, they might say: 'I would recommend you take at least 3 weeks rest to recover', and state how (not) following their advice could affect your treatment. Hence as a patient, it's more helpful to ask your healthcare provider what sort of activities you can best do and avoid, and for how long, given the specific treatment you're undergoing. 
+
+### How can I be 30% occupationally impaired (*arbeidsongeschikt*)? 
+
+The extent to which you're impaired can vary depending on what specific illness you have and the expected prognosis. For example, you may have suffered an acquired brain injury (such as a stroke) which leaves you still able to work, but at a reduced capacity.
+
+### My manager keeps giving me random medical advice. What should I do?
+
+In general, your manager shouldn't have medical details of your illness.
+
+From a social perspective, maybe they're trying to be overly helpful? If the advice is unwelcome, you can tell them that you appreciate that they're trying to help, but that it's not helping you right now. If that doesn't resolve the situation, then you can escalate matter internally, for example by speaking to HR.
+
+### Can my boss or line manager ask about my diagnosis? 
+
+No. Really no. 
+
+They can ask 'When will you come back?', or 'What work will you be able to perform?'. But anything related to what illness you have, a specific diagnosis, or medical information, is a hard no.
+
+The reality is that people are curious, however you're under no obligation to share medical details with anyone in your company.
+
+### Is my manager allowed to share my reintegration plan with my teammates?
+
+Medical information: No. Your manager shouldn't have medical details of your illness in the first place. And if they do, medical information is protected data and mustn't be shared without your explicit consent.
+
+However, your manager can share information insofar as it's relevant in the context of performing work duties. For example, it can be useful for your coworkers to know which tasks you're picking up right now.
+
+Information about where you are in your reintegration (such as how many hours you're building up), are less relevant though. Discuss with your manager what you're comfortable sharing.
+
+Your company doctor, GP, and any specialists you might be seeing are all heathcare providers. In theory, they should all have your well-being and recovery at heart.
+
+However, only the company doctor's advice forms the direct input to your plan of action, which ultimately you and your employer should agree upon. Your company doctor can ask for additional information from your other healthcare providers, however this needs to be under strict written consent from you, the patient. The information should always be sent between the health care providers (there is a formal channel for this), and the patient shouldn't be requested to gather this information directly.
+
+If you're concerned about the advice your company doctor is giving you, then you're fully entitled to a second opinion from an alternative company doctor -- at the company's expense.
+
+### I disagree with my company doctor's advice. What should I do? 
+
+You can get a second opinion fron an alternative company doctor. The employer is required to pay for it.
+
+### Is the company doctor allowed to share my medical details with the company? 
+
+Medical details: No. Where it concerns their advice on what work duties you're able to perform: Yes. 
+
+For example, the company doctor might have advised you that while you're receiving certain medical treatment, it's best for you not to perform your usual work duties. Only the company doctor's *advice* should be communicated both to you (their patient) and your employer (the company), not any confidential medical information.
+
+### Can the company doctor tell me to leave the company?
+
+A company doctor can only advise; they're not here to tell you what to do or not do. 
+
+If the cause of the illness is related to the work environment at the specific company, then the company doctor may suggest you consider *[Tweede Spoor](#reintegrate-into-a-different-company-tweede-spoor)*, a trajectory where you'd reintegrate at a different company. But outright instructing you to leave the company? No. 
+
+### I'm reintegrating, but my health is getting worse. Can I go back to full sick leave? 
+
+Yes of course. Your reintegration should match what you are capable of doing. If you're unable to work right now, then you shouldn't be working right now. That said, it's best practice to consult with your company doctor on any change you make. The *Ziektewet* requires you as a worker to [consult with the company doctor and your employer at regular intervals](#timeline), so make sure you meet those requirements.
+
+### What happens if I was ill, recovered, and then got ill again with something else?
+
+In the eyes of the *Ziektewet*, long-term illness is defined in terms of a [long-term illness period](#terminology), not by what illness you have. A long-term illness period starts on the first day of your sick leave, and automatically ends after you've worked 100% of your contracted work duties for 4 weeks in a row. 
+
+If a second illness occurs during those 4 weeks which prevents you from performing your regular duties, then in the eyes of the law it's the *same illness period* -- regardless of whether the illness is something completely different form what you had before.
+
+For example, say you've been reintegrating from burnout just gone back to working at 100%. If in week 3 you break a leg and need to go back to 20%, that technically counts as the same illness period, even though a broken leg is not the same as burnout.
+
+Why does this matter? It matters, because after 2 years of illness, your employer can ask the UWV for permission to end your contract unilaterally.
+
+In an extreme example, you may have been reintegrating over 22 months, went back to 100%, but then break your leg after 3 weeks. Your employer could now ask the UWV for permission to get rid of you if you're not back at 100% within a matter of weeks.
+
+If you're in this situation, talk to your employer and company doctor. At their discretion, it might be possible to count the second illness as a separate illness period -- giving you space to recover instead of going on a fast-track to losing your job. 
+
+### I'm on probation or on a fixed-term contract. Does that make a difference?
+
+Yes, and sadly not in the worker's favour. 
+
+Employers can end your contract during the probation period, or not renew a fixed-term contract, [without giving any reason whatsoever](https://www.uwv.nl/nl/ontslag/werknemer-ontslaan). This means that if you get ill during your probation period or while on a fixed-term contract, the employer can end your contract without you having recourse on the provisions provided through the *Ziektewet*. 
+
+Depending on your circumstances, you [may not even be entitled to the WW-benefit](https://www.uwv.nl/nl/ww/wanneer-recht-op-ww).
+
+This absolutely sucks, especially given the rise in the use of short-term contracts, but it's the reality of the law as it currently is.
+
+### How will long-term illness affect my work visa? 
+
+🤷 What happens to your work visa at the end of the 2 year long-term illness trajectory really depends on the specifics of your visa. Many work visas require a condition of employment to remain valid. If you've been ill for 2 years, your employer can ask the UWV for permission to unilaterally end your contract. If the UWV gives that permission, then at the end of the 2 year period you're officially without a job. 
+
+To be sure, check the specific requirements of your visa, maybe consult with the government immigration department (IND). And you might want to consult a labour lawyer too.
+
+### Things aren't going well. How can I escalate?
+
+It depends on what the issue is:
+
+- If you have concerns about the advice given to you by your company doctor, you can ask for a [second opinion](#can-i-request-second-opinion-from-a-different-company-doctor), and the company will have to pay for it.
+- If your manager is exhibiting transgressive behaviour, for example by trying to pressure you into working more than you're able to, then you can escalate to HR.
+- If you disagree with the UVW's decision to give your employer permission to end your contract unilaterally, then you can mount a [dispute](#disputing-the-uwvs-decision).
+
+Also, keep a paper trail. If you feel you're not being treated correctly, then ask for any requests in writing (email). If your manager doesn't send you things in writing, you can create the paper trail yourself. Write up your own summary with your understanding of what was agreed, send it to your manager, and ask them to point out any errors. This way, you're ensuring a paper trail exists even with uncooperative managers.
+
+### Where can I get legal advice? 
+
+Are you a member of a labour union? That's a great place to start. Disputes have been happening for centuries, and in a union you can find other workers who support you. You might also be able to get a lawyer directly through your labour union, if needed.
+
+## Get help
+
+Still feeling stuck? Feel free to contact <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="mailto:hey@techwerkers.nl">hey@techwerkers.nl</a> and a fellow worker will try to give you some contacts.
