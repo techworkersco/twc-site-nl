@@ -140,7 +140,7 @@ You're also under no obligation to share information with the company doctor. Th
 
 If you're long-term ill, certain events and actions need to take place at specific times. Here's a diagram that gives a visual overview of what should happen when during the first two years of long-term illness:
 
-![WIP](WIP.png)
+![Long-term illness timeline diagram](diagram-en.png)
 *Overview of what needs to happen during year 1 and year 2 of long-term illness.*
 
 This section describes what should happen during the first two years of long-term illness. 
