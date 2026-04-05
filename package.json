@@ -38,7 +38,7 @@
     },
     {
       "from": "node_modules/medium-zoom/dist/style.css",
-      "to": "assets/css/medium-zoom.css"
+      "to": "assets/lib/medium-zoom/style.css"
     },
     {
       "from": "node_modules/quicklink/dist/quicklink.umd.js",

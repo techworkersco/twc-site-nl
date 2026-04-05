@@ -34,7 +34,7 @@
   {{ end }}
   {{ $cssCarousel := resources.Get "css/carousel.css" }}
   {{ $assets.Add "css" (slice $cssCarousel) }}
-  {{ $cssMediumZoom := resources.Get "css/medium-zoom.css" }}
+  {{ $cssMediumZoom := resources.Get "lib/medium-zoom/style.css" }}
   {{ $assets.Add "css" (slice $cssMediumZoom) }}
   {{ $bundleCSS := $assets.Get "css" | resources.Concat "css/main.bundle.css" | resources.Minify | resources.Fingerprint $algorithm }}
   <link
