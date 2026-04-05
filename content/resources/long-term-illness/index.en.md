@@ -53,7 +53,7 @@ Are you feeling overwhelmed by the amount of information in this resource? Then 
 
 As a human being writing this document: that honestly sucks. Let's figure this one out:
 
-1. **Notify**: Before anything else, tell your manager you're calling in sick. Check your [company policy](#how-can-i-find-my-companys-sick-leave-policy) on how to do so. If your manager is unavailable and you can't find your company policy, check with a coworker. Make sure someone knows that you're not working.
+1. **Notify**: Before anything else, tell your manager you're calling in sick. Check your [company policy](/en/resources/long-term-illness#how-can-i-find-my-companys-sick-leave-policy) on how to do so. If your manager is unavailable and you can't find your company policy, check with a coworker. Make sure someone knows that you're not working.
 2. **Get help**: Next, figure out what you need for yourself. Depending on the illness, you may want to reach out to your GP. For now, look after yourself.
 
 Company expectations during first days of illness can vary. It's best practice clarify to your manager what they can expect from you over the coming days. 
@@ -83,7 +83,7 @@ Note that 'burnout' isn't a generally recognized diagnosis term. Burnout can get
 
 ## Your rights and obligations during long-term illness
 
-During long-term illness, specific events and actions must take place at specific times. Some of these obligations are on the employee, and some on the employer. Some are needed for you to be able apply for [WIA benefit](#terminology).
+During long-term illness, specific events and actions must take place at specific times. Some of these obligations are on the employee, and some on the employer. Some are needed for you to be able apply for [WIA benefit](/en/resources/long-term-illness#terminology).
 
 ### Rights
 
@@ -102,7 +102,7 @@ As an employee, you have at least the following general obligations (non-exhaust
 - Stick to any agreements made with the employer, usually as stated in the plan of action
 - Work with the company doctor if any agreements with the employer can't be met or are unachievable. 
     - For example, if treatment isn't working as expected, the number of hours a week you work may have to be adjusted down.
-- Participate in any required events, such as the [Year 1](#year-1) review or the End evaluation.
+- Participate in any required events, such as the [Year 1](/en/resources/long-term-illness#year-1) review or the End evaluation.
 
 ## The role of company doctors
 
@@ -145,7 +145,7 @@ If you're long-term ill, certain events and actions need to take place at specif
 
 This section describes what should happen during the first two years of long-term illness. 
 
-You can also [exit the long-term illness trajectory](#exiting-long-term-illness) at any point before two years have passed.
+You can also [exit the long-term illness trajectory](/en/resources/long-term-illness#exiting-long-term-illness) at any point before two years have passed.
 
 ℹ️ **Note:** Keep specific dates (such as the first date of the illness, appointment dates with company doctors) in a calendar somewhere. Having a record of what happened when can help you, especially during the latter stages of long-term illness.
 
@@ -160,7 +160,7 @@ You can also [exit the long-term illness trajectory](#exiting-long-term-illness)
 | <b>Week 8</b> until the exit from long-term illness, every 6 weeks at a minimum </br> Evaluation meetings| Meeting to assess how the reintegration trajectory is going in light of the plan of action. What's working, what isn't, do you require any adjustments?<br /> If, for whatever reason, the plan of action isn't working, then you need to contact the company doctor and follow their advice.<br /> ⚠️ <b>Important:</b> You're required to be present in these catch-up meetings (within reason). The employer must ensure the meetings take place at suitable times. | Employee + Employer |
 | <b>Week 42</b><br />Illness declared to UWV | Generally the government agency called 'P-Direkt' reports your long-term illness to the UWV. If P-Direkt doesn't perform this task, then the employer needs to do so. | Employer |
 | <b>Weeks 44-48</b><br />Prepare for year 1 evaluation | The UWV informs the employer about the process of the year 1 evaluation. The employer gets relevant information and advice from the company doctor and submits that to UWV. | Employer |
-| <b>By week 52</b><br />Year 1 evaluation | You'll meet with your employer to evaluate your reintegration trajectory -- what works, what doesn't, what the future entails -- along with feedback from the company doctor. The focus is on your capability to perform your regular work duties. The conversation will likely include questions along the lines of:</p><ul><li>Are you likely to reintegrate at all? If not, could you consider applying for early WIA benefit?</li><li>Can you likely reintegrate into your current role? <ul><li> If not, can you reintegrate into another role at the same company? ([*Eerste spoor*](#eerste-spoor-first-track))</li><li>If not, can you reintegrate into a similar role at another company? ([*Tweede spoor*](#tweede-spoor-second-track))</li></ul><li>What is the plan of action for the coming year?</li></ul> </br> ⚠️ <b>Important:</b>This conversion should only concern your ability to perform your regular work tasks, and shouldn't consider specific medical details. The company doctor can advise what your capabilities are without providing medical information.<br /> ℹ️ <b>Note:</b> The year 1 evaluation reports is supplied as evidence to the UWV at the end of the 2-year period. | Employee + Employer |
+| <b>By week 52</b><br />Year 1 evaluation | You'll meet with your employer to evaluate your reintegration trajectory -- what works, what doesn't, what the future entails -- along with feedback from the company doctor. The focus is on your capability to perform your regular work duties. The conversation will likely include questions along the lines of:</p><ul><li>Are you likely to reintegrate at all? If not, could you consider applying for early WIA benefit?</li><li>Can you likely reintegrate into your current role? <ul><li> If not, can you reintegrate into another role at the same company? ([*Eerste spoor*](/en/resources/long-term-illness#eerste-spoor-first-track))</li><li>If not, can you reintegrate into a similar role at another company? ([*Tweede spoor*](/en/resources/long-term-illness#tweede-spoor-second-track))</li></ul><li>What is the plan of action for the coming year?</li></ul> </br> ⚠️ <b>Important:</b>This conversion should only concern your ability to perform your regular work tasks, and shouldn't consider specific medical details. The company doctor can advise what your capabilities are without providing medical information.<br /> ℹ️ <b>Note:</b> The year 1 evaluation reports is supplied as evidence to the UWV at the end of the 2-year period. | Employee + Employer |
 | <b>Week 52+</b><br />Salary reduction likely | Dutch law requires companies in the Netherlands to pay at minimum 70% of your salary for the whole 2-year period of long-term illness. That said, it's common for companies to pay 100% of your salary for most if not all of the first year, and then reduce that to 70% from the start of year 2. (They're also allowed to pay 100% for the whole 2 years.) Check your company policy for details. | Employer |
 
 #### Additional company benefits
@@ -176,7 +176,7 @@ Why might a company offer additional training, therapy, or other treatments when
 
 | Timeline | Description | Responsibility of |
 | --- | --- | --- |
-| <b>From week 8</b>, continued every 6 weeks at a minimum</br> Evaluation meetings | Meetings to evaluate how your reintegration is going in light of the plan of action continue. The content of the discussions may change though in year 2. If it's unlikely that you'll return to a role at your current company (a trajectory called '[eerste spoor](#eerste-spoor-first-track)'), then alternatives (so-called '[tweede spoor](#tweede-spoor-second-track)') may be discussed and your plan of action might get adjusted. | Employee + Employer |
+| <b>From week 8</b>, continued every 6 weeks at a minimum</br> Evaluation meetings | Meetings to evaluate how your reintegration is going in light of the plan of action continue. The content of the discussions may change though in year 2. If it's unlikely that you'll return to a role at your current company (a trajectory called '[eerste spoor](/en/resources/long-term-illness#eerste-spoor-first-track)'), then alternatives (so-called '[tweede spoor](/en/resources/long-term-illness#tweede-spoor-second-track)') may be discussed and your plan of action might get adjusted. | Employee + Employer |
 | <b>By week 68</b> </br> Deadline to apply for early WIA benefit | If it's clear that you won't be able to return to your role (for example due to terminal illness), then you can apply early for the WIA benefit. Your application needs to be in by week 68. | Employee + Company doctor |
 | <b>Weeks 86 to 93</b></br> Start compiling end evaluation | If it's clear that you're unlikely to return to your role, then you can now start creating an end evaluation. The end evaluation gives an overview of the reintegration process, along with some documents produced along the way. This includes the year 1 evaluation, as well as your medical dossier compiled by the company doctor. You'll submit the end evaluation and accompanying documents when applying for the WIA benefit. The insurance doctor at the UWV evaluates the information to ensure that the diagnosis and treatments were within guidelines. | Employee + Company doctor | 
 | <b>Week 88</b> | The UWV notifies you to outline how you can apply for the WIA benefit. | UWV |
@@ -213,10 +213,10 @@ Some of the reasons why the [UWV may deny the employer's request to be allowed t
 You can exit the long-term illness trajectory in various ways:
 
 * Reintegration ...
-  * ... [into your current company (*Eerste spoor*)](#eerste-spoor-reintegrate-into-current-company) 
-  * ... [into a different company (*Tweede spoor*)](#tweede-spoor-reintegrate-into-a-different-company)
-* [Employer terminates the contract](#employer-terminates-the-contract)
-* [Resigning? Generally not advised](#resigning-dont-do-it-in-most-cases)
+  * ... [into your current company (*Eerste spoor*)](/en/resources/long-term-illness#eerste-spoor-reintegrate-into-current-company) 
+  * ... [into a different company (*Tweede spoor*)](/en/resources/long-term-illness#tweede-spoor-reintegrate-into-a-different-company)
+* [Employer terminates the contract](/en/resources/long-term-illness#employer-terminates-the-contract)
+* [Resigning? Generally not advised](/en/resources/long-term-illness#resigning-dont-do-it-in-most-cases)
 
 The following sections give more information on each of these options.
 
@@ -226,7 +226,7 @@ There's no 'correct' way to exit a long-term illness trajectory. Which path you 
 
 Reintegration involves going back to formal, paid work in some form or other, and in some capacity or other---whether that's in your current role, a different role, at your current company or a different one.
 
-Your reintegration strategy should be part of the [plan to action](#terminology). You're considered as having successfully reintegrated when you:
+Your reintegration strategy should be part of the [plan to action](/en/resources/long-term-illness#terminology). You're considered as having successfully reintegrated when you:
 
 1. Are working your agreed contracted hours
 2. Are performing your regular duties, or agreed adjusted duties
@@ -273,7 +273,7 @@ In this case, the UWV decides what happens to your contract.
 
 ### Employer terminates the contract
 
-If you fulfill your obligations as a worker who's long-term ill (see: [Timeline](#timeline)), it's pretty much impossible for your employer to unilaterally end your contract during the first 2 years illness. 
+If you fulfill your obligations as a worker who's long-term ill (see: [Timeline](/en/resources/long-term-illness#timeline)), it's pretty much impossible for your employer to unilaterally end your contract during the first 2 years illness. 
 
 Your employer can only unilaterally end your contract during long-term illness if the UWV gives them permission to do so. But the UWV has strict rules on when it'll give such permission, and generally won't do so during the first two years of illness.
 
@@ -286,7 +286,7 @@ At the end of the 2 years, two applications made to the UWV:
 
 The UWV has the last say on whether the employer can end your contract or not.
 
-If the UWV approved the employer's request (though see here for [some reasons they might not](#reasons-why-the-uwv-might-reject-the-employers-request)) and your WIA benefit application, then you'll now get paid monthly by the UWV.
+If the UWV approved the employer's request (though see here for [some reasons they might not](/en/resources/long-term-illness#reasons-why-the-uwv-might-reject-the-employers-request)) and your WIA benefit application, then you'll now get paid monthly by the UWV.
 
 ℹ️ **Note**: You don't *resign* at the end of the two-year process. Instead, assuming you applied and are eligible, you'll transfer to receiving the WIA or WW benefits. So never resign if anyone in the company asks or pressures you to do so!
 
@@ -378,15 +378,15 @@ You can get a second opinion fron an alternative company doctor. The employer is
 
 A company doctor can only advise; they're not here to tell you what to do or not do. 
 
-If the cause of the illness is related to the work environment at the specific company, then the company doctor may suggest you consider *[Tweede Spoor](#reintegrate-into-a-different-company-tweede-spoor)*, a trajectory where you'd reintegrate at a different company. But outright instructing you to leave the company? No. 
+If the cause of the illness is related to the work environment at the specific company, then the company doctor may suggest you consider *[Tweede Spoor](/en/resources/long-term-illness#reintegrate-into-a-different-company-tweede-spoor)*, a trajectory where you'd reintegrate at a different company. But outright instructing you to leave the company? No. 
 
 ### I'm reintegrating, but my health is getting worse. Can I go back to full sick leave? 
 
-Yes of course. Your reintegration should match what you are capable of doing. If you're unable to work right now, then you shouldn't be working right now. That said, it's best practice to consult with your company doctor on any change you make. The *Ziektewet* requires you as a worker to [consult with the company doctor and your employer at regular intervals](#timeline), so make sure you meet those requirements.
+Yes of course. Your reintegration should match what you are capable of doing. If you're unable to work right now, then you shouldn't be working right now. That said, it's best practice to consult with your company doctor on any change you make. The *Ziektewet* requires you as a worker to [consult with the company doctor and your employer at regular intervals](/en/resources/long-term-illness#timeline), so make sure you meet those requirements.
 
 ### What happens if I was ill, recovered, and then got ill again with something else?
 
-In the eyes of the *Ziektewet*, long-term illness is defined in terms of a [long-term illness period](#terminology), not by what illness you have. A long-term illness period starts on the first day of your sick leave, and automatically ends after you've worked 100% of your contracted work duties for 4 weeks in a row. 
+In the eyes of the *Ziektewet*, long-term illness is defined in terms of a [long-term illness period](/en/resources/long-term-illness#terminology), not by what illness you have. A long-term illness period starts on the first day of your sick leave, and automatically ends after you've worked 100% of your contracted work duties for 4 weeks in a row. 
 
 If a second illness occurs during those 4 weeks which prevents you from performing your regular duties, then in the eyes of the law it's the *same illness period* -- regardless of whether the illness is something completely different form what you had before.
 
@@ -418,9 +418,9 @@ To be sure, check the specific requirements of your visa, maybe consult with the
 
 It depends on what the issue is:
 
-- If you have concerns about the advice given to you by your company doctor, you can ask for a [second opinion](#can-i-request-second-opinion-from-a-different-company-doctor), and the company will have to pay for it.
+- If you have concerns about the advice given to you by your company doctor, you can ask for a [second opinion](/en/resources/long-term-illness#can-i-request-second-opinion-from-a-different-company-doctor), and the company will have to pay for it.
 - If your manager is exhibiting transgressive behaviour, for example by trying to pressure you into working more than you're able to, then you can escalate to HR.
-- If you disagree with the UVW's decision to give your employer permission to end your contract unilaterally, then you can mount a [dispute](#disputing-the-uwvs-decision).
+- If you disagree with the UVW's decision to give your employer permission to end your contract unilaterally, then you can mount a [dispute](/en/resources/long-term-illness#disputing-the-uwvs-decision).
 
 Also, keep a paper trail. If you feel you're not being treated correctly, then ask for any requests in writing (email). If your manager doesn't send you things in writing, you can create the paper trail yourself. Write up your own summary with your understanding of what was agreed, send it to your manager, and ask them to point out any errors. This way, you're ensuring a paper trail exists even with uncooperative managers.
 

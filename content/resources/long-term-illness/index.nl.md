@@ -53,7 +53,7 @@ Raak je een beetje overweldigd door alle informatie die er op je afkomt? Je bent
 
 Even van mens tot mens: dat zuigt. Hier zijn de eerste stappen:
 
-1. **Meld**: Meld je allereest ziek bij je manager. Check het [personeelshandboek](#hoe-vind-ik-het-ziekteverlofbeleid-van-mijn-bedrijf) voor hoe je je ziekmeldt. Als je het personeelshandboek niet kunt vinden, vraag het dan aan een collega. Zorg ervoor dat in ieder geval iemand weet dat je niet werkt.
+1. **Meld**: Meld je allereest ziek bij je manager. Check het [personeelshandboek](/nl/resources/long-term-illness#hoe-vind-ik-het-ziekteverlofbeleid-van-mijn-bedrijf) voor hoe je je ziekmeldt. Als je het personeelshandboek niet kunt vinden, vraag het dan aan een collega. Zorg ervoor dat in ieder geval iemand weet dat je niet werkt.
 2. **Zoek hulp**: Bedenk nu wat jij zelf nodig hebt. Afhankelijk van wat je hebt, kun je naar je huisarts. Zorg goed voor jezelf.
 
 Wat er tijdens de eerste dagen van ziekte van je verwacht wordt kan per bedrijf verschillen. Het is slim om je manager te laten weten wat die de komende dagen van je kan verwachten.
@@ -83,7 +83,7 @@ Let op: 'Burnout' is geen algemeen erkende diagnose; soms wordt burnout geclassi
 
 ## Rechten en plichten tijdens langdurige ziekte
 
-Tijdens langdurige ziekte moeten er volgens de ziektewet op bepaalde momenten dingen gebeuren. Soms door jou als werker, soms door de werkgever. Sommige zijn nodig om in aanmerking te komen voor een [WIA-uitkering](#woordenlijst).
+Tijdens langdurige ziekte moeten er volgens de ziektewet op bepaalde momenten dingen gebeuren. Soms door jou als werker, soms door de werkgever. Sommige zijn nodig om in aanmerking te komen voor een [WIA-uitkering](/nl/resources/long-term-illness#woordenlijst).
 
 ### Rechten
 
@@ -102,7 +102,7 @@ Als werker heb je in ieder geval de volgende plichten (voorbeelden, niet volledi
 - Je houden aan afspraken die je met je werkgever maakt in het plan van aanpak
 - Overleggen met je bedrijfsarts als het plan van aanpak niet werkt en moet worden aangepast
   - Als de behandeling bijvoorbeeld niet aanslaat, moet je misschien je minder uren per week draaien.
-- Deelnemen aan alle verplichte bijeenkomsten, zoals de [jaar 1](#jaar-1)-evaluatie.
+- Deelnemen aan alle verplichte bijeenkomsten, zoals de [jaar 1](/nl/resources/long-term-illness#jaar-1)-evaluatie.
 
 ## De rol van de bedrijfsarts
 
@@ -160,7 +160,7 @@ Je kunt de langdurige ziekteperiode ook op elk moment beëindigen voordat er twe
 | **Week 8** tot het einde van de langdurige ziekte, tenminste elke 6 weken </br> Evaluatiegesprekken| Bijeenkomst om te evalueren hoe het reïntegratietraject verloopt in het licht van het plan van aanpak. Wat werkt, wat niet, zijn er aanpassingen nodig?<br /> Als het plan van aanpak om welke reden dan ook niet werkt, neem dan contact op met de bedrijfsarts en volg diens advies op.<br /> ⚠️ <b>Belangrijk:</b> Je bent als werker volgens de Ziektewet verplicht om (waar redelijkerwijs haalbaar) bij deze overlegmomenten aanwezig te zijn. De werkgever moet ervoor zorgen dat het overleg op een redelijk tijdstip plaatsvindt. | Werker + werkgever |
 | **Week 42**<br />Ziekte melden bij UWV | Normaal gesproken meldt de overheidsinstantie [P-Direkt](https://www.p-direkt.nl) aan het UWV dat je langdurig ziek bent. Als P-Direkt dit niet doet, moet de werkgever het doen. | P-Direkt of werkgever |
 | **Week 44-48**<br />Voorbereiding op jaar 1-evaluatie | De bedrijfsarts stuurt de werkgever relevante informatie en advies voor de evaluatie van het eerste jaar van je ziekteperiode. De werkgever stuurt deze informatie door naar het UWV. | Werkgever |
-| **Tegen week 52** <br />Evaluatie jaar 1 | Gesprek met je baas om je reïntegratietraject te beoordelen, op basis van feedback van de bedrijfsarts. Wat werkt er wel, wat niet, hoe ziet de toekomst eruit? In hoeverre kun je je reguliere werkzaamheden uitvoeren? Vragen die je kunt bespreken:</p><ul><li>Kun je überhaupt reïntegreren? Zo nee, kun je dan vervroegd een aanvragen?</li><li>Kun je reïntegreren in je huidige rol? <ul><li>Zo nee, kun je dan reïntegreren in een andere rol bij hetzelfde bedrijf? ([Eerste spoor](#eerste-spoor-re%c3%afntegratie-in-je-huidige-bedrijf))</li><li>Of misschien een soortgelijke rol bij een ander bedrijf? ([Tweede spoor](#tweede-spoor-re%c3%afntegratie-bij-een-ander-bedrijf))</li></ul><li>Wat is het plan van aanpak voor jaar 2?</li></ul> </br> ⚠️ <b>Belangrijk:</b> Dit overleg mag alleen gaan over wat je nu en straks nog kunt doen, niet over jouw specifieke medische gegevens.<br /> ℹ️ <b>Opmerking:</b> Als je 2 jaar ziek bent, dan wordt het evaluatierapport van jaar 1 naar het UWV gestuurd als bewijs van hoe de werkgever jouw reïntegratie heeft gefaciliteerd. | Werker + werkgever |
+| **Tegen week 52** <br />Evaluatie jaar 1 | Gesprek met je baas om je reïntegratietraject te beoordelen, op basis van feedback van de bedrijfsarts. Wat werkt er wel, wat niet, hoe ziet de toekomst eruit? In hoeverre kun je je reguliere werkzaamheden uitvoeren? Vragen die je kunt bespreken:</p><ul><li>Kun je überhaupt reïntegreren? Zo nee, kun je dan vervroegd een aanvragen?</li><li>Kun je reïntegreren in je huidige rol? <ul><li>Zo nee, kun je dan reïntegreren in een andere rol bij hetzelfde bedrijf? ([Eerste spoor](/nl/resources/long-term-illness#eerste-spoor-re%c3%afntegratie-in-je-huidige-bedrijf))</li><li>Of misschien een soortgelijke rol bij een ander bedrijf? ([Tweede spoor](/nl/resources/long-term-illness#tweede-spoor-re%c3%afntegratie-bij-een-ander-bedrijf))</li></ul><li>Wat is het plan van aanpak voor jaar 2?</li></ul> </br> ⚠️ <b>Belangrijk:</b> Dit overleg mag alleen gaan over wat je nu en straks nog kunt doen, niet over jouw specifieke medische gegevens.<br /> ℹ️ <b>Opmerking:</b> Als je 2 jaar ziek bent, dan wordt het evaluatierapport van jaar 1 naar het UWV gestuurd als bewijs van hoe de werkgever jouw reïntegratie heeft gefaciliteerd. | Werker + werkgever |
 | **Week 52+** <br />Loonverlaging waarschijnlijk | De wet eist dat werkgevers minimaal 70% van je salaris doorbetalen tijdens de eerste twee jaar dat jij ziek bent. Veel bedrijven betalen het eerste jaar echter 100% van je loon door, en verlagen dit vanaf het tweede jaar naar 70%. (Uiteraard mogen werkgevers ook 2 jaar lang 100% betalen.) Raadpleeg het persoonshandboek van jouw bedrijf voor meer informatie. | Werkgever |
 
 #### Aanvullende steun vanuit de werkgever
@@ -213,10 +213,10 @@ Jouw werkgever vraagt het UWV om je contract eenzijdig te mogen beëindigen. Het
 Hoe stap je uit een traject van langdurige ziekte? Hier zijn de voornaamste manieren:
 
 * Reïntegreren ...
-  * ... [in je huidige bedrijf (eerste spoor)](#eerste-spoor-re%c3%afntegratie-in-je-huidige-bedrijf)
-  * ... [in een ander bedrijf (tweede spoor)](#tweede-spoor-re%c3%afntegratie-bij-een-ander-bedrijf)
-* [Werkgever beëindigt contract](#employer-terminates-the-contract)
-* [Ontslag nemen? Doe het niet! (doorgaans)](#resigning-dont-do-it-in-most-cases)
+  * ... [in je huidige bedrijf (eerste spoor)](/nl/resources/long-term-illness#eerste-spoor-re%c3%afntegratie-in-je-huidige-bedrijf)
+  * ... [in een ander bedrijf (tweede spoor)](/nl/resources/long-term-illness#tweede-spoor-re%c3%afntegratie-bij-een-ander-bedrijf)
+* [Werkgever beëindigt contract](/nl/resources/long-term-illness#employer-terminates-the-contract)
+* [Ontslag nemen? Doe het niet! (doorgaans)](/nl/resources/long-term-illness#resigning-dont-do-it-in-most-cases)
 
 De volgende secties geven meer informatie over elk van deze opties.
 
@@ -226,7 +226,7 @@ Er is geen 'juiste' manier om een ​​langdurig ziektetraject te verlaten. Wel
 
 Reïntegratie houdt in dat je op een manier terugkeert naar officiëel betaald werk---dat nu in je huidige rol is, een andere rol, bij je huidige bedrijf of een ander bedrijf.
 
-Een reïntegratiestrategie is onderdeel van het [plan van aanpak](#woordenlijst). Je bent succesvol gereïntegreerd wanneer je:
+Een reïntegratiestrategie is onderdeel van het [plan van aanpak](/nl/resources/long-term-illness#woordenlijst). Je bent succesvol gereïntegreerd wanneer je:
 
 1. Je overeengekomen contracturen werkt
 2. Je overeengekomen reguliere of aangepaste taken uitvoert
@@ -271,7 +271,7 @@ Bijvoorbeeld: Je reïntegreert. De bedrijfsarts verwacht dat je nog 60% kunt doe
 
 ### Werkgever beëindigt contract
 
-Als jij als werker al je [verplichtingen](#plichten) tijdens het langdurig ziek-traject vervult, dan is het voor je werkgever vrijwel onmogelijk om je tijdens de eerste twee jaar van ziekzijn te ontslaan.
+Als jij als werker al je [verplichtingen](/nl/resources/long-term-illness#plichten) tijdens het langdurig ziek-traject vervult, dan is het voor je werkgever vrijwel onmogelijk om je tijdens de eerste twee jaar van ziekzijn te ontslaan.
 
 Je werkgever kan jouw contract tijdens langdurige ziekte namelijk alleen eenzijdig beëindigen als het UWV hiervoor toestemming geeft. Maar het UWV hanteert strikte regels en staat ontslag tijdens de eerste twee jaar van ziekte over het algemeen niet toe.
 
@@ -374,15 +374,15 @@ Je kunt een tweede opinie vragen bij een andere bedrijfsarts. De werkgever is ve
 
 Een bedrijfsarts kan alleen adviseren. Deze kan jou niet vertellen wat je wel of niet moet doen.
 
-Als je werkomgeving heeft bijgedragen aan jouw ziekte, dan kan de bedrijfsarts je adviseren om te overwegen om bij een ander bedrijf te reïntegreren (het zogenaamde [tweede spoor](#tweede-spoor-re%c3%afntegratie-bij-een-ander-bedrijf)). Maar je direct vertellen om het bedrijf te verlaten? Nee, dat mag niet.
+Als je werkomgeving heeft bijgedragen aan jouw ziekte, dan kan de bedrijfsarts je adviseren om te overwegen om bij een ander bedrijf te reïntegreren (het zogenaamde [tweede spoor](/nl/resources/long-term-illness#tweede-spoor-re%c3%afntegratie-bij-een-ander-bedrijf)). Maar je direct vertellen om het bedrijf te verlaten? Nee, dat mag niet.
 
 ### Ik ben aan het reïntegreren, maar m'n gezondheid verslechtert. Kan ik weer terug naar 100% ziekte?
 
-Ja, natuurlijk. Je reïntegratie moet aansluiten bij wat je aankunt. Als je nu niet kunt werken, moet je nu ook niet werken. Het is wel verstandig om bij elke verandering die je maakt te overleggen met je bedrijfsarts. De Ziektewet vereist dat jij als werker [regelmatig overlegt met de bedrijfsarts en je baas](#tijdslijn), dus zorg dat je aan die eis voldoet.
+Ja, natuurlijk. Je reïntegratie moet aansluiten bij wat je aankunt. Als je nu niet kunt werken, moet je nu ook niet werken. Het is wel verstandig om bij elke verandering die je maakt te overleggen met je bedrijfsarts. De Ziektewet vereist dat jij als werker [regelmatig overlegt met de bedrijfsarts en je baas](/nl/resources/long-term-illness#tijdslijn), dus zorg dat je aan die eis voldoet.
 
 ### Wat als ik ziek was, herstelde, en toen weer ziek werd?
 
-De Ziektewet kent alleen [periodes van langdurige ziekte](#woordenlijst), ongeacht wat voor ziektes je tijdens zo'n period hebt. Een ziekteperiode  begint op de eerste dag dat je je ziek meldt en eindigt automatisch als je 4 weken achter elkaar 100% van je contractuele werk verricht.
+De Ziektewet kent alleen [periodes van langdurige ziekte](/nl/resources/long-term-illness#woordenlijst), ongeacht wat voor ziektes je tijdens zo'n period hebt. Een ziekteperiode  begint op de eerste dag dat je je ziek meldt en eindigt automatisch als je 4 weken achter elkaar 100% van je contractuele werk verricht.
 
 Raak je tijdens die 4 weken plotseling ziek met een tweede ziekte? Dan telt dit volgens de wet alsnog als *dezelfde ziekteperiode*. Ongeacht of het iets compleet anders is dan wat je eerst had.
 
