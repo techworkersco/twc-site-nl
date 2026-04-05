@@ -354,6 +354,14 @@ However, your manager can share information insofar as it's relevant in the cont
 
 Information about where you are in your reintegration (such as how many hours you're building up), are less relevant though. Discuss with your manager what you're comfortable sharing.
 
+### Is the company doctor allowed to share my medical details with the company? 
+
+Medical details: No.
+
+Where it concerns their advice on what work duties you're able to perform: Yes. 
+
+For example, the company doctor might have advised you that while you're receiving certain medical treatment, it's best for you not to perform your usual work duties. Only the company doctor's *advice* should be communicated both to you (their patient) and your employer (the company), not any confidential medical information.
+
 ### My GP and my company doctor disagree. Who's right? 
 
 Your company doctor, GP, and any specialists you might be seeing are all heathcare providers. In theory, they should all have your well-being and recovery at heart.
@@ -365,12 +373,6 @@ If you're concerned about the advice your company doctor is giving you, then you
 ### I disagree with my company doctor's advice. What should I do? 
 
 You can get a second opinion fron an alternative company doctor. The employer is required to pay for it.
-
-### Is the company doctor allowed to share my medical details with the company? 
-
-Medical details: No. Where it concerns their advice on what work duties you're able to perform: Yes. 
-
-For example, the company doctor might have advised you that while you're receiving certain medical treatment, it's best for you not to perform your usual work duties. Only the company doctor's *advice* should be communicated both to you (their patient) and your employer (the company), not any confidential medical information.
 
 ### Can the company doctor tell me to leave the company?
 
