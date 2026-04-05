@@ -215,8 +215,8 @@ Hoe stap je uit een traject van langdurige ziekte? Hier zijn de voornaamste mani
 * Reïntegreren ...
   * ... [in je huidige bedrijf (eerste spoor)](/nl/resources/long-term-illness#eerste-spoor-re%c3%afntegratie-in-je-huidige-bedrijf)
   * ... [in een ander bedrijf (tweede spoor)](/nl/resources/long-term-illness#tweede-spoor-re%c3%afntegratie-bij-een-ander-bedrijf)
-* [Werkgever beëindigt contract](/nl/resources/long-term-illness#employer-terminates-the-contract)
-* [Ontslag nemen? Doe het niet! (doorgaans)](/nl/resources/long-term-illness#resigning-dont-do-it-in-most-cases)
+* [Werkgever beëindigt contract](/nl/resources/long-term-illness#werkgever-be%c3%abindigt-contract)
+* [Ontslag nemen? Doe het niet! (doorgaans)](/nl/resources/long-term-illness#ontslag-nemen-doe-het-niet-in-de-meeste-gevallen)
 
 De volgende secties geven meer informatie over elk van deze opties.
 
