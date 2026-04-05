@@ -356,7 +356,7 @@ Medische details: Nee.
 
 Advies over welke werkzaamheden je wel of niet kan uitvoeren: Ja.
 
-De bedrijfsarts kan je bijvoorbeeld adviseren dat je tijdens een bepaalde medische behandeling beter even niet kunt werken. Dan mad de bedrijfsarts alleen dit advies aan je baas (de werkgever) doorgegeven, niet de  vertrouwelijke medische informatie waar dat advies op gebaseerd is.
+De bedrijfsarts kan je bijvoorbeeld adviseren dat je tijdens een bepaalde medische behandeling beter even niet kunt werken. Dan mag de bedrijfsarts alleen dit advies aan je baas (de werkgever) doorgegeven, niet de  vertrouwelijke medische informatie waar dat advies op gebaseerd is.
 
 ### Mijn huisarts en de bedrijfsarts zijn het oneens over of ik nog kan werken. Wie heeft gelijk?
 
