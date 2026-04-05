@@ -2,6 +2,7 @@
 {{ $altText := .Text }}
 {{ $caption := .Title }}
 {{ $class := "mx-auto my-0 rounded-md" }}
+{{ $attrs := .Attributes | default dict }}
 
 {{ $file := $url.Path }}
 {{ $img := .Page.Resources.GetMatch $file }}
@@ -22,7 +23,7 @@
   {{- with $img -}}
     {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
     {{ $webp := $.Page.Site.Params.enableImageWebp | default true }}
-    {{ partial "picture.html" (dict "img" . "alt" $altText "class" $class "x2" $x2 "lazy" $lazy "webp" $webp) }}
+    {{ partial "picture.html" (dict "img" . "alt" $altText "class" $class "x2" $x2 "lazy" $lazy "webp" $webp "attrs" $attrs) }}
   {{- else -}}
     <img src="{{ .Destination | safeURL }}" alt="{{ $altText }}" class="{{ $class }}" />
   {{- end -}}

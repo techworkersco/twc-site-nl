@@ -34,6 +34,8 @@
   {{ end }}
   {{ $cssCarousel := resources.Get "css/carousel.css" }}
   {{ $assets.Add "css" (slice $cssCarousel) }}
+  {{ $cssMediumZoom := resources.Get "css/medium-zoom.css" }}
+  {{ $assets.Add "css" (slice $cssMediumZoom) }}
   {{ $bundleCSS := $assets.Get "css" | resources.Concat "css/main.bundle.css" | resources.Minify | resources.Fingerprint $algorithm }}
   <link
     type="text/css"
@@ -65,6 +67,8 @@
   {{ end }}
   {{ $jsCarousel := resources.Get "js/carousel.js" }}
   {{ $assets.Add "js" (slice $jsCarousel) }}
+  {{ $jsMediumZoom := resources.Get "lib/medium-zoom/medium-zoom.min.js" }}
+  {{ $assets.Add "js" (slice $jsMediumZoom) }}
   {{ if $assets.Get "js" }}
     {{ $bundleJS := $assets.Get "js" | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint $algorithm }}
     <script
@@ -148,4 +152,9 @@
   {{ if templates.Exists "extend-head.html" }}
     {{ partial "extend-head.html" . }}
   {{ end }}
+  <script>
+    window.addEventListener("load", function () {
+      mediumZoom("[data-medium-zoom]");
+    });
+  </script>
 </head>
