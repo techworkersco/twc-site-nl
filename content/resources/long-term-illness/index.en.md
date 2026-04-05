@@ -249,7 +249,7 @@ The *[Tweede spoor](https://www.fnv.nl/werk-inkomen/ziekte-re-integratie/re-inte
 
 Is this strange? It can actually make a lot of sense in certain situations. For example:
 
-- You work in a call centre. Your long-term illness is related to the subject matter of the calls, which induces anxiety and make you relive past trauma.
+- You work in a call centre. Your long-term illness is related to the subject matter of the calls, which induces anxiety and makes you relive past trauma.
 - You're reintegrating, but it's clear that the work environment isn't conducive to your recovery.
 - In consultation with the company doctor, you start looking at job postings for call centre work at other companies where the subject matter doesn't hamper your recovery.
 
@@ -275,7 +275,7 @@ In this case, the UWV decides what happens to your contract.
 
 If you fulfill your obligations as a worker who's long-term ill (see: [Timeline](#timeline)), it's pretty much impossible for your employer to unilaterally end your contract during the first 2 years illness. 
 
-Your employer can only unilaterally end your contract during long-term illness if the UWV gives them permission to do so. But the UWV has strict rules on when it'll give such permission, and generally won't do so during the first two year of reintegration.
+Your employer can only unilaterally end your contract during long-term illness if the UWV gives them permission to do so. But the UWV has strict rules on when it'll give such permission, and generally won't do so during the first two years of illness.
 
 The only exception to this is at the end of the long-term illness trajectory where the employer applies for a permit to unilaterally end the contract.
 

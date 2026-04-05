@@ -273,7 +273,7 @@ Bijvoorbeeld: Je reïntegreert. De bedrijfsarts verwacht dat je nog 60% kunt doe
 
 Als jij als werker al je [verplichtingen](#plichten) tijdens het langdurig ziek-traject vervult, dan is het voor je werkgever vrijwel onmogelijk om je tijdens de eerste twee jaar van ziekzijn te ontslaan.
 
-Je werkgever kan jouw contract tijdens langdurige ziekte namelijk alleen eenzijdig beëindigen als het UWV hiervoor toestemming geeft. Maar het UWV hanteert strikte regels en staat ontslag tijdens de eerste twee jaar van reïntegratie over het algemeen niet toe.
+Je werkgever kan jouw contract tijdens langdurige ziekte namelijk alleen eenzijdig beëindigen als het UWV hiervoor toestemming geeft. Maar het UWV hanteert strikte regels en staat ontslag tijdens de eerste twee jaar van ziekte over het algemeen niet toe.
 
 Dit verandert na twee jaar. Na twee jaar dienen doorgaans zowel jijzelf als je baas een aanvraag in bij het UWV:
 
