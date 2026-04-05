@@ -4,8 +4,8 @@ date: "2026-04-04"
 lastmod: "2026-04-04"
 description: "Wat komt er allemaal op je af als je langdurig ziek bent? Wat moet je wanneer doen? Wat zijn je rechten en plichten? Een handleiding voor werkers."
 tags: ["rights"]
-feature: "feature.jpg"
-featureAlt: "Een ziek persoon ligt op een bank onder een deken. Glaasjes water en pillen staan een bijzettafeltje. Afbeelding van Kaboom op Pexels."
+feature: "feature.png"
+featureAlt: "Een persoon overlegt met een arts aan een tafel. Afbeelding van Kaboom op Pexels."
 ---
 
 Alles wat met langdurige ziekte te maken heeft valt in Nederland onder de [Ziektewet](https://wetten.overheid.nl/BWBR0001888/2026-01-01/0).

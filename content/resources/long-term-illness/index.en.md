@@ -4,8 +4,8 @@ date: "2026-04-04"
 lastmod: "2026-04-04"
 description: "Navigating long-term illness in the Netherlands. What are your rights, obligations, and how does this whole thing work?"
 tags: ["rights"]
-feature: "feature.jpg"
-featureAlt: "A person lays ill on a couch covered with a blanket, with glasses of water and pills on a side table. Image by Kaboom on Pexels."
+feature: "feature.png"
+featureAlt: "A person consults a doctor across a table. Image by Kaboom on Pexels."
 ---
 
 All things long-term illness (*langdurige ziekte*) in the Netherlands are covered by the [*Ziektewet*](https://wetten.overheid.nl/BWBR0001888/2026-01-01/0).
