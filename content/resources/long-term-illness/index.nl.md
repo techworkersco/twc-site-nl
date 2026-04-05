@@ -326,7 +326,7 @@ Wat artsen en andere zorgverleners kunnen doen, is jou persoonlijk *advies* geve
 
 ### Hoe kan ik nou 30% arbeidsongeschikt zijn?
 
-De mate waarin je arbeidsongeschikt bent, kan afhangen van jouw specifieke aandoening en prognose. ALs je bijvoorbeeld een beroerte hebt gehad, dan kun je misschien nog wel werken, maar gewoon minder dan voorheen.
+De mate waarin je arbeidsongeschikt bent, kan afhangen van jouw specifieke aandoening en prognose. Als je bijvoorbeeld een NAH (niet-aangeboren hersenletsel, b.v. beroerte) hebt gehad, dan kun je misschien nog wel werken, maar gewoon minder dan voorheen.
 
 ### Mijn manager geeft me steeds ongevraagd medisch advies. Wat nu?
 
