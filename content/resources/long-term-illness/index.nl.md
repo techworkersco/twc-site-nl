@@ -112,7 +112,7 @@ De bedrijfsarts mag echter wél [niet-medische informatie met je werkgever delen
 
 - Je mogelijkheden en beperkingen, en in hoeverre je kunt werken
 - Een indicatie van hoe lang zij verwachten dat je afwezig zult zijn
-- Advies over aanpassingen, werkregelingen of interventies die de werkgever moet doorvoeren om jou te helpen met reïntegreren
+- Advies over aanpassingen, werkregelingen of interventies die de werkgever zou moeten doorvoeren om jou te helpen met reïntegreren
 
 Een bedrijfsarts kan bijvoorbeeld tegen je baas zeggen:
 
