@@ -130,7 +130,7 @@ De Autoriteit Persoonsgegevens (de Nederlandse autoriteit voor het gebruik van p
 
 > Dat wil zeggen dat zonder toestemming van de patiënt of cliënt geen informatie uit het dossier met anderen buiten de praktijk of instelling mag worden gedeeld.
 
-De Autoriteit Persoonsgegevens legt ​​strenge sancties op voor het inzien of delen van persoonsgegevens zonder toestemming.
+De Autoriteit Persoonsgegevens legt strenge sancties op voor het inzien of delen van persoonsgegevens zonder toestemming.
 
 Dit betekent dat je **niet verplicht** bent om medische informatie te delen met je baas of leidinggevende.
 
@@ -220,7 +220,7 @@ Hoe stap je uit een traject van langdurige ziekte? Hier zijn de voornaamste mani
 
 De volgende secties geven meer informatie over elk van deze opties.
 
-Er is geen 'juiste' manier om een ​​langdurig ziektetraject te verlaten. Welk pad jij kiest hangt af van wat het beste voor jou is, gezien jouw persoonlijk omstandigheden.
+Er is geen 'juiste' manier om een langdurig ziektetraject te verlaten. Welk pad jij kiest hangt af van wat het beste voor jou is, gezien jouw persoonlijk omstandigheden.
 
 ### Reïntegratie
 
@@ -277,14 +277,14 @@ Je werkgever kan jouw contract tijdens langdurige ziekte namelijk alleen eenzijd
 
 Dit verandert na twee jaar. Na twee jaar dienen doorgaans zowel jijzelf als je baas een aanvraag in bij het UWV:
 
-- Jij vraagt ​​de WIA-uitkering aan
-- De werkgever vraagt ​​toestemming om jouw contract eenzijdig te beëindigen
+- Jij vraagt de WIA-uitkering aan
+- De werkgever vraagt toestemming om jouw contract eenzijdig te beëindigen
 
 Het UWV heeft over deze aanvragen altijd het laatste woord.
 
 Geeft het UWV jouw werkgever toestemming om je te ontslaan en keurt het je WIA-uitkering goed? Dan  ontvang je nu maandelijks je geld van het UWV.
 
-ℹ️ **Let op**: Aan het einde van 2 jaar reïntegratie neem jij zelf geen ontslag. Je baas beëindigt je contract en (als dat is goedgekeurd) jij ontvangt nu een WIA- of WW-uitkering. Neem dus nooit ontslag als iemand binnen het bedrijf je vraagt om dat te doen ​​of onder druk zet! Door zelf ontslag te nemen raak je namelijk een heleboel rechten kwijt die je anders wel zou hebben.
+ℹ️ **Let op**: Aan het einde van 2 jaar reïntegratie neem jij zelf geen ontslag. Je baas beëindigt je contract en (als dat is goedgekeurd) jij ontvangt nu een WIA- of WW-uitkering. Neem dus nooit ontslag als iemand binnen het bedrijf je vraagt om dat te doen of onder druk zet! Door zelf ontslag te nemen raak je namelijk een heleboel rechten kwijt die je anders wel zou hebben.
 
 ⚠️ **Belangrijk**: Veel werkvisa, bijvoorbeeld het *kennismigrant*-visum, vereisen dat je officiëel ergenst werkt. Wordt je contract na 2 jaar beëindigt? Dan ben je niet langer in dienst. (De WIA-uitkering wordt niet beschouwd als werk.) Je voldoet dan dus niet langer aan de voorwaarden van zo'n werkvisum. Zonder geldig visum moet je mogelijk na twee jaar langdurige ziekte het land verlaten.
 
@@ -408,7 +408,7 @@ Dit is absoluut waardeloos, vooral gezien de toename van het gebruik van kortlop
 
 🤷 Wat er met je werkvisum gebeurt na twee jaar ziekte hangt helemaal af van wat voor voorwaarden er aan je visum gekoppeld zijn. Veel werkvisa zijn alleen geldig zolang je een actief dienstverband hebt. Ben je twee jaar ziek bent geweest? Dan kan je werkgever het UWV om toestemming vragen om je te mogen ontslaan. Als het UWV die toestemming geeft, dan ben je na die twee jaar officieel werkloos.
 
-Controleer voor de zekerheid de specifieke voorwaarden van je visum. Neem eventueel contact op met de immigratie- en naturalisatiedienst (IND). Je kunt ook overwegen om een ​​arbeidsrechtadvocaat te raadplegen.
+Controleer voor de zekerheid de specifieke voorwaarden van je visum. Neem eventueel contact op met de immigratie- en naturalisatiedienst (IND). Je kunt ook overwegen om een arbeidsrechtadvocaat te raadplegen.
 
 ### Het gaat niet goed. Hoe kan ik dit escaleren?
 
