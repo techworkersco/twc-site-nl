@@ -5,6 +5,7 @@
 {{ $webp := .webp }}
 {{ $lqip := .lqip | default false }}
 {{ $x2 := .x2 | default false }}
+{{ $attrs := .attrs | default dict }}
 
 {{ with $img }}
   {{ if (eq .MediaType.SubType "svg") }}
@@ -87,6 +88,11 @@
         {{ with $class }}class="{{ . }}"{{ end }}
         {{ with $alt }}alt="{{ . }}"{{ end }}
         {{ with $lazy }}loading="lazy" decoding="async"{{ end }}
+        {{ with $attrs }}
+          {{ range $key, $value := . }}
+            {{ $key | safeHTMLAttr }}="{{ $value }}"
+          {{ end }}
+        {{ end }}
         {{ if lt .Width 660 }}
           src="{{ .RelPermalink }}"
         {{ else }}
