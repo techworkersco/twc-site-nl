@@ -143,6 +143,8 @@ Als je langdurig ziek bent, moeten er op bepaalde momenten dingen gebeuren. Dit 
 Het volgende plaatje geeft een visueel overzicht:
 
 ![Tijdslijn langdurige ziekte](diagram-nl.png)
+{data-medium-zoom="1"}
+
 *Overzicht van wat er moet gebeuren tijdens jaar 1 en jaar 2 van langdurige ziekte.*
 
 Je kunt de langdurige ziekteperiode ook op elk moment beëindigen voordat er twee jaar zijn verstreken.
