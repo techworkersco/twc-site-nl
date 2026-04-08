@@ -17,6 +17,7 @@
     "@fontsource-variable/martian-mono": "^5.2.7",
     "@tailwindcss/typography": "^0.5.19",
     "fuse.js": "^7.1.0",
+    "medium-zoom": "^1.1.0",
     "prettier": "^3.8.1",
     "prettier-plugin-go-template": "^0.0.15",
     "prettier-plugin-tailwindcss": "^0.7.2",
@@ -30,6 +31,14 @@
     {
       "from": "node_modules/fuse.js/dist/fuse.min.js",
       "to": "assets/lib/fuse/fuse.min.js"
+    },
+    {
+      "from": "node_modules/medium-zoom/dist/medium-zoom.min.js",
+      "to": "assets/lib/medium-zoom/medium-zoom.min.js"
+    },
+    {
+      "from": "node_modules/medium-zoom/dist/style.css",
+      "to": "assets/lib/medium-zoom/style.css"
     },
     {
       "from": "node_modules/quicklink/dist/quicklink.umd.js",
