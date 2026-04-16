@@ -20,9 +20,7 @@ So, you've been kicking ass in your role, but suddenly the walls close in and HR
 
 ### A word about PIP
 
-<!-- TODO: Get source for 20% PIPs result in approval for dismissal -->
-
-Let’s get PIP out of the way first. What you need to know is: even if you fail a PIP (and some people *do* survive PIPs), the company can’t fire you. They would still need to go to court, and a failed PIP is just a piece of evidence in such a court case. Out of all failed PIPs that end up in court, only 20% result in a judge granting the approval for the dismissal. So it is incredibly hard for the company to make a convincing PIP – it needs to be objective, measurable, demonstrate that you were given enough opportunity to improve your performance, etc. 
+Let’s get PIP out of the way first. What you need to know is: even if you fail a PIP (and some people *do* survive PIPs), the company can’t fire you. They would still need to go to court, and a failed PIP is just a piece of evidence in such a court case. Out of all failed PIPs that end up in court, [only 20% result in a judge granting the approval for the dismissal](https://cooperadvocaten.nl/ontslag-wegens-disfunctioneren-wwz-en-de-toepassing-van-het-bewijsrecht/). So it is incredibly hard for the company to make a convincing PIP – it needs to be objective, measurable, demonstrate that you were given enough opportunity to improve your performance, etc. 
 
 If you are put on a PIP, cooperate with the company, but still highlight any things like unclear targets, unrealistic schedules, etc. The point is not to argue with the company, but have a paper trail for the court that you have voiced your concerns and they were ignored.
 
@@ -86,9 +84,7 @@ However, if you are up for the fight, now is the time to put up the pressure.
 
 ## Bringing the fight back to them
 
-<!-- TODO: Dutch law check right to perform work -->
-
-You see, all these months that you were negotiating, you were on garden leave. And while you know that your employment contract creates an obligation for you to perform work, you might not be aware that under Dutch laws it also gives you the right to perform your job. Your employment contract gives you the right to work, so it is time to start repeatedly asking to return to work.
+You see, all these months that you were negotiating, you were on garden leave. And while you know that your employment contract creates an obligation for you to perform work, you might not be aware that under Dutch laws it also gives you the right to perform your job (see: [example court case](https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBROT:2025:5906) that confirms this). Your employment contract gives you the right to work, so it is time to start repeatedly asking to return to work.
 
 That ship has already sailed and everyone has moved on, so the company really will not want to do it. Keep asking, your messaging should be “either take my settlement offer or let me return to my work”. This is a risky strategy, because the company might retaliate: for example, if you were working hybrid, they might ask you to come to the office 5 days a week. 
 

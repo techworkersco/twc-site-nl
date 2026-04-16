@@ -20,9 +20,7 @@ Je presteert fantastisch in je baan, maar plotseling komt er vanalles op je af e
 
 ### Een woordje over verbetertrajecten
 
-<!-- TODO: Bron achterhalen voor 20% van de PIP's die leiden tot goedkeuring van ontslag -->
-
-Laten we eerst verbetertrajecten bespreken. Wat je moet weten is het volgende: zelfs als je een verbetertraject niet haalt (en sommige mensen halen een verbetertraject wel), kan het bedrijf je nog niet zomaar ontslaan. Ze moeten dan nog steeds naar de rechter stappen, en een mislukt verbetertraject is slechts één bewijsstuk in zo'n rechtszaak. Van alle mislukte PIP's die voor de rechter komen, wordt in slechts 20% van de gevallen het ontslag goedgekeurd. Het is dus ontzettend moeilijk voor een bedrijf om een ​​overtuigend verbetertraject op te stellen – het moet objectief en meetbaar zijn, aantonen dat je voldoende kans hebt gekregen om je prestaties te verbeteren, enzovoort.
+Laten we eerst verbetertrajecten bespreken. Wat je moet weten is het volgende: zelfs als je een verbetertraject niet haalt (en sommige mensen halen een verbetertraject wel), kan het bedrijf je nog niet zomaar ontslaan. Ze moeten dan nog steeds naar de rechter stappen, en een mislukt verbetertraject is slechts één bewijsstuk in zo'n rechtszaak. Van alle mislukte verbetertrajecten die voor de rechter komen, wordt in [slechts 20% van de gevallen het ontslag goedgekeurd](https://cooperadvocaten.nl/ontslag-wegens-disfunctioneren-wwz-en-de-toepassing-van-het-bewijsrecht/). Het is dus ontzettend moeilijk voor een bedrijf om een ​​overtuigend verbetertraject op te stellen – het moet objectief en meetbaar zijn, aantonen dat je voldoende kans hebt gekregen om je prestaties te verbeteren, enzovoort.
 
 Als je een verbetertraject krijgt opgelegd, werk dan mee met het bedrijf, maar wijs wel op zaken zoals onduidelijke doelen, onrealistische planningen, enzovoort. Het gaat er niet om met het bedrijf te discussiëren, maar om een ​​schriftelijk bewijs voor de rechter te hebben waaruit blijkt dat je je zorgen hebt geuit en dat er geen aandacht aan is besteed.
 
@@ -86,9 +84,7 @@ Maar als je bereid bent om te vechten, is dit het moment om de druk op te voeren
 
 ## De strijd aangaan
 
-<!-- TODO: Nederlandse wetgeving controleren op recht om te werken -->
-
-Kijk, al die maanden dat je aan het onderhandelen was, was je met betaald verlof. En hoewel je weet dat je met een arbeidsovereenkomst verplicht bent om te werken, wist je misschien niet dat je met zo'n contract ook het recht hebt om je werk uit te voeren. Je arbeidsovereenkomst geeft je het recht om te werken, dus het is tijd om steeds opnieuw te gaan vragen of je weer aan het werk mag.
+Kijk, al die maanden dat je aan het onderhandelen was, was je met betaald verlof. En hoewel je weet dat je met een arbeidsovereenkomst verplicht bent om te werken, wist je misschien niet dat je met zo'n contract ook het recht hebt om je werk uit te voeren (een [rechtzaak die dit bevestigt](https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBROT:2025:5906)). Je arbeidsovereenkomst geeft je het recht om te werken, dus het is tijd om steeds opnieuw te gaan vragen of je weer aan het werk mag.
 
 Die kans is in de praktijk al verkeken en iedereen is al weer ergens anders mee bezig, dus het bedrijf zal dit echt niet meer willen. Blijf alsnog vragen. Je boodschap moet zijn: "Accepteer mijn schikkingsvoorstel of laat me terugkeren naar mijn werk". Dit is een riskante strategie, omdat het bedrijf wraak zou kunnen nemen: als je bijvoorbeeld hybride werkt, zouden ze je kunnen vragen om 5 dagen per week naar kantoor te komen.
 
