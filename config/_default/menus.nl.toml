@@ -11,24 +11,24 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Organiseer je werkplek"
-  pageRef = "resources/organize"
+  name = "Kennisbank"
+  pageRef = "resources"
   weight = 10
 
 [[main]]
   name = "Agenda"
   url = "https://events.techwerkers.nl/"
   weight = 20
-
-[[main]]
-  name = "Kennisbank"
-  pageRef = "resources"
-  weight = 30
-
+  
 [[main]]
   name = "Over"
   pageRef = "about"
-  weight = 35
+  weight = 30
+
+[[main]]
+  name = "Nieuwsbrief"
+  pageRef = "newsletter"
+  weight = 40
 
 [[main]]
   name = "Doe mee"
