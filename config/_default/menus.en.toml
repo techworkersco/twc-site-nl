@@ -11,8 +11,8 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Organize your workplace"
-  pageRef = "resources/organize"
+  name = "Resources"
+  pageRef = "resources"
   weight = 10
 
 [[main]]
@@ -21,14 +21,14 @@
   weight = 20
 
 [[main]]
-  name = "Resources"
-  pageRef = "resources"
+  name = "About"
+  pageRef = "about"
   weight = 30
 
 [[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 35
+  name = "Newsletter"
+  pageRef = "newsletter"
+  weight = 40
 
 [[main]]
   name = "Join"
