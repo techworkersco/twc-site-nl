@@ -11,7 +11,7 @@ featureAlt: "Collage of people shaking hands, organizing stickers, and worker Pa
 
 ## Labour Day 2026
 
-![Lamp post with a sticker saying: don't panic, organize](/content/posts/2026-may/dont-panic.jpg)
+![Lamp post with a sticker saying: don't panic, organize](dont-panic.jpg)
 
 Join Techwerkers this Friday 1 May, 1:00 pm at Museumplein in Amsterdam to [celebrate Labour Day](https://techwerkers.nl/en/posts/labour-day-2026/)! Test your meshcore device, play a game of AI bingo, browse through stickers and zines, or just chat with other people in tech in the Netherlands. Will you be there? 😀
 
@@ -19,8 +19,8 @@ Join Techwerkers this Friday 1 May, 1:00 pm at Museumplein in Amsterdam to [cele
 
 Have you been doing agency work with the same company for 36 months or more? Then you’re entitled to a permanent contract. [A court in The Hague](https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/albert-heijn-moet-uitzendkracht-distributiecentrum-in-vaste-dienst-nemen) came to this verdict in a case brought by worker Paweł Rudzki against supermarket chain Albert Heijn. 
 
-![Paweł Rudzki speaking](/content/posts/2026-may/rudzki.png)
-*Paweł Rudzki, who won a lawsuit against Albert Heijn (pic by Doorbraak.eu)*
+![Paweł Rudzki speaking](rudzki.png)
+<figcaption style="text-align: center;"><i>Paweł Rudzki, who won a lawsuit against Albert Heijn (pic by Doorbraak.eu)</i></figcaption>
 
 Rudzki had been working for Albert Heijn since June 2018, but always through an agency (which also withheld part of his wages). However, European law states that agency work must be temporary, not permanent. This means that Albert Heijn misused agency work to avoid giving workers a permanent contract. Albert Heijn must now give Rudzki a permanent contract and all the wages he has missed out on since 2021.
 
@@ -48,14 +48,14 @@ Keep an eye [on the events calendar](https://events.techwerkers.nl/) for the lat
 
 ### Getting fired? Here is what you need to do to get a shit ton of money
 
-![Two people shaking hands.](/content//posts//2026-may/handshake.png)
+![Two people shaking hands.](handshake.png)
 
 Your bosses will always try to squeeze every last bit of value out of you as a worker. Here's how to do the same if you're at risk of getting fired. This article was too hot 🔥 for Reddit.
 
 [Read the article →](https://techwerkers.nl/en/resources/negotiation/)
 
-![1980: I bet there will be flying cars in the future. 2026: LG washing machine sending 3.7GB of data a day.](/content/posts/2026-may/flying-cars.png)
-*What do you really want from your washing machine?*
+![1980: I bet there will be flying cars in the future. 2026: LG washing machine sending 3.7GB of data a day.](flying-cars.png)
+<figcaption style="text-align: center;"><i>What do you really want from your washing machine?</i></figcaption>
 
 ## On the radar 
 

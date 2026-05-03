@@ -11,7 +11,7 @@ featureAlt: "Collage van mensen die elkaar de hand schudden, klevers rondom orga
 
 ## Dag van de Arbeid 2026
 
-![Lantaarnpaal met een klever met de tekst: geen paniek, organiseer](/content/posts/2026-may/dont-panic.jpg)
+![Lantaarnpaal met een klever met de tekst: geen paniek, organiseer](dont-panic.jpg)
 
 Kom op vrijdag 1 mei om 13.00 uur naar het Museumplein in Amsterdam om de [Dag van de Arbeid te vieren met Techwerkers](https://techwerkers.nl/nl/posts/labour-day-2026/)! Test je meshcore-apparaat, speel een spelletje AI-bingo, blader door stickers en zines, of klets gewoon even met andere mensen in tech. Ben jij erbij? 😀
 
@@ -19,8 +19,8 @@ Kom op vrijdag 1 mei om 13.00 uur naar het Museumplein in Amsterdam om de [Dag v
 
 Heb je 36 maanden of langer als uitzendkracht voor dezelfde werkgever gewerkt? Dan heb je recht op een vast contract. Dit [oordeelde de rechter in Den Haag](https://www.rechtspraak.nl/organisatie-en-contact/organisatie/rechtbanken/rechtbank-den-haag/nieuws/albert-heijn-moet-uitzendkracht-distributiecentrum-in-vaste-dienst-nemen) in een zaak aangespannen door werker Paweł Rudzki tegen supermarktketen Albert Heijn. 
 
-![Paweł Rudzki spreekt in een microfoon](/content/posts/2026-may/rudzki.png)
-*Paweł Rudzki, die een rechtszaak tegen Albert Heijn won (foto via Doorbraak.eu)*
+![Paweł Rudzki spreekt in een microfoon](rudzki.png)
+<figcaption style="text-align: center;"><i>Paweł Rudzki, die een rechtszaak tegen Albert Heijn won (foto via Doorbraak.eu)</i></figcaption>
 
 Rudzki werkte sinds 18 juni 2018 voor Albert Heijn, maar altijd via een uitzendbureau (dat bovendien een deel van zijn loon inhield). Europese wetgeving bepaalt echter dat uitzendwerk tijdelijk moet zijn, niet vast. Albert Heijn heeft daarom misbruik gemaakt van de uitzendregelgeving. Rudzki moet nu alsnog een vast contract krijgen én al het loon ontvangen dat hij sinds 2021 is misgelopen.
 
@@ -33,7 +33,7 @@ Wil je andere techwerkers ontmoeten? Kom dan naar één van de aankomende evenem
 - 1 mei, 13:00 uur - [Dag van de Arbeid met Techwerkers!](https://events.techwerkers.nl/event/labour-day-or-dag-van-de-arbeid) Museumplein, Amsterdam
 - 8 mei, 15:00-15:30 uur - [Vrijdagsfika](https://events.techwerkers.nl/event/friday-fika-or-vrijdagsfika-8), online
 - 9 mei, 13:00 uur - [Actifest](https://www.artcollectiveforpeace.org/actifest), Amsterdam (extern evenement)
-- 9 mei, 8:30 uur - [Samen naar Dutch Clojure Days]((https://events.techwerkers.nl/event/dutch-clojure-days-2026)), Weesp (extern evenement)
+- 9 mei, 8:30 uur - [Samen naar Dutch Clojure Days](https://events.techwerkers.nl/event/dutch-clojure-days-2026)), Weesp (extern evenement)
 - 11 mei, 19:00 uur - [Organisatiebijeenkomst](https://events.techwerkers.nl/event/organizing-meetup-or-organisatiebijeenkomst-8), online
 - 15 mei, 15:00-15:30 uur - Vrijdagfika, online
 - 18-23 mei - [Samen naar Rust-week](https://events.techwerkers.nl/event/attend-rust-week-together-or-samen-naar-rust-week), Utrecht (extern evenement)
@@ -48,14 +48,14 @@ Wil je andere techwerkers ontmoeten? Kom dan naar één van de aankomende evenem
 
 ### Ontslagen? Dit is wat je moet doen om een zieke smak geld te krijgen
 
-![Twee mensen schudden elkaar de hand.](/content//posts//2026-may/handshake.png)
+![Twee mensen schudden elkaar de hand.](handshake.png)
 
 Je bazen zullen altijd proberen om het maximale uit jou als werker te knijpen. Zo doe je hetzelfde als je ontslagen dreigt te worden. Dit artikel was te heet 🔥 voor Reddit.
 
 [Lees de bron →](https://techwerkers.nl/nl/resources/negotiation/)
 
-![1980: Wedden dat er in de toekomst vliegende auto's zullen zijn? 2026: LG wasmachine verstuurt 3.7GB aan gegevens per dag.](/content/posts/2026-may/flying-cars.png)
-*Wat wil je nou echt van je wasmachine?*
+![1980: Wedden dat er in de toekomst vliegende auto's zullen zijn? 2026: LG wasmachine verstuurt 3.7GB aan gegevens per dag.](flying-cars.png)
+<figcaption style="text-align: center;"><i>Wat wil je nou echt van je wasmachine?</i></figcaption>
 
 ## Op de radar
 
