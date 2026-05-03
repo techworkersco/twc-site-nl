@@ -1,3 +1,5 @@
+import Fuse from "fuse.js";
+
 var fuse;
 var showButtons = document.querySelectorAll("[id^='search-button']");
 var hideButton = document.getElementById("close-search-button");
