@@ -42,7 +42,7 @@ Join one of the upcoming events to meet up with other tech workers:
 - 23 June, 7:00 pm: [Book Club: The Art of War by Sun Tzu](https://events.techwerkers.nl/event/book-club-or-boekenclub-the-art-of-war), online
 - 26 June, 3:00-3:30 pm - Friday Fika, online
 
-Do you know of an event that fellow tech workers might be interested in? [Add it to calendar!](https://events.techwerkers.nl/)
+Do you know of an event that fellow tech workers might be interested in? [Add it to the calendar!](https://events.techwerkers.nl/)
 
 ![Organize bourgeoisie safaris with busses through high class neighbourhoods to cultivate class hatred](alt-for-alla.webp)
 <figcaption style="text-align: center;"><i>Ready for a safari tour through Wassenaar?</i></figcaption>
