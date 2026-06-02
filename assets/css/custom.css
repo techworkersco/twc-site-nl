@@ -112,3 +112,7 @@ html,
 .pristine-error {
   color: rgb(var(--color-primary-500));
 }
+
+.submission-error {
+  color: rgb(var(--color-primary-500));
+}

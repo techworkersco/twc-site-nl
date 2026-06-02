@@ -27,7 +27,7 @@
     <input
       type="text"
       id="first-name"
-      name="first-name"
+      name="firstName"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="Youssra"
       maxlength="100"
@@ -39,7 +39,7 @@
     <input
       type="text"
       id="last-name"
-      name="last-name"
+      name="lastName"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="Jansen"
       maxlength="100"
@@ -52,7 +52,7 @@
     <input
       type="url"
       id="social-link-1"
-      name="social_media_1"
+      name="socialLink1"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "social-examples-1" }}"
       pattern="/^(https?:\/\/)?[a-zA-Z0-9@:%._\+~#=\-]{1,256}\.[a-zA-Z0-9\(\)]{1,63}\b(?:[a-zA-Z0-9\(\)@:%_\+.~#?&\/=]*)$/"
@@ -66,7 +66,7 @@
     <input
       type="url"
       id="social-link-2"
-      name="social_media_2"
+      name="socialLink2"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "social-examples-2" }}"
       pattern="/^(https?:\/\/)?[a-zA-Z0-9@:%._\+~#=\-]{1,256}\.[a-zA-Z0-9\(\)]{1,63}\b(?:[a-zA-Z0-9\(\)@:%_\+.~#?&\/=]*)$/"
@@ -81,7 +81,7 @@
     <input
       type="text"
       id="organization"
-      name="company"
+      name="organization"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "workplace" }}"
       maxlength="100"
@@ -96,11 +96,17 @@
     <input
       type="text"
       id="your-goals"
-      name="how_did_hear"
+      name="goals"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "your-goals" }}"
       maxlength="255"
     />
+  </div>
+  <div id="submission-error" class="submission-error hidden">
+    There was an error submitting your application. Please each out to
+    <a href="mailto:hey@techwerkers.nl?subject=My%20join%20sumission%20failed"
+      >hey@techwerkers.nl</a
+    >
   </div>
   <button
     type="submit"
@@ -114,6 +120,7 @@
 <script>
   window.addEventListener("DOMContentLoaded", (event) => {
     const form = document.getElementById("join");
+    const errorElem = document.getElementById("submission-error");
 
     // create the pristine instance
     const pristine = new Pristine(form, {
@@ -123,8 +130,35 @@
 
     form.addEventListener("submit", function (e) {
       e.preventDefault();
+      errorElem.classList.add("hidden");
       const valid = pristine.validate(); // returns true or false
-      console.log(valid);
+
+      if (!valid) {
+        return;
+      }
+
+      const formData = Object.fromEntries(new FormData(form));
+      const body = JSON.stringify(formData);
+      fetch("https://n8n.infra.techwerkers.nl/webhook/97a917b2-d139-466c-ab77-373c07acb5e6", {
+        method: "POST",
+        body: body,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          if (data.result !== "Success") {
+            errorElem.classList.remove("hidden");
+            return;
+          }
+          window.location.replace("{{ relLangURL "join/success" }}");
+        })
+        .catch((err) => {
+          console.log(err);
+          errorElem.classList.remove("hidden");
+        });
     });
   });
 </script>
