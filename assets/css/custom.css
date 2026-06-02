@@ -98,3 +98,17 @@ html,
   )::after {
   content: none;
 }
+
+.has-danger input {
+  border-color: rgb(var(--color-primary-500));
+  border-width: 2px;
+}
+
+.has-success input {
+  border-color: rgb(var(--color-secondary-500));
+  border-width: 2px;
+}
+
+.pristine-error {
+  color: rgb(var(--color-primary-500));
+}

@@ -11,7 +11,8 @@
     "build": "NODE_ENV=production ./node_modules/tailwindcss/lib/cli.js -c ./tailwind.config.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^7.2.0"
+    "@fortawesome/fontawesome-free": "^7.2.0",
+    "pristinejs": "^1.1.0"
   },
   "devDependencies": {
     "@fontsource-variable/martian-mono": "^5.2.7",
@@ -39,6 +40,10 @@
     {
       "from": "node_modules/quicklink/dist/quicklink.umd.js",
       "to": "assets/lib/quicklink/quicklink.umd.js"
+    },
+    {
+      "from": "node_modules/pristinejs/dist/pristine.min.js",
+      "to": "assets/lib/pristinejs/pristine.min.js"
     }
   ]
 }

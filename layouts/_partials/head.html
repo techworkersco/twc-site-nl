@@ -68,6 +68,8 @@
   {{ $assets.Add "js" (slice $jsCarousel) }}
   {{ $jsMediumZoom := resources.Get "lib/medium-zoom/medium-zoom.min.js" }}
   {{ $assets.Add "js" (slice $jsMediumZoom) }}
+  {{ $jsPristine := resources.Get "lib/pristinejs/pristine.min.js" }}
+  {{ $assets.Add "js" (slice $jsPristine) }}
   {{ if $assets.Get "js" }}
     {{ $bundleJS := $assets.Get "js" | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint $algorithm }}
     <script

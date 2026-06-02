@@ -9,7 +9,7 @@
   <p class="text-gray-600 prose my-6 text-lg">
     {{ .Inner }}
   </p>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="email" class="text-gray-900 mb-2 block font-bold">{{ i18n "email" }}</label>
     <input
       type="email"
@@ -20,7 +20,7 @@
       required
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="first-name" class="text-gray-900 mb-2 block font-bold"
       >{{ i18n "first-name" }}</label
     >
@@ -30,10 +30,11 @@
       name="first-name"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="Youssra"
+      maxlength="100"
       required
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="last-name" class="text-gray-900 mb-2 block font-bold">{{ i18n "last-name" }}</label>
     <input
       type="text"
@@ -41,10 +42,11 @@
       name="last-name"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="Jansen"
+      maxlength="100"
       required
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <p class="text-grey-900 mb-2 block pb-2 font-bold">{{ i18n "how-to-find-you" }}</p>
     <label for="social-link-1" class="text-gray-900 mb-2 block">Link #1</label>
     <input
@@ -53,10 +55,13 @@
       name="social_media_1"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "social-examples-1" }}"
+      pattern="/^(https?:\/\/)?[a-zA-Z0-9@:%._\+~#=\-]{1,256}\.[a-zA-Z0-9\(\)]{1,63}\b(?:[a-zA-Z0-9\(\)@:%_\+.~#?&\/=]*)$/"
+      data-pristine-pattern-message="Invalid URL"
+      maxlength="255"
       required
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="social-link-2" class="text-gray-900 mb-2 block">Link #2</label>
     <input
       type="url"
@@ -64,9 +69,12 @@
       name="social_media_2"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "social-examples-2" }}"
+      pattern="/^(https?:\/\/)?[a-zA-Z0-9@:%._\+~#=\-]{1,256}\.[a-zA-Z0-9\(\)]{1,63}\b(?:[a-zA-Z0-9\(\)@:%_\+.~#?&\/=]*)$/"
+      data-pristine-pattern-message="Invalid URL"
+      maxlength="255"
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="organization" class="text-gray-900 mb-2 block font-bold"
       >{{ i18n "employer" }}</label
     >
@@ -76,10 +84,11 @@
       name="company"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "workplace" }}"
+      maxlength="100"
       required
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="your-goals" class="text-gray-900 mb-2 block font-bold"
       >{{ i18n "your-goals" }}</label
     >
@@ -90,6 +99,7 @@
       name="how_did_hear"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "your-goals" }}"
+      maxlength="255"
     />
   </div>
   <button
@@ -100,3 +110,21 @@
     {{ i18n "submit" }}
   </button>
 </form>
+
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+    const form = document.getElementById("join");
+
+    // create the pristine instance
+    const pristine = new Pristine(form, {
+      classTo: "form-element",
+      errorTextParent: "form-element",
+    });
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const valid = pristine.validate(); // returns true or false
+      console.log(valid);
+    });
+  });
+</script>
