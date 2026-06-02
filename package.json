@@ -16,7 +16,7 @@
   "devDependencies": {
     "@fontsource-variable/martian-mono": "^5.2.7",
     "@tailwindcss/typography": "^0.5.19",
-    "fuse.js": "^7.3.0",
+    "fuse.js": "^7.4.1",
     "medium-zoom": "^1.1.0",
     "prettier": "^3.8.3",
     "prettier-plugin-go-template": "^0.0.15",
