@@ -60,7 +60,7 @@
     {{ $jsMenu := resources.Get "js/menu.js" }}
     {{ $assets.Add "js" (slice $jsMenu) }}
   {{ end }}
-  {{ if eq (site.Language.LanguageDirection | default "ltr") "rtl" }}
+  {{ if eq (site.Language.Direction | default "ltr") "rtl" }}
     {{ $jsRTL := resources.Get "js/rtl.js" }}
     {{ $assets.Add "js" (slice $jsRTL) }}
   {{ end }}

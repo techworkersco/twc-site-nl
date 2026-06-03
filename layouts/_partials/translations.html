@@ -39,7 +39,7 @@
                     <a
                       href="{{ $translation.RelPermalink }}"
                       class="flex w-full items-center justify-between bg-primary-100 px-4 py-2"
-                      >{{ .LanguageName }}<span class="ms-2 w-6 text-primary-600"
+                      >{{ .Label }}<span class="ms-2 w-6 text-primary-600"
                         >{{ partial "icon.html" "check" }}</span
                       ></a
                     >
@@ -47,7 +47,7 @@
                     <a
                       href="{{ $translation.RelPermalink }}"
                       class="flex w-full px-4 py-2 pe-10 ps-4 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-                      >{{ .LanguageName }}</a
+                      >{{ .Label }}</a
                     >
                   {{ end }}
                 </div>
