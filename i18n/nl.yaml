@@ -61,6 +61,21 @@ sharing:
 shortcode:
   recent_articles: "Recent"
 
+pristinejs:
+  required: "Dit veld is verplicht"
+  email: "Dit veld vereist een geldig e-mailadres"
+  number: "Dit veld vereist een getal"
+  integer: "Dit veld vereist een heel getal"
+  url: "Dit veld vereist een geldige website URL"
+  tel: "Dit veld vereist een geldig telefoonnummer"
+  maxlength: "De lengte van dit veld moet < ${1}"
+  minlength: "De lengte van dit veld moet > ${1}"
+  min: "De minimale waarde voor dit veld is ${1}"
+  max: "De maximale waarde voor dit veld is ${1}"
+  pattern: "Voldoe aanzien het vereiste formaat"
+  equals: "De twee velden komen niet overeen"
+  default: "Voer een correcte waarde in"
+
 events: "activiteiten"
 events-description: "Doe mee met één van de aankomende activiteiten."
 events-upcoming: "Agenda"

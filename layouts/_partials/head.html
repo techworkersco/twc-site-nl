@@ -68,7 +68,9 @@
   {{ $assets.Add "js" (slice $jsCarousel) }}
   {{ $jsMediumZoom := resources.Get "lib/medium-zoom/medium-zoom.min.js" }}
   {{ $assets.Add "js" (slice $jsMediumZoom) }}
-  {{ $jsPristine := resources.Get "lib/pristinejs/pristine.min.js" }}
+  {{ $jsPristineLib := resources.Get "lib/pristinejs/pristine.min.js" }}
+  {{ $assets.Add "js" (slice $jsPristineLib) }}
+  {{ $jsPristine := resources.Get "js/pristine.js" }}
   {{ $assets.Add "js" (slice $jsPristine) }}
   {{ if $assets.Get "js" }}
     {{ $bundleJS := $assets.Get "js" | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint $algorithm }}
@@ -157,5 +159,22 @@
     window.addEventListener("load", function () {
       mediumZoom("[data-medium-zoom]");
     });
+  </script>
+  <script>
+    const pristineValidationMessages = {
+      required: "{{ i18n "pristinejs.required" }}",
+      email: "{{ i18n "pristinejs.email" }}",
+      number: "{{ i18n "pristinejs.number" }}",
+      integer: "{{ i18n "pristinejs.integer" }}",
+      url: "{{ i18n "pristinejs.url" }}",
+      tel: "{{ i18n "pristinejs.tel" }}",
+      maxlength: "{{ i18n "pristinejs.maxlength" }}",
+      minlength: "{{ i18n "pristinejs.minlength" }}",
+      min: "{{ i18n "pristinejs.min" }}",
+      max: "{{ i18n "pristinejs.max" }}",
+      pattern: "{{ i18n "pristinejs.pattern" }}",
+      equals: "{{ i18n "pristinejs.equals" }}",
+      default: "{{ i18n "pristinejs.default" }}",
+    }
   </script>
 </head>
