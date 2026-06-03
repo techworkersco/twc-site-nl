@@ -6,7 +6,7 @@
     "@id": "{{ (site.GetPage "/").Permalink | safeURL }}",
     "name": "{{ .Site.Title | safeJS }}",
     {{ with .Site.Params.description }}"description": "{{ . | safeJS }}",{{ end }}
-    {{ with .Site.LanguageCode }}"inLanguage": "{{ . }}",{{ end }}
+    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
     "url": "{{ (site.GetPage "/").Permalink | safeURL }}",
     {{ with .Site.Params.keywords }}"keywords": {{ . }},{{ end }}
     "publisher" : {
@@ -26,7 +26,7 @@
     "headline": "{{ .Title | safeJS }}",
     {{ with .Description }}"description": "{{ . | safeJS }}",{{ end }}
     {{ with .Summary }}"abstract": "{{ . | safeJS }}",{{ end }}
-    {{ with .Site.LanguageCode }}"inLanguage": "{{ . }}",{{ end }}
+    {{ with .Site.Language.Locale }}"inLanguage": "{{ . }}",{{ end }}
     "url" : "{{ .Permalink }}",
     "author" : {
       "@type": "Person",

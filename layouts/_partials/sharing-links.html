@@ -1,5 +1,5 @@
 {{ with .Params.sharingLinks | default (.Site.Params.article.sharingLinks | default false) }}
-  {{ $links := site.Data.sharing }}
+  {{ $links := hugo.Data.sharing }}
   <section class="flex flex-row flex-wrap pt-4">
     {{ range . }}
       {{ with index $links . }}

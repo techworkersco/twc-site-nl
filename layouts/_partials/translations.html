@@ -27,31 +27,29 @@
             bottom-7
           {{ end }} invisible absolute z-50 flex flex-col whitespace-nowrap rounded border border-neutral-300 bg-neutral text-start text-base shadow group-hover:visible ltr:right-0 rtl:left-0"
         >
-          {{ $siteLanguages := site.Languages }}
-          {{ $pageLang := .Page.Lang }}
-          {{ range .Page.AllTranslations }}
-            {{ $translation := . }}
-            {{ range $siteLanguages }}
-              {{ if eq $translation.Lang .Lang }}
-                {{ $selected := false }}
-                <div class="flex flex-grow">
-                  {{ if eq $pageLang .Lang }}
-                    <a
-                      href="{{ $translation.RelPermalink }}"
-                      class="flex w-full items-center justify-between bg-primary-100 px-4 py-2"
-                      >{{ .LanguageName }}<span class="ms-2 w-6 text-primary-600"
-                        >{{ partial "icon.html" "check" }}</span
-                      ></a
-                    >
-                  {{ else }}
-                    <a
-                      href="{{ $translation.RelPermalink }}"
-                      class="flex w-full px-4 py-2 pe-10 ps-4 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
-                      >{{ .LanguageName }}</a
-                    >
-                  {{ end }}
-                </div>
-              {{ end }}
+          {{ with .Rotate "language" }}
+            {{ range . }}
+              <div class="flex flex-grow">
+                {{ if eq .Page.Lang $currentLang }}
+                  <a
+                    href="{{ .RelPermalink }}"
+                    class="flex w-full items-center justify-between bg-primary-100 px-4 py-2"
+                    aria-current="page"
+                  >
+                    {{ .Page.Site.Language.Label }}
+                    <span class="ms-2 w-6 text-primary-600">
+                      {{ partial "icon.html" "check" }}
+                    </span>
+                  </a>
+                {{ else }}
+                  <a
+                    href="{{ .RelPermalink }}"
+                    class="flex w-full px-4 py-2 pe-10 ps-4 decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+                  >
+                    {{ .Page.Site.Language.Label }}
+                  </a>
+                {{ end }}
+              </div>
             {{ end }}
           {{ end }}
         </div>

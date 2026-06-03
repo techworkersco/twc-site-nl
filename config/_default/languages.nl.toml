@@ -1,6 +1,6 @@
-languageCode = "nl"
-languageName = "Nederlands"
-languageDirection = "ltr"
+locale = "nl"
+label = "Nederlands"
+direction = "ltr"
 weight = 1
 
 title = "Tech&shy;werkers&shy;coalitie"

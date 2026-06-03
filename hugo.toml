@@ -1,5 +1,5 @@
 baseURL = 'https://techwerkers.nl/'
-languageCode = 'nl'
+locale = 'nl'
 title = 'Techwerkers'
 # Events are likely to have future timestamps
 buildFuture = true

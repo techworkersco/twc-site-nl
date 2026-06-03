@@ -2,14 +2,13 @@
   id="join"
   name="subscribe-v2"
   class="bg-red-600 ml-0 mt-4 max-w-2xl rounded-lg"
-  data-netlify="true"
   action="{{ relLangURL "join/success" }}"
 >
   <h3 class="text-gray-900 mt-10 text-2xl font-bold">{{ i18n "join-form" }}</h3>
   <p class="text-gray-600 prose my-6 text-lg">
     {{ .Inner }}
   </p>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="email" class="text-gray-900 mb-2 block font-bold">{{ i18n "email" }}</label>
     <input
       type="email"
@@ -20,66 +19,71 @@
       required
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="first-name" class="text-gray-900 mb-2 block font-bold"
       >{{ i18n "first-name" }}</label
     >
     <input
       type="text"
       id="first-name"
-      name="first-name"
+      name="firstName"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="Youssra"
+      maxlength="100"
       required
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="last-name" class="text-gray-900 mb-2 block font-bold">{{ i18n "last-name" }}</label>
     <input
       type="text"
       id="last-name"
-      name="last-name"
+      name="lastName"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="Jansen"
+      maxlength="100"
       required
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <p class="text-grey-900 mb-2 block pb-2 font-bold">{{ i18n "how-to-find-you" }}</p>
     <label for="social-link-1" class="text-gray-900 mb-2 block">Link #1</label>
     <input
       type="url"
       id="social-link-1"
-      name="social_media_1"
+      name="socialLink1"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "social-examples-1" }}"
+      maxlength="255"
       required
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="social-link-2" class="text-gray-900 mb-2 block">Link #2</label>
     <input
       type="url"
       id="social-link-2"
-      name="social_media_2"
+      name="socialLink2"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "social-examples-2" }}"
+      maxlength="255"
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="organization" class="text-gray-900 mb-2 block font-bold"
       >{{ i18n "employer" }}</label
     >
     <input
       type="text"
       id="organization"
-      name="company"
+      name="organization"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "workplace" }}"
+      maxlength="100"
       required
     />
   </div>
-  <div class="mb-5">
+  <div class="form-element mb-5">
     <label for="your-goals" class="text-gray-900 mb-2 block font-bold"
       >{{ i18n "your-goals" }}</label
     >
@@ -87,10 +91,17 @@
     <input
       type="text"
       id="your-goals"
-      name="how_did_hear"
+      name="goals"
       class="border-gray-300 bg-gray-50 text-gray-900 focus:border-blue-500 focus:ring-blue-500 block w-full rounded-lg border p-2.5"
       placeholder="{{ i18n "your-goals" }}"
+      maxlength="255"
     />
+  </div>
+  <div id="submission-error" class="submission-error hidden">
+    There was an error submitting your application. Please each out to
+    <a href="mailto:hey@techwerkers.nl?subject=My%20join%20sumission%20failed"
+      >hey@techwerkers.nl</a
+    >
   </div>
   <button
     type="submit"
@@ -100,3 +111,49 @@
     {{ i18n "submit" }}
   </button>
 </form>
+
+<script>
+  window.addEventListener("DOMContentLoaded", (event) => {
+    const form = document.getElementById("join");
+    const errorElem = document.getElementById("submission-error");
+
+    // create the pristine instance
+    const pristine = new Pristine(form, {
+      classTo: "form-element",
+      errorTextParent: "form-element",
+    });
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      errorElem.classList.add("hidden");
+      const valid = pristine.validate(); // returns true or false
+
+      if (!valid) {
+        return;
+      }
+
+      const formData = Object.fromEntries(new FormData(form));
+      const body = JSON.stringify(formData);
+      fetch("https://n8n.infra.techwerkers.nl/webhook/97a917b2-d139-466c-ab77-373c07acb5e6", {
+        method: "POST",
+        body: body,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          if (data.result !== "success") {
+            errorElem.classList.remove("hidden");
+            return;
+          }
+          window.location.replace("{{ relLangURL "join/success" }}");
+        })
+        .catch((err) => {
+          console.log(err);
+          errorElem.classList.remove("hidden");
+        });
+    });
+  });
+</script>
