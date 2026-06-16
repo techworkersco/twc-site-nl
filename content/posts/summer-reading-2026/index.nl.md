@@ -13,25 +13,25 @@ tags: []
 
 ## Wat is het
 
-Leer hoe je je autonomie, waardigheid en voldoening op het werk kunt terugwinnen met radicaal samenwerkend zelforganiseren.
+Zelforganisatie van werkers, waarbij je niet gecontroleerd wordt door bazen of managers... Het lijkt misschien een fantasieverhaal. Kan dat werken? Op grote schaal? In elke sector? Op *jouw* werkplek? 
 
-Zelforganisatie van werkers, niet gecontroleerd door bazen of managers...? Het lijkt misschien een fantasieverhaal. Kan dat werken? Op grote schaal? In elke sector? Op *jouw* werkplek?
+Het boek *Een Radicale Onderneming* (orig. [*A Radical Enterprise*](https://itrevolution.com/product/a-radical-enterprise/)) van Matt K. Parker laat zien dat het antwoord op deze vragen 'Ja' is. Het beschrijft concrete voorbeelden van bedrijven met 5 tot wel 40.000 werkers---waaronder het Nederlandse zorgbedrijf *Buurtzorg*---waar werkers hun werk zelf organiseren.
 
-[*Een Radicale Onderneming* (*A Radical Enterprise*)](https://itrevolution.com/product/a-radical-enterprise/) van Matt K. Parker laat zien dat het antwoord op deze vragen 'Ja' is. Het beschrijft concrete voorbeelden van bedrijven met 5 tot wel 40.000 werkers---waaronder het Nederlandse zorgbedrijf *Buurtzorg*---waar werkers hun werk zelf organiseren.
+Leer hoe je je autonomie, waardigheid en voldoening op het werk kunt terugwinnen door je samen met je collega's radicaal zelf te organiseren.
 
 Sessies zijn wekelijks online op donderdag om 19.30 uur, van 2 juli tot en met 13 augustus 2026.
 
 Gratis en open voor iedereen. Teksten worden verstrekt.
 
-[Meld je nu aan](#sign-up)
+[Meld je nu aan](#aanmelden)
 
 ## Waar
 
-Online + mogelijk een fysieke bijeenkomst voor een afsluitende sociale bijeenkomst (onder voorbehoud).
+Online + mogelijk een afsluitende sociale bijeenkomst ergens ter plekke (optioneel, onder voorbehoud).
 
 ## Wanneer
 
-Donderdagen van 19.30 tot 20.30 uur CEST, vanaf 2 juli. In totaal 7 weken.
+Donderdagen van 19.30 tot 20.30 uur, vanaf 2 juli. In totaal 7 weken.
 
 ## Programma
 
@@ -48,7 +48,7 @@ Donderdagen van 19.30 tot 20.30 uur CEST, vanaf 2 juli. In totaal 7 weken.
 
 ## Aanmelden
 
-Je bent van harte welkom! [Send an email]("mailto:signup@techwerkers.nl?subject=Radicaal samenwerkende zelf-organisatie") naar `signup@techwerkers.nl` om je aan te melden.
+Je bent van harte welkom! [Stuur een mailtje](mailto:zomer2026@techwerkers.nl?subject=Zelforganisatie) naar `zomer2026@techwerkers.nl` om je aan te melden.
 
 ## Over Een Radicale Onderneming
 

@@ -1,5 +1,5 @@
 ---
-title: "Radically collaborative self-organizing | summer 2026 reading group"
+title: "Radically collaborative self-organizing | Summer 2026 reading group"
 date: "2026-06-15"
 lastmod: "2026-06-15"
 showSummary: true
@@ -13,13 +13,13 @@ tags: []
 
 ## What is it
 
-Learn how you can regain your autonomy, dignity and gain fulfilment at work through radically collaborative self-organization.
+Worker self-organization, not being controlled by bosses or managers, can seem counter-intuitive. Can this work? At scale? In any sector? At your workplace? 
 
-Worker self-organization, not controlled by bosses or managers, can seem counter-intuitive. Can this work? At scale? In any sector? At your workplace?
+The book [*A Radical Enterprise*](https://itrevolution.com/product/a-radical-enterprise/) by Matt K. Parker shows that the answer to these questions is 'Yes'. It describes concrete examples of companies ranging from 5 to 40.000 workers---including the Dutch care company *Buurtzorg*---where workers self-organize their work.
 
-[*A Radical Enterprise*](https://itrevolution.com/product/a-radical-enterprise/) by Matt K. Parker shows that the answer to these questions is 'Yes'. It describes concrete examples of companies ranging from 5 to 40.000 workers---including the Dutch care company *Buurtzorg*---where workers self-organize their work.
+Learn how you and your coworkers can regain your autonomy, dignity and fulfilment at work through collaboratively organizing the work yourselves.
 
-Sessions are held weekly online on Thursdays from 7.30 pm CEST, from 2 July to 13 August 2026.
+Sessions are held weekly online on Thursdays from 7.30 to 8:30pm CEST, from 2 July to 13 August 2026.
 
 Free and open to all. Texts provided. 
 
@@ -48,7 +48,7 @@ Thursdays @ 7:30-8:30 pm CEST, beginning 2 July. 7 weeks in total.
 
 ## Sign up 
 
-You're most welcome to join! [Send an email]("mailto:signup@techwerkers.nl?subject=Radically Collaborative Self-organization") to `signup@techwerkers.nl` to sign up.
+You're most welcome to join! [Send an email](mailto:summer2026@techwerkers.nl?subject=Self-organization) to `summer2026@techwerkers.nl` to sign up.
 
 ## About A Radical Enterprise
 
