@@ -4,7 +4,7 @@ date: "2026-06-15"
 lastmod: "2026-06-15"
 showSummary: true
 summary: "Learn about collaborative self-organizing in a 7-week radical online summer reading group."
-feature: "feature.webp"
+feature: "feature-en.webp"
 featureAlt: "Flyer for radical self-organizing reading group."
 location: "Online + optional onsite"
 organisation: ""

@@ -4,7 +4,7 @@ date: "2026-06-15"
 lastmod: "2026-06-15"
 showSummary: true
 summary: "Leer meer over samenwerkend zelforganiseren in een radicale online zomerleesgroep van 7 weken."
-feature: "feature.webp"
+feature: "feature-nl.webp"
 featureAlt: "Flyer voor de radicale zelforganiserende leesgroep."
 location: "Online + optioneel op locatie"
 organisation: ""
