@@ -24,12 +24,12 @@ We’re mostly shocked, but will in no way let this disrupt us — Sahand Mozdba
 
 {{% / pull-quote %}}
 
-Could a far-right group be responsible for the attack on ASVA? When asked, Mozdbar says he is not aware of an active far-right student movement at the University of Amsterdam. “But there’s one at the VU, although it’s currently a bit fragmented.” Far-right student associations are also active in other university cities. In Nijmegen, Leiden, and Utrecht, for example, there are branches of the Groot-Nederlandse Studentenvereniging (GNSV), an extreme right-wing organisation founded in 2021 that has close ties with the white supremacist group Geuzenbond. Right now there is no reason to believe that any of these organizations have anything to do with the vandalism carried out over the weekend in Amsterdam.
+Could a far-right group be responsible for the attack on ASVA? When asked, Mozdbar says he is not aware of an active far-right student movement at the University of Amsterdam. "But there’s one at the VU, although it’s currently a bit fragmented." Far-right student associations are also active in other university cities. In Nijmegen, Leiden, and Utrecht, for example, there are branches of the Groot-Nederlandse Studentenvereniging (GNSV), an extreme right-wing organisation founded in 2021 that has close ties with the white supremacist group Geuzenbond. Right now there is no reason to believe that any of these organizations have anything to do with the vandalism carried out over the weekend in Amsterdam.
 
 ![A damaged service desk in the ASVA office](balie.jpeg)
 <figcaption style="text-align: center;"><i>Damaged service desk at the ASVA office</i></figcaption>
 
-“We’re mostly shocked, but will in no way let this disrupt us”, Mozdbar emphasizes. “If this action was indeed committed in an attempt to intimidate us, then it’s completely backfired. To the contrary, ASVA is more determined than ever. We won’t be silenced by such cowardly acts. It’s a pathetic example of the increased repression and attempts at intimidation facing progressive voices.”
+"We’re mostly shocked, but will in no way let this disrupt us", Mozdbar emphasizes. "If this action was indeed committed in an attempt to intimidate us, then it’s completely backfired. To the contrary, ASVA is more determined than ever. We won’t be silenced by such cowardly acts. It’s a pathetic example of the increased repression and attempts at intimidation facing progressive voices."
 
 Techwerkers expresses its support for student union ASVA, and stands together in unity with all other labour unions and organisations within which workers collectively stand up for their interests.
 
