@@ -6,7 +6,7 @@ author:
 date: 2026-06-27T07:00:00+02:00
 tags: ["community update"]
 cover: feature.png
-coverCaption: "Collage van een emoji met een heet gezicht, een git diff, weersvoorspellingen, radicale graffiti en vliegende fediverse-mascottes."
+coverAlt: "Collage van een emoji met een heet gezicht, een git diff, weersvoorspellingen, radicale graffiti en vliegende fediverse-mascottes."
 ---
 
 ## Te warm om te werken. Hittestaking dan maar?

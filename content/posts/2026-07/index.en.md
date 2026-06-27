@@ -6,7 +6,7 @@ author:
 date: 2026-06-27T07:00:00+02:00
 tags: ["community update"]
 cover: feature.png
-coverCaption: "Collage of a hot face emoji, a git diff, weather forecasts, radical graffiti, and flying fediverse mascottes."
+coverAlt: "Collage of a hot face emoji, a git diff, weather forecasts, radical graffiti, and flying fediverse mascottes."
 ---
 
 ## Too hot to work. Heat strike anyone?
