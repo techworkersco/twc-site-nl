@@ -15,11 +15,11 @@ The activists threw balloons filled with the chemical mixure over the perimiter 
 
 {{% pull-quote %}}
 
-A single Microsoft data centre consumes 1% of all available electicity in The Netherlands
+A single Microsoft data centre consumes 1% of all available electricity in The Netherlands
 
 {{% / pull-quote %}}
 
-In the Netherlands there is a growing awareness of the ecological and social damage done by the massive data centers built by hyperscaler big tech. For example, a single Microsoft data centre in the Dutch town of Middenmeer is [responsible for 1% of all electicity use](https://archive.is/5awQo) in The Netherlands, newspaper *NRC* reported this week. These new massive data centres are almost exclusively built to fuel the AI hype, which has been used as an excuse for mass layoffs among tech workers, crushes creativity and cognition, and fills people’s lives with meaningless slop. 
+In the Netherlands there is a growing awareness of the ecological and social damage done by the massive data centers built by hyperscaler big tech. For example, a single Microsoft data centre in the Dutch town of Middenmeer is [responsible for 1% of all electricity use](https://archive.is/5awQo) in The Netherlands, newspaper *NRC* reported this week. These new massive data centres are almost exclusively built to fuel the AI hype, which has been used as an excuse for mass layoffs among tech workers, crushes creativity and cognition, and fills people’s lives with meaningless slop. 
 
 {{% pull-quote %}}
 
