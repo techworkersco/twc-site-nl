@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <noscript>
+      <meta http-equiv="refresh" content="1;url=/nl/" />
+    </noscript>
+    <script>
+      (function () {
+        // Use en if specifically preferred, otherwise dutch
+        const preferEnglish =
+          navigator.language && navigator.language.toLowerCase().startsWith("en");
+        const lang = preferEnglish ? "en" : "nl";
+
+        window.location.replace(`/${lang}/`);
+      })();
+    </script>
+  </head>
+  <body>
+    <p>
+      Redirecting... If you are not redirected automatically within 1 second, please
+      <a href="/nl/">click here</a>.
+    </p>
+  </body>
+</html>

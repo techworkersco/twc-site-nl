@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <noscript>
+      <meta http-equiv="refresh" content="1;url=/nl/" />
+    </noscript>
+    <script>
+      (function () {
+        // Remove the trailing `/` to increase likelihood of matching
+        const path = window.location.pathname.replace(/\/$/, "");
+
+        // Use en if specifically preferred, otherwise dutch
+        const preferEnglish =
+          navigator.language && navigator.language.toLowerCase().startsWith("en");
+        const lang = preferEnglish ? "en" : "nl";
+
+        // Redirect raw root
+        if (path === "" || path === "/") {
+          window.location.replace(`/${lang}/`);
+          return;
+        }
+
+        //Redirect some specific nice urls
+        const niceUrls = {
+          "/squeakywheel": "/campaigns/squeakywheel",
+          "/palestine": "/campaigns/palestine",
+        };
+        if (niceUrls[path]) {
+          window.location.replace(`/${lang}${niceUrls[path]}`);
+          return;
+        }
+
+        // Redirect other key resource roots
+        const localizedRoots = ["/events", "/join", "/resources", "/campaigns", "/posts", "/about"];
+        if (localizedRoots.includes(path)) {
+          window.location.replace(`/${lang}${path}`);
+          return;
+        }
+
+        // All else fails, redirect to a localized 404
+        if (lang === "en") {
+          window.location.replace("/en/404.html");
+        } else {
+          window.location.replace("/nl/404.html");
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <p>
+      Redirecting... If you are not redirected automatically within 1 second, please
+      <a href="/nl/">click here</a>.
+    </p>
+  </body>
+</html>
