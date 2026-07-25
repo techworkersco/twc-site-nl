@@ -1,4 +1,4 @@
-import Fuse from "fuse.js";
+import Fuse from "lib/fuse/fuse.min.mjs";
 
 var fuse;
 var showButtons = document.querySelectorAll("[id^='search-button']");

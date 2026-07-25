@@ -45,7 +45,7 @@
   />
   {{ if .Site.Params.enableSearch | default false }}
     {{ $jsSearch := resources.Get "js/search.js" | js.Build }}
-    <script type="module" src="{{ $jsSearch.RelPermalink }}"></script>
+    <script type="module" src="{{ $jsSearch.RelPermalink }}" defer></script>
   {{ end }}
   {{ if .Site.Params.enableQuicklink | default false }}
     {{ $jsQuicklink := resources.Get "lib/quicklink/quicklink.umd.js" }}

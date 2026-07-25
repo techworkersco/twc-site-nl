@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "preinstall": "rimraf assets/lib",
+    "preinstall": "npx rimraf assets/lib",
     "postinstall": "vendor-copy",
     "assets": "rimraf assets/lib && vendor-copy",
     "server": "hugo server -b http://localhost -p 8000",
@@ -44,6 +44,10 @@
     {
       "from": "node_modules/pristinejs/dist/pristine.min.js",
       "to": "assets/lib/pristinejs/pristine.min.js"
+    },
+    {
+      "from": "node_modules/fuse.js/dist/fuse.min.mjs",
+      "to": "assets/lib/fuse/fuse.min.mjs"
     }
   ]
 }
