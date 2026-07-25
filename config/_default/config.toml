@@ -5,29 +5,32 @@
 defaultContentLanguage = "nl"
 defaultContentLanguageInSubdir = true
 
+# Use the static/index.html instead
+disableDefaultLanguageRedirect = true
+
 disableKinds = ["taxonomy", "term"]
 
 enableRobotsTXT = true
 summaryLength = 0
 
 [pagination]
-  pagerSize = 15
+pagerSize = 15
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS", "JSON"]
 
 [outputFormats]
-  [outputFormats.yaml]
-    baseName = 'index'
-    isHTML = false
-    isPlainText = true
-    mediaType = 'application/yaml'
-    noUgly = true
-    notAlternative = true
-    path = ''
-    permalinkable = false
-    protocol = ''
-    rel = ''
-    root = false
-    ugly = false
-    weight = 0
+[outputFormats.yaml]
+baseName = 'index'
+isHTML = false
+isPlainText = true
+mediaType = 'application/yaml'
+noUgly = true
+notAlternative = true
+path = ''
+permalinkable = false
+protocol = ''
+rel = ''
+root = false
+ugly = false
+weight = 0
