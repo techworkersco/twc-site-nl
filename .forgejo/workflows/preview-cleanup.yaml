@@ -20,4 +20,4 @@ jobs:
         ID_TOKEN=$(curl -Ss -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=forgejo.techwerkers.nl" | jq -r .value)
 
         echo "Cleaning up preview ${PREVIEW_ROOT} ..."
-      curl -X DELETE -H "Authorization: Bearer $ID_TOKEN" "https://preview.techwerkers.nl/delete/${PREVIEW_ROOT}" || true
+        curl -X DELETE -H "Authorization: Bearer $ID_TOKEN" "https://preview.techwerkers.nl/delete/${PREVIEW_ROOT}" || true
