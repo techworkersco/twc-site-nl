@@ -46,8 +46,7 @@ jobs:
       env:
         PREVIEW_ROOT: "pr-${{ forgejo.event.pull_request.number }}"
       run: |
-        ID_TOKEN=$(curl -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=forgejo.techwerkers.nl")
-        echo "$ID_TOKEN"
+        ID_TOKEN=$(curl -Ss -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=forgejo.techwerkers.nl" | jq -r .value)
 
         find public -type f | while IFS= read -r file; do
           [ -e "$file" ] || continue;
