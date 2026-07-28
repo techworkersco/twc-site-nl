@@ -1,0 +1,28 @@
+name: preview
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ${{ forgejo.workflow }}-${{ forgejo.head_ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  preview:
+    name: preview
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ forgejo.head_ref }}
+
+    - name: echo
+      run: |
+        echo "hello world"
