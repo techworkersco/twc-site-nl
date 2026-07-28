@@ -9,9 +9,6 @@ concurrency:
   group: ${{ forgejo.workflow }}-${{ forgejo.head_ref }}
   cancel-in-progress: true
 
-permissions:
-  contents: write
-
 jobs:
   preview:
     name: preview
@@ -23,6 +20,22 @@ jobs:
       with:
         ref: ${{ forgejo.head_ref }}
 
-    - name: echo
+    - name: Setup Hugo
+      uses: https://github.com/peaceiris/actions-hugo@v3
+      with:
+        hugo-version: "0.162.0"
+
+    - name: hugo-build
       run: |
-        echo "hello world"
+        hugo build --gc --minify -b https://testing.preview.techwerkers.nl/
+
+    - name: upload-files
+      run: |
+        find public -type f | while IFS= read -r file; do
+          [ -e "$file" ] || continue;
+
+          root_path="${file#public/}"
+
+          echo "Uploading $root_path..."
+          curl -sS -X PUT --upload-file "$file" "https://preview.techwerkers.nl/upload/testing/$root_path"
+        done
