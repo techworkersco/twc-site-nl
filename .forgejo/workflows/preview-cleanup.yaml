@@ -5,15 +5,6 @@ on:
     types: [unlabeled, closed]
 
 jobs:
-  debug:
-    runs-on: ubuntu-latest
-    steps:
-    - name: event
-      run: |
-        cat <<'EOF'
-        ${{ toJSON(forgejo) }}
-        EOF
-
   cleanup:
     runs-on: ubuntu-latest
     if: |
@@ -25,4 +16,4 @@ jobs:
         PREVIEW_ROOT: "pr-${{ forgejo.event.pull_request.number }}"
       run: |
         echo "Cleaning up preview ${PREVIEW_ROOT} ..."
-        curl -X DELETE "https://preview.techwerkers.nl/delete/${PREVIEW_ROO}" || true
+        curl -X DELETE "https://preview.techwerkers.nl/delete/${PREVIEW_ROOT}" || true
