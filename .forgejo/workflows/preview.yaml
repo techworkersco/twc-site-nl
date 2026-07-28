@@ -1,24 +1,33 @@
 name: preview
 
 on:
-  workflow_dispatch:
-  push:
-    branches: [main]
+  pull_request:
+    types: [labeled, synchronize]
 
 concurrency:
-  group: ${{ forgejo.workflow }}-${{ forgejo.head_ref }}
+  group: ${{ forgejo.workflow }}-${{ forgejo.event.pull_request.number || forgejo.ref }}
   cancel-in-progress: true
 
 jobs:
   preview:
     name: preview
     runs-on: ubuntu-latest
+    if: |
+      (forgejo.event.action == 'labeled' && forgejo.event.label.name == 'preview') ||
+      (forgejo.event.action == 'synchronize' && contains(forgejo.event.pull_request.labels.*.name, 'preview'))
 
     steps:
+    - name: Set vars
+      id: set_vars
+      run: |
+        PR_NUM="${{ forgejo.event.pull_request.number }}"
+        echo "PR_NUM=${PR_NUM}" >> $FORGEJO_ENV
+        echo "Target PR Number: ${PR_NUM}"
+
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        ref: ${{ forgejo.head_ref }}
+        ref: ${{ forgejo.event.pull_request.head.ref }}
 
     - name: Setup Hugo
       uses: https://github.com/peaceiris/actions-hugo@v3
@@ -26,10 +35,14 @@ jobs:
         hugo-version: "0.162.0"
 
     - name: hugo-build
+      env:
+        PREVIEW_URL: "https://pr-${{ forgejo.event.pull_request.number }}.preview.techwerkers.nl"
       run: |
-        hugo build --gc --minify -b https://testing.preview.techwerkers.nl/
+        hugo build --gc --minify -b "$PREVIEW_URL"
 
     - name: upload-files
+      env:
+        PREVIEW_ROOT: "pr-${{ forgejo.event.pull_request.number }}"
       run: |
         find public -type f | while IFS= read -r file; do
           [ -e "$file" ] || continue;
@@ -37,5 +50,5 @@ jobs:
           root_path="${file#public/}"
 
           echo "Uploading $root_path..."
-          curl -sS -X PUT --upload-file "$file" "https://preview.techwerkers.nl/upload/testing/$root_path"
+          curl -sS -X PUT --upload-file "$file" "https://preview.techwerkers.nl/upload/$PREVIEW_ROOT/$root_path"
         done
