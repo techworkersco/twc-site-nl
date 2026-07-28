@@ -9,9 +9,6 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref }}
   cancel-in-progress: true
 
-permissions:
-  contents: write
-
 jobs:
   prettier:
     name: lint-prettier

@@ -19,5 +19,4 @@
 # Ignore any content because its possible it comes from the CMS
 /content/
 
-# Ignore the whole infra stuff
-/infra/
+.forgejo/
