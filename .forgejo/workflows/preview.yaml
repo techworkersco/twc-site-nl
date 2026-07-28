@@ -9,6 +9,15 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+    - name: event
+      run: |
+        cat <<'EOF'
+        ${{ toJSON(forgejo) }}
+        EOF
+
   preview:
     name: preview
     runs-on: ubuntu-latest
