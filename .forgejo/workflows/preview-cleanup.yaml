@@ -17,6 +17,7 @@ jobs:
   cleanup:
     runs-on: ubuntu-latest
     if: |
+      (forgejo.event.action == 'label_cleared' && forgejo.event.label.name == 'preview') ||
       (forgejo.event.action == 'closed')
     steps:
     - name: Delete Preview Deployment
