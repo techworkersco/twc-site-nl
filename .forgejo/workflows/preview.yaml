@@ -21,9 +21,9 @@ jobs:
   preview:
     name: preview
     runs-on: ubuntu-latest
-    if: |
-      (forgejo.event.action == 'labeled' && forgejo.event.label.name == 'preview') ||
-      (forgejo.event.action == 'synchronize' && contains(forgejo.event.pull_request.labels.*.name, 'preview'))
+    #if: |
+    #  (forgejo.event.action == 'labeled' && forgejo.event.label.name == 'preview') ||
+    #  (forgejo.event.action == 'synchronize' && contains(forgejo.event.pull_request.labels.*.name, 'preview'))
 
     steps:
     - name: Set vars
