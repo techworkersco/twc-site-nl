@@ -11,29 +11,29 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Resources"
-  pageRef = "resources"
-  weight = 10
+name = "Resources"
+pageRef = "resources"
+weight = 10
 
 [[main]]
-  name = "Events"
-  url = "https://events.techwerkers.nl/"
-  weight = 20
+name = "Events"
+url = "https://events.techwerkers.nl/"
+weight = 20
 
 [[main]]
-  name = "About"
-  pageRef = "about"
-  weight = 30
+name = "About"
+pageRef = "about"
+weight = 30
 
 [[main]]
-  name = "Newsletter"
-  pageRef = "newsletter"
-  weight = 40
+name = "Newsletter"
+pageRef = "newsletter"
+weight = 40
 
 [[main]]
-  name = "Join"
-  pageRef = "join"
-  weight = 50
+name = "Join"
+pageRef = "join"
+weight = 50
 
 # [[main]]
 #   name = "GitHub"
@@ -45,16 +45,16 @@
 #     target = "_blank"
 
 [[main]]
-  identifier = "search"
-  weight = 99
-  [main.params]
-    action = "search"
+identifier = "search"
+weight = 99
+[main.params]
+action = "search"
 
 [[main]]
-  identifier = "locale"
-  weight = 100
-  [main.params]
-    action = "locale"
+identifier = "locale"
+weight = 100
+[main.params]
+action = "locale"
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

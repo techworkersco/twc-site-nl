@@ -21,72 +21,72 @@ enableQuicklink = true
 fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
-  logo = "img/logo-nl.png"
-  logo_en = "img/logo-en.png"
-  # logoDark = "img/dark-logo.jpg"
-  showTitle = false
+layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
+logo = "img/logo-nl.png"
+logo_en = "img/logo-en.png"
+# logoDark = "img/dark-logo.jpg"
+showTitle = false
 
 [footer]
-  showCopyright = false
-  showThemeAttribution = false
-  showAppearanceSwitcher = false
-  showScrollToTop = true
+showCopyright = false
+showThemeAttribution = false
+showAppearanceSwitcher = false
+showScrollToTop = true
 
 [homepage]
-  layout = "custom" # valid options: page, profile, custom
-  showRecent = true
-  recentLimit = 5
+layout = "custom" # valid options: page, profile, custom
+showRecent = true
+recentLimit = 5
 
 [article]
-  showDate = true
-  showDateUpdated = true
-  showAuthor = false
-  showBreadcrumbs = true
-  showDraftLabel = false
-  showEdit = false
-  editURL = "https://github.com/"
-  editAppendPath = true
-  showHeadingAnchors = true
-  showPagination = true
-  invertPagination = false
-  showReadingTime = false
-  showTableOfContents = true
-  showTaxonomies = true
-  showWordCount = false
-  showComments = false
-  sharingLinks = ["facebook", "x-twitter", "mastodon", "reddit", "linkedin", "email", "threads", "telegram"]
+showDate = true
+showDateUpdated = true
+showAuthor = false
+showBreadcrumbs = true
+showDraftLabel = false
+showEdit = false
+editURL = "https://github.com/"
+editAppendPath = true
+showHeadingAnchors = true
+showPagination = true
+invertPagination = false
+showReadingTime = false
+showTableOfContents = true
+showTaxonomies = true
+showWordCount = false
+showComments = false
+sharingLinks = ["facebook", "x-twitter", "mastodon", "reddit", "linkedin", "email", "threads", "telegram"]
 
 [resource]
-  showDate = false
-  showDateUpdated = false
-  showAuthor = false
-  showBreadcrumbs = true
-  showDraftLabel = false
-  showEdit = false
-  editURL = "https://github.com/"
-  editAppendPath = true
-  showHeadingAnchors = true
-  showPagination = true
-  invertPagination = true
-  showReadingTime = false
-  showTableOfContents = true
-  showTaxonomies = true
-  showWordCount = false
-  showComments = false
-  showSummary = true
-  sharingLinks = ["facebook", "x-twitter", "mastodon", "reddit", "linkedin", "email", "threads", "telegram"]
+showDate = false
+showDateUpdated = false
+showAuthor = false
+showBreadcrumbs = true
+showDraftLabel = false
+showEdit = false
+editURL = "https://github.com/"
+editAppendPath = true
+showHeadingAnchors = true
+showPagination = true
+invertPagination = true
+showReadingTime = false
+showTableOfContents = true
+showTaxonomies = true
+showWordCount = false
+showComments = false
+showSummary = true
+sharingLinks = ["facebook", "x-twitter", "mastodon", "reddit", "linkedin", "email", "threads", "telegram"]
 
 [list]
-  showBreadcrumbs = true
-  showSummary = false
-  showTableOfContents = true
-  showTaxonomies = false
-  groupByYear = false
-  paginationWidth = 1
+showBreadcrumbs = true
+showSummary = false
+showTableOfContents = true
+showTaxonomies = false
+groupByYear = false
+paginationWidth = 1
 
 [sitemap]
-  excludedKinds = ["taxonomy", "term"]
+excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
-  showTermCount = true
+showTermCount = true
