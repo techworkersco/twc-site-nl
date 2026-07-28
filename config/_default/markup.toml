@@ -3,15 +3,15 @@
 
 [goldmark]
 [goldmark.renderer]
-  unsafe = true
+unsafe = true
 [goldmark.parser]
-  wrapStandAloneImageWithinParagraph = false
+wrapStandAloneImageWithinParagraph = false
 [goldmark.parser.attribute]
-  block = true
+block = true
 
 [highlight]
-  noClasses = false
+noClasses = false
 
 [tableOfContents]
-  startLevel = 2
-  endLevel = 3
+startLevel = 2
+endLevel = 3

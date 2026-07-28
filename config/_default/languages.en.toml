@@ -7,23 +7,23 @@ title = "Tech Workers Coalition"
 copyright = "2025 Tech Workers Coalition"
 
 [params]
-  dateFormat = "2 January 2006"
+dateFormat = "2 January 2006"
 
-  mainSections = ["posts"]
-  description = "Would you like more autonomy at work? Better pay? More time off? Work remotely? Less burnout? Make it happen! Join forces with fellow tech workers in and beyond The Netherlands to get the workplace changes you want."
+mainSections = ["posts"]
+description = "Would you like more autonomy at work? Better pay? More time off? Work remotely? Less burnout? Make it happen! Join forces with fellow tech workers in and beyond The Netherlands to get the workplace changes you want."
 
 [params.author]
-  name = "Tech Workers Coalition"
-  image = "img/logo-en.png"
-  headline = ""
-  bio = ""
-  links = [
-    { name = "linkedin", url = "https://www.linkedin.com/company/techwerkers-nl/" },
-    { name = "mastodon", url = "https://mastodon.nl/@techwerkers" },
-    { name = "youtube", url = "https://www.youtube.com/@Techwerkers" },
-    { name = "instagram", url = "https://instagram.com/techwerkers" },
-    { name = "bluesky", url = "https://bsky.app/profile/techwerkers.bsky.social" },
-    { name = "email", url = "mailto:hey@techwerkers.nl" },
-    { name = "github", url = "https://github.com/techworkersco/twc-site-nl/" },
-    { name = "About", url = "https://techwerkers.nl/en/about", icon = "circle-info", target = "_self" },
-  ]
+name = "Tech Workers Coalition"
+image = "img/logo-en.png"
+headline = ""
+bio = ""
+links = [
+  { name = "linkedin", url = "https://www.linkedin.com/company/techwerkers-nl/" },
+  { name = "mastodon", url = "https://mastodon.nl/@techwerkers" },
+  { name = "youtube", url = "https://www.youtube.com/@Techwerkers" },
+  { name = "instagram", url = "https://instagram.com/techwerkers" },
+  { name = "bluesky", url = "https://bsky.app/profile/techwerkers.bsky.social" },
+  { name = "email", url = "mailto:hey@techwerkers.nl" },
+  { name = "github", url = "https://github.com/techworkersco/twc-site-nl/" },
+  { name = "About", url = "https://www.techwerkers.nl/en/about", icon = "circle-info", target = "_self" },
+]

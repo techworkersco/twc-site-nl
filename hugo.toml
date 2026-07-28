@@ -1,4 +1,4 @@
-baseURL = 'https://techwerkers.nl/'
+baseURL = 'https://www.techwerkers.nl/'
 locale = 'nl'
 title = 'Techwerkers'
 # Events are likely to have future timestamps
