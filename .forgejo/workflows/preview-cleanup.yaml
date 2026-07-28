@@ -1,0 +1,27 @@
+name: preview-cleanup
+
+on:
+  pull_request:
+    types: [unlabeled, closed]
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+    - name: event
+      run: |
+        cat <<'EOF'
+        ${{ toJSON(forgejo) }}
+        EOF
+
+  cleanup:
+    runs-on: ubuntu-latest
+    if: |
+      (forgejo.event.action == 'closed')
+    steps:
+    - name: Delete Preview Deployment
+      env:
+        PREVIEW_ROOT: "pr-${{ forgejo.event.pull_request.number }}"
+      run: |
+        echo "Cleaning up preview ${PREVIEW_ROOT} ..."
+        curl -X DELETE "https://preview.techwerkers.nl/delete/${PREVIEW_ROO}" || true
