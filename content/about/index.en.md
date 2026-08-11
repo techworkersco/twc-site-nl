@@ -52,7 +52,7 @@ No. You may have heard of big labour unions in the Netherlands, such as FNV or C
 
 ## Join
 
-Tired of being alone, undervalued at work? Join the movement! Come and say hi at one of the [upcoming events](/en/events), or join directly.
+Tired of being alone, undervalued at work? Join the movement! Come and say hi at one of the [upcoming events](https://events.techwerkers.nl/), or join directly.
 
 <span class="flex justify-center uppercase font-mono">
   {{< button href="join" >}}

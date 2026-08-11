@@ -50,7 +50,7 @@ Nee. Je hebt misschien wel eens gehoord van grote vakbonden in Nederland, zoals 
 
 ## Doe mee
 
-Ben je het zat om altijd maar alleen te zijn? Te weinig waardering te krijgen voor je werk? Doe mee met de beweging! Kom gedag zeggen bij een van de [aankomende activiteiten](/nl/events), of sluit je direct aan.
+Ben je het zat om altijd maar alleen te zijn? Te weinig waardering te krijgen voor je werk? Doe mee met de beweging! Kom gedag zeggen bij een van de [aankomende activiteiten](https://events.techwerkers.nl/), of sluit je direct aan.
 
 <span class="flex justify-center uppercase font-mono">
 {{< button href="join" >}}
