@@ -1,6 +1,6 @@
 ---
 title: "A Manifesto for Responsible Agentic Coding"
-summary: "Should you boycot generative AI? But what if your hyped-up boss starts pressuring you? Worry not, there’s a middle ground. A tech worker shares their manifesto for responsible agentic AI coding."
+summary: "Should you boycott generative AI? But what if your hyped-up boss starts pressuring you? Worry not, there’s a middle ground. A tech worker shares their manifesto for responsible agentic AI coding."
 showSummary: true
 author:
 date: 2026-08-25T07:00:00+02:00
