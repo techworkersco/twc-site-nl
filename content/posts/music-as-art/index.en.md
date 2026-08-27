@@ -29,7 +29,7 @@ But how long would it take for my obsession with music, which in reality lasted 
 
 Besides those personal questions that plague my mind, I have more pressing general ones: Is limitless access really a benefit when it comes to art, or does it just lead to inertia via choice overload? What happens to how we value the medium we don't ever have to work for again? And when we go a step further and disregard thousands of years of human labor of love in art and introduce ‘art-inspired content’ created with ethically problematic tech, do we find it harder to care after being so conditioned to be desensitized?
 
-## It’s not the tech, it’s the business
+## The tech is not the problem, but the business is
 
 It's not so much the streaming technology itself that is the problem; I think the tech is stellar. It's the way *the streaming business model* does fundamental damage to the medium it so ruthlessly exploits.
 
@@ -39,9 +39,9 @@ But that mountain of issues is not even my biggest beef with the streaming model
 
 ## The erosion of agency
 
-With playlist and ‘vibe’ culture being pushed so hard by Spotify and the like, concept albums—heck, even the concept of ‘albums’—are being replaced with ‘vibe playlists’.
+With playlist and ‘vibe’ culture being pushed so hard by Spotify and the like, concept albums (heck, even the concept of ‘albums’) are being replaced with ‘vibe playlists’.
 
-Vibe playlists mean that we end up not knowing the names of some of the artists that we regularly listen to anymore. Sometimes we just know which playlist that one track that we like is in. [As noted by Cory Doctorow and Rebecca Giblin](https://doctorow.medium.com/spotify-steals-from-artists-a-spotify-exclusive-91c564436c9d), this playlist-centric approach also makes streaming platforms big money by locking in players to platform-specific playlists—unlike albums, which are basically the same wherever you listen to them.
+Vibe playlists mean that we end up not knowing the names of some of the artists that we regularly listen to anymore. Sometimes we just know which playlist that one track that we like is in. [As noted by Cory Doctorow and Rebecca Giblin](https://doctorow.medium.com/spotify-steals-from-artists-a-spotify-exclusive-91c564436c9d), this playlist-centric approach also makes streaming platforms big money by locking in players to platform-specific playlists; unlike albums, which are basically the same wherever you listen to them.
 
 There is a lack of intent and erosion of agency that is built into the streaming model by design.
 
@@ -91,4 +91,4 @@ To quote my favorite book, *What Art Does* by Bette Adriaanse and Brian Eno:
 
 So let's make music, buy some albums, go to gigs, get that cool band t-shirt we've been eyeing, and talk to each other about music. Let's always talk to each other about music, deal?
 
-*This article was written by [SUPERDAZE](https://superdaze.bandcamp.com/), with editorial feedback from Kit.*
+*This article was written by [SUPERDAZE](https://superdaze.bandcamp.com/), with editorial feedback from Kit. The text was updated on 2026-08-27 to fix a heading and formatting.*
