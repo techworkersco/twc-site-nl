@@ -29,7 +29,7 @@ Maar hoe lang zou het duren voordat mijn obsessie met muziek, die in werkelijkhe
 
 Naast die persoonlijke vragen die me bezighouden, heb ik ook dringendere, algemene vragen: Is onbeperkte toegang tot kunst echt een voordeel, of leidt het juist tot inertie door een overvloed aan keuzes? Wat gebeurt er met onze waardering voor een medium waar we nooit meer moeite voor hoeven doen? En als we nog een stap verder gaan en duizenden jaren van menselijke arbeid en liefde in de kunst negeren en 'kunstgeïnspireerde inhoud' introduceren die is gemaakt met ethisch problematische technologie, vinden we het dan moeilijker om erom te geven nadat we zo geconditioneerd en ongevoelig zijn geworden?
 
-## Het is niet de technologie, het zijn de bedrijven
+## De tech is niet het probleem, het zijn de bedrijven
 
 Het probleem zit hem niet zozeer in de *streaming*-technologie zelf; ik vind de technologie fantastisch. Het probleem zit hem in de manier waarop *het bedrijfsmodel van streaming* fundamentele schade toebrengt aan het medium dat het zo meedogenloos uitbuit.
 
@@ -39,9 +39,9 @@ Maar die berg aan problemen is niet eens mijn grootste bezwaar tegen het *stream
 
 ## De uitholling van autonomie
 
-Nu de afspeellijst- en '*vibe*'-cultuur er door Spotify en dergelijke zo sterk worden doorgedrukt, worden conceptalbums–sterker nog, zelfs het concept van een 'album'–vervangen door *vibe*-afspeellijsten'.
+Nu de afspeellijst- en '*vibe*'-cultuur er door Spotify en dergelijke zo sterk worden doorgedrukt, worden conceptalbums (sterker nog, zelfs het concept van een 'album') vervangen door *vibe*-afspeellijsten'.
 
-*Vibe*-afspeellijsten betekenen dat we uiteindelijk de namen van sommige artiesten waar we regelmatig naar luisteren niet meer kennen. Soms weten we alleen in welke afspeellijst dat ene nummer dat we leuk vinden staat. [Zoals Cory Doctorow en Rebecca Giblin opmerkten](https://doctorow.medium.com/spotify-steals-from-artists-a-spotify-exclusive-91c564436c9d), levert deze op afspeellijsten gerichte aanpak *streaming*-platformen veel geld op, omdat luisteraars gebonden worden aan platformspecifieke afspeellijsten–in tegenstelling tot albums, die in principe overal hetzelfde zijn.
+*Vibe*-afspeellijsten betekenen dat we uiteindelijk de namen van sommige artiesten waar we regelmatig naar luisteren niet meer kennen. Soms weten we alleen in welke afspeellijst dat ene nummer dat we leuk vinden staat. [Zoals Cory Doctorow en Rebecca Giblin opmerkten](https://doctorow.medium.com/spotify-steals-from-artists-a-spotify-exclusive-91c564436c9d), levert deze op afspeellijsten gerichte aanpak *streaming*-platformen veel geld op, omdat luisteraars gebonden worden aan platformspecifieke afspeellijsten; in tegenstelling tot albums, die in principe overal hetzelfde zijn.
 
 Het *streaming*-model is bewust ontworpen met een gebrek aan intentie en een afbruik van de autonomie van de luisteraar.
 
@@ -91,4 +91,4 @@ Om mijn favoriete boek, *Wat Kunst Doet* van Bette Adriaanse en Brian Eno, te ci
 
 Dus laten we muziek maken, albums kopen, naar concerten gaan, dat coole bandshirt scoren waar we al zo lang naar uitkijken, en met elkaar over muziek praten. Laten we altijd met elkaar over muziek praten, afgesproken?
 
-*Dit artikel is geschreven door [SUPERDAZE](https://superdaze.bandcamp.com/), met redactionele feedback van Kit.*
+*Dit artikel is geschreven door [SUPERDAZE](https://superdaze.bandcamp.com/), met redactionele feedback van Kit. De tekst is op 2026-08-27 geüpdate om een tussenkopje en punctuatie te corrigeren.*
