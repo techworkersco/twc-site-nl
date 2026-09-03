@@ -1,6 +1,6 @@
 ---
 title: "If you're 10x more productive with AI, how come your wage is flatlining?"
-summary: "Some workers claim they're 10x more productive with AI. But are they also 10x their wages? A tech worker offers ideas to avoid exploitation."
+summary: "Some workers claim they're 10x more productive with AI. But are they also getting 10x their regular wages? A tech worker offers ideas to avoid exploitation."
 showSummary: true
 author:
 date: 2026-09-03T07:00:00+02:00
