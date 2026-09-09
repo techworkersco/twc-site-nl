@@ -1,6 +1,6 @@
 // Add missing URL regex
 URL_REGEX =
-  /^(https?:\/\/)?[a-zA-Z0-9@:%._\+~#=\-]{1,256}\.[a-zA-Z0-9\(\)]{1,63}\b(?:[a-zA-Z0-9\(\)@:%_\+.~#?&\/=]*)$/;
+  /^(https?:\/\/)?[a-zA-Z0-9@:%._\+~#=\-]{1,256}\.[a-zA-Z0-9\(\)]{1,63}\b(?:[a-zA-Z0-9\(\)@:%_\+.~#?&\/=\-]*)$/;
 Pristine.addValidator(
   "url",
   (val) => !val || URL_REGEX.test(val),
