@@ -31,8 +31,6 @@ Have you been keeping a low profile recently? If you were previously part of the
 
 Would you enjoy a regular (monthly-ish) social meetup with fellow tech workers in or around Amsterdam? It might be an option soon! Fill out the poll to indicate which day(s) of the week could work for you: [Techwerkers Meetup Availability - When2meet](https://www.when2meet.com/?38877386-1Z4XI) (nickname is fine)
 
-Also, if you have suggestions for venues, or specific accessibility needs, feel free to message `george.317` on [Signal](https://signal.org/) directly to get it sorted.
-
 Looking forward to hanging out :)
 
 ![What's your silly cat name? First name: your SSH public key. Last name: your SSH private key.](silly-cat.png)
