@@ -33,8 +33,6 @@ Heb je je de laatste tijd wat op de achtergrond gehouden? Als je eerder lid was 
 
 Lijkt het je leuk om regelmatig (ongeveer maandelijks) informeel af te spreken met andere techwerkers in of rond Amsterdam? Dat kan misschien binnenkort! Vul de peiling in om aan te geven welke dag(en) van de week voor jou uitkomen: [Techwerkers Meetup Availability - When2meet](https://www.when2meet.com/?38877386-1Z4XI) (pseudoniem is prima).
 
-Heb je daarnaast suggesties voor locaties of specifieke wensen wat betreft toegankelijkheid? Stuur dan gerust een bericht naar `george.317` op [Signal](https://signal.org/) om dit te regelen.
-
 Tot binnenkort wellicht :)
 
 ![Wat is jouw maffe kattennaam? Voornaam: je publieke SSH-sleutel. Achternaam: je privé SSH-sleutel.](silly-cat.png)
