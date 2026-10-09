@@ -45,11 +45,19 @@ Hoe verleidelijk het ook is om een ​​grote taak te definiëren die een agent
 
 Hetzelfde geldt voor code beoordelen: niemand wordt graag gevraagd om een binnenhaalverzoek (*pull request*) van duizenden regels te beoordelen. Het is een goede gewoonte om grotere functionaliteiten op te splitsen in meerdere binnenhaalverzoeken om de mentale toeslag beperkt te houden. Als dit werkt voor code die door mensen geschreven is, des te meer reden om hetzelfde beleid toe te passen op code die door machines wordt gegenereerd.
 
+## Behoud de controle
+
+**Laat AI geen code invoegen of binnenhaalverzoeken voor je openen**. Da's geen saai klusje dat je kunt uitbesteden, maar eens kans om de controle te behouden over je broncode. Hoe zou je zonder zulke controle ook maar op een betekenisvolle wijze verantwoordelijkheid kunnen nemen voor je werk?
+
+Laat AI niet uit jouw naam opmerkingen plaatsen of berichtjes sturen. Je weet nooit wat het gaat schrijven wanneer het voordoet jou te zijn. En het is respectloos tegenover de mensen waarvan je verwacht dat ze 'jouw' berichtje ook gaan lezen – als ze een instructie naar een chatbot hadden willen sturen, dan hadden ze dat zelf wel kunnen doen. Ze zijn geïnteresseerd in wat _jij_ denkt.
+
 ## Houd het simpel
 
 Generatieve AI heeft de neiging om omslachtige en overgecompliceerde code te creëren, die vaak inconsistent is met de rest van de codebase; het vindt het heerlijk om lange opmerkingen toe te voegen die niemand leest en die de neiging hebben om snel te verouderen, waardoor ze eerder verwarrend zijn dan nuttig. **Wees kritisch** op wat het uitspuwt en **zoek naar manieren om het te vereenvoudigen**.
 
 LLM's zijn patroon-herkennende machines – dus blinken ze uit in taken zoals refactoren en het wegwerken van technische schuld. Als je het één of twee goede voorbeelden geeft en het vraagt ​​om dit werk te herhalen in tientallen andere bestanden, zal het waarschijnlijk goed werk leveren. **Gebruik AI om technische schuld te verminderen – niet om deze gedachteloos te vergroten. Automatiseer saaie taken – geniet van de leuke.**
+
+Het _enorme hoeveelheid_ code die grote taalmodellen goedkoop kunnen genereren lijkts aanvankelijk indrukwekkend, maar na verloop van tijd wordt het een duidelijk risico: toenemende complexiteit, uiteenlopende patronen worden geïntroduceerd, ontwikkelaars raken overweldigd, je verspilt energie door steeds van context te moeten wisselen, wat herhaald herwerken vereist...
 
 In plaats van AI als een soort magische, onfeilbare programmeur te behandelen die alles kan (dat kan het niet), behandel het als de niet-deterministische machine die het is; de beste analogie met een mens zou een junior-ontwikkelaar zijn met een beperkte focus, maar een enorm talent om saaie, herhaalde taken razendsnel af te ronden, of een senior-ontwikkelaar met wie je ideeën kunt brainstormen, maar waarbij je uiteindelijk op basis van je eigen oordeel en ervaring besluit wat je gaat doen.
 
