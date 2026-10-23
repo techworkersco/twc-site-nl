@@ -6,6 +6,10 @@ description: "This guide provides a neutral, comprehensive overview of Dutch lab
 tags: []
 feature: "feature-layoffs.jpg"
 ---
+> [Let us know!](https://n8n.infra.techwerkers.nl/form/bb19f883-f26d-4675-82ae-042e499fbc7b) We track page view numbers,
+> and we often see this page being referenced. We want to offer our support, but we need to know who's at risk. Submit
+> info anonymously [here](https://n8n.infra.techwerkers.nl/form/bb19f883-f26d-4675-82ae-042e499fbc7b)
+
 
 💡 _This guide has been created by a tech worker with extensive experience negotiating collective redundancies at companies with a Dutch works council._
 

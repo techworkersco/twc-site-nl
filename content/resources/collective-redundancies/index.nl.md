@@ -7,6 +7,11 @@ tags: []
 feature: "feature-layoffs.jpg"
 ---
 
+> [Laat het ons weten!](https://n8n.infra.techwerkers.nl/form/bb19f883-f26d-4675-82ae-042e499fbc7b) Wij houden het
+> aantal paginabezoeken bij en zien vaak dat er naar deze pagina wordt verwezen. We willen graag ondersteuning bieden,
+> maar dan moeten we wel weten wie er risico loopt. Geef
+> [hier](https://n8n.infra.techwerkers.nl/form/bb19f883-f26d-4675-82ae-042e499fbc7b) anoniem informatie door.
+
 💡 _Deze gids is gemaakt door een techwerker met uitgebreide ervaring in het onderhandelen over collectief ontslag bij bedrijven met een ondernemingsraad in Nederland._
 
 > **Let op**: Dit document is uitsluitend bedoeld ter informatie en vormt geen juridisch advies. Voor specifieke juridische begeleiding of om individuele gevallen te behandelen, kunt je het beste een jurist raadplegen.
