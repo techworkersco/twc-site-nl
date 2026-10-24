@@ -15,8 +15,7 @@ feature: "feature-layoffs.jpg"
 ## Let us know!
 
 We track page view numbers, and we often see this page being referenced. We want to offer our support, but we need to
-know who's at risk. Submit info anonymously
-[here](https://n8n.infra.techwerkers.nl/form/bb19f883-f26d-4675-82ae-042e499fbc7b)
+know who's at risk. Submit info anonymously [here](https://n8n.techwerkers.nl/form/bb19f883-f26d-4675-82ae-042e499fbc7b)
 
 ## What are collective redundancies in the Netherlands?
 

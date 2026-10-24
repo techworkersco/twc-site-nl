@@ -15,7 +15,7 @@ feature: "feature-layoffs.jpg"
 
 Wij houden het aantal paginabezoeken bij en zien vaak dat er naar deze pagina wordt verwezen. We willen graag
 ondersteuning bieden, maar dan moeten we wel weten wie er risico loopt. Geef
-[hier](https://n8n.infra.techwerkers.nl/form/bb19f883-f26d-4675-82ae-042e499fbc7b) anoniem informatie door.
+[hier](https://n8n.techwerkers.nl/form/bb19f883-f26d-4675-82ae-042e499fbc7b) anoniem informatie door.
 
 ## Wat is collectief ontslag?
 
