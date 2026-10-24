@@ -7,9 +7,15 @@ tags: []
 feature: "feature-layoffs.jpg"
 ---
 
+
 💡 _This guide has been created by a tech worker with extensive experience negotiating collective redundancies at companies with a Dutch works council._
 
 > **Disclaimer**: This document is intended for informational purposes only and does not constitute legal advice. For specific legal guidance or to address individual cases, please consult a qualified legal professional.
+
+## Let us know!
+
+We track page view numbers, and we often see this page being referenced. We want to offer our support, but we need to
+know who's at risk. Submit info anonymously [here](https://n8n.techwerkers.nl/form/bb19f883-f26d-4675-82ae-042e499fbc7b)
 
 ## What are collective redundancies in the Netherlands?
 
