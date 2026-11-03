@@ -145,4 +145,4 @@ Denk je dat de tech-industrie in Nederland? Overweeg je om lid te worden van [Te
 
 [1]: https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBAMS:2026:10590
 
-Cover foto van [KATRIN BOLOVTSOVA](https://www.pexels.com/@ekaterina-bolovtsova/) op [Pexels](https://www.pexels.com/photo/brown-wooden-gavel-on-brown-wooden-table-6077326
+Cover foto van [KATRIN BOLOVTSOVA](https://www.pexels.com/@ekaterina-bolovtsova/) op [Pexels](https://www.pexels.com/photo/brown-wooden-gavel-on-brown-wooden-table-6077326)
