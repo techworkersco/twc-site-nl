@@ -109,7 +109,7 @@ De rechter deed enkele algemene opmerkingen. Zo had Booking voldoende ruimte geb
 
 De algemene samenvatting van de oordelen (gebaseerd op elke afzonderlijke vraag):
 
-*Heeft Booking een redelijk belang bij het instellen van een minimale aanwezigheid van 40%?*
+__*Heeft Booking een redelijk belang bij het instellen van een minimale aanwezigheid van 40%?*__
 
 Ja. Booking beoogt de samenwerking, kennisdeling en innovatie te bevorderen door de aanwezigheid op de werkplek te vergroten. Het is aannemelijk dat de fysieke interacties van werknemers bijdragen aan een betere samenwerking, een effectievere coördinatie en meer onderling vertrouwen. Dat die fysieke interactie kan bijdragen aan een betere inpassing van nieuwe werknemers, sneller kunnen schakelen, elkaar inspireren bij de verdere uitwerking van ideeën en een constructieve houding ten opzichte van elkaars ideeën is misschien geen harde wetenschappelijke conclusie, maar wel een breed gedeelde aanname. [...] Het is van belang om elkaar met enige regelmaat te zien.
 
@@ -117,11 +117,11 @@ Het wordt niet als te zwaar belastend beschouwd om werknemers te verplichten 40%
 
 De ondernemingsraad bracht een valide punt naar voren over onvoldoende capaciteit; dat vereist echter van Booking dat zij de teamdagen over de week spreidt in plaats van Dinsdagen en Donderdagen als pieknoemen aan te wijzen. Booking heeft wel een verplichting om ruimte te bieden als dit noodzakelijk is.
 
-*Heeft Booking een redelijk belang om 40% per maand te verplichten in plaats van per kwartaal?*
+__*Heeft Booking een redelijk belang om 40% per maand te verplichten in plaats van per kwartaal?*__
 
 Ja. Hiertegen waren door de ondernemingsraad geen argumenten ingebracht. De 40% aanwezigheid is gebaseerd op het aantal werkdagen, waardoor afwezigheid, vakanties en zakenreizen dus zijn uitgesloten.
 
-*Heeft Booking een redelijk belang om de opkomst te controleren?*
+__*Heeft Booking een redelijk belang om de opkomst te controleren?*__
 
 Ja, maar wel met nuances.
 
@@ -129,7 +129,7 @@ De vraag aan de rechter tijdens de zitting was of het systematisch bijhouden van
 
 Als er sprake is van een wijziging in het beleid en wordt geoordeeld dat de ondernemingsraad geraadpleegd moet worden, dan dient dat inderdaad plaats te vinden (oftewel de Wet op de ondernemingsraden, oftewel WOR, moet worden gevolgd).
 
-*Kan er een uitzondering komen voor mensen die langdurig afwezig zijn?*
+__*Kan er een uitzondering komen voor mensen die langdurig afwezig zijn?*__
 
 Ja, maar dat gaat gepaard met slechts een tijdelijke vrijstelling van de 40% regel. Het ligt in de algemene lijn van goed werkgeverschap om een uitzondering te bieden, maar dat gebeurt niet zonder grenzen. De ondernemingsraad leverde een aantal uitzonderingen aan op de tijdelijke vrijstelling (met de wens voor een permanente vrijstelling); dit werd echter afgewezen ten gunste van een tijdelijke variant.
 

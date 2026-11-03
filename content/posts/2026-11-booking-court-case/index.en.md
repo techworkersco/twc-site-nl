@@ -109,7 +109,7 @@ Some general comments were offered by the judge. Namely, that Booking had provid
 
 The general summary of judgements (e.g. based on each individual question):
 
-*Does Booking have a reasonable interest in setting a 40% minimum attendance*
+__*Does Booking have a reasonable interest in setting a 40% minimum attendance*__
 
 Yes. Booking aims to promote collaboration, knowledge sharing, and innovation by increasing presence in the workplace. It is likely that the physical interactions of employees contribute to better cooperation, more effective coordination and more mutual trust. That physical interaction can contribute to better integration of new employees, switching faster, inspiring each other in the further elaboration of ideas, and a constructive attitude toward the ideas of others is perhaps not a hard scientific conclusion, but a widely shared assumption. [...] It is important to see each other with some regularity.
 
@@ -117,11 +117,11 @@ It is not considered over taxing to mandate workers to be at the office 40% of t
 
 The Works Council raised a valid concern that there is not enough capacity; however, that will require Booking to spread the team days across the week instead of having Tuesdays and Thursdays as peak days. Booking does have an obligation to provide space if this is necessary.
 
-*Does Booking have a reasonable interest to mandate 40% per month instead of per quarter*
+__*Does Booking have a reasonable interest to mandate 40% per month instead of per quarter*__
 
 Yes. There were not any arguments against this from the Works Council. The 40% attendance is based on the number of working days, so this excludes absences, vacations, and business trips.
 
-*Does Booking have a reasonable interest to monitor the attedance* 
+__*Does Booking have a reasonable interest to monitor the attedance*__
 
 Yes, however with nuance.
 
@@ -129,7 +129,7 @@ The request to the judge during the hearing was whether tracking individuals' da
 
 If there is a change to the policy, and it is deemed that the Works Council needs to consulted, then that should indeed take place (e.g. Wet Ondernemingsraden aka WOR should be followed).
 
-*Can there be an exception for people who are long-term absent*
+__*Can there be an exception for people who are long-term absent*__
 
 Yes, however that comes only with a temporary waiver of the 40% rule. It is in the general interests of being a good employer to provide an exception, however that is not done without limits. The Works Council provided a number of exceptions to the temporary waiver (wanting a permanent waiver); however, that was declined in favour of a temporary one.
 
