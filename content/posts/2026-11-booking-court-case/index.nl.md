@@ -22,6 +22,7 @@ De ondernemingsraad van Booking zei "nee" tegen de wijziging naar een verplichte
 De rest van dit artikel duikt in de details van de rechtbankzaak. De samenvattingen hieronder zijn samengevat in normalere mensentaal, dus sommige details kunnen onjuist zijn of nuance kan verloren zijn gegaan.
 
 > ℹ️ **Info**: Een bedrijf met meer dan 50 werknemers in Nederland is verplicht om een ondernemingsraad (OR) te hebben. Wijzigingen in de "arbeidsvoorwaarden" (zoals werktijden, werklocatie, enzovoort) activeren een instemmingsrecht voor de ondernemingsraad. Een ondernemingsraad is een door werknemers gekozen orgaan dat samenwerkt met "de ondernemer" (letterlijk vertaald) om "het zo goed mogelijk functioneren van een onderneming te bevorderen".
+>
 > Een verzoek om instemming vereist een expliciet "ja" of "nee" met een afkoelingsperiode voor volgende verzoeken.
 
 ## De processtukken
