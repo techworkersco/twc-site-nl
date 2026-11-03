@@ -99,7 +99,7 @@ In een latere fase van de procedure werden nog enkele aanvullende gegevens gedee
 - 87,1% van de respondenten was tevreden met het bestaande beleid
 - 37% van de respondenten gaf aan dat hun zorgtaken negatief zouden worden beïnvloed
 - 13,7% van de respondenten gaf aan dat hun gezondheid negatief zou worden beïnvloed
-- Respondentten noemden een gebrek aan focusmogelijkheden op kantoordagen
+- Respondenten noemden een gebrek aan focusmogelijkheden op kantoordagen
 - Er is sprake van tijdverlies en extra kosten als gevolg van de reisverplichtingen (56% woont > 11 km van kantoor)
 - Er zou op pieknoemen niet genoeg ruimte op kantoor zijn als 40% verplicht wordt gesteld
 
