@@ -85,7 +85,7 @@ Booking also mentions the specific law it was invoking, namely Article 7:611 of 
 Again, a generalised summary:
 
 - The objectives/goals from Booking are not concrete enough, which makes it questionable whether a new policy is needed
-- There was no room for a less severe/drastic solution - e.g. a 6-month transition period
+- There was no room for a less severe/drastic solution
 - The bluntness of the policy appears to outweigh any intended benefits
 - There is insufficient mitigation for the negative impacts to existing staff
 - The policy mentions new tracking, but no policy around fair and equal treatment/enforcement

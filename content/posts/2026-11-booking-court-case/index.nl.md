@@ -85,7 +85,7 @@ Booking noemt ook het specifieke wetsartikel waarop ze zich beriepen, namelijk a
 Opnieuw een algemene samenvatting:
 
 - De doelstellingen van Booking zijn niet concreet genoeg, waardoor het twijfelachtig is of nieuw beleid wel nodig is
-- Er was geen ruimte voor een minder strenge/drastische oplossing – zoals een overgangsperiode van 6 maanden
+- Er was geen ruimte voor een minder strenge/drastische oplossing
 - Het botte karakter van het beleid lijkt op te wegen tegen eventuele beoogde voordelen
 - Er is onvoldoende compensatie voor de negatieve gevolgen voor bestaande medewerkers
 - Het beleid maakt melding van nieuwe tracking, maar bevat geen beleid rondom eerlijke en gelijke behandeling/handhaving
