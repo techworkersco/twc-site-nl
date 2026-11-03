@@ -19,7 +19,7 @@ Earlier this year, Booking.com requested consent to change the working condition
 
 Booking's Works Council said "No" to the change of a mandatory 40% work week in the office. To resolve this, Booking and the Works Council headed to court to plead their case. Eventually, the Judge sided with Booking, saying it was a reasonable request.
 
-The rest of this post will dive into the details of the court case. The summaries below were translated from Dutch to English, and summarised into more daily language, so some details may be incorrect or naunce might have been lost.
+The rest of this post will dive into the details of the court case. The summaries below were translated from Dutch to English, and summarised into more daily language, so some details may be incorrect or nuance might have been lost.
 
 > ℹ️ **Info**: A company with more than 50 employees in The Netherlands is required to have a Works Council (ondernemingsraad, aka, OR). Changes to change the "working conditions" (e.g. hours of work, location of work, etc), triggers a Request for Consent (instemmingsrecht) from the Works Council. A Works Council is an employee-elected body that works with "The entrepreneur" (directly translated), to "ensure the ideal functioning of a business".
 > 
@@ -137,11 +137,11 @@ Yes, however that comes only with a temporary waiver of the 40% rule. It is in t
 
 It was surprising to see Booking's justifications. Booking is known in the sector for being a data driven company; however, it appears as though their reasoning was largely based on impressions, rather than on empirical evidence. They mention hybrid working as being a major motivator for companies; however, they didn't appear to provide evidence for the 40% specific mark, and/or where the boundary actually lies. It doesn't feel unreasonable to suggest this was left out so that future requests could be made to increase the office days. Giving a measured number here would box them into a specific percent.
 
-What I found doubly interesting is that the judge's ruling feels very vibe-based. To know knowledge, the legal test here is "Is it a reasonable interest for Booking to change this policy". I would have expected more detailxs/justification (e.g. references to the market), rather than what essentially feels like it boils down to "Seems fine".
+What I found doubly interesting is that the judge's ruling feels very vibe-based. To know knowledge, the legal test here is "Is it a reasonable interest for Booking to change this policy". I would have expected more details/justification (e.g. references to the market), rather than what essentially feels like it boils down to "Seems fine".
 
 It feels as though "what is reasonable" is still stuck in the pre-COVID era. I myself in those times would have scoffed at the current request; however, in recent years, it's hard to deny the change that COVID accelerated with regard to working from home. In isolation and without the history of pre-COVID times, it seems strange that a judge would approve this request based on the evidence provided by Booking. Yet as always "We are not lawyers".
 
-Do you think the tech industry in The Netherlands? Think abouting joining Techwerkers [here](/en/join).
+Do you want to improve the tech industry in The Netherlands? Think about joining Techwerkers [here](/en/join).
 
 [1]: https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBAMS:2026:10590
 
