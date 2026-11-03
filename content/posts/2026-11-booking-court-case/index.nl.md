@@ -42,7 +42,7 @@ Het [procesverloop bij de rechtbank][1] verloopt in de volgende volgorde:
 
 Let op: De nummering in de officiële link bevat veel dubbel genummerde artikelen; de bovenstaande nummering lost dat probleem op.
 
-De volgende secties vatten de details in de processtukken samen, grofweg in dezelfde volgorde als hierboven. Houd er rekening mee dat dit is vertaald en vervolgens is samengevat/geïnterpreteerd door een mens, waardoor er nuances gemist of aangepast kunnen zijn.
+De volgende secties vatten de details in de processtukken samen, grofweg in dezelfde volgorde als hierboven. Houd er rekening mee dat dit is samengevat/geïnterpreteerd door een mens, waardoor er nuances gemist of aangepast kunnen zijn.
 
 ### Samenvatting van de feiten + tijdlijn
 
